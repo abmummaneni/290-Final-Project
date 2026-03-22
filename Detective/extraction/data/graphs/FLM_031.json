@@ -1,0 +1,500 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Joe Ross",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Julian 'Jimmy' Dell",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Susan Ricci",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mr. Klein",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Pat McCune",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "George Lang",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Hotel on the island",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "US Marshals pretending to be Japanese tourists",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Corporate engineer",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Con artist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "FBI agent",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Company lawyer",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Hotel staff",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "US Marshals",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Island of St. Estèphe",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Jimmy's sister's building",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Joe's office",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Airplane",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Jimmy's apartment",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Police station",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Ferry",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Airport in Boston",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.2,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Joe's company",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "FBI",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Venezuela (request for political asylum)",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "meets",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "attracts the interest of",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "wants to introduce to someone",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "delivers a package to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "suggests that may not give fair compensation for work",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "invites to dinner",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "opens a swiss bank account for",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "has sign a certificate to join",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "advise to consult legal counsel about position in company regarding the process",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "sits near at airplane",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "converses with about how you never know who anybody is",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "talks about unwitting drug mules",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "suddenly afraid the package might contain something illegal",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "opens up to about his fears",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "keeps the original at office",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "org_0",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "framed for murder of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "finds that jimmy has made it appear that he has sold his process to the japanese",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_4",
+      "relation": "sees a police roadblock on the way to the airport",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "takes him to the airport so he can fly back to the island",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "gives a plane ticket to venezuela",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "gives a camera bag containing a gun",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "reveals what he has done with the process and turns his gun on joe",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "tranquilizes",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "spend some time in [her] room",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_031",
+    "title": "The Spanish Prisoner",
+    "author": "David Mamet",
+    "year": 1997,
+    "medium": "Film"
+  }
+}

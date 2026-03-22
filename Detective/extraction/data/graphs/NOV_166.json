@@ -1,0 +1,716 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Lew Archer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Tom Hillman",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Ralph Hillman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Elaine Hillman",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "revenge",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Stella Carson",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Dick Leandro",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "love",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Carol Brown / older blonde",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Mike Harley",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "revenge",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Harold Harley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Otto Sipe",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "money",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Dr Weintraub",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "private investigator",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "facility director",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "businessman",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "jazz pianist",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "bar owner",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "police lieutenant",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "caretaker",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "hotel manager",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "service station manager",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "ex-policeman",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "doctor",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "facility for disturbed youngsters",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Hillman residence",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "bar",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "motel",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Hollywood",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Long Beach",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Barcelona Hotel",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Santa Monica bus station",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Barcelona Hotel graveyard",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_9",
+      "name": "Hillman bedroom",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "facility for disturbed youngsters",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Hillman family",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "navy",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "kidnap gang",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Harley family",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Brown family",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_6",
+      "name": "police department",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_6",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_6",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_7",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_6",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_6",
+      "relation": "worked at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "interviews",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "interviews",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_8",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_8",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "interviews",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_3",
+      "relation": "victim of",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_3",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_3",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "org_3",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "org_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_7",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_7",
+      "relation": "meets at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_7",
+      "relation": "meets at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "org_6",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_9",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "org_2",
+      "relation": "affiliated with",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_166",
+    "title": "The Far Side of the Dollar",
+    "author": "Ross Macdonald",
+    "year": 1965,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Alix Chamberlain",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Emira Tucker",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Peter",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Briar",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Catherine",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Zara",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Kelley Copeland",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Robbie",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Influencer",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Blogger",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Public Speaker",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Television Anchor",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "College Graduate",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Babysitter",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.4,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "High School Student",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.4,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Administrative Assistant",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Girlfriend",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.4,
+        "capability_level": 0.3
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Philadelphia",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Chamberlain's home",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Grocery store",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Local television station",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Train",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Chamberlain's workplace",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "LetHer Speak",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Television Station",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Social Media Platforms",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.1,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "married to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "related to"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_4",
+      "relation": "graduated as"
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "employs"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "mentor of"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "formerly friends with"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_0",
+      "target": "org_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_7",
+      "target": "org_1",
+      "relation": "employed by"
+    },
+    {
+      "source": "loc_2",
+      "target": "loc_0",
+      "relation": "near to"
+    },
+    {
+      "source": "org_1",
+      "target": "loc_5",
+      "relation": "located at"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_371",
+    "title": "Such a Fun Age",
+    "author": "Kiese Laymon",
+    "year": 2019,
+    "medium": "Novel"
+  }
+}

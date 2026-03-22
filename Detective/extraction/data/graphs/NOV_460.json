@@ -1,0 +1,602 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Bethany Waites",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Heather Garbutt",
+      "label": "Villain|Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Jack Mason",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Connie Johnson",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Andrew",
+      "label": "Villain|Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Joyce",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Elizabeth",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Ron",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Ibrahim",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Henrik (the Viking)",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Viktor Illyich (the Bullet)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Mike",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Stephen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Kuldesh Sharma",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Journalist",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Bookkeeper",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.4,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Gangster",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Prisoner",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Police Chief / Crime Writer",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Antiquarian Friend",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Therapist",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.4,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "South East Tonight TV station",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Coopers Chase Retirement Village",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Juniper Court Apartment Building",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Staffordshire Mansion",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Viktor's London Flat",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Henrik's Hideout",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "VAT Fraud Scheme",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.9,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "South East Tonight TV station",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Local Gangster Organization",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Prison System",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Cryptocurrency Interests",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.7,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Antiquarian Book Community",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_6",
+      "name": "Therapy Community",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "incarcerated in"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_4",
+      "relation": "opposed by"
+    },
+    {
+      "source": "char_12",
+      "target": "loc_5",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_13",
+      "target": "occ_5",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_11",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_2",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_3",
+      "target": "org_0",
+      "relation": "partly guilty of"
+    },
+    {
+      "source": "char_4",
+      "target": "org_0",
+      "relation": "writes about"
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "exposes"
+    },
+    {
+      "source": "char_9",
+      "target": "org_4",
+      "relation": "opposes"
+    },
+    {
+      "source": "loc_1",
+      "target": "loc_2",
+      "relation": "near to"
+    },
+    {
+      "source": "loc_3",
+      "target": "loc_4",
+      "relation": "contains"
+    },
+    {
+      "source": "loc_5",
+      "target": "org_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_12",
+      "target": "org_6",
+      "relation": "studies at"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "threatened by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "threatened by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "investigated by"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_6",
+      "target": "char_9",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_6",
+      "target": "char_10",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_3",
+      "relation": "visits as"
+    },
+    {
+      "source": "char_9",
+      "target": "char_6",
+      "relation": "kills"
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "protected by"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_460",
+    "title": "The Bullet That Missed",
+    "author": "Richard Osman",
+    "year": 2022,
+    "medium": "Novel"
+  }
+}

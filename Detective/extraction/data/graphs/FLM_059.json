@@ -1,0 +1,634 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Kim Ki-taek",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Chung-sook",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Ki-jung",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Ki-woo",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Min-hyuk",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0625,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Park family",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.3125,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Moon-gwang",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Geun-sae",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.6875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Yoon",
+      "label": "UNK",
+      "features": {
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Da-hye",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Da-song",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.65625,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Mr Park",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Mrs Park",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Loan sharks",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.8125,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Foreign family",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Unemployed",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.2,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "English tutor",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Art therapist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Chauffeur",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Housekeeper",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Architect",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.4,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Fugitive",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.2,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Victim's family member",
+      "features": {
+        "authority_level": -1,
+        "access_level": -1,
+        "capability_level": -1
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Semi-basement flat (banjiha)",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Park family house",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Bunker under Park family house",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Foreign family house",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Gymnasium",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Hospital",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Courtroom",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Prison",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": -1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Kim family",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Park family",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Loan sharks",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Society",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.1,
+        "financial_scale": 0.9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "lives with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_9",
+      "relation": "has romantic feelings for",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_9",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_10",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "spouse of",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "lives in",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_3",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": false
+    },
+    {
+      "source": "char_10",
+      "target": "occ_2",
+      "relation": "needs",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "patient of",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_11",
+      "target": "occ_3",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_12",
+      "target": "char_6",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_8",
+      "relation": "fires",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_0",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_7",
+      "relation": "loan sharks after",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "loc_3",
+      "relation": "owns",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "previously employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_4",
+      "relation": "formerly employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "discovers secret in",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_5",
+      "relation": "formerly employed by",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_7",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_0",
+      "relation": "kills",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_059",
+    "title": "Parasite",
+    "author": "Bong Joon-ho",
+    "year": 2019,
+    "medium": "Film"
+  }
+}

@@ -1,0 +1,1010 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Frances Welty",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Masha",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Yao",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Delilah",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Tony",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Napoleon Marconi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Heather",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Zoe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Carmel Schneider",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Ben Chandler",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Jessica Chandler",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Lars Lee",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Zach Marconi",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Jan",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Romance Novelist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Wellness Retreat Manager",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Wellness Retreat Assistant",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "School Teacher",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Midwife",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Stay-at-home Mom",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Young Married Woman",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Gay Divorce Attorney",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Ex-Australian Rules Football Player",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Masseuse",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Corporate Executive",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Personal Assistant",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Medical Professional",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Tranquillium House (Wellness Retreat)",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Rural Australia",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Basement Yoga Studio",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Police Station",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Tranquillium House (Wellness Retreat)",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Australian Police Force",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Soviet Russia",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_1",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "spouses",
+      "directed": false
+    },
+    {
+      "source": "char_7",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_8",
+      "target": "occ_5",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_7",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "occ_6",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_12",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "located at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_7",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_9",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_10",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_11",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_12",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "relation": "spouses",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_13",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "loc_0",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_4",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_5",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_6",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_7",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_8",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_9",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_10",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_11",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_12",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_13",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_11",
+      "relation": "business partner of",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_11",
+      "relation": "romantically involved with",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "works with",
+      "directed": false
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "lives with",
+      "directed": false
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_2",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_7",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_9",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_10",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_11",
+      "relation": "protects",
+      "directed": false
+    },
+    {
+      "source": "char_12",
+      "target": "char_5",
+      "relation": "deceased by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_1",
+      "relation": "arrests",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_2",
+      "relation": "fled from",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_361",
+    "title": "Nine Perfect Strangers",
+    "author": "Liane Moriarty",
+    "year": 2018,
+    "medium": "Novel"
+  }
+}

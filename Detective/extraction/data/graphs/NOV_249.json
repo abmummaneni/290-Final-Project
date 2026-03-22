@@ -1,0 +1,360 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Mma Ramotswe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Mr JLB Matekoni",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Florence Pena",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Motholeli and Puso",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Mrs Curtin",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Michael Curtin",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Carla",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Mma Makutsi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Mr Badule",
+      "label": "Client",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Carla's son",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Botswana",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.2,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Gaborone",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Zimbabwe",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Mma Ramotswe's house",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Mr JLB Matekoni's garage",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Michael's college",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Carla's house",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "No specific organizations mentioned",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "adopts"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "adopted by"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "investigates for"
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_6",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "hires"
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "hires"
+    },
+    {
+      "source": "char_9",
+      "target": "char_6",
+      "relation": "related to"
+    },
+    {
+      "source": "char_9",
+      "target": "char_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "gives gift to"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_249",
+    "title": "Tears of the Giraffe",
+    "author": "Alexander McCall Smith",
+    "year": 2000,
+    "medium": "Novel"
+  }
+}

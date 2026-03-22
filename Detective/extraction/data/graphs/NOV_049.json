@@ -1,0 +1,545 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Madame Giselle",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.67,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Daniel Clancy",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.67,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Armand Dupont",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Jean Dupont",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Norman Gale",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Doctor Bryant",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Cicely, Countess of Horbury",
+      "label": "Suspect",
+      "features": {
+        "gender": 1,
+        "social_status": 0.83,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "The Honourable Venetia Kerr",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.67,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Jane Grey",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Anne Morisot",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Lady Horbury's maid",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Lady Horbury",
+      "label": "Suspect",
+      "features": {
+        "gender": 1,
+        "social_status": 0.83,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "James Ryder",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Writer",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Archaeologist",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Dentist",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Doctor",
+      "features": {
+        "authority_level": 0.83,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Moneylender",
+      "features": {
+        "authority_level": 0.83,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Businessman",
+      "features": {
+        "authority_level": 0.67,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Hairdresser",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Maid",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Steward",
+      "features": {
+        "authority_level": 0.33,
+        "access_level": 0.75,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Detective",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.83
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Le Bourget Airfield in Paris",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.33,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Croydon Airport in London",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.33,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Airplane rear compartment",
+      "features": {
+        "accessibility": 0.17,
+        "isolability": 0.83,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "London",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Paris",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Boat-train to Boulogne",
+      "features": {
+        "accessibility": 0.67,
+        "isolability": 0.83,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "French police",
+      "features": {
+        "institutional_power": 0.83,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.67
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "British police",
+      "features": {
+        "institutional_power": 0.83,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.67
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "occ_7",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_12",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_10",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "owes money to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_7",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "discovers murder of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "org_0",
+      "target": "char_11",
+      "relation": "discovers body of",
+      "directed": true
+    },
+    {
+      "source": "org_1",
+      "target": "char_5",
+      "relation": "arrests",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "mentor of",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_9",
+      "relation": "romantically involved with",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_049",
+    "title": "Death in the Clouds",
+    "author": "Agatha Christie",
+    "year": 1935,
+    "medium": "Novel"
+  }
+}

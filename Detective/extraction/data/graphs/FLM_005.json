@@ -1,0 +1,596 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Philip Marlowe",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "General Sternwood",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Carmen Sternwood",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Vivian Sternwood",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Arthur Geiger",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Joe Brody",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Rusty Regan",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Agnes",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Owen Taylor",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Eddie Mars",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Mona Mars",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Carol Lundgren",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 0,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 1.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Harry Jones",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Lash Canino",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.3
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Private Investigator",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Bookseller",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Chauffeur",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.4,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Bootlegger",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Casino Owner",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Henchman",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.4,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Los Angeles",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.0,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Sternwood Mansion",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Geiger's Bookstore",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.3,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Geiger's House",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.8,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Brody's Home",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Eddie Mars Casino",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Pier",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Rialto Repair Shop",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Abandoned Field",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 1.0,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Los Angeles Police",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Illegal Pornography Ring",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_4",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_10",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_9",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "occ_5",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_4",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_5",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_9",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_12",
+      "relation": "business partner of",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_7",
+      "relation": "business partner of",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_5",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "org_1",
+      "target": "loc_2",
+      "relation": "located at",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_005",
+    "title": "The Big Sleep",
+    "author": "Howard Hawks",
+    "year": 1946,
+    "medium": "Film"
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Tom Reagan",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Leo O'Bannon",
+      "label": "Villain|Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Verna",
+      "label": "Villain|Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Bernie Bernbaum",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Johnny Caspar",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Eddie Dane",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mink",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Irish mobster",
+      "features": {
+        "authority_level": 1,
+        "access_level": 1,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Right-hand man",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Gangster's girlfriend",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Bookie",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Italian gangster",
+      "features": {
+        "authority_level": 1,
+        "access_level": 1,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Trusted enforcer",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Lover",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Unnamed U.S. city during Prohibition",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Miller's Crossing",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 1,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Leo's office",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Caspar's office",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Bernie's burial",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Irish mob",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Italian gang",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Caspar's gang",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.75
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "label"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_4",
+      "relation": "leads"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_5",
+      "relation": "label"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "label"
+    },
+    {
+      "source": "loc_0",
+      "target": "occ_0",
+      "relation": "located at"
+    },
+    {
+      "source": "loc_1",
+      "target": "loc_0",
+      "relation": "near to"
+    },
+    {
+      "source": "loc_2",
+      "target": "char_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_3",
+      "target": "char_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_4",
+      "target": "loc_0",
+      "relation": "located at"
+    },
+    {
+      "source": "org_0",
+      "target": "char_1",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_1",
+      "target": "char_4",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "right-hand man of"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "wants to kill"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "presses to give up"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "protects"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "reveals affair with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "beats publicly"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "cuts ties with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "turns to for work"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "hires"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "commanded to kill"
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "trusted enforcer of"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "fakes killing"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "begs for life"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "assumes dead"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "sows suspicion about"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "shoots in the head"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "kills"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "back in good graces with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "offers job back to"
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_023",
+    "title": "Miller's Crossing",
+    "author": "Coen Brothers",
+    "year": 1990,
+    "medium": "Film"
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Emily Arundell",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Captain Hastings",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Minnie Lawson",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.65
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Charles",
+      "label": "Suspect",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Theresa",
+      "label": "Suspect",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.35
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Bella",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.65
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jacob",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Dr Grainger",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Miss Lawson's gardener",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Theresa's friend",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Bella's children",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Miss Lawson's hotel clerk",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Miss Lawson's hotel manager",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Bob",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Spinster",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Detective",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Captain",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Paid companion",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Nephew",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Niece",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Greek husband",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Physician",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Gardener",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Friend",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Hotel clerk",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Hotel manager",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Wire fox terrier",
+      "features": {
+        "authority_level": -1,
+        "access_level": -1,
+        "capability_level": -1
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Miss Arundell's home (Berkshire)",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Miss Lawson's home",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Hotel (first)",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Hotel (second)",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Family",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Household staff",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Medical community",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.4
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Hotel staff",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_11",
+      "relation": "has",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "treats",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_7",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "witnesses",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_5",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_12",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "loc_2",
+      "relation": "leads",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "investigates at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "accompanies",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "married to",
+      "directed": false
+    },
+    {
+      "source": "char_8",
+      "target": "org_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "org_3",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "org_3",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "char_4",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "occ_12",
+      "relation": "is pet of",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_4",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_9",
+      "relation": "confides in",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_6",
+      "relation": "sees",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "examines",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "loc_2",
+      "relation": "visited by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_8",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_1",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_2",
+      "relation": "joins",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_11",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "honours",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_066",
+    "title": "Dumb Witness",
+    "author": "Agatha Christie",
+    "year": 1937,
+    "medium": "Novel"
+  }
+}

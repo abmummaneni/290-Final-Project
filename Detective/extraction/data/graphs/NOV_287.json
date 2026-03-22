@@ -1,0 +1,685 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Jamie Rowan",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Adam Ryan / Robert",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Peter Savage",
+      "label": "UNK",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Cassie Maddox",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.35
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Jonathan Devlin",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Margaret Devlin",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Rosalind Devlin",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jessica Devlin",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Katy Devlin",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Damien Donnelly",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Mel Jackson",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Mark Hanly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Dr. Ian Hunt",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Sam O'Neill",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Superintendent O'Kelly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Jonathan's uncle (politician)",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Builder with a lot of money riding on the motorway's construction",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Construction worker",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 1,
+        "access_level": 1,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Student",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Archaeologist",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 1,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Builder",
+      "features": {
+        "authority_level": -1,
+        "access_level": 1,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Politician",
+      "features": {
+        "authority_level": 1,
+        "access_level": 1,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Construction worker",
+      "features": {
+        "authority_level": -1,
+        "access_level": 1,
+        "capability_level": 0.5
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Knocknaree woods (1984)",
+      "features": {
+        "accessibility": -1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Boarding school (1984-2004)",
+      "features": {
+        "accessibility": -1,
+        "isolability": 0.5,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Dublin murder squad office",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Knocknaree archaeological dig site",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Knocknaree woods (2004)",
+      "features": {
+        "accessibility": -1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Devlin family home",
+      "features": {
+        "accessibility": 1,
+        "isolability": -1,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Maddox's apartment",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": -1,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Move the Motorway campaign booth",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": -1,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Construction site of the motorway",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": -1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Dublin murder squad",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Knocknaree archaeological dig team",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": -1,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Move the Motorway campaign",
+      "features": {
+        "institutional_power": -1,
+        "secrecy_level": -1,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Construction company building the motorway",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": -1,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Political party of O'Kelly's uncle",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": -1,
+        "financial_scale": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "formerly employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_5",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_5",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_5",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "org_2",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "org_0",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_8",
+      "relation": "discovered by",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "loc_3",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "loc_3",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "occ_4",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "org_3",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "loc_8",
+      "relation": "present at",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_287",
+    "title": "In the Woods",
+    "author": "Tana French",
+    "year": 2007,
+    "medium": "Novel"
+  }
+}

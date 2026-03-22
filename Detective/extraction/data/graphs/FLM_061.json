@@ -1,0 +1,867 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Linnet Doyle (née Ridgeway)",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Simon Doyle",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Jacqueline de Bellefort",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Louise Bourget",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Andrew Pennington",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Salome Otterbourne",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Rosalie Otterbourne",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Tim Allerton",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Marie Van Schuyler",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Cornelia Robson",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Miss Bowers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Mr Ferguson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Guido Richetti",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Jim Fanthorp",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Dr Bessner",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Colonel Race",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Jackie's accomplice",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": -1,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Heiress",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Fiancé/Husband",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Stalker",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Maid",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Trustee",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.4,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Romance Novelist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Young Adult",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Kleptomaniac",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Cousin",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Nurse",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Communist",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Archaeologist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Solicitor",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.4,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_14",
+      "name": "Physician",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_15",
+      "name": "Colonel",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.4,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_16",
+      "name": "Accomplice",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Aswan",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.2,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Steamer Karnak",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Shellal",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.2,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Wadi Halfa",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.2,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Abu Simbel",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.5,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Linnet's cabin",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Steamer lounge",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.5,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Louise's cabin",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "stalker of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "meets",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "warns",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "meets",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_7",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_8",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "occ_9",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_10",
+      "relation": "serves",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "occ_11",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "occ_12",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "occ_13",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "occ_14",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "occ_15",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_16",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "loc_3",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_17",
+      "relation": "uncovers",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_3",
+      "relation": "accomplice of",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "victim of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "serves",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_5",
+      "relation": "label",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_1",
+      "relation": "travels on",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "loc_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "loc_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "loc_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "loc_1",
+      "relation": "presents on",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "loc_1",
+      "relation": "boards",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_17",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "formerly engaged to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "victim of",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_2",
+      "relation": "accomplice of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "witnesses",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_3",
+      "relation": "accomplice of",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_17",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "suspects",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_061",
+    "title": "Death on the Nile",
+    "author": "Kenneth Branagh",
+    "year": 2022,
+    "medium": "Film"
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Irwin Maurice 'Fletch' Fletcher",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Count",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Angela",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Countess",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Ronald Horan",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Laurel Goodwin",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Sergeant Inspector Monroe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Junior Detective Griz",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Eve",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Owen",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Tatiana",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Laurel's boyfriend",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Freelance writer and former investigative journalist",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Billionaire Italian count",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Attractive daughter of a billionaire Italian count",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Stepmother of attractive daughter of a billionaire Italian count",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Boston art dealer",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Barista",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.6,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Sergeant Inspector of the Boston Police Department",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Junior Detective of the Boston Police Department",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Neighbor and townhouse owner",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Business partner and estranged spouse of neighbor and townhouse owner",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Yacht owner and art collector",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Avenger and inebriated boyfriend of barista",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.6,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Street artists",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.6,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Previous boss of freelance writer and former investigative journalist",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Italy",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.2,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Boston",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Rented townhouse in Boston",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Country club yacht",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Central America (undisclosed location)",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Boston Police Department",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Organized criminals",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Art world and art market",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employs"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_5",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "discovered"
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_7",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_2",
+      "relation": "owns"
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "married to"
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_3",
+      "target": "org_1",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "kills"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_4",
+      "target": "org_2",
+      "relation": "employs"
+    },
+    {
+      "source": "char_11",
+      "target": "char_5",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "relation": "protects"
+    },
+    {
+      "source": "char_2",
+      "target": "org_2",
+      "relation": "participates in"
+    },
+    {
+      "source": "char_0",
+      "target": "org_2",
+      "relation": "investigates"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_182",
+    "title": "Confess, Fletch",
+    "author": "Gregory Mcdonald",
+    "year": 1976,
+    "medium": "Novel"
+  }
+}

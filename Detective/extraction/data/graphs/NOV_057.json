@@ -1,0 +1,430 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Inspector John Appleby",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Dr. Josiah Umpleby",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Local Inspector Dodd",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Dean of St. Anthony's College",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Titlow",
+      "label": "Suspect",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Garlick",
+      "label": "Suspect",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Deighton",
+      "label": "Suspect",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Campion",
+      "label": "Suspect",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Crime-writer fellow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Three bumbling undergraduates",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.98,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "College burglar",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.97,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Inspector",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Dean",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Fellow",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Undergraduate",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.4,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Burglar",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "St. Anthony's College",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "President's Lodging",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.9,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Little Fellows' House",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.8,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Anatomy lab",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Common room",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "St. Anthony's College",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "hires"
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "employer of"
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "employer of"
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "employer of"
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "employer of"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_3",
+      "relation": "students of"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_0",
+      "relation": "operates in"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_6",
+      "target": "char_2",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "rivals with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_4",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_7",
+      "target": "char_4",
+      "relation": "mentor of"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_057",
+    "title": "Death at the President's Lodging",
+    "author": "Michael Innes",
+    "year": 1936,
+    "medium": "Novel"
+  }
+}

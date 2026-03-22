@@ -1,0 +1,436 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Robert Warner",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Rachel West",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Yseut Haskell",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Helen",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Nigel Blake",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Nicholas Barclay",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Donald Fellowes",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jean Whitelegge",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Fen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "playwright",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "leading lady/mistress",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "half-sister",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "up-and-coming playwright's lover",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "university drop-out of independent means",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "organist and choirmaster at St Christopher's College",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "secretary of the theatre club",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "detective/investigator",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Oxford",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "local repertory theatre",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "college rooms in Oxford",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "college chapel organ loft",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "stage during play performance",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "repertory theatre company",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.4
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "university college in Oxford",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "theatre club",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_3",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_5",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_6",
+      "relation": "employs"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "loc_2",
+      "target": "org_1",
+      "relation": "located at"
+    },
+    {
+      "source": "loc_3",
+      "target": "org_1",
+      "relation": "located at"
+    },
+    {
+      "source": "loc_4",
+      "target": "org_0",
+      "relation": "located at"
+    },
+    {
+      "source": "org_0",
+      "target": "char_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_0",
+      "target": "char_1",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_0",
+      "target": "char_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_0",
+      "target": "char_3",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_0",
+      "target": "char_5",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_1",
+      "target": "char_6",
+      "relation": "employer of"
+    },
+    {
+      "source": "org_2",
+      "target": "char_7",
+      "relation": "leads"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_8",
+      "target": "char_6",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "accuses"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_105",
+    "title": "The Case of the Gilded Fly",
+    "author": "Edmund Crispin",
+    "year": 1944,
+    "medium": "Novel"
+  }
+}

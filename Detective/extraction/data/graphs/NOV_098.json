@@ -1,0 +1,410 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Jonathan Royal",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Nicholas Compline",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "William Compline",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mrs. Compline",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Dr. Francis Hart",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Madame Lisse",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Hersey Amblington",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Chloris Wynne",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Aubrey Mandrake (Stanley Footling)",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Thomas (Footman)",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Theatrical Impresario",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Womanizer",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Plastic Surgeon",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Beauty Practitioner",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Playwright",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Footman",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Highfield Manor in Cloudyfold, Dorset",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 1,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Dorset, England",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.2
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "owns"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_8",
+      "target": "char_8",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "employs"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "performed surgery on"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "business partner of"
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "hosts"
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_8",
+      "target": "char_4",
+      "relation": "accuses"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_098",
+    "title": "Death and the Dancing Footman",
+    "author": "Ngaio Marsh",
+    "year": 1942,
+    "medium": "Novel"
+  }
+}

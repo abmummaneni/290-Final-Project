@@ -1,0 +1,747 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Elinor Carlisle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Roddy Welman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": 1.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Laura Welman",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mary Gerrard",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Peter Lord",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Nurse Hopkins",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mary Riley (Mary Draper)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Anonymous letter writer",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Mrs Welman's physician",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Lodgekeeper",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Sir Lewis Rycroft",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Eliza Gerrard",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Mary Draper (Mary Riley)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Peter Lord's father",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Two people from New Zealand",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Engaged couple",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Heiress' niece",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Heiress' nephew",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Wealthy aunt",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Lodgekeeper's daughter",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Paralyzed after a stroke",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Physician",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Niece of the physician",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Nurse",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Defence lawyer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Judge",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Reporters",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Solicitor",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_14",
+      "name": "Witnesses from New Zealand",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Hunterbury",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Lodge",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "House inherited by Elinor",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Kitchen",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.5,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Courtroom",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "New Zealand",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Family",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Medical community",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Legal system",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Village community",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "New Zealand community",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_6",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "is",
+      "directed": false
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "cares for",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_4",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "char_11",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_6",
+      "relation": "is",
+      "directed": false
+    },
+    {
+      "source": "char_13",
+      "target": "char_0",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_5",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_15",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "inherits from",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "inherits from",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "supports",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "cares for",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_12",
+      "relation": "is",
+      "directed": false
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "writes anonymously to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "treats",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "represents legally",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_4",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "char_5",
+      "relation": "deduces about",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_15",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": false
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_087",
+    "title": "Sad Cypress",
+    "author": "Agatha Christie",
+    "year": 1940,
+    "medium": "Novel"
+  }
+}

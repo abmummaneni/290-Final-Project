@@ -1,0 +1,290 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Lynley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Havers",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Taymullah Azhar",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Hadiyyah",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Chief Detective Inspector Emily Barlow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Haytham Querashi",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Relative of Azhar's",
+      "label": "UNK",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": -1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Neighbor",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Victim's Fiancee",
+      "features": {
+        "authority_level": -1,
+        "access_level": -1,
+        "capability_level": -1
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Balford-le-Nez",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Home of Taymullah Azhar",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Crime Scene",
+      "features": {
+        "accessibility": -1,
+        "isolability": -1,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Police Department",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.25
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Family of Azhar's Fiancee",
+      "features": {
+        "institutional_power": -1,
+        "secrecy_level": 0.5,
+        "financial_scale": -1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "works with"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_6",
+      "target": "org_1",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "works with"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "acquainted with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "employed by"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_233",
+    "title": "Deception on His Mind",
+    "author": "Elizabeth George",
+    "year": 1997,
+    "medium": "Novel"
+  }
+}

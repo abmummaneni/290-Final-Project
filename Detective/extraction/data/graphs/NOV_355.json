@@ -1,0 +1,859 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Lisbeth Salander",
+      "label": "Villain|Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Mikael Blomkvist",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Holger Palmgren",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Faria Kasi",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Beatrice 'Benito' Andersson",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "August Balder",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Leo Mannheimer/Dan Brody",
+      "label": "Victim|Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Hilda von Kanterborg",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Martin Steinberg",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Rakel Greitz",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Benjamin",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Warden of Flodberga",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Bashir",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Ahmed",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Khalil",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Jamal Chowdhury",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Annaka",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Hacker",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.8,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Journalist",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.8,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Guardian",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Prison Warden",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Registry Agent",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Associate",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Secretary",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Musician",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Co-worker",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Henchman",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Islamist Extremist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Funeral Attendee",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Flodberga Prison",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "St Stefan's",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Maximum Security Flodberga Prison",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Bangladesh",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Church",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "America",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Faria's house",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Millennium Publisher's Office",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Holger Palmgren's House",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_9",
+      "name": "Hospital",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_10",
+      "name": "Truck",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Registry",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 1,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Millennium",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Faria's family",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Islamist Extremists",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Swedish Prison System",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Police",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "guardian of"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "hired by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_7",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_5",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_7",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_9",
+      "target": "char_4",
+      "relation": "employer of"
+    },
+    {
+      "source": "char_9",
+      "target": "char_10",
+      "relation": "employer of"
+    },
+    {
+      "source": "char_11",
+      "target": "loc_2",
+      "relation": "located at"
+    },
+    {
+      "source": "char_11",
+      "target": "char_4",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_12",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_12",
+      "target": "char_13",
+      "relation": "related to"
+    },
+    {
+      "source": "char_12",
+      "target": "char_14",
+      "relation": "related to"
+    },
+    {
+      "source": "char_15",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_16",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "visited by"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "gives medical files to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "relation": "forces warden to let use computer"
+    },
+    {
+      "source": "char_0",
+      "target": "org_4",
+      "relation": "imprisoned by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "points mikael to investigate"
+    },
+    {
+      "source": "char_7",
+      "target": "char_6",
+      "relation": "confirms twins with"
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "relation": "formerly employed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "related to"
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "recognizes name of"
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "calls in panic"
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "enters palmgren's house pretending to be nurse"
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "poisons palmgren"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "asks mikael to investigate in stead"
+    },
+    {
+      "source": "char_6",
+      "target": "char_9",
+      "relation": "confront together for answers"
+    },
+    {
+      "source": "char_6",
+      "target": "char_10",
+      "relation": "saved by"
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "buries leo and takes identity"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_5",
+      "relation": "lives in america"
+    },
+    {
+      "source": "char_4",
+      "target": "char_10",
+      "relation": "catches off guard and poisons leo"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "looks into faria's history"
+    },
+    {
+      "source": "char_0",
+      "target": "char_12",
+      "relation": "tricks bashir into confessing on video"
+    },
+    {
+      "source": "char_14",
+      "target": "char_0",
+      "relation": "convinces to talk to police"
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "plans to confront"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_6",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_15",
+      "target": "char_3",
+      "relation": "in love with"
+    },
+    {
+      "source": "char_13",
+      "target": "char_15",
+      "relation": "orders to kill jamal"
+    },
+    {
+      "source": "char_14",
+      "target": "char_13",
+      "relation": "flees after bashir orders"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "saves from benito"
+    },
+    {
+      "source": "char_9",
+      "target": "char_4",
+      "relation": "hires"
+    },
+    {
+      "source": "char_12",
+      "target": "char_3",
+      "relation": "plans on selling into marriage"
+    },
+    {
+      "source": "char_0",
+      "target": "char_16",
+      "relation": "aided by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "avenges death of"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_8",
+      "relation": "dies in palmgren's house"
+    },
+    {
+      "source": "char_11",
+      "target": "char_4",
+      "relation": "makes plans to transfer"
+    },
+    {
+      "source": "char_3",
+      "target": "org_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "too late to save palmgren"
+    },
+    {
+      "source": "char_6",
+      "target": "char_10",
+      "relation": "plots revenge together"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_355",
+    "title": "The Girl Who Takes an Eye for an Eye",
+    "author": "David Lagercrantz",
+    "year": 2017,
+    "medium": "Novel"
+  }
+}

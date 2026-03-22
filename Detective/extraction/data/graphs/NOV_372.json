@@ -1,0 +1,633 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Mikael Blomkvist",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Lisbeth Salander",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Camilla/Kira",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Frederika Nyman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Catrin Lindas",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Johannes Forsell",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Rebekka Forsell",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Janek Kowalski",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Nima Rita",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Klara Engelman",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Victor Grankin",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Stan Engelman",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Svante Lindberg",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Ivan Galinov",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Jurij Bogdanov",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Journalist",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Hacker",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Coroner",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Minister of Defense",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Secret Agent",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Sherpa",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.6,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Billionaire",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "GRU Agent",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Crime Syndicate Member",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Undersecretary",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Torturer",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Millennium Magazine Office",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Russia",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.5,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Sweden",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Mental Hospital",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Everest",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Glassworks Factory",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.8,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Childhood Home of Lisbeth Salander",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 0.4
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Millennium Magazine",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "GRU (Russian Military Intelligence)",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Zvesda Bratva (Star Brotherhood)",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "married to"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_5",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_6",
+      "relation": "married to"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_7",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_11",
+      "target": "occ_8",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_12",
+      "target": "occ_9",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_13",
+      "target": "occ_7",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_14",
+      "target": "char_2",
+      "relation": "works with"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_4",
+      "relation": "present at"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_5",
+      "relation": "near to"
+    },
+    {
+      "source": "char_13",
+      "target": "loc_5",
+      "relation": "near to"
+    },
+    {
+      "source": "org_1",
+      "target": "loc_5",
+      "relation": "located at"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_11",
+      "target": "char_10",
+      "relation": "married to"
+    },
+    {
+      "source": "char_12",
+      "target": "char_11",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_10",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "char_13",
+      "relation": "tortured by"
+    },
+    {
+      "source": "char_2",
+      "target": "char_14",
+      "relation": "employer of"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_372",
+    "title": "The Girl Who Lived Twice",
+    "author": "David Lagercrantz",
+    "year": 2019,
+    "medium": "Novel"
+  }
+}

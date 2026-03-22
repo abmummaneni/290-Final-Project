@@ -1,0 +1,503 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "William Somerset",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "David Mills",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Tracy Mills",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "John Doe",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Obese man (gluttony victim)",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Greed victim",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Sloth victim",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Lust victim (prostitute)",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Pride victim (model)",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Victim's rapist (lust victim)",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Delivery van driver (envy victim)",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Police Detective Lieutenant",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Police Detective",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Prostitute",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Model",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Delivery van driver",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Drug-dealing pederast (sloth victim)",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Man held at gunpoint (lust victim)",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Unnamed city overcome with violent crime and corruption",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Police station",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Somerset's apartment",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Mills's apartment",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "John Doe's apartment",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.5,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Remote location far outside the city limits (envy and wrath victims)",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 1,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Libraries",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Crime scenes (gluttony, greed, sloth, lust, pride)",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.5,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Police department",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Libraries",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Criminals (drug-dealers, pederasts)",
+      "features": {
+        "institutional_power": 0.25,
+        "secrecy_level": 1,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "married to"
+    },
+    {
+      "source": "char_3",
+      "target": "org_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "kills"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_7",
+      "relation": "present at"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "kills"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_7",
+      "relation": "present at"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_7",
+      "relation": "present at"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_5",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "kills"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_7",
+      "relation": "present at"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_8",
+      "target": "char_3",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_7",
+      "relation": "present at"
+    },
+    {
+      "source": "char_9",
+      "target": "char_7",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_5",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "protects"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "mentor of"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "protected by"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "works with"
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_025",
+    "title": "Se7en",
+    "author": "David Fincher",
+    "year": 1995,
+    "medium": "Film"
+  }
+}

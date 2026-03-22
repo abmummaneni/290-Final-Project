@@ -1,0 +1,455 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Rachel Watson",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Tom",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Anna Boyd",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Evie",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Cathy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.35,
+        "narrative_introduction_timing": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Megan Hipwell",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Scott Hipwell (Jason)",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Dr. Kamal Abdic",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "unemployed",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "housewife",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "therapist",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "police officer",
+      "features": {
+        "authority_level": 0.95,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "apartment of Rachel Watson",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "train to and from London",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "house of Tom and Anna Boyd",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "house of Megan and Scott Hipwell",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "office of Dr. Kamal Abdic",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "married to"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_2",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_2",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "married to"
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "has therapy sessions with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "had an affair with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "had an affair with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_4",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "works with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "known by"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "known by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "blackmailed by"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "hired by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "kills"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "protects"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "protects"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "discovered by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "warns"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "intimidates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "fights back against"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "kills"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "corroborates story of"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_340",
+    "title": "The Girl on the Train",
+    "author": "Paula Hawkins",
+    "year": 2015,
+    "medium": "Novel"
+  }
+}
