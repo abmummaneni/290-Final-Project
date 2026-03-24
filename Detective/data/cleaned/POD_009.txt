@@ -1,0 +1,211 @@
+POD_009 — Casefile: The Golden State Killer
+Host: Anonymous ("The Host") | Production: Casefile True Crime
+Multi-episode series within Casefile catalog
+Full Podcast Synopsis
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE SHOW: CASEFILE
+
+Casefile True Crime is an Australian true crime podcast with a distinctive characteristic:
+its host is anonymous. He is known only as "The Host" or "Casey," and his decision not
+to reveal his identity has been maintained consistently throughout the show's production.
+His voice — Australian-accented, measured, and deliberately unemotional — is immediately
+recognizable to regular listeners, and the anonymity has become part of the show's identity
+rather than a gimmick.
+
+Casefile's approach is forensic and factual: it does not editorialize heavily, it does
+not insert personal narrative, and it presents case details with a level of specificity
+and documentation that distinguishes it from more personality-driven true crime shows.
+It is one of the most rigorously researched major true crime podcasts, and its episodes
+on the Golden State Killer are among its most sustained and detailed productions.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE GOLDEN STATE KILLER: BACKGROUND
+
+
+The Scale of the Crimes
+
+The Golden State Killer is the name applied to a serial offender responsible for one
+of the most prolific and wide-ranging series of violent crimes in American history.
+Between approximately 1973 and 1986, the same individual committed at least 13 murders,
+more than 50 rapes, and more than 100 residential burglaries across California. He
+operated under multiple names given to him by law enforcement and the public at different
+periods: the Visalia Ransacker, the East Area Rapist, and the Original Night Stalker,
+before DNA evidence eventually linked all three series of crimes to a single perpetrator,
+who was given the composite name Golden State Killer.
+
+The crimes spanned more than a decade and multiple California jurisdictions. Their
+geographic range, the time between them, and the pre-DNA-era limitations of forensic
+linking meant that investigators in different regions were often working their cases
+in isolation without awareness that they were pursuing the same offender.
+
+
+The Visalia Ransacker (1973-1975)
+
+The earliest crimes attributed to the GSK occurred in Visalia, California, in the San
+Joaquin Valley. Over approximately two years, hundreds of residential burglaries were
+committed in Visalia, typically at night, by someone who entered homes quietly, rummaged
+through personal belongings, stole small items, and left without confrontation. The
+burglaries had a quality of personal intrusion — the items stolen were often intimate
+(jewelry, photographs, items of personal significance) rather than high-value electronics
+or cash — that suggested psychological motivation beyond financial gain.
+
+In September 1975, the Visalia Ransacker murdered Claude Snelling, a journalism professor,
+when Snelling confronted him attempting to abduct his daughter. This was the first
+attributed murder and marked an escalation in the crimes' seriousness.
+
+
+The East Area Rapist (1976-1979)
+
+Beginning in 1976, a series of rapes began in the Sacramento area and subsequently spread
+across Northern California. The offender — designated the East Area Rapist by Sacramento
+investigators — committed at least 50 rapes over approximately three years, with a
+highly consistent and distinctive modus operandi:
+
+He conducted extensive pre-offense surveillance of his targets, studying their routines,
+mapping their neighborhoods, and learning the specific layout of their homes. He struck
+at night, almost always when couples were home together. He bound the male victim
+using shoelaces or ligatures he brought with him. He terrorized both victims verbally,
+placing dishes or similar objects on the male victim's back and threatening to kill the
+female victim if he heard them move. He would then return to assault the female victim
+repeatedly over extended periods.
+
+The level of planning, the consistency of method across dozens of attacks, and the
+geographical knowledge he demonstrated all pointed to an organized, methodical offender
+who lived in or was thoroughly familiar with the areas he targeted. He listened to
+police scanners. He called some victims afterward, taunting them or breathing silently.
+He evaded an enormous law enforcement effort involving multiple agencies despite being
+glimpsed by neighbors and witnesses on several occasions.
+
+Physical descriptions of the suspect were compiled across multiple incidents: white male,
+medium build, wearing a ski mask. DNA evidence was collected from multiple scenes.
+He was never identified during the active period of these crimes.
+
+
+The Original Night Stalker (1979-1986)
+
+Beginning in 1979, the crimes shifted southward and in character. In Southern California —
+Santa Barbara, Ventura, Goleta, Dana Point, Irvine — a series of murders began. The
+offender (designated the Original Night Stalker, later Distinguished from Richard Ramirez
+who was also known as the Night Stalker) targeted couples in their homes at night,
+killing both the male and female victims. The murders showed the same evidence of
+pre-offense surveillance and the same highly organized methodology as the East Area
+Rapes.
+
+The victims in Southern California included Robert Offerman and Debra Alexander (1979);
+Lyman and Charlene Smith (1980); Keith Harrington and Patrice Harrington (1980);
+Manuela Witthuhn (1981); Cheri Domingo and Gregory Sanchez (1981); and Janelle Cruz (1986).
+
+DNA evidence from the Southern California murders eventually matched the DNA from the
+East Area Rape cases — a connection made in 2001, after DNA technology had advanced
+sufficiently to permit cross-case comparison. The realization that the East Area Rapist
+and the Original Night Stalker were the same person was one of the most significant
+developments in American cold case history.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE INVESTIGATION AND PAUL HOLES
+
+
+Investigators and Their Methods
+
+The investigation of the Golden State Killer — particularly after the DNA link was
+established in 2001 — involved multiple investigators across multiple jurisdictions
+working to identify the DNA profile that had been collected across dozens of crime
+scenes.
+
+Paul Holes, a cold case investigator at the Contra Costa County District Attorney's
+office, became one of the most prominent and dedicated investigators pursuing the
+case in its later years. His work — along with that of other investigators and the
+journalist Michelle McNamara, whose book I'll Be Gone in the Dark significantly raised
+public awareness of the case — formed the investigative infrastructure that eventually
+produced an identification.
+
+
+Michelle McNamara
+
+Michelle McNamara was a crime writer and journalist who became deeply focused on the
+Golden State Killer case in the years before her death in 2016. Her blog True Crime Diary
+and her book I'll Be Gone in the Dark (published posthumously in 2018) brought the GSK
+to widespread public attention and are credited with a significant role in generating
+the public interest and investigative energy that eventually led to the arrest.
+
+
+The DNA Technology Breakthrough
+
+The identification of the Golden State Killer was ultimately achieved through genealogical
+DNA matching — a technique that, by 2018, had become possible through the accumulation
+of large consumer DNA databases (companies like GEDmatch, where people submitted DNA
+for genealogy purposes). Investigators uploaded the GSK's DNA profile to GEDmatch and
+identified distant relatives whose family trees could be used to narrow down the suspect
+pool.
+
+This technique — now known as forensic genealogy or investigative genetic genealogy —
+was, at the time of the GSK identification, largely untested in a legal context and
+generated significant discussion about privacy, consent, and the proper limits of law
+enforcement access to genetic databases.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+JOSEPH JAMES DeANGELO
+
+
+The Arrest
+
+On April 24, 2018, Joseph James DeAngelo Jr. — a 72-year-old former police officer
+living in Citrus Heights, California — was arrested and charged as the Golden State Killer.
+He had been identified through forensic genealogy: investigators worked from distant
+DNA relatives in public databases, constructed a family tree, and narrowed the suspect
+list to DeAngelo. They confirmed the match by collecting his discarded DNA — from the
+door of his car and a paper bag — which matched the GSK profile.
+
+DeAngelo had served as a police officer in the Exeter Police Department and the Auburn
+Police Department during the period of his crimes. He was dismissed from the Auburn
+department in 1979 for shoplifting — a detail that, in retrospect, acquired significance.
+He had been, for decades after his crimes ended, living an apparently ordinary life:
+retired, living in a suburban California neighborhood, known to his neighbors as a
+somewhat reclusive but unremarkable elderly man.
+
+
+The Guilty Plea and Sentence
+
+In August 2020, DeAngelo pleaded guilty to 13 counts of first-degree murder and to
+additional charges related to the rapes, using a legal framework that acknowledged
+the uncharged rapes (for which the statute of limitations had expired) as relevant
+aggravating factors. He was sentenced to life in prison without possibility of parole.
+
+Victims and their families were given the opportunity to address DeAngelo at the
+sentencing hearing. The resulting hearings — spread over three days — produced some
+of the most powerful victim impact statements in California legal history, as survivors
+of his attacks and family members of his murder victims confronted the man who had
+destroyed their lives and families across a period of more than a decade.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE CASEFILE EPISODES
+
+Casefile's multi-episode coverage of the Golden State Killer case covers the full arc
+described above: the Visalia Ransacker period, the East Area Rapist attacks in
+exhaustive detail (including specific case-by-case accounts of individual incidents),
+the shift to Southern California murders, the 2001 DNA linkage, the long investigation
+period including McNamara's work, the forensic genealogy breakthrough, DeAngelo's
+identification and arrest, and the legal proceedings.
+
+The episodes are notable for their detail and their restraint: the Host presents the
+facts of each incident with specificity, including details of victim experiences that
+are not sanitized, while maintaining a tone that is respectful of the victims and
+unemotional in its narration. The cumulative effect of the episode-by-episode
+accumulation of crimes — each one a specific person or couple in their home, each one
+a specific act of terror — is one of the most comprehensive and sobering portraits
+of a serial offender available in any audio format.

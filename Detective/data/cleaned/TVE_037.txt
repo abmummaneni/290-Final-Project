@@ -1,0 +1,179 @@
+TVE_037 | Midsomer Murders: Dead Man's Eleven | Director: Peter Smith | TV Episode
+================================================================================
+FULL EPISODE SYNOPSIS — SPOILERS INCLUDED
+================================================================================
+
+--- BACKGROUND AND CONTEXT ---
+
+"Dead Man's Eleven" is an episode from Series 3 of ITV's Midsomer Murders,
+first broadcast in 2000. It stars John Nettles as DCI Tom Barnaby and Daniel
+Casey as DS Gavin Troy. The episode is set in the specific world of a village
+cricket match — one of the most quintessentially English sporting and social
+events, and one whose specific combination of tradition, competition, local
+pride, and the specific social dynamics of a small community has made it
+irresistible to English crime writers from the Golden Age onward.
+
+Cricket in the village context is not simply a sport: it is a social institution
+whose specific organisation — the committees, the club memberships, the specific
+hierarchies of the village team and its fixtures — provides a framework for
+the specific relationships and specific grievances that Midsomer Murders
+consistently finds fatal. The specific world of village cricket, and the
+specific people whose investment in it goes well beyond the sporting, is
+the episode's primary social territory.
+
+The MOSTLY_UNK(7/13) flag reflects the episode's unusually large number of
+suspects — thirteen people with some connection to the events, seven of whom
+have significant unknowns attached to their specific involvement or their
+specific knowledge of what happened. This is a large cast even by Midsomer
+standards, and the specific management of suspicion across that many characters
+is one of the episode's most distinctive formal features.
+
+--- THE SETTING: THE CRICKET MATCH ---
+
+A village cricket match is in progress — a fixture between two local sides
+whose specific historical rivalry, and whose specific current tensions around
+the specific match, provide the episode's immediate social context. The cricket
+match is both the occasion for the murder and the social framework within which
+the investigation must operate: a specific group of people, gathered for a
+specific event, with specific roles in that event, whose specific movements
+during the match are the alibi structure the investigation must work through.
+
+The specific pleasures of the cricket setting — the teas, the pavilion, the
+specific rituals of the game, the specific spectators whose specific presences
+at the match provide both witness testimony and suspect pool — are rendered
+with Midsomer's characteristic affectionate specificity. Cricket is taken
+seriously here: the specific details of the game are accurate and the specific
+social world it represents is rendered with real knowledge.
+
+--- THE VICTIMS ---
+
+The episode's title — Dead Man's Eleven — refers to the specific situation
+in which a cricket team must continue playing despite having lost a member:
+the eleven of the dead man's side. A player is found dead during or around
+the match — the specific circumstances of their death in the specific context
+of the cricket fixture are the investigation's starting point.
+
+The MOSTLY_UNK configuration reflects a case in which there is more than one
+death, or in which the connection between multiple incidents creates a larger
+suspect pool than a single murder would generate. The specific deaths — their
+specific relationship to each other and to the cricket match's specific events —
+are the investigation's primary subject.
+
+--- THE THIRTEEN SUSPECTS AND SEVEN UNKNOWNS ---
+
+The large suspect pool — thirteen people, seven with significant unknowns —
+is the episode's most distinctive structural feature. The cricket match brings
+together a specific community whose specific relationships to each other, and
+to the victims, create an unusually complex web of potential motives.
+
+The thirteen suspects include both players and spectators — people whose specific
+reasons for being at the cricket match are both obvious (they are playing or
+watching) and, in several cases, more specific than that. The specific people
+who had reason to be present at this particular match, at this particular time,
+with this particular combination of other people, are among the investigation's
+most significant questions.
+
+The seven significant unknowns represent the specific people whose specific
+situations — whose specific histories with the victim or victims, whose specific
+movements during the match, whose specific knowledge of the events — cannot
+be fully established through the initial investigation and require specific
+sustained attention to resolve.
+
+--- BARNABY'S INVESTIGATION ---
+
+Barnaby's investigation of the cricket match murder — conducted alongside the
+match's specific social aftermath, with the specific cooperation and specific
+non-cooperation of players and spectators who have their own specific reasons
+for managing what they disclose — is the episode's procedural core.
+
+The specific alibi structure of a cricket match is both the investigation's
+primary resource and its primary challenge: the game generates a specific record
+of where players were during specific overs, who was batting and who was in
+the field, and who had the opportunity to be away from the specific positions
+the game required. But the specific crowd of spectators, and the specific social
+activities around the match — the teas, the pavilion, the specific conversations
+at the boundary — create opportunities for movement that the game's formal
+record does not capture.
+
+Troy's specific contributions — his specific relationships with some of the
+younger suspects, his specific energy in pursuing the physical investigation
+— are complementary to Barnaby's more methodical approach.
+
+--- THE CRICKET CLUB'S HIDDEN WORLD ---
+
+The investigation reveals that the specific world of the village cricket club —
+its committee, its finances, its specific internal politics — contains considerably
+more darkness than its surface of wholesome English sporting tradition suggests.
+
+The specific financial arrangements around the club — sponsorship, prize money,
+the specific economic relationships between the club and its local supporters —
+are part of the criminal territory the investigation maps. Cricket clubs, like
+all small institutions with specific financial resources and specific internal
+governance, are vulnerable to the specific forms of exploitation that small-
+community institutions generate: the long-serving treasurer with specific
+opportunities, the committee member with specific influence over specific decisions.
+
+The specific grievances within the club — the selection disputes, the captaincy
+competitions, the specific slights of sporting and social politics accumulated
+across seasons — provide the human context for the investigation's motive
+mapping.
+
+--- THE PRIMARY KILLER: JOCELYN DOYLE ---
+
+The person most directly responsible for the deaths investigated in the episode
+is Jocelyn Doyle — a figure connected to the cricket club world whose specific
+history with the victim or victims, and whose specific investment in the
+concealment of specific information, generated the motive for the killing.
+
+Jocelyn's specific connection to the case — the particular history, the specific
+financial or personal arrangement whose exposure the killing was designed to
+prevent — is established through Barnaby's investigation of the cricket club's
+specific world and the specific relationships within it.
+
+The specific method of the killing — exploiting the specific opportunities that
+the cricket match provided for someone with specific knowledge of the match's
+schedule and the specific movements of the victim — reflects Jocelyn's specific
+familiarity with the cricket club world and the specific occasion of the match.
+
+Barnaby's identification of Jocelyn as the primary killer is achieved through
+the specific elimination of the other suspects — the working through of the
+thirteen people with some connection to the events, the resolution of the seven
+significant unknowns, and the specific reconstruction of who had both the motive
+and the specific opportunity that the match's particular logistics created.
+
+--- THE MOSTLY_UNK RESOLUTION ---
+
+The seven significant unknowns among the thirteen suspects are resolved through
+the investigation's accumulation of evidence. Several of the thirteen have
+specific things they were concealing — specific situations, specific knowledge,
+specific conduct — that are not directly relevant to the murder but that required
+investigation to establish their irrelevance. Others have specific partial
+knowledge of what happened without being directly involved in it.
+
+The specific resolution of each unknown — establishing what each of the seven
+was actually hiding and why, and what that specific concealment means for
+their legal and moral position relative to the events — is the investigation's
+most complex procedural achievement and reflects Midsomer Murders's specific
+pleasure in the exhaustive working through of a large suspect pool.
+
+--- RESOLUTION ---
+
+Jocelyn Doyle is identified and arrested. The specific criminal scheme that
+the killing was designed to protect is exposed and addressed. The cricket club
+is left to process the specific discovery that its specific world — the matches,
+the teas, the specific social rituals of English village cricket — contained
+a murderer.
+
+--- NOTES ON THE EPISODE ---
+
+"Dead Man's Eleven" is an ambitious episode by Midsomer standards — the large
+cast of suspects, the specific cricket setting, and the MOSTLY_UNK configuration
+give it more procedural complexity than many entries in the series. The cricket
+setting is used with genuine affection and genuine specificity. And Barnaby's
+methodical working through of thirteen suspects to the specific identification
+of one killer is the pure Midsomer pleasure: the patient, thorough, specific
+elimination of the improbable until the actual remains.
+
+================================================================================
+END OF SYNOPSIS — TVE_037
+================================================================================

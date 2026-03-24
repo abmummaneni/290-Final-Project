@@ -1,0 +1,210 @@
+POD_035 | In the Dark: Season 3 | APM Reports | Podcast
+================================================================================
+FULL PODCAST SYNOPSIS — SPOILERS INCLUDED
+================================================================================
+
+--- BACKGROUND AND CONTEXT ---
+
+"In the Dark" is an investigative journalism podcast produced by APM Reports
+and hosted by Madeleine Baran, one of the most rigorous and highly regarded
+investigative journalists in American public media. Season 1 examined the case
+of Jacob Wetterling, a Minnesota boy abducted in 1989 whose disappearance
+drove the creation of the national sex offender registry. Season 2, released
+in 2018, covered the case of Curtis Flowers, a Black man from Winona,
+Mississippi, who was tried six times for the same 1996 murders and became
+the subject of a landmark United States Supreme Court decision.
+
+Season 3, released in 2022–2023, returns to the Curtis Flowers case with new
+investigation and new developments, covering what happened after the Supreme
+Court's 2019 ruling and examining the ongoing questions about Flowers's guilt
+or innocence with the same methodical standard of evidence that characterized
+Season 2.
+
+This synopsis covers the Curtis Flowers case comprehensively across both
+the Season 2 and Season 3 investigation, as the two seasons together tell
+the complete story.
+
+--- THE TARDY FURNITURE STORE MURDERS ---
+
+On July 16, 1996, four people were found shot to death at Tardy Furniture
+store in Winona, Mississippi. The victims were:
+
+Bertha Tardy, the store's owner, a white woman in her fifty-nine.
+Carmen Rigby, a white employee.
+Robert Golden, a Black employee.
+Derrick Stewart, a Black employee.
+
+The store had been robbed. The victims were each shot at close range, execution
+style, with a .380 caliber pistol. The crime was brutal and left Winona —
+a small town of approximately five thousand people — deeply traumatized.
+
+--- CURTIS FLOWERS ---
+
+Curtis Flowers was a twenty-six-year-old Black man from Winona who had briefly
+worked at Tardy Furniture some weeks before the murders, before being let go
+by Bertha Tardy. He was arrested and charged with the four murders.
+
+The primary investigator on the case was John Johnson, a special investigator
+with the Mississippi Attorney General's office, who would become a central
+and controversial figure in the podcast's investigation. The prosecutor was
+Doug Evans, the District Attorney for the Fifth Circuit Court District of
+Mississippi, who would personally prosecute Flowers in all six of his trials.
+
+--- SIX TRIALS ---
+
+Curtis Flowers was tried six times for the same murders. This extraordinary
+legal history unfolded as follows:
+
+TRIAL 1 (1997): Conviction. Sentenced to death. Overturned on appeal due to
+prosecutorial misconduct.
+
+TRIAL 2 (1999): Conviction. Sentenced to death. Overturned on appeal due to
+prosecutorial misconduct.
+
+TRIAL 3 (2004): Conviction. Sentenced to death. The Mississippi Supreme Court
+overturned this conviction as well, finding multiple instances of prosecutorial
+misconduct including improper questioning of witnesses.
+
+TRIAL 4 (2007): Mistrial. The jury could not reach a unanimous verdict,
+reportedly hung 11-1 for conviction.
+
+TRIAL 5 (2008): Mistrial. Again hung, this time reportedly 9-3 for acquittal.
+
+TRIAL 6 (2010): Conviction. Sentenced to death.
+
+--- THE EVIDENCE ---
+
+The podcast examines the evidence against Flowers with extraordinary rigor.
+In the original Season 2, Baran's team spent years reviewing court records,
+trial transcripts, investigative files, and conducting hundreds of interviews
+in Winona. What they found was deeply troubling:
+
+The physical evidence was thin. There was no DNA evidence linking Flowers to
+the crime. The gun was never found. There were no eyewitnesses to the murders.
+
+The case against Flowers relied primarily on: testimony from informants who
+said Flowers made incriminating statements; circumstantial evidence about his
+movements; and evidence about a small amount of money that could have connected
+him to the robbery, which was of very limited value.
+
+The investigation found that John Johnson, the lead investigator, had conducted
+his investigation in a way that was not neutral: he had specifically cultivated
+witnesses willing to testify against Flowers and had treated potentially
+exculpatory information differently.
+
+--- DOUG EVANS AND JURY SELECTION ---
+
+Season 2's most significant investigation concerned the jury selection in
+Flowers's trials, specifically the systematic exclusion of Black jurors by
+prosecutor Doug Evans. This was the center of the Supreme Court case.
+
+The "In the Dark" team built a database of all jury strikes by Evans across
+all of his capital cases over his career. The statistical analysis was
+extraordinary: Evans struck Black jurors at significantly higher rates than
+white jurors. In the Flowers trials specifically, he struck almost every
+Black prospective juror — using peremptory challenges to keep the jury white.
+
+This evidence, combined with specific documented instances of Evans's stated
+reasons for striking Black jurors being pretextual (he accepted white jurors
+with the same characteristics he claimed disqualified Black ones), formed the
+basis of the Supreme Court appeal.
+
+--- THE SUPREME COURT DECISION ---
+
+In June 2019, the United States Supreme Court ruled 7-2 in Flowers v. Mississippi
+that Curtis Flowers's Sixth Trial conviction must be overturned. Justice Brett
+Kavanaugh, writing for the majority, cited Evans's systematic exclusion of
+Black jurors as a violation of the Equal Protection Clause under Batson v. Kentucky.
+
+The decision specifically referenced the "In the Dark" team's statistical
+analysis of Evans's jury selection patterns as evidence supporting the finding
+of discriminatory intent.
+
+The ruling overturned Flowers's conviction and death sentence and sent the
+case back to the Mississippi courts.
+
+--- SEASON 3: AFTER THE SUPREME COURT ---
+
+Season 3 picks up after the Supreme Court decision. Curtis Flowers had been
+released from death row to await further proceedings. The key questions Season 3
+investigates are:
+
+What happens to the case now? Will Evans retry Flowers a seventh time, or
+will the charges be dropped?
+
+What does the continued investigation reveal about the original crime? Are
+there new leads? New evidence? Does the investigation that convicted Flowers
+look even more problematic under further scrutiny?
+
+What happened to the witnesses? Several of the key witnesses whose testimony
+was used to convict Flowers had, in the years since the trials, recanted or
+significantly changed their accounts. Season 3 examines these recantations
+in detail.
+
+--- THE WITNESSES REEXAMINED ---
+
+Season 3's most significant contribution is its systematic reexamination of
+the witnesses whose testimony convicted Flowers. The podcast finds:
+
+Several witnesses who testified that Flowers made incriminating statements
+to them have since said their testimony was false — that they were pressured
+by investigators, that they received benefits in exchange for their cooperation,
+or that they simply lied.
+
+The specific circumstances of these witnesses' original testimony — what was
+offered to them, what pressure was applied, what the relationship between
+investigator John Johnson and these witnesses looked like — is documented
+in detail.
+
+The cumulative effect of the recantations, combined with the original evidence's
+thinness, raises serious questions about whether there is any reliable evidence
+that Flowers committed the murders at all.
+
+--- CHARGES DROPPED ---
+
+In September 2020, District Attorney Doug Evans announced that he would not
+retry Curtis Flowers for the seventh time. The charges against Flowers were
+dismissed.
+
+Curtis Flowers was released. He had spent approximately twenty-three years
+in prison, much of it on death row, across six trials for the same four murders.
+
+--- THE UNRESOLVED MURDER CASE ---
+
+The Tardy Furniture murders are officially unsolved. With the charges against
+Flowers dismissed, there is no active prosecution of anyone for the four deaths.
+The families of the victims have not received definitive answers about who
+killed their family members.
+
+Season 3 examines what the evidence actually shows about the case — beyond
+the official narrative that Flowers was guilty — and whether the investigation
+that focused exclusively on Flowers from the beginning missed or suppressed
+other leads.
+
+--- JOHN JOHNSON AND DOUG EVANS ---
+
+Season 3 investigates both figures in considerable detail. John Johnson, the
+lead investigator, died in 2020 before Season 3 was complete. Doug Evans did
+not seek re-election in 2019 and left office.
+
+The podcast's investigation of both figures documents a pattern of conduct —
+in the Flowers case and in other cases Evans prosecuted in the Fifth Circuit
+District — that raises serious questions about the justice system in that part
+of Mississippi.
+
+--- SUMMARY ---
+
+"In the Dark Season 3" completes one of the most important investigative
+journalism projects in the history of audio journalism. Together, Seasons 2
+and 3 document: a man tried six times for the same crime, convicted through
+racially discriminatory jury selection and unreliable witness testimony, his
+conviction overturned by the Supreme Court following the podcast's investigation,
+and his eventual release after the charges were dropped. The Tardy Furniture
+murders remain officially unsolved. The podcast's achievement is to have
+demonstrated, through exhaustive and methodologically rigorous investigation,
+that the state of Mississippi spent twenty-three years prosecuting a man for
+murders it could not reliably prove he committed.
+
+================================================================================
+END OF SYNOPSIS — POD_035
+================================================================================

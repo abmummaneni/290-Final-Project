@@ -1,0 +1,127 @@
+TVE_004 | Columbo: Publish or Perish | Director: Robert Butler | TV Episode
+================================================================================
+FULL EPISODE SYNOPSIS — SPOILERS INCLUDED
+================================================================================
+
+--- BACKGROUND AND CONTEXT ---
+
+"Publish or Perish" is a Season 3 episode of Columbo, airing January 18, 1974.
+It stars Jack Cassidy in his second of three appearances as a Columbo villain —
+here playing a different character, the ruthless publisher Riley Greenleaf.
+The episode is set in the world of publishing and features a contract killing
+scheme with a layer of hired criminality that Columbo must cut through to reach
+the man who ordered it. It is one of the more structurally complex early
+Columbo episodes, since the killer does not himself commit the murder but
+arranges for someone else to do it.
+
+--- THE KILLER, THE VICTIM, AND THE MOTIVE ---
+
+Riley Greenleaf is a powerful, wealthy, and thoroughly unscrupulous publisher.
+He has a contract with a successful author, Alan Mallory, who writes enormously
+profitable popular novels. Mallory, however, wants out of his contract with
+Greenleaf in order to move to a different publisher. The contract's terms make
+leaving legally complicated, but Mallory has found a way to break it or is
+on the verge of doing so.
+
+If Mallory leaves, Greenleaf loses the steady income from Mallory's books and
+suffers a significant public and financial blow. Greenleaf decides that rather
+than allow this to happen, Mallory must die.
+
+--- THE HIRED KILLER: EDDIE KANE ---
+
+Greenleaf does not commit the murder himself. He hires Eddie Kane, a small-time
+criminal with a grudge against Mallory — Mallory was apparently the person
+whose testimony or actions led to Kane's imprisonment, so Kane has personal
+motive as well as financial incentive. Greenleaf provides Kane with money,
+a gun, and the opportunity. Kane kills Mallory by rigging an explosion or
+shooting, staged to look like an accident or a random criminal act.
+
+The use of a hired killer is Greenleaf's attempt to insulate himself from the
+crime: he was nowhere near the murder, he has no obvious connection to Kane,
+and the police should have no reason to look past the apparent facts of Mallory's
+death toward the publisher who employed him.
+
+--- COLUMBO ENTERS ---
+
+Columbo investigates Mallory's death and, with characteristic efficiency
+disguised as bumbling, quickly identifies that the circumstances of the killing
+do not match the apparent explanation. Something about the manner of the death,
+or the timing, or the specific details of the scene, tells Columbo that this
+was arranged rather than accidental or random.
+
+The investigation leads Columbo toward Eddie Kane as the person who physically
+committed the killing. But Columbo — and this is where the episode's structure
+becomes interesting — is not satisfied with Kane as the full answer. Kane is
+a hired hand, not a person with a sufficiently sophisticated motive to have
+arranged Mallory's death this way. Someone with resources and intelligence
+is behind Kane.
+
+--- ESTABLISHING THE GREENLEAF CONNECTION ---
+
+The core investigative challenge of the episode is establishing the connection
+between Greenleaf and Kane — proving that Greenleaf hired Kane and that Kane
+acted on Greenleaf's instructions rather than on purely personal initiative.
+
+Columbo works this problem from multiple angles. He examines the financial
+trail: money that moved from Greenleaf to Kane, possibly through intermediaries.
+He examines the timing: Kane's movements and activities in the period before
+the murder, and what directed his attention toward Mallory at this specific
+moment. He examines Greenleaf's behavior: the specific ways a person who has
+arranged a murder and is waiting to see if the scheme worked behaves, the
+slight overcompensation in his expressions of shock and regret.
+
+Greenleaf, played by Cassidy with the same self-assured charm he brought to
+Ken Franklin, is confident in the architecture of his scheme. The hired killer
+is a buffer. There should be no direct line back to him.
+
+--- COLUMBO'S APPROACH TO GREENLEAF ---
+
+Columbo's visits to Greenleaf are structured around the same dynamic as all
+his killer interviews: apparent admiration for the man's success, apparent
+confusion about various aspects of the case, the gentle persistent return to
+points that Greenleaf wishes would be dropped. Greenleaf manages these visits
+with the practiced ease of a man who has dealt with difficult situations
+throughout a successful career.
+
+What Greenleaf cannot see — because Columbo is too good at concealing it —
+is that each visit is not a conversation but an examination. Columbo leaves
+each meeting having noted something new: a slightly inconsistent account, a
+piece of knowledge Greenleaf displays that he should not have, a reaction
+that does not fit the profile of an innocent person.
+
+--- THE TRAP AND THE PROOF ---
+
+The episode builds toward Columbo establishing, through the accumulated evidence,
+that Greenleaf and Kane were connected in the specific way the murder required.
+The specific evidence that clinches the case — the detail that Columbo finds
+or engineers — collapses Greenleaf's insulation from the crime.
+
+Kane's role in the scheme is fully exposed. The financial connection between
+Greenleaf and Kane, or the specific piece of evidence that proves Greenleaf's
+direction of the killing, is presented to Greenleaf in a confrontation that
+he cannot manage as smoothly as he managed the earlier visits.
+
+--- RESOLUTION ---
+
+Both Greenleaf and Kane face arrest. The scheme — designed specifically to
+give Greenleaf deniability by interposing a hired criminal — is dismantled
+by Columbo's refusal to accept the obvious surface explanation of Mallory's
+death and his patient reconstruction of what was actually behind it.
+
+--- NOTES ON THE EPISODE ---
+
+"Publish or Perish" is interesting for its structural departure from the typical
+Columbo formula. In most episodes, the viewer watches the killer commit the
+crime personally. Here, the criminal mastermind operates at a remove, which
+gives the episode a slightly different texture: Columbo must work backward
+not just from crime to killer but through an additional layer of hired criminality
+to reach the person actually responsible. Jack Cassidy's second performance
+as a Columbo villain is in some respects more interesting than his first: as
+Greenleaf, he plays a man whose self-assurance has a slightly harder, more
+unpleasant quality than the charming Ken Franklin — a person for whom other
+people are simply instruments, which makes his eventual exposure by the most
+apparently insignificant detective on the force particularly satisfying.
+
+================================================================================
+END OF SYNOPSIS — TVE_004
+================================================================================

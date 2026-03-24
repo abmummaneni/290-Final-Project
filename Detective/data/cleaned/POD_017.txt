@@ -1,0 +1,223 @@
+POD_017 — In the Dark: Season 2
+Reporter: Madeleine Baran | Production: APM Reports / American Public Media
+Released: June – September 2019 | 14 episodes
+Full Podcast Synopsis
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE SHOW AND ITS APPROACH
+
+In the Dark is a podcast produced by APM Reports, the investigative journalism arm of
+American Public Media. It is one of the most rigorously produced and ethically serious
+true crime podcasts in existence — it functions more as investigative journalism that
+uses the podcast format than as true crime entertainment. Its first season examined
+the case of a blind man, Curtis Lovelace, and the system that failed him; its second
+season, described here, is widely considered one of the finest works of audio journalism
+ever produced.
+
+Madeleine Baran is the lead reporter and the series' anchor. Her approach is that of a
+beat journalist rather than a true crime narrator: she is interested in systems and
+institutions as much as individuals, and her investigation of Curtis Flowers is as much
+an investigation of the criminal justice system of Winona, Mississippi as it is of any
+specific crime.
+
+In the Dark Season 2 won the Peabody Award, the duPont-Columbia Award, and the Investigative
+Reporters and Editors Award, among others. It is one of the most decorated works in the
+history of audio journalism.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE CASE: CURTIS FLOWERS AND THE TARDY FURNITURE MURDERS
+
+
+The Crime
+
+On July 16, 1996, four people were shot and killed at Tardy Furniture store in Winona,
+Mississippi. The victims were Bertha Tardy, the store's owner, and three employees:
+Robert Golden, Derrick Stewart, and Carmen Rigby. All four were shot in the head at
+close range. The store was a small-town furniture business, and the killings left Winona —
+a town of approximately 5,000 people, deeply divided by race — in shock.
+
+The crime was investigated by local police and the Mississippi Bureau of Investigation.
+Physical evidence from the scene included shell casings and what appeared to be bloody
+shoe prints. A gun was never recovered. No surveillance footage existed.
+
+
+Curtis Flowers Is Charged
+
+Curtis Flowers, a Black man who had briefly worked at Tardy Furniture before being fired,
+was charged with all four murders. The prosecution's case rested on circumstantial evidence:
+a witness who claimed to have seen Flowers near the store that morning, alleged physical
+evidence connecting Flowers to the crime, and the employment history giving him a motive.
+
+What followed is one of the most extraordinary series of trials in American legal history.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+SIX TRIALS
+
+
+The Unprecedented Record
+
+Curtis Flowers was tried six times for the Tardy Furniture murders between 1997 and 2010.
+The specific history of these six trials is the structural spine of In the Dark Season 2:
+
+Trial 1 (1997): Flowers is convicted and sentenced to death. The conviction is reversed
+on appeal because of prosecutorial misconduct — specifically, the prosecution's suppression
+of evidence favorable to the defense.
+
+Trial 2 (1999): Flowers is again convicted and sentenced to death. This conviction is
+also reversed on appeal due to prosecutorial misconduct.
+
+Trial 3 (2004): Flowers is convicted for a third time. The Mississippi Supreme Court
+reverses this conviction as well, citing extensive prosecutorial misconduct including
+the improper exclusion of Black jurors.
+
+Trial 4 (2007): Ends in a mistrial — the jury cannot reach a unanimous verdict.
+
+Trial 5 (2008): Another mistrial.
+
+Trial 6 (2010): Flowers is convicted for the fourth time and sentenced to death.
+
+The fact of six trials for the same defendant, in the same court, prosecuted by the same
+prosecutor, over thirteen years is itself extraordinary. The pattern of convictions reversed
+for prosecutorial misconduct, followed by more prosecutorial misconduct, followed by more
+reversals, represents either the most persistent legitimate prosecution in Mississippi history
+or a system determined to convict a specific man regardless of the rules.
+
+
+Doug Evans
+
+The prosecutor in all six of Curtis Flowers's trials — and in virtually every major
+criminal case in his district for decades — is Doug Evans. Evans is the District Attorney
+for Mississippi's Fifth Circuit Court District, an elected office he has held since 1992.
+He is the most important figure in the systemic failure that In the Dark Season 2 documents.
+
+Baran and her team spent years investigating Evans — his trial record, his use of
+peremptory challenges (the strikes used to remove potential jurors without stated cause),
+his evidentiary decisions, and his behavior during trials. What they found is documented
+with extraordinary specificity.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+RACE AND JURY SELECTION
+
+
+The Batson Issue
+
+One of In the Dark's most important investigative contributions is its analysis of
+Doug Evans's use of peremptory challenges to exclude Black jurors from Curtis Flowers's
+trials. Under Batson v. Kentucky (1986), prosecutors cannot strike potential jurors
+on the basis of race. But the enforcement of Batson in practice is notoriously weak:
+prosecutors can offer race-neutral explanations for their strikes that courts will
+accept even when the pattern of strikes is racially disparate.
+
+In the Dark commissioned an analysis of Evans's strike patterns across not just Flowers's
+trials but his entire prosecutorial career — hundreds of cases, thousands of jury
+strikes. The findings were stark: Evans struck Black jurors at a dramatically higher
+rate than white jurors across his entire career, and the pattern in the Flowers trials
+was the most extreme expression of a practice that ran through his entire record.
+
+In Flowers's sixth trial, Evans used five of his six peremptory strikes to exclude
+Black jurors. The pattern prompted the Supreme Court of the United States to take up
+the case.
+
+
+The Supreme Court Decision
+
+In June 2019 — during the podcast's run — the Supreme Court issued its decision in
+Flowers v. Mississippi. The Court found, in a 7-2 decision authored by Justice Brett
+Kavanaugh, that Doug Evans had violated the Constitution by discriminating against Black
+jurors. The decision reversed Flowers's sixth conviction.
+
+The Supreme Court decision came in part because of the documentation that In the Dark
+Season 2 had assembled and made public. The podcast's investigative work, presented in
+a form accessible to the general public, created pressure that contributed to the legal
+outcome.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE EVIDENCE AGAINST FLOWERS: WHAT THE PODCAST FINDS
+
+
+The Key Witness
+
+A central pillar of the prosecution's case across multiple trials was a witness named
+Odell Hallmon, a jailhouse informant who claimed that Flowers had confessed to him
+while both were incarcerated. Jailhouse informant testimony is one of the most
+unreliable categories of evidence in the criminal justice system, and In the Dark
+examines Hallmon's account and his record in detail.
+
+Baran tracks down Hallmon and interviews him — an interview in which he recants his
+testimony, stating that he made it up. This recantation is not legally binding (he
+cannot simply undo sworn testimony) but it is documented on audio and is a significant
+part of the podcast's examination of the prosecution's evidentiary foundations.
+
+
+The Physical Evidence
+
+The physical evidence connecting Flowers to the crime is examined in detail: what it
+consists of, what forensic analysis has been conducted on it, and what legitimate
+questions exist about its reliability and its chain of custody. Baran and her team
+work through the forensic elements of the case with the same rigor they apply to
+the legal and testimonial dimensions.
+
+
+The Alternative Suspects
+
+In the Dark also examines whether there were alternative suspects — people with more
+direct connections to the Tardy Furniture murders who were not adequately investigated.
+The podcast does not definitively identify an alternative perpetrator, but it documents
+specific individuals whose connections to the case warranted more investigative attention
+than they received.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+FLOWERS'S RELEASE AND THE AFTERMATH
+
+Following the Supreme Court's reversal of his sixth conviction, Curtis Flowers was
+released on bail in December 2019 after spending more than 22 years in prison, including
+significant time on death row. In September 2020, District Attorney Doug Evans announced
+that the state was dropping all charges against Flowers. He is a free man.
+
+He has not been exonerated in the formal sense — the charges were dropped rather than
+a finding of innocence being made — but he is free after six trials, four convictions,
+and 22 years of imprisonment. Whether he committed the Tardy Furniture murders is
+not legally resolved; whether the process that kept him imprisoned for 22 years was
+fair is clearly answered by the Supreme Court's decision.
+
+
+Doug Evans
+
+Doug Evans remains, as of the podcast's conclusion, the District Attorney of the Fifth
+Circuit Court District. He was not charged with misconduct. The Supreme Court found
+that he violated the Constitution; there have been no professional consequences.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+SIGNIFICANCE
+
+In the Dark Season 2 is not simply a story about one man's wrongful prosecution. It is
+a sustained, documented examination of how racial bias operates in the American criminal
+justice system — not as individual prejudice but as institutional practice, embedded in
+prosecutorial discretion, in jury selection procedures, in the mechanisms of appeals
+courts, and in the election of local officials who face no accountability for systematic
+misconduct.
+
+Madeleine Baran and her team's willingness to spend years on a single case, to go to
+Winona repeatedly, to analyze thousands of court records, to find and interview Odell
+Hallmon, and to document the full history of six trials and their reversals produced one
+of the most important pieces of investigative journalism of the 2010s in any medium.

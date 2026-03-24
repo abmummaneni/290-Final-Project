@@ -1,0 +1,210 @@
+POD_016 — Dr. Death: Season 1
+Reporters: Laura Beil | Production: Wondery
+Released: September – October 2018 | 9 episodes
+Full Podcast Synopsis
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE SUBJECT: CHRISTOPHER DUNTSCH
+
+
+Who Christopher Duntsch Was
+
+Christopher Duntsch was a neurosurgeon who practiced in the Dallas-Fort Worth area of
+Texas from 2011 to 2013. During that approximately two-year period, he operated on
+33 patients. Of those 33 patients, 2 died, 31 were left with serious injuries, and
+only a handful came through his procedures without significant harm. He became known
+as "Dr. Death" — a nickname given to him by people in the medical community who
+encountered the wreckage of his surgical practice.
+
+He was eventually arrested and charged not with medical malpractice but with criminal
+assault — a remarkable and largely unprecedented legal approach to a physician's
+catastrophic practice. In 2017, he was convicted of injury to an elderly individual
+and sentenced to life in prison in Texas, where he remains.
+
+
+The Medical Training Question
+
+Duntsch had credible credentials on paper: he had completed medical school and a
+neurosurgery residency. The question of how someone with formal neurosurgical training
+could be so catastrophically incompetent — or, alternatively, whether the incompetence
+was in fact something closer to deliberate — is one of the central questions of the
+podcast and of the legal case.
+
+His residency program's assessment of him was, at best, mixed. There were documented
+concerns about his performance during training. But he had completed the program, he
+had his MD, and he had obtained hospital privileges. The system that was supposed to
+screen for dangerous practitioners had failed.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE PATIENTS
+
+
+The Scale of the Harm
+
+Dr. Death is, at its core, a story about the specific people who were harmed by
+Christopher Duntsch. Reporter Laura Beil centers the podcast on the patients — not
+as statistics or as evidence in a criminal case, but as people who came to a surgeon
+seeking relief from pain or correction of a medical condition, and whose lives were
+destroyed by what he did to them.
+
+The specific surgical procedures that went wrong — spinal surgeries, primarily, often
+for conditions like herniated discs or spinal stenosis — are described in detail. Beil
+explains what the correct procedure involves and what Duntsch did instead. The divergence
+between standard neurosurgical practice and Duntsch's actions in the operating room
+is, in case after case, so extreme as to be almost incomprehensible to the medical
+professionals who reviewed his work.
+
+
+Specific Cases
+
+Among the patients documented in detail:
+
+Floella Brown — a patient whose surgery resulted in paralysis. Her experience and its
+aftermath are one of the podcast's primary case studies.
+
+Jerry Summers — a former friend of Duntsch's who Duntsch operated on. Summers was left
+a quadriplegic. The fact that Duntsch operated on a personal friend and produced this
+outcome is one of the case's most disturbing details.
+
+Mary Efurd — an elderly woman whose surgery resulted in serious neurological damage.
+Her case became central to the criminal prosecution — the charge of injury to an elderly
+individual on which Duntsch was convicted relates to her specifically.
+
+Other patients across multiple hospitals are described, building a cumulative picture
+of serial surgical catastrophe that continued not despite the medical system's oversight
+mechanisms but, horrifyingly, through them.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+HOW THE SYSTEM FAILED
+
+
+Hospital Privileges and Credentialing
+
+One of Dr. Death's most important contributions is its detailed examination of how
+Christopher Duntsch continued to practice — and to be given surgical privileges —
+despite a growing record of patient harm. The answer is in the specific mechanisms
+of medical credentialing and hospital oversight, which are more porous and more
+susceptible to manipulation than most patients understand.
+
+When one hospital terminated Duntsch's privileges, he was not reported to the relevant
+state and national databases in the way the law required. Or the reports were incomplete.
+Or the next hospital he applied to did not check properly. The system for preventing
+dangerous physicians from moving from hospital to hospital — from "moving the trash"
+in the industry phrase — failed repeatedly and in ways that the podcast documents with
+precision.
+
+Duntsch operated at multiple Dallas-area hospitals in sequence, leaving a trail of
+harm at each before his privileges were terminated, and then obtaining privileges at
+the next facility. The process repeated.
+
+
+The Silence of the Medical Community
+
+Beil also examines the specific culture of medicine — the reluctance of physicians to
+report colleagues, the professional codes that prioritize institutional reputation over
+patient safety, and the specific difficulty of making a formal complaint against a
+fellow physician — that contributed to Duntsch operating as long as he did.
+
+Colleagues and other surgeons who operated with Duntsch or who followed him into
+patients he had harmed speak in the podcast about what they saw, what they reported,
+and what happened when they did. Their accounts document a system of institutional
+self-protection that placed the processing of complaints above the urgency of
+preventing further harm.
+
+
+Dr. Robert Henderson and Dr. Randall Kirby
+
+Two orthopedic surgeons — Robert Henderson and Randall Kirby — became central figures
+in the effort to stop Duntsch. They operated on patients who had been harmed by him,
+attempted to correct his work, and were appalled by what they found. They became
+advocates for his removal from practice and, eventually, for his criminal prosecution.
+
+Their role in the story — two surgeons who were not Duntsch's victims but who chose
+to become active opponents of his continued practice — is one of the podcast's
+narratives of principled action within a system that was not incentivizing it.
+
+
+The Texas Medical Board
+
+The Texas Medical Board's handling of the Duntsch case is documented in detail: the
+complaints filed, the timeline of their processing, and the gap between when the
+board received information about the harm Duntsch was causing and when it took
+definitive action to remove his license.
+
+The medical board process — its pace, its standards of evidence, its specific mechanisms
+— was not designed for a situation as extreme as Duntsch. It was designed for cases
+of negligence and incompetence at the margins of acceptable practice, not for a
+surgeon whose outcomes were catastrophically worse than any measurable standard.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+THE CRIMINAL PROSECUTION
+
+
+Why Criminal Charges Were Possible
+
+The decision to prosecute Christopher Duntsch criminally — rather than through the
+civil medical malpractice system, which is the usual avenue for physician misconduct —
+was made by Dallas County prosecutor Michelle Shughart. She charged him under a Texas
+statute that covers injury to an elderly individual, which requires proof of knowing
+or intentional harm — a significantly higher bar than civil negligence.
+
+The prosecution's argument was that Duntsch's actions were not merely negligent but
+were knowing — that he understood what he was doing, that he was aware of his deviations
+from standard surgical practice, and that the injuries he caused were not the result
+of incompetence alone but of something more deliberate.
+
+This argument required proving, beyond a reasonable doubt, that a licensed physician
+intentionally harmed his patients — an argument that had almost never been made
+successfully against a doctor in the United States.
+
+
+Evidence and Testimony
+
+The trial featured expert testimony from neurosurgeons who described in detail what
+Duntsch did in the operating room and how far it deviated from acceptable practice.
+The physical evidence of his surgeries — what he left inside patients, how he positioned
+implants, what he cut — was presented to a jury of non-medical laypeople who had to
+evaluate the gap between what a competent surgeon would have done and what Duntsch did.
+
+Beil documents the trial in detail, including the prosecution's challenge of making
+highly technical medical evidence accessible and persuasive to a jury.
+
+
+The Verdict and Sentence
+
+The jury convicted Duntsch on one count of injury to an elderly individual — related
+to the case of Mary Efurd. He was sentenced to life in prison. The sentence was a
+landmark in the criminal accountability of physicians for patient harm.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+INCOMPETENCE OR MALICE?
+
+One of Dr. Death's central and unresolved questions is whether Christopher Duntsch
+was catastrophically incompetent, deliberately harmful, or some combination of the
+two. The criminal conviction required a finding of intentional harm. But medical
+experts who reviewed his work disagreed about whether the specific pattern of his
+errors was consistent with extreme incompetence or with deliberate injury.
+
+Beil presents both sides of this argument without definitively resolving it, because
+the evidence does not definitively resolve it. What is not in question is the outcome:
+33 patients operated on, 2 dead, 31 seriously harmed. Whatever the inner mechanism
+that produced these outcomes, the outcomes themselves are the story.
+
+Dr. Death is one of the most important public health journalism podcasts produced in
+the true crime format — its examination of medical system failures is as valuable as
+its account of the individual perpetrator, and its advocacy for patients who trusted
+a physician and were destroyed by that trust is done with genuine care and rigor.

@@ -1,0 +1,51 @@
+NOV_195 — Postmortem
+Patricia Cornwell (1990)
+Series: Kay Scarpetta #1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DETAILED SPOILER SYNOPSIS
+
+Postmortem is the debut novel of Patricia Cornwell and the first appearance of Dr. Kay Scarpetta, Chief Medical Examiner of Virginia, based in Richmond. The novel won the Edgar, Creasey, Anthony, and Macavity awards and is credited with launching the forensic procedural subgenre in popular fiction.
+
+THE MURDERS
+
+A serial killer is terrorizing Richmond, strangling women in their own homes at night. The victims are all professional women who live alone. They are strangled with their own belongings — typically hosiery — after the killer gains entry to their homes. There is no sign of forced entry in any case, suggesting the women may have opened their doors to someone they trusted, or that the killer has other means of entry.
+
+By the time the novel opens, there have been four murders. Kay Scarpetta is called to the scene of the most recent victim, a young woman named Lori Petersen, a medical resident. This case becomes central because Lori Petersen had the presence of mind to scratch her attacker, potentially leaving trace evidence under her fingernails.
+
+THE FORENSIC INVESTIGATION
+
+The novel's innovation is its detailed procedural focus on the medical examiner's work. Scarpetta performs autopsies, interprets wound patterns, analyzes physical evidence, and applies emerging forensic science — in 1990, DNA analysis was new enough to be described as cutting-edge technology. A key piece of evidence is an unusual luminescent residue found on all the victims' bodies, a substance that cannot immediately be identified and becomes a crucial clue.
+
+Scarpetta works in an institutional environment that is politically fraught. Her immediate superior, Norman Tanner, is unsupportive and territorial. Her relationship with Richmond Police Department Sergeant Pete Marino is hostile: Marino resents a woman in her position, questions her competence, and is generally antagonistic. This professional friction is a persistent element of the novel (and the series). Scarpetta's ally is her niece Lucy, a precocious ten-year-old who is visiting for the summer and who becomes involved with Scarpetta's computer system — a detail that will define Lucy as a character across many subsequent novels.
+
+THE COMPUTER INTRUSION
+
+While Lucy is using Scarpetta's office computer, it becomes apparent that someone has been accessing the system from outside — logging in to Scarpetta's case files. The intrusion is taken seriously as a security breach: whoever is reading the files has access to all details of the active murder investigation, including information that has not been released to the public. This could explain how the killer stays ahead of investigators.
+
+The computer intrusion is ultimately traced to Sergeant Marino's files — though the intrusion itself turns out not to be connected to the killer in the way feared.
+
+THE LUMINESCENT RESIDUE
+
+Scarpetta and her investigative colleague Marine Biologist Dr. Vesna identify the mysterious substance on the victims: it is a compound used by workers in a specific industrial context. The residue narrows the field of suspects dramatically because it points to someone with exposure to a particular chemical or work environment.
+
+THE KILLER'S IDENTITY
+
+The killer is revealed to be Vander — a forensic technician who works within the police department and the medical examiner's system, specifically in the fingerprint unit. His access to case files explains the intrusion. His profession explains both his knowledge of forensic countermeasures (he knew how to avoid leaving conventional evidence) and his exposure to the luminescent residue (which came from the chemicals used in his fingerprint work).
+
+The killer's psychological profile that emerges is of a man with profound rage toward successful professional women — women who embody the independence and achievement he finds threatening or emasculating. His choice of victims was not random but targeted at a specific type.
+
+THE CONFRONTATION AND RESOLUTION
+
+Scarpetta pieces together the evidence, identifying Vander through the residue and confirming it through behavioral and circumstantial evidence. The climax involves danger to Scarpetta herself: having identified her as a threat, the killer targets her. The resolution brings Vander to justice through the forensic evidence Scarpetta has painstakingly assembled.
+
+The novel ends with the professional relationship between Scarpetta and Marino beginning a very gradual thaw — he has witnessed her competence under pressure and, while not transformed, shows the first small signs of grudging respect that will develop across the series.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THEMES AND NOTES
+
+Postmortem established the template for the forensic procedural: a female professional protagonist working in a male-dominated institution, detailed and accurate forensic science as the primary investigative tool, the body as both victim and source of evidence, and the killer's methodology as something that can be decoded through science rather than intuition alone.
+
+Cornwell drew on her experience as a computer analyst for the Office of the Chief Medical Examiner of Virginia to provide the procedural authenticity that distinguished the novel from contemporaries. The Richmond, Virginia setting, the internal politics of the ME's office, and the specific tensions around women in professional authority positions in the late 1980s are all rendered with considerable specificity.

@@ -1,0 +1,153 @@
+NOV_015 | The Mystery of the 'Clio' | Freeman Wills Crofts | Novel
+================================================================================
+FULL PLOT SYNOPSIS — SPOILERS INCLUDED
+================================================================================
+
+--- BACKGROUND AND SETTING ---
+
+"The Mystery of the 'Clio'" is a 1925 detective novel by Freeman Wills Crofts,
+the author whose meticulous, procedural approach to alibi construction and
+timetable analysis defined a significant strand of Golden Age detective fiction.
+This novel, like much of Crofts's early work, focuses on the methodical
+unraveling of an apparently airtight crime aboard a passenger vessel operating
+in British coastal waters. It shares the characteristic Crofts virtues: patience,
+precision, and a genuine pleasure in the step-by-step dismantling of a carefully
+constructed false alibi. The novel predates the introduction of Inspector
+French, Crofts's best-known recurring detective.
+
+--- THE VESSEL AND ITS PASSENGERS ---
+
+The Clio is a small passenger steamer traveling along the English coast. Among
+its passengers on a particular voyage is a wealthy man named John Doris — a
+prosperous businessman traveling with a relatively small circle of acquaintances.
+Also aboard is a younger man named Merriman, a friend of Doris's who is
+traveling partly on business and partly for leisure.
+
+The voyage begins without incident. Passengers eat, talk, and enjoy the
+coastal scenery. Relations among the party are cordial on the surface, though
+observant readers will notice various tensions: financial anxieties, questions
+of inheritance, and personal rivalries that lurk beneath the pleasant social
+forms.
+
+--- THE DEATH OF DORIS ---
+
+During the voyage, John Doris is found dead. His body is discovered in or near
+his cabin in circumstances that initially suggest natural causes or possibly
+accident. He is an older man, and the ship's doctor (or attending physician)
+initially accepts the possibility of a sudden cardiac event.
+
+However, certain details are troubling to those who look more carefully. The
+position of the body, small inconsistencies in what those nearby report hearing
+and seeing during the night, and Doris's known good health in recent months
+begin to raise suspicions. A question forms: was Doris helped to his death?
+
+The ship arrives at its port and the matter is referred to the shore authorities.
+Scotland Yard becomes involved — in the form of an investigating officer
+(working in the procedural Crofts mode) who begins the careful work of
+establishing what happened aboard the Clio.
+
+--- THE BENEFICIARIES AND SUSPECTS ---
+
+The investigation quickly maps the financial landscape around Doris's death.
+Doris was wealthy and his estate will pass according to his will and various
+business arrangements. The investigator identifies several people with
+significant financial motive:
+
+There are business partners or associates who stood to gain from the dissolution
+or restructuring of certain financial arrangements following Doris's death.
+There are family members or near-family individuals whose inheritances would be
+affected. And there is Merriman himself, whose financial circumstances and
+relationship to Doris come under scrutiny — Merriman had dealings with Doris
+that were complex and not entirely transparent.
+
+The novel follows Crofts's standard approach: each suspect's account is taken,
+each alibi is tested, each financial and personal motive is weighed. Nobody
+aboard the Clio appears to have an obvious, open motive or a demonstrable
+opportunity — the beauty of the crime, if it was a crime, lies in the apparent
+impossibility of anyone having done it without being seen.
+
+--- RECONSTRUCTING THE NIGHT ---
+
+The investigator reconstructs the night of Doris's death minute by minute,
+using the testimony of passengers, crew members, and the physical layout of
+the ship. The Clio is a relatively small vessel, and movements aboard it are
+limited — corridors are narrow, cabins are close together, and any movement
+in the night should, in theory, have been noticed by someone.
+
+The question of timing is central. If someone entered Doris's cabin to
+administer poison or cause some other form of death, they would have needed
+a specific window of opportunity when neither cabin stewards, fellow passengers,
+nor crew were about. Crofts maps the movements of every relevant person with
+characteristic thoroughness, producing the kind of minute-by-minute accounting
+for which he was celebrated and sometimes gently mocked.
+
+A key discovery is that the method of death, once the medical evidence is
+properly assessed, was not natural. The precise cause — possibly a substance
+introduced into Doris's food or drink, or administered by some other means —
+is established through careful medical examination.
+
+--- THE ALIBI THAT BREAKS ---
+
+The novel reaches its turning point when the investigator focuses on a specific
+person whose alibi for the critical period appears solid but contains a gap
+that can only be closed by accepting the testimony of one other witness — and
+that witness, on closer examination, proves either unreliable or actively
+deceptive.
+
+In the Crofts manner, the alibi is not broken through a dramatic moment of
+inspiration but through patient cross-referencing of timetables, movements, and
+the precise sequence of events as reported by multiple independent sources. A
+crew member's log, the ship's bell schedule, the timing of the stewards' rounds,
+and the recollections of other passengers are all drawn together into a timeline
+that reveals a gap — a window of perhaps fifteen to twenty minutes in which the
+killer had unobserved access to Doris's cabin.
+
+That window is matched against the movements of the person who ultimately proves
+to be the killer. Their claimed alibi — being in a specific location during that
+window — cannot be sustained when the independent records are checked. They
+were not where they claimed to be.
+
+--- THE KILLER'S PLAN AND MOTIVE ---
+
+The killer's motive is financial — as in most Crofts novels, the crime is
+rooted in money rather than passion. Doris had made business arrangements, or
+had knowledge of financial irregularities, that would have been ruinous for
+the killer if exposed or if Doris had lived to act on them.
+
+The plan was constructed to use the voyage as a cover: a death aboard a ship
+in transit, attributed to natural causes, would be difficult to investigate
+thoroughly, and the killer calculated that the brief investigation before the
+ship reached port would not be sufficient to uncover the truth. The calculation
+was nearly correct — without the persistent, methodical work of the Scotland
+Yard investigator, it might well have succeeded.
+
+--- RESOLUTION ---
+
+The killer — one of the small circle of passengers closely associated with
+Doris — is identified, confronted with the reconstructed timeline, and arrested.
+The evidence, while entirely circumstantial in some respects, is thorough enough
+to sustain a prosecution when assembled in full. The false alibi, once broken,
+is replaced by an absence of any innocent explanation for the killer's
+whereabouts during the critical window.
+
+The novel ends with the satisfying Crofts resolution: not a dramatic revelation
+but the quiet, thorough, methodical closing of the case. Every question asked
+at the beginning has been answered. Every discrepancy in the original accounts
+has been explained. The crime, which seemed perfectly concealed, proved
+vulnerable to exactly the kind of patient, detail-obsessed investigation at
+which Crofts's investigators excel.
+
+--- NOTES ON THE NOVEL ---
+
+"The Mystery of the 'Clio'" is a representative example of Crofts's work in
+the period before Inspector French became his settled series detective. It
+demonstrates his consistent preoccupations: closed settings (a ship, like the
+later novels' trains and ferries), financial motive, alibi construction, and
+procedural investigation. It is less well-known than "The Cask" or the French
+novels, but shares their essential virtues: scrupulous fairness to the reader,
+meticulous plotting, and the particular pleasure of watching a seemingly perfect
+crime unraveled by systematic work rather than inspiration.
+
+================================================================================
+END OF SYNOPSIS — NOV_015
+================================================================================

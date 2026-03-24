@@ -1,0 +1,80 @@
+A Midsummer’s Equation by Keigo Higashino is the third “Detective Galileo” novel and centers on a murder in a fading seaside resort town, where a retired police officer is found dead at the foot of a seaside cliff. The story is a classic closed‑community whodunit, with the coastal town of Hari Cove sharply divided over a proposed underwater mining project and the murder secretly tied to an old crime from years before. Below is a long, detailed, spoiler‑filled plot synopsis told in clear chronological order, covering the full story, the identity of the killer, the “how‑did‑they‑do‑it?” mechanics, and the deeper emotional motives.
+Yukawa arrives in Hari Cove
+
+The novel opens with physics professor Manabu “Detective Galileo” Yukawa traveling to the small coastal town of Hari Cove, a once‑popular summer resort now in decline. He has been invited to speak at a series of public hearings about a proposed underwater mining operation for rare minerals, which deeply divides the town:
+
+    One side argues that the mining will revive the local economy.
+
+    The other side fears it will ruin the pristine seabed, the fishing, and the town’s natural beauty.
+
+On the train Yukawa meets a shy fifth‑grader, Kyohei, who is being sent to stay at the Green Rock Inn, the small family hotel run by his aunt Setsuko, uncle Shigehiro, and cousin Narumi. Yukawa decides to stay at the same inn, and he begins to form a quiet, almost fatherly bond with Kyohei, tutoring him in math and science.
+The other guest at the Green Rock Inn
+
+The Green Rock Inn has very few guests, and the other guest is a middle‑aged man from Tokyo named Masatsugu Tsukuhara, who is staying at the inn during the DESMEC hearings. Narumi is surprised to see him there because she had spotted him at one of the earlier hearings in town.
+
+Tsukuhara seems unremarkable, and there is nothing obviously suspicious about him, though he keeps to himself and does not talk much about his motives for being in Hari Cove. The inn is otherwise quiet, with the family focused on preparing for the low‑season and the hearings.
+Tsukuhara is found dead at the bottom of the cliffs
+
+The night after the last hearing, Tsukuhara is found dead at the base of the small seaside cliffs, lying on the rocks at the base of the seawall. The back of his head is badly crushed, and the distance from the top of the cliff suggests he fell or was pushed from above.
+
+The local police initially treat it as a tragic accident: a visitor unfamiliar with the terrain who wandered too close to the edge at night and slipped. The case seems straightforward, and the town is ready to accept the verdict.
+The discovery that he was a former policeman
+
+The situation shifts when the town learns that Tsukuhara was not an ordinary tourist but a retired Tokyo homicide detective, and that he was once close to the current Tokyo police commissioner. The commissioner is not willing to accept the “accident” theory immediately and instructs the Tokyo force to get involved.
+
+Yukawa, already on the scene and known to the Tokyo police, is unofficially brought into the investigation. His scientific mind and habit of “thinking through the equation” of a crime make him uniquely suited to look beyond the surface of the fall and the broken skull.
+The twisted puzzle: death from carbon monoxide, staged as a fall
+
+The postmortem and forensic work slowly reveal that the case is far more complex than a simple fall. The key insight is that the actual cause of death is not the head injury from the fall, but carbon monoxide poisoning.
+
+The killer poisoned Tsukuhara elsewhere, possibly in a vehicle or enclosed space, and then moved the body to the top of the cliff and pushed it over to make it look like he had fallen while walking. The broken head is essentially a red herring: the physical fall was inflicted on the corpse, not the living man.
+
+Yukawa begins to reconstruct the logistics:
+
+    How did the killer get Tsukuhara alone?
+
+    Where could the poisoning have taken place without being noticed?
+
+    Who had both the opportunity and the secrecy to handle the staging without being seen?
+
+The four suspects and the family secrets
+
+As the investigation widens, several figures in the town and the Green Rock Inn come under suspicion. The most central candidates are:
+
+    Setsuko and Shigehiro, Kyohei’s aunt and uncle, who run the inn and have a quiet, strained relationship.
+
+    Narumi, their daughter, a university‑age environmentalist who is deeply involved in the anti‑mining protests and has a close bond with Kyohei.
+
+    Other locals, including figures from the mining company and the protest group, any of whom might have wanted to eliminate a nosy outsider who was asking too many questions.
+
+Yukawa also notices that Kyohei has a strange memory involving setting off fireworks with his uncle on the roof, and that this memory is tied to the chimney of the inn’s heater. The technical details of ventilation, airflow, and gas behavior slowly become crucial to Yukawa’s thinking.
+The long‑ago drunk‑driving case
+
+At the heart of the murder motive is a secret from years ago. Tsukuhara had been involved in an old drunken‑driving incident in which a young woman died. The legal case had been handled in a way that protected the perpetrators, and the woman’s family felt betrayed by the system.
+
+The woman’s relatives trace the injustice back not only to the drunk driver but also to the way the police and the courts had buried the truth. When Tsukuhara shows up in Hari Cove, they begin to suspect that he has come to investigate the old case again, or at the very least to gather information that might reopen the wounds.
+The killer’s identity: the drunk‑driver’s son
+
+The killer turns out to be a member of the drunk‑driver’s family, specifically the grown‑up son of the man who had been behind the wheel in the 19‑year‑old accident. He is someone connected to the town of Hari Cove but not obviously visible as a suspect; he has lived under the shadow of the scandal and feels that his family’s disgrace was never fully acknowledged.
+
+His motive is a mix of guilt and resentment:
+
+    He fears that Tsukuhara’s renewed interest in the case will finally bring full exposure to the drunk‑driving hit‑and‑run, exposing his father and shattering the family’s already damaged reputation.
+
+    At the same time, he feels a twisted sense of loyalty to his father, believing that killing Tsukuhara is the only way to stop the old case from being reopened and to “protect” the family name.
+
+The “how”: poisoning and the rooftop chimney
+
+The mechanics of the murder hinge on Yukawa’s physical reasoning. The killer lured Tsukuhara to a vehicle or a secluded space where he was exposed to carbon monoxide until he was dead, then transported the body to the top of the seawall and dropped it over the edge to stage the “fall.”
+
+The rooftop‑fireworks memory that Kyohei has turns out to be key: the uncle and the boy once ignited fireworks in a way that temporarily blocked the chimney of the water‑heater system, causing gas to back up. Yukawa realizes that such a setup could be used to create a deadly, contained gas environment if the conditions were repeated carefully. He pieces together that the killer used the same kind of closed‑system logic—manipulating ventilation, timing, and location—to control the distribution of the poisonous gas and to leave no obvious trace at the poisoning site.
+Yukawa draws out the killer’s confession
+
+Using the technical explanation as a psychological trap, Yukawa gathers the main suspects and lays out the “equation” of the murder: the timeline, the necessity of someone with local knowledge of the coastline and the buildings, and the intimate connection to the old drunk‑driving case.
+
+The son of the drunk‑driver eventually admits to the crime. He confesses that he saw Tsukuhara as a ghost of the past, a man who could resurrect the memory of his father’s crime and drag the family back into public shame. In his mind, killing Tsukuhara was not just a tactical move but a way of “balancing the equation” he had always felt in his life: the unspoken guilt, the buried truth, and the town’s quiet complicity.
+Aftermath and the town’s unresolved tensions
+
+The case is solved, but the story does not end with clean closure. The underwater mining dispute still hangs over Hari Cove; the town remains divided, and the economic and environmental questions are not magically resolved by the murder’s resolution.
+
+For Kyohei, the experience is both traumatic and formative: he has watched a gentle summer vacation turn into a lesson in human darkness and in the way the past can ambush the present. Yukawa, meanwhile, carries his usual mixture of scientific detachment and quiet empathy, aware that he has helped expose another example of how human beings try to “solve” their problems with violence instead of truth.

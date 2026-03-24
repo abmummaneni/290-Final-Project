@@ -1,7 +1,5 @@
 .env
 data/raw/
-data/cleaned/
-data/manifest.json
 logs/
 __pycache__/
 *.pyc
