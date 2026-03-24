@@ -139,7 +139,7 @@
     {
       "id": "char_8",
       "name": "Philip Lombard",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -156,7 +156,7 @@
     {
       "id": "char_9",
       "name": "Vera Claythorne",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.6,
@@ -173,7 +173,7 @@
     {
       "id": "char_10",
       "name": "William Blore",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.6,

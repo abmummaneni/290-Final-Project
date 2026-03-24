@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "George Stoppard",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.6,
@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Stalker",
-      "label": "Witness|Victim",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.4,
@@ -173,7 +173,7 @@
     {
       "id": "char_10",
       "name": "Mervyn Cocker-Norris",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.6,

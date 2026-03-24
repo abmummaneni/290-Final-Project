@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Sindre Fauke",
-      "label": "Victim|Witness",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.3,

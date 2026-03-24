@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Inspector Harry Hole",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.8,
@@ -139,7 +139,7 @@
     {
       "id": "char_8",
       "name": "Sven",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.4,

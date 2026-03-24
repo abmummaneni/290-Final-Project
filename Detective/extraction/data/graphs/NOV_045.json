@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Maria Maffei",
-      "label": "Client",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.5,

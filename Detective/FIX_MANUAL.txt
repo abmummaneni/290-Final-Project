@@ -1,5 +1,0 @@
-NEEDS_MANUAL entries: 0
-These entries have no synopsis in data/cleaned/. Add a synopsis .txt file to fix.
-
-ID         Title                                              Author                         Medium
---------------------------------------------------------------------------------------------------------------

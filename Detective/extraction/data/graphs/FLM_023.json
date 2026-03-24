@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Leo O'Bannon",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 1,
@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Verna",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.5,

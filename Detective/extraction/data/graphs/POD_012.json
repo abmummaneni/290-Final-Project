@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "John B. McLemore",
-      "label": "Victim|UNK",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.5,

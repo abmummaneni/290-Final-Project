@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Miles Hammond",
-      "label": "Witness|Victim",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Fay Seton",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.3,

@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Farren",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Strachan",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Gowan",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Graham",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -139,7 +139,7 @@
     {
       "id": "char_8",
       "name": "Waters",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.5,

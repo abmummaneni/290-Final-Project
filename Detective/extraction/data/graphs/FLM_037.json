@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "David Dunn",
-      "label": "Superhero",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.75,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Train passengers",
-      "label": "Victims",
+      "label": "Victim",
       "features": {
         "gender": -1,
         "social_status": 0.5,

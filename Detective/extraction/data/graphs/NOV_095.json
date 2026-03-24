@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Albert Campion",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.75,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Superintendent Hutch",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": 0,
         "social_status": 0.75,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Pyne",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.75,

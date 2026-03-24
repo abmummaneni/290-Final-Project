@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Nick Dunne",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Amy Dunne",
-      "label": "Victim|Villain",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.7,
@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Desi Collings",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.9,

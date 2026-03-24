@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Young girl",
-      "label": "Victim|UNK",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.2,
@@ -156,7 +156,7 @@
     {
       "id": "char_9",
       "name": "The Preacher (Hult family grandfather)",
-      "label": "Villain|UNK",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.85,

@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Lisbeth Salander",
-      "label": "Victim|Witness",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.3,
@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Alexander Zalachenko",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Mikael Blomkvist",
-      "label": "Witness|Victim",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -173,7 +173,7 @@
     {
       "id": "char_10",
       "name": "Richard Ekström",
-      "label": "Villain|Uninvolved",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -207,7 +207,7 @@
     {
       "id": "char_12",
       "name": "Camilla Salander",
-      "label": "Victim|Uninvolved",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.3,

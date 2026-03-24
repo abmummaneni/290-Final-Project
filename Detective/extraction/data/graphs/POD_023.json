@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Ian Bailey",
-      "label": "Villain|UNK",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Marie Farrell",
-      "label": "Witness|UNK",
+      "label": "Witness",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -139,7 +139,7 @@
     {
       "id": "char_8",
       "name": "Local shopkeeper",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,

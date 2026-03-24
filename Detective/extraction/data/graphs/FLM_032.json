@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Suzie Toller",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.25,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Ray Duquette",
-      "label": "Witness|Villain",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.5,

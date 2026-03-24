@@ -6,13 +6,13 @@
       "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.7,
+        "social_status": 0.5,
         "narrative_introduction_timing": 0.0,
         "has_alibi": 1,
         "present_at_crime_scene": 0,
         "has_motive": 0,
-        "is_concealing_information": 1,
-        "has_hidden_relationship": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
         "motive_type": -1,
         "narrative_prominence": 1
       }
@@ -23,25 +23,25 @@
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.6,
+        "social_status": 0.5,
         "narrative_introduction_timing": 0.25,
         "has_alibi": 1,
         "present_at_crime_scene": 0,
         "has_motive": 0,
         "is_concealing_information": 0,
-        "has_hidden_relationship": 0,
+        "has_hidden_relationship": 1,
         "motive_type": -1,
         "narrative_prominence": 0.75
       }
     },
     {
       "id": "char_2",
-      "name": "Alex",
+      "name": "Alexandra Wijkner",
       "label": "Victim",
       "features": {
         "gender": 1,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.5,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.125,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
@@ -53,31 +53,48 @@
     },
     {
       "id": "char_3",
-      "name": "Selma Lagerlöf",
-      "label": "Uninvolved",
+      "name": "Henrik Wijkner",
+      "label": "Witness",
       "features": {
-        "gender": 1,
-        "social_status": 0.9,
-        "narrative_introduction_timing": 0.75,
-        "has_alibi": -1,
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": 1,
         "present_at_crime_scene": 0,
         "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
         "motive_type": -1,
         "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_4",
-      "name": "Alex's parents",
-      "label": "Uninvolved",
+      "name": "Nelly Lorentz",
+      "label": "Villain",
       "features": {
-        "gender": -1,
-        "social_status": 0.7,
-        "narrative_introduction_timing": 0.5,
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.625,
         "has_alibi": -1,
         "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Various Fjällbacka children",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
@@ -86,67 +103,58 @@
       }
     },
     {
-      "id": "char_5",
-      "name": "Police officer",
-      "label": "Uninvolved",
+      "id": "char_6",
+      "name": "Various Fjällbacka adults",
+      "label": "Villain",
       "features": {
         "gender": -1,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.75,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
         "has_alibi": -1,
-        "present_at_crime_scene": 0,
+        "present_at_crime_scene": -1,
         "has_motive": -1,
-        "is_concealing_information": -1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.25
+        "narrative_prominence": 0.125
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
-      "name": "Writer",
+      "name": "Writer of true crime biographical books",
       "features": {
-        "authority_level": 0.3,
-        "access_level": 0.7,
-        "capability_level": 0.5
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     },
     {
       "id": "occ_1",
-      "name": "Detective",
+      "name": "Detective with the Fjällbacka police",
       "features": {
-        "authority_level": 0.9,
-        "access_level": 0.8,
-        "capability_level": 0.7
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     },
     {
       "id": "occ_2",
-      "name": "Parents",
+      "name": "Wealthy man from a prominent Gothenburg family",
       "features": {
-        "authority_level": 0.1,
-        "access_level": 0.3,
-        "capability_level": 0.3
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     },
     {
       "id": "occ_3",
-      "name": "Police officer",
+      "name": "Matriarchal figure in the Fjällbacka community",
       "features": {
-        "authority_level": 0.8,
-        "access_level": 0.7,
-        "capability_level": 0.6
-      }
-    },
-    {
-      "id": "occ_4",
-      "name": "Swedish author and Nobel laureate",
-      "features": {
-        "authority_level": 0.9,
-        "access_level": 0.5,
-        "capability_level": 0.8
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     }
   ],
@@ -156,35 +164,17 @@
       "name": "Fjällbacka",
       "features": {
         "accessibility": 0.5,
-        "isolability": 0.2,
-        "evidentiary_value": 0.3
-      }
-    },
-    {
-      "id": "loc_1",
-      "name": "Erica's family home",
-      "features": {
-        "accessibility": 0.4,
-        "isolability": 0.2,
+        "isolability": 0.25,
         "evidentiary_value": 0.5
       }
     },
     {
-      "id": "loc_2",
-      "name": "Alex's house",
+      "id": "loc_1",
+      "name": "Alexandra Wijkner's bathtub",
       "features": {
-        "accessibility": 0.4,
-        "isolability": 0.8,
-        "evidentiary_value": 0.9
-      }
-    },
-    {
-      "id": "loc_3",
-      "name": "Bathtub",
-      "features": {
-        "accessibility": 0.1,
-        "isolability": 0.9,
-        "evidentiary_value": 0.8
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 1
       }
     }
   ],
@@ -192,75 +182,73 @@
   "edges": [
     {
       "source": "char_0",
-      "target": "loc_1",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_0",
       "target": "occ_0",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_3",
-      "relation": "writes a biography about",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "loc_0",
-      "relation": "works in",
-      "directed": true
+      "relation": "employed as"
     },
     {
       "source": "char_1",
       "target": "occ_1",
-      "relation": "employed as",
-      "directed": true
+      "relation": "employed as"
     },
     {
       "source": "char_2",
-      "target": "loc_2",
-      "relation": "resides at",
-      "directed": true
+      "target": "loc_1",
+      "relation": "resides at"
     },
     {
-      "source": "char_2",
-      "target": "char_0",
-      "relation": "childhood friend of",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "char_2",
-      "relation": "parents of",
-      "directed": true
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "married to"
     },
     {
       "source": "char_5",
-      "target": "char_1",
-      "relation": "colleague of",
-      "directed": true
+      "target": "char_6",
+      "relation": "victims of"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "married to"
     },
     {
       "source": "char_0",
       "target": "char_2",
-      "relation": "investigates the death of",
-      "directed": true
+      "relation": "friends with"
     },
     {
-      "source": "char_5",
+      "source": "char_1",
       "target": "char_0",
-      "relation": "works with",
-      "directed": true
+      "relation": "romantically involved with"
     },
     {
-      "source": "loc_2",
-      "target": "loc_3",
-      "relation": "contains",
-      "directed": false
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "kills"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "relation": "relatives of"
     }
   ],
   "metadata": {

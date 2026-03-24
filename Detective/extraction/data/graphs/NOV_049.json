@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Cicely, Countess of Horbury",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.83,
@@ -207,7 +207,7 @@
     {
       "id": "char_12",
       "name": "Lady Horbury",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.83,

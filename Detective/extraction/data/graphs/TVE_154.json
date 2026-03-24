@@ -1,0 +1,415 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Malcolm Bright",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Ainsley Whitly",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Martin Whitly",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Gil Arroyo",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Halston Sage",
+      "label": "UNK",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Michael Sheen",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Cardinale family",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Icarus killer",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "TV journalist",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 1.0,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "NYPD detective",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Serial killer",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 1.0
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Actor",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Organized crime family",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "NYC",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Whitly family home",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "NYPD station",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "TV studio",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Prison",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Whitly family",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.75,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "NYPD",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Cardinale family",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.75,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "TV network",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.25,
+        "financial_scale": 1.0
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_1",
+      "relation": "works with"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "org_1",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "org_3",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "is a"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_3",
+      "target": "org_1",
+      "relation": "leads"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "mentor of"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "plays",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "plays",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "org_2",
+      "relation": "is"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "near to"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_0",
+      "relation": "is"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_0",
+      "relation": "operates in"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "investigates"
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_154",
+    "title": "Prodigal Son (season 2)",
+    "author": "Chris Fedak",
+    "year": 2021,
+    "medium": "TV Episode"
+  }
+}

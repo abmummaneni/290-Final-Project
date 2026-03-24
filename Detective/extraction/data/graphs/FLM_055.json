@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Holland March",
-      "label": "Private Eye",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.6,
@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Mrs. Glenn",
-      "label": "Client",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.3,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Jackson Healy",
-      "label": "Enforcer",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.5,

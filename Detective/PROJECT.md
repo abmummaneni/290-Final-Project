@@ -1,6 +1,6 @@
 # Detective Project — Comprehensive Handoff & Reference
 
-**Last updated:** 2026-03-22
+**Last updated:** 2026-03-23
 **Purpose:** Read this file at the start of any new chat to fully resume work on the Detective subproject. This is the single source of truth for project status, architecture, and next steps.
 
 ---
@@ -36,10 +36,8 @@ This is a multi-phase pipeline that builds a **heterogeneous knowledge graph dat
     ├── murder_mystery_candidates_v2.xlsx ← Master candidate list (755 entries)
     ├── requirements.txt                  ← Python deps for scraper/extraction
     ├── .env                              ← Contains ANTHROPIC_API_KEY (not used)
-    ├── FIX_SYN.txt                       ← Entries with low quality scores (< 0.7)
-    ├── FIX_MANUAL.txt                    ← Entries with no synopsis (274 remaining)
     │
-    ├── scraper/                          ← Phase 1: Synopsis scraping
+    ├── scraper/                          ← Phase 1: Synopsis scraping (COMPLETE)
     │   ├── __init__.py
     │   ├── main.py                       ← Entry point: python -m scraper.main --all
     │   ├── loader.py                     ← Loads xlsx, assigns entry IDs
@@ -47,14 +45,15 @@ This is a multi-phase pipeline that builds a **heterogeneous knowledge graph dat
     │   ├── cleaner.py                    ← Text cleaning
     │   └── validator.py                  ← Quality scoring (word count, characters, events, resolution)
     │
-    ├── extraction/                       ← Phase 2: Graph extraction from synopses
+    ├── extraction/                       ← Phase 2: Graph extraction (COMPLETE)
     │   ├── __init__.py
     │   ├── main.py                       ← Entry point: python -m extraction.main --all
     │   ├── extractor.py                  ← Two-pass Ollama extraction + edge normalization
     │   ├── prompt.py                     ← Pass 1 (nodes) and Pass 2 (edges) prompts
+    │   ├── normalize_labels.py           ← Label normalization script (run after extraction)
     │   └── data/
     │       ├── extraction_status.json    ← Tracks extraction status per entry
-    │       └── graphs/                   ← One .json per entry (graph data)
+    │       └── graphs/                   ← One .json per entry (576 graph files)
     │
     ├── data/
     │   ├── cleaned/                      ← One .txt per entry (cleaned synopsis text)
@@ -67,38 +66,58 @@ This is a multi-phase pipeline that builds a **heterogeneous knowledge graph dat
 
 ---
 
-## Current Status (2026-03-22)
+## Current Status (2026-03-23)
 
-### Phase 1: Synopsis Scraping — MOSTLY COMPLETE
+### Phase 1: Synopsis Scraping — COMPLETE
 
 | Status | Count | Description |
 |---|---|---|
-| SUCCESS | 348 | Good synopsis, deduplicated, eligible for extraction |
-| PARTIAL | 37 | Synopsis found but < 150 words |
-| NEEDS_MANUAL | 274 | No synopsis found — need manual input |
-| DUPLICATE | 96 | Duplicate titles removed (kept best quality version) |
+| SUCCESS | 576 | Good synopsis, extracted, graph available |
+| PARTIAL | 37 | Synopsis found but < 150 words (not extracted) |
+| DUPLICATE | 96 | Duplicate titles removed |
+| EXCLUDED | 46 | Not single-case oriented or extraction failed |
 
-#### Synopsis Quality (348 SUCCESS entries)
+### Phase 2: Graph Extraction — COMPLETE
 
-| Quality Range | Count |
-|---|---|
-| >= 0.7 (good) | 330 |
-| 0.4 - 0.7 (needs improvement) | 18 |
-
-### Phase 2: Graph Extraction — 339 of 348 DONE
-
-- **339 graphs extracted** so far (the original SUCCESS batch)
-- 9 newly scored entries (from latest manual synopsis additions) still need extraction
+- **576 graphs extracted** with zero failures
+- Labels normalized to 5 valid classes (Villain, Victim, Witness, Uninvolved, UNK)
 - Using **mixtral:8x7b** via local Ollama (two-pass approach)
-- Zero failures on last full run
-- Average: ~3.5 min per entry, ~33 edges per graph
+- Average: ~3 min per entry
 
-### Phase 3: Validation — NOT STARTED
+#### Dataset Statistics
 
-- Validate extracted JSON using a second LLM pass
-- Resolve conflicts and assemble final graph dataset
+| Metric | Mean | Median | Min | Max |
+|---|---|---|---|---|
+| Characters per graph | 10.2 | 9 | 1 | 45 |
+| Edges per graph | 27.5 | 24 | 1 | 254 |
+| Locations per graph | 5.1 | 5 | 0 | 17 |
+| Occupations per graph | 6.3 | 6 | 0 | 30 |
+| Organizations per graph | 2.7 | 3 | 0 | 9 |
 
-### Phase 4: Model Training — NOT STARTED
+#### Label Distribution (5,926 characters total)
+
+| Label | Count | % |
+|---|---|---|
+| Uninvolved | 2,944 | 49.7% |
+| Villain | 1,331 | 22.5% |
+| Victim | 1,044 | 17.6% |
+| Witness | 539 | 9.1% |
+| UNK | 68 | 1.1% |
+
+#### Known Minor Issues (acceptable for training)
+- **NOV_026** — has villain but no victim labeled
+- **TVE_081** (Murder on the Orient Express) — no single villain (all passengers are collectively guilty)
+- **2 entries** with no villain but have victim (NOV_026 edge case, TVE_081 by design)
+
+### Phase 3: Validation — COMPLETE
+
+- Label normalization applied via `extraction/normalize_labels.py`
+- Compound labels resolved by priority: Villain > Victim > Witness > Uninvolved > UNK
+- Non-standard labels (Suspect, Detective, Investigator, etc.) mapped to valid classes
+- Problematic extractions (3 entries) excluded after re-extraction attempts
+- All 576 remaining graphs validated for structural integrity
+
+### Phase 4: Model Training — NOT STARTED (NEXT STEP)
 
 - Convert graph JSONs into PyTorch Geometric format for αLoNGAE
 - Train for villain prediction, motivation prediction, hidden relationship detection
@@ -108,14 +127,23 @@ This is a multi-phase pipeline that builds a **heterogeneous knowledge graph dat
 
 ## What Needs to Happen Next
 
-### Step 1: Fill missing synopses (all team members)
-Work through `FIX_MANUAL.txt` (274 entries) and `FIX_SYN.txt` (18 low-quality entries). Place new/improved synopsis text directly in `data/cleaned/{ID}.txt`.
+### Step 1: Convert graphs to PyTorch Geometric format (team)
+Write a data loader that reads the 576 graph JSONs from `extraction/data/graphs/` and converts them to PyTorch Geometric `HeteroData` objects:
+- Build node feature matrices for each node type (character, occupation, location, organization)
+- Build adjacency tensors per relation type
+- Extract ground truth labels for villain prediction (character label field)
+- Handle UNK labels by masking them during training
 
-### Step 2: Re-score and re-extract (Max)
-After synopses are updated, run the re-scoring snippet (see below), then clear extraction status for updated entries and run extraction.
+### Step 2: Train αLoNGAE (team)
+- Implement the αLoNGAE architecture (reference: `Karate_Club/` notebooks)
+- Primary task: 4-class villain prediction (Villain, Victim, Witness, Uninvolved)
+- Secondary task: motivation prediction (motive_type feature)
+- Tertiary task: hidden relationship detection (link prediction)
+- Joint loss with per-instance masking (see graph schema §4.4)
 
-### Step 3: Train the model (team)
-Convert the graph JSONs to adjacency tensors + feature matrices. Train αLoNGAE. The `Karate_Club/` notebooks in the project root have working examples of graph autoencoders to build from.
+### Step 3: Run ablation study (team)
+10 model variants defined in the graph schema (§5):
+Baseline, AE-NoGraph, LoNGAE-NoFeatures, LoNGAE-Static, LoNGAE-Full, LoNGAE-Narrative, SingleTask, MultiTask, Undirected, SimpleGraph
 
 ---
 
@@ -142,7 +170,7 @@ pip install -r Detective/requirements.txt
 
 ## Key Operations
 
-### Running the scraper (Phase 1)
+### Running the scraper (Phase 1 — complete, for reference)
 ```bash
 cd /Users/maxdesantis/dev/290-Final-Project/Detective
 
@@ -151,66 +179,44 @@ python -m scraper.main --all
 
 # Single entry
 python -m scraper.main --id NOV_001
-
-# Only NEEDS_MANUAL entries
-python -m scraper.main --status NEEDS_MANUAL
-
-# Dry run
-python -m scraper.main --dry-run
 ```
 
-### Running graph extraction (Phase 2)
+### Running graph extraction (Phase 2 — complete, for reference)
 ```bash
 cd /Users/maxdesantis/dev/290-Final-Project/Detective
 
 # Single entry
 python -m extraction.main --id NOV_005
 
-# Batch of N entries
-python -m extraction.main --limit 50
-
 # All remaining (skips already-extracted)
-python -m extraction.main --all
-
-# Use caffeinate to prevent Mac sleep during long runs
 caffeinate -i python -m extraction.main --all
 ```
 
-### Re-scoring updated synopses
-When synopsis .txt files in `data/cleaned/` have been updated, re-score them and update the manifest:
+### Normalizing labels (run after any new extraction)
+```bash
+cd /Users/maxdesantis/dev/290-Final-Project/Detective
 
-```python
-import json
-from scraper.validator import score_synopsis
+# Dry run (preview changes)
+python -m extraction.normalize_labels --dry-run
 
-with open('data/manifest.json') as f:
-    m = json.load(f)
-
-for eid, info in sorted(m.items()):
-    if info['scrape_status'] in ('SUCCESS', 'PARTIAL', 'NEEDS_MANUAL'):
-        try:
-            with open(f'data/cleaned/{eid}.txt') as f2:
-                text = f2.read().strip()
-            wc = len(text.split())
-            if wc > info.get('word_count_cleaned', 0):
-                score = score_synopsis(text)
-                m[eid]['word_count_cleaned'] = wc
-                m[eid]['quality_score'] = score
-                m[eid]['scrape_status'] = 'SUCCESS' if wc >= 150 else 'PARTIAL'
-                m[eid]['needs_review'] = score < 0.4
-        except:
-            pass
-
-with open('data/manifest.json', 'w') as f:
-    json.dump(m, f, indent=2, ensure_ascii=False)
+# Apply changes
+python -m extraction.normalize_labels
 ```
 
-Then clear updated entries from `extraction/data/extraction_status.json` and re-run extraction.
-
-### Regenerating FIX_SYN.txt and FIX_MANUAL.txt
-These are worklists. Regenerate after re-scoring:
-- `FIX_SYN.txt` — SUCCESS entries with quality_score < 0.7
-- `FIX_MANUAL.txt` — NEEDS_MANUAL entries (no synopsis at all)
+### Re-extracting specific entries
+To re-extract an entry (e.g. after updating its synopsis):
+1. Delete the graph: `rm extraction/data/graphs/{ID}.json`
+2. Remove from extraction status:
+```python
+import json
+with open('extraction/data/extraction_status.json') as f:
+    s = json.load(f)
+del s['ENTRY_ID']
+with open('extraction/data/extraction_status.json', 'w') as f:
+    json.dump(s, f, indent=2)
+```
+3. Re-run: `python -m extraction.main --id ENTRY_ID`
+4. Re-normalize: `python -m extraction.normalize_labels`
 
 ---
 
@@ -300,25 +306,6 @@ Entries with quality_score < 0.4 are flagged `needs_review = true`.
 
 ---
 
-## Wikipedia Scraping Strategy
-
-### Primary: wikipedia-api library
-Search by title, fetch "Plot" / "Synopsis" / "Plot summary" etc. sections.
-
-### Section title variants (tried in order)
-Plot, Synopsis, Plot summary, Story, Storyline, Summary, Overview, Plot overview, Episode summary, Season summary
-
-### Fallback: requests + BeautifulSoup
-Direct HTML scraping of Wikipedia if the API returns empty.
-
-### TV/Podcast entries
-Many don't have their own pages — try the show's main page episode list. If nothing found, mark NEEDS_MANUAL.
-
-### Rate limiting
-0.5s delay between requests. `tenacity` for retries (3 attempts, exponential backoff).
-
----
-
 ## manifest.json Schema
 
 ```json
@@ -344,7 +331,7 @@ Many don't have their own pages — try the show's main page episode list. If no
 }
 ```
 
-Possible `scrape_status` values: `SUCCESS`, `PARTIAL`, `NEEDS_MANUAL`, `FAILED`, `DUPLICATE`
+Possible `scrape_status` values: `SUCCESS`, `PARTIAL`, `NEEDS_MANUAL`, `FAILED`, `DUPLICATE`, `EXCLUDED`
 
 ---
 
@@ -355,6 +342,7 @@ Possible `scrape_status` values: `SUCCESS`, `PARTIAL`, `NEEDS_MANUAL`, `FAILED`,
 - User puts updated synopses directly into `data/cleaned/{ID}.txt`
 - `data/raw/` has been deleted — `data/cleaned/` is the single source of truth
 - 96 duplicate entries marked DUPLICATE in manifest — do not re-extract these
+- 46 entries marked EXCLUDED — not single-case oriented or extraction failed
 - Max is running on M1 Max with 64GB RAM
 
 ---

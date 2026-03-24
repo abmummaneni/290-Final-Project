@@ -156,7 +156,7 @@
     {
       "id": "char_9",
       "name": "Archer",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0,
@@ -173,7 +173,7 @@
     {
       "id": "char_10",
       "name": "Mrs Lestrange",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -190,7 +190,7 @@
     {
       "id": "char_11",
       "name": "Dr Stone",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -207,7 +207,7 @@
     {
       "id": "char_12",
       "name": "Miss Cram",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.3,
@@ -258,7 +258,7 @@
     {
       "id": "char_15",
       "name": "Hawes",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.3,

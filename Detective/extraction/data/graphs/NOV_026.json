@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Monte Field",
-      "label": "Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.3,
@@ -14,7 +14,7 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.7
+        "narrative_prominence": 0.8
       }
     },
     {
@@ -27,11 +27,11 @@
         "narrative_introduction_timing": 0.2,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.6
+        "narrative_prominence": 0.5
       }
     },
     {
@@ -44,8 +44,8 @@
         "narrative_introduction_timing": 0.2,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
         "has_hidden_relationship": -1,
         "motive_type": -1,
         "narrative_prominence": 0.6
@@ -53,36 +53,104 @@
     },
     {
       "id": "char_3",
-      "name": "Gunplay! audience members",
+      "name": "Theatre audience members",
       "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Theatre staff",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Respectable married couple hiding a scandal",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
         "narrative_prominence": 0.3
       }
     },
     {
-      "id": "char_4",
-      "name": "Roman Theater staff",
+      "id": "char_6",
+      "name": "Businessman with a shady deal",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Blackmail victims of Monte Field",
       "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.5,
         "narrative_introduction_timing": 0.3,
         "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Cloakroom attendants",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.3
+        "narrative_prominence": 0.1
       }
     }
   ],
@@ -91,65 +159,74 @@
       "id": "occ_0",
       "name": "Lawyer",
       "features": {
-        "authority_level": 0.8,
-        "access_level": 0.6,
+        "authority_level": 0.6,
+        "access_level": 0.5,
         "capability_level": 0.7
       }
     },
     {
       "id": "occ_1",
-      "name": "Police Inspector",
+      "name": "Theatre staff",
       "features": {
-        "authority_level": 0.9,
-        "access_level": 0.8,
-        "capability_level": 0.7
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
       }
     },
     {
       "id": "occ_2",
-      "name": "Author",
+      "name": "Blackmail victim",
       "features": {
-        "authority_level": 0.4,
-        "access_level": 0.6,
-        "capability_level": 0.7
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
       }
     },
     {
       "id": "occ_3",
-      "name": "Theater Staff",
+      "name": "Detective",
       "features": {
-        "authority_level": 0.4,
-        "access_level": 0.6,
-        "capability_level": 0.5
-      }
-    },
-    {
-      "id": "occ_4",
-      "name": "Theater Audience",
-      "features": {
-        "authority_level": 0.2,
-        "access_level": 0.5,
-        "capability_level": 0.5
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
       }
     }
   ],
   "locations": [
     {
       "id": "loc_0",
-      "name": "Roman Theater",
+      "name": "Roman Theatre",
       "features": {
         "accessibility": 1,
-        "isolability": 0.3,
+        "isolability": 0.2,
         "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_1",
-      "name": "New York City",
+      "name": "Theatre aisle",
       "features": {
-        "accessibility": 0.9,
-        "isolability": 0.2,
-        "evidentiary_value": 0.3
+        "accessibility": 1,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Theatre cloakroom",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Theatre seats",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
       }
     }
   ],
@@ -162,51 +239,57 @@
       "directed": true
     },
     {
-      "source": "char_1",
-      "target": "occ_1",
-      "relation": "employs",
-      "directed": true
-    },
-    {
-      "source": "char_2",
-      "target": "occ_2",
-      "relation": "employs",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "loc_0",
-      "relation": "investigates at",
-      "directed": true
-    },
-    {
-      "source": "char_2",
-      "target": "loc_0",
-      "relation": "assists in investigating at",
-      "directed": true
-    },
-    {
       "source": "char_3",
-      "target": "occ_4",
-      "relation": "are",
-      "directed": false
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
     },
     {
       "source": "char_4",
       "target": "loc_0",
-      "relation": "work at",
+      "relation": "employed at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "blackmailed by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "blackmailed by",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "blackmailed by",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_3",
+      "relation": "leads",
       "directed": true
     },
     {
       "source": "char_0",
-      "target": "char_3",
-      "relation": "suspects",
+      "target": "loc_3",
+      "relation": "present at",
       "directed": true
     },
     {
-      "source": "char_0",
-      "target": "char_4",
-      "relation": "suspects",
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "investigates",
       "directed": true
     },
     {
@@ -216,9 +299,21 @@
       "directed": true
     },
     {
+      "source": "char_8",
+      "target": "loc_2",
+      "relation": "employed at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": true
+    },
+    {
       "source": "char_2",
-      "target": "char_0",
-      "relation": "identifies killer of",
+      "target": "char_3",
+      "relation": "interacts with",
       "directed": true
     }
   ],

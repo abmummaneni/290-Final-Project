@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Lisbeth Salander",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.3,

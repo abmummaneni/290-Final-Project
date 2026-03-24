@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Emory",
-      "label": "Protagonist|Investigator|Witness|Uninvolved|-1",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Niema",
-      "label": "Victim|Witness|Uninvolved|-1|-1",
+      "label": "Victim",
       "features": {
         "gender": -1,
         "social_status": 1,
@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Abi",
-      "label": "Villain|Witness|Uninvolved|-1|-1",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Clara",
-      "label": "Witness|Uninvolved|-1|-1",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Seth",
-      "label": "Witness|Uninvolved|-1|-1",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Hephaestus",
-      "label": "Villain|Witness|Uninvolved|-1|-1",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.8,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Thea",
-      "label": "Villain|Witness|Uninvolved|-1|-1",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.8,
@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Villagers",
-      "label": "Villain|Witness|Uninvolved|-1|-1",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.3,

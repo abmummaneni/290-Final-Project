@@ -1,0 +1,261 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Columbo",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Paula Goodman",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Student Radical",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Tenured Professor",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Powerful Dean",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Student",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Professor",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Dean",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Small Liberal-Arts College",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Campus Event",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Dean's Office",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 0.9
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "College",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "loc_0",
+      "target": "org_0",
+      "relation": "located at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "owns"
+    },
+    {
+      "source": "char_0",
+      "target": "occ_2",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "investigates"
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_022",
+    "title": "Columbo: Columbo Goes to College",
+    "author": "E.W. Swackhamer",
+    "year": 1990,
+    "medium": "TV Episode"
+  }
+}

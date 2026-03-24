@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Dan Merton",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Irena",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": 0,
         "social_status": 0.2,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Audrey Stancik",
-      "label": "Suspect|Uninvolved",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Rose Cutter",
-      "label": "Suspect|Victim",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.5,

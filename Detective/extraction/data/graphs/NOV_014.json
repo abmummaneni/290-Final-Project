@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Lord Peter Wimsey",
-      "label": "Investigator",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 1.0,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Inspector Charles Parker",
-      "label": "Investigator",
+      "label": "Uninvolved",
       "features": {
         "gender": -1,
         "social_status": 0.6,

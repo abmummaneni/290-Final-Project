@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Adnan Syed",
-      "label": "Villain|UNK",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Asia McClain",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": 1,
         "social_status": 0.5,

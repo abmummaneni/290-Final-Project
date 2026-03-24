@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "I. M. Fletcher",
-      "label": "Witness|Uninvolved|UNK",
+      "label": "Witness",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Alan Stanwyck",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 1.0,
@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Stanwyck's high school sweetheart",
-      "label": "Villain|Uninvolved",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Police chief",
-      "label": "Villain|Uninvolved",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.75,

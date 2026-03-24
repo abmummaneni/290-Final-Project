@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Harry Hole",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Katrine Bratt",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Rakel",
-      "label": "Victim|Witness",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Oleg",
-      "label": "Victim|Witness",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.1,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Dr. Mathias Lund-Helgesen",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Arve Støp",
-      "label": "Villain|Uninvolved",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.9,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Gert Rafto",
-      "label": "Uninvolved|Victim",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.5,

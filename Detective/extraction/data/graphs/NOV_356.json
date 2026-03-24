@@ -2,226 +2,184 @@
   "characters": [
     {
       "id": "char_0",
-      "name": "Flavia Sabina de Luce",
+      "name": "Flavia de Luce",
       "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.3,
+        "social_status": 0.2,
         "narrative_introduction_timing": 0.0,
         "has_alibi": 1,
         "present_at_crime_scene": 0,
-        "has_motive": 0,
-        "is_concealing_information": 0,
-        "has_hidden_relationship": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
         "motive_type": -1,
         "narrative_prominence": 1
       }
     },
     {
       "id": "char_1",
-      "name": "Ophelia de Luce",
-      "label": "Uninvolved",
+      "name": "Colonel Haviland de Luce",
+      "label": "Victim",
       "features": {
-        "gender": 1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.33,
-        "has_alibi": 1,
-        "present_at_crime_scene": 0,
-        "has_motive": 0,
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
         "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
+        "has_hidden_relationship": -1,
         "motive_type": -1,
         "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_2",
+      "name": "Ophelia de Luce",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
       "name": "Daphne de Luce",
       "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.67,
-        "has_alibi": 1,
-        "present_at_crime_scene": 0,
-        "has_motive": 0,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_3",
-      "name": "Colonel Haviland \"Jacko\" de Luce",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 1,
-        "narrative_introduction_timing": 0.2,
-        "has_alibi": 1,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": 0,
+        "has_motive": -1,
         "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
+        "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.5
+        "narrative_prominence": 0.3
       }
     },
     {
       "id": "char_4",
-      "name": "Harriet de Luce",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 1,
-        "social_status": 1,
-        "narrative_introduction_timing": 0.2,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": 0,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_5",
-      "name": "Arthur Wellesley Dogger",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.2,
-        "narrative_introduction_timing": 0.4,
-        "has_alibi": 1,
-        "present_at_crime_scene": 0,
-        "has_motive": 0,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_6",
-      "name": "Mrs. Mullet",
-      "label": "Witness",
-      "features": {
-        "gender": 1,
-        "social_status": 0.2,
-        "narrative_introduction_timing": 0.4,
-        "has_alibi": 1,
-        "present_at_crime_scene": 0,
-        "has_motive": 0,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_7",
-      "name": "Red-headed stranger (Horace \"Bony\" Bonepenny)",
-      "label": "Victim",
-      "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.8,
-        "has_alibi": -1,
-        "present_at_crime_scene": 1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_8",
-      "name": "Grenville Twining",
-      "label": "Victim",
-      "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_9",
       "name": "Inspector Hewitt",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.7,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": 0,
+        "has_motive": -1,
         "is_concealing_information": -1,
-        "has_hidden_relationship": 0,
+        "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.5
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Snipe (dead bird)",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Red-haired stranger (later identified as Horace Bonepenny)",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.6
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
-      "name": "Amateur chemist (speciality in poisons)",
+      "name": "Eleven-year-old girl",
       "features": {
-        "authority_level": 0.2,
-        "access_level": 0.5,
-        "capability_level": 1
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_1",
-      "name": "Housekeeper and cook",
+      "name": "Colonel (retired military officer)",
       "features": {
-        "authority_level": 0.2,
-        "access_level": 0.5,
-        "capability_level": 0.3
+        "authority_level": 0.9,
+        "access_level": 0.4,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_2",
-      "name": "Gardener",
+      "name": "Philatelist (stamp collector)",
       "features": {
-        "authority_level": 0.2,
+        "authority_level": 0.3,
         "access_level": 0.5,
-        "capability_level": 0.3
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_3",
-      "name": "Philatelist and former amateur illusionist",
+      "name": "Sisters (older sisters of Flavia)",
       "features": {
-        "authority_level": 0.5,
-        "access_level": 0.2,
-        "capability_level": 0.8
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
       }
     },
     {
       "id": "occ_4",
-      "name": "Latin scholar and housemaster",
+      "name": "Police Inspector",
       "features": {
-        "authority_level": 0.5,
-        "access_level": 0.5,
-        "capability_level": 0.8
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_5",
-      "name": "Police inspector",
+      "name": "Blackmailer",
       "features": {
-        "authority_level": 1,
+        "authority_level": 0.2,
+        "access_level": 0.6,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Poisoner",
+      "features": {
+        "authority_level": 0.1,
         "access_level": 0.5,
         "capability_level": 0.8
       }
@@ -230,199 +188,187 @@
   "locations": [
     {
       "id": "loc_0",
-      "name": "Buckshaw (country manor home)",
+      "name": "Buckshaw (manor house)",
       "features": {
-        "accessibility": 0.3,
-        "isolability": 0.2,
-        "evidentiary_value": 1
+        "accessibility": 0.4,
+        "isolability": 0.3,
+        "evidentiary_value": 0.7
       }
     },
     {
       "id": "loc_1",
-      "name": "Bishop's Lacey (English village)",
+      "name": "Cucumber garden (at Buckshaw)",
       "features": {
-        "accessibility": 0.8,
-        "isolability": 0.2,
-        "evidentiary_value": 0.5
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_2",
-      "name": "Greyminster (Colonel de Luce's alma mater)",
+      "name": "Philatelic world",
       "features": {
-        "accessibility": 0.6,
+        "accessibility": 0.3,
         "isolability": 0.4,
-        "evidentiary_value": 0.5
-      }
-    },
-    {
-      "id": "loc_3",
-      "name": "Cucumber patch",
-      "features": {
-        "accessibility": 0.8,
-        "isolability": 0.9,
-        "evidentiary_value": 1
-      }
-    },
-    {
-      "id": "loc_4",
-      "name": "Family library",
-      "features": {
-        "accessibility": 0.8,
-        "isolability": 0.6,
-        "evidentiary_value": 1
+        "evidentiary_value": 0.6
       }
     }
   ],
   "organizations": [
     {
       "id": "org_0",
-      "name": "Buckshaw's household",
+      "name": "de Luce family",
       "features": {
-        "institutional_power": 0.5,
-        "secrecy_level": 0.2,
-        "financial_scale": 0.3
+        "institutional_power": 0.3,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.4
       }
     },
     {
       "id": "org_1",
-      "name": "Bishop's Lacey police department",
+      "name": "Local police department",
       "features": {
-        "institutional_power": 1,
+        "institutional_power": 0.8,
         "secrecy_level": 0.2,
         "financial_scale": 0.5
       }
     },
     {
       "id": "org_2",
-      "name": "Greyminster school",
+      "name": "Philatelic community",
       "features": {
-        "institutional_power": 1,
-        "secrecy_level": 0.4,
-        "financial_scale": 0.5
+        "institutional_power": 0.4,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.3
       }
     }
   ],
   "edges": [
     {
       "source": "char_0",
+      "target": "occ_0",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_0",
+      "relation": "is related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "is related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_4",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "discovered by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_5",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
       "target": "char_1",
-      "relation": "in conflict with",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_1",
+      "relation": "employed by",
       "directed": true
     },
     {
       "source": "char_0",
-      "target": "occ_0",
-      "relation": "employed as",
-      "directed": false
+      "target": "char_1",
+      "relation": "lives with",
+      "directed": true
     },
     {
       "source": "char_0",
       "target": "loc_0",
       "relation": "resides at",
-      "directed": false
-    },
-    {
-      "source": "char_1",
-      "target": "char_0",
-      "relation": "in conflict with",
       "directed": true
     },
     {
-      "source": "char_1",
-      "target": "char_3",
-      "relation": "related to",
+      "source": "char_0",
+      "target": "occ_6",
+      "relation": "investigates",
       "directed": true
     },
     {
-      "source": "char_2",
-      "target": "char_0",
-      "relation": "related to",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_4",
-      "relation": "spouse of",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_1",
-      "relation": "related to",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_2",
-      "relation": "related to",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_0",
-      "relation": "related to",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "loc_0",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "occ_2",
-      "relation": "employed as",
-      "directed": false
-    },
-    {
-      "source": "char_6",
-      "target": "loc_0",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "char_3",
-      "relation": "in conflict with",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "loc_3",
-      "relation": "present at",
-      "directed": false
-    },
-    {
-      "source": "char_8",
-      "target": "org_2",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_8",
-      "target": "occ_4",
-      "relation": "employed as",
-      "directed": false
-    },
-    {
-      "source": "char_9",
+      "source": "char_0",
       "target": "org_1",
-      "relation": "leads",
+      "relation": "affiliated with",
       "directed": true
     },
     {
-      "source": "loc_0",
-      "target": "loc_1",
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "loc_0",
       "relation": "near to",
       "directed": false
     },
     {
-      "source": "loc_3",
-      "target": "loc_0",
-      "relation": "near to",
-      "directed": false
+      "source": "org_2",
+      "target": "org_1",
+      "relation": "related to",
+      "directed": true
     }
   ],
   "metadata": {

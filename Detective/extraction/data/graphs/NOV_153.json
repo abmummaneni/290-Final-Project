@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Carl Hallman",
-      "label": "Villain|UNK",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.8,
@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "Carl's older brother",
-      "label": "Victim|UNK",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.8,
@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Carl's father (a Senator)",
-      "label": "Victim|UNK",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.9,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Carl's mother",
-      "label": "Victim|UNK",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.8,

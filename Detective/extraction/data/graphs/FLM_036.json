@@ -3,7 +3,7 @@
     {
       "id": "char_0",
       "name": "Leonard Shelby",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Natalie",
-      "label": "Witness|Villain",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Jimmy Grantz",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -156,7 +156,7 @@
     {
       "id": "char_9",
       "name": "Teddy (John Edward Gammell)",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 0,
         "social_status": 0.7,
@@ -173,7 +173,7 @@
     {
       "id": "char_10",
       "name": "Jane Doe (police officer)",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": 1,
         "social_status": 0.5,

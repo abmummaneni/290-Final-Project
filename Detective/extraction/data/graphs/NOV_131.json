@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Poirot",
-      "label": "Detective",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.75,
@@ -37,7 +37,7 @@
     {
       "id": "char_2",
       "name": "James Bentley",
-      "label": "Villain|Victim",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.25,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Lily Gamboll",
-      "label": "Villain|Witness|UNK",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.25,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Eva Kane",
-      "label": "Villain|Witness|UNK",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Arthur Craig",
-      "label": "Uninvolved|Victim",
+      "label": "Victim",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -139,7 +139,7 @@
     {
       "id": "char_8",
       "name": "Maude Williams",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.25,
@@ -173,7 +173,7 @@
     {
       "id": "char_10",
       "name": "Deirdre Henderson",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -207,7 +207,7 @@
     {
       "id": "char_12",
       "name": "Mrs Upward",
-      "label": "Victim|Witness",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.75,
@@ -224,7 +224,7 @@
     {
       "id": "char_13",
       "name": "Robin Upward",
-      "label": "Villain|Uninvolved",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.75,
@@ -241,7 +241,7 @@
     {
       "id": "char_14",
       "name": "Eve Carpenter",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -258,7 +258,7 @@
     {
       "id": "char_15",
       "name": "Shelagh Rendell",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -275,7 +275,7 @@
     {
       "id": "char_16",
       "name": "Edna",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.25,
@@ -292,7 +292,7 @@
     {
       "id": "char_17",
       "name": "Ariadne Oliver",
-      "label": "Witness|Uninvolved",
+      "label": "Witness",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -326,7 +326,7 @@
     {
       "id": "char_19",
       "name": "Dr Rendell",
-      "label": "Uninvolved|Villain",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -343,7 +343,7 @@
     {
       "id": "char_20",
       "name": "Mrs Craig",
-      "label": "Uninvolved|Victim",
+      "label": "Victim",
       "features": {
         "gender": -1,
         "social_status": 0.5,
@@ -360,7 +360,7 @@
     {
       "id": "char_21",
       "name": "Eva's child",
-      "label": "Uninvolved|Victim",
+      "label": "Victim",
       "features": {
         "gender": -1,
         "social_status": 0.25,

@@ -20,7 +20,7 @@
     {
       "id": "char_1",
       "name": "Sophie",
-      "label": "Villain|Witness",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 1,
@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Emma",
-      "label": "Victim|Witness",
+      "label": "Victim",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -88,7 +88,7 @@
     {
       "id": "char_5",
       "name": "Greg",
-      "label": "Victim|Suspect",
+      "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 1,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Jordan",
-      "label": "Villain|Suspect",
+      "label": "Villain",
       "features": {
         "gender": 1,
         "social_status": 0.5,
@@ -122,7 +122,7 @@
     {
       "id": "char_7",
       "name": "Max",
-      "label": "Suspect|Uninvolved",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.5,

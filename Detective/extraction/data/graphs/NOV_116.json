@@ -2,145 +2,172 @@
   "characters": [
     {
       "id": "char_0",
-      "name": "Fen",
+      "name": "Gervase Fen",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.7,
+        "social_status": 0.8,
         "narrative_introduction_timing": 0.0,
-        "has_alibi": -1,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.9
+        "narrative_prominence": 1.0
       }
     },
     {
       "id": "char_1",
-      "name": "Captain Watkyns",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.2,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_2",
-      "name": "Owner of the inn",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 1,
-        "social_status": 0.4,
-        "narrative_introduction_timing": 0.3,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.3
-      }
-    },
-    {
-      "id": "char_3",
-      "name": "Escaped lunatic",
-      "label": "Uninvolved",
-      "features": {
-        "gender": -1,
-        "social_status": -1,
-        "narrative_introduction_timing": 0.5,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.3
-      }
-    },
-    {
-      "id": "char_4",
-      "name": "Mr. Judd",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.6,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.4
-      }
-    },
-    {
-      "id": "char_5",
-      "name": "Bussy",
+      "name": "Doris",
       "label": "Victim",
       "features": {
-        "gender": 0,
-        "social_status": 0.7,
-        "narrative_introduction_timing": 0.8,
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
         "has_alibi": -1,
         "present_at_crime_scene": 0,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.6
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Brenda Nutting",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Lunatic",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Major",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Vicar",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_6",
-      "name": "Wolfe",
+      "name": "Local farmers",
       "label": "Uninvolved",
       "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.9,
-        "has_alibi": -1,
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.4
+        "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_7",
-      "name": "Humbleby",
+      "name": "Various curious women of the village",
       "label": "Uninvolved",
       "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.9,
-        "has_alibi": -1,
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.4
+        "narrative_prominence": 0.1
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
+      "name": "Professor of English Language and Literature",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
       "name": "Politician",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Innkeeper",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Local police",
       "features": {
         "authority_level": 0.7,
         "access_level": 0.5,
@@ -148,35 +175,8 @@
       }
     },
     {
-      "id": "occ_1",
-      "name": "Election agent",
-      "features": {
-        "authority_level": 0.4,
-        "access_level": 0.5,
-        "capability_level": 0.6
-      }
-    },
-    {
-      "id": "occ_2",
-      "name": "Inn owner",
-      "features": {
-        "authority_level": 0.3,
-        "access_level": 0.5,
-        "capability_level": 0.4
-      }
-    },
-    {
-      "id": "occ_3",
-      "name": "Lunatic",
-      "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
-      }
-    },
-    {
       "id": "occ_4",
-      "name": "Writer of detective novels",
+      "name": "Farmer",
       "features": {
         "authority_level": 0.3,
         "access_level": 0.5,
@@ -185,105 +185,96 @@
     },
     {
       "id": "occ_5",
-      "name": "Police officer",
+      "name": "Vicar",
       "features": {
-        "authority_level": 0.7,
-        "access_level": 0.8,
-        "capability_level": 0.9
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Escaped lunatic",
+      "features": {
+        "authority_level": 0.0,
+        "access_level": 0.5,
+        "capability_level": 0.2
       }
     }
   ],
   "locations": [
     {
       "id": "loc_0",
-      "name": "Country constituency",
+      "name": "Sanford Morven",
       "features": {
-        "accessibility": 0.5,
+        "accessibility": 0.7,
         "isolability": 0.3,
-        "evidentiary_value": 0.4
+        "evidentiary_value": 0.5
       }
     },
     {
       "id": "loc_1",
-      "name": "Village pub",
+      "name": "Local inn",
       "features": {
-        "accessibility": 0.6,
-        "isolability": 0.3,
-        "evidentiary_value": 0.4
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.6
       }
     },
     {
       "id": "loc_2",
-      "name": "Inn",
+      "name": "Village",
       "features": {
-        "accessibility": 0.6,
+        "accessibility": 0.8,
         "isolability": 0.3,
-        "evidentiary_value": 0.4
+        "evidentiary_value": 0.5
       }
     },
     {
       "id": "loc_3",
-      "name": "Nearby country house",
+      "name": "Rural English village",
       "features": {
-        "accessibility": 0.5,
-        "isolability": 0.7,
-        "evidentiary_value": 0.4
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
       }
     },
     {
       "id": "loc_4",
-      "name": "Golf club",
+      "name": "Nearby asylum",
       "features": {
-        "accessibility": 0.6,
-        "isolability": 0.5,
-        "evidentiary_value": 0.7
-      }
-    },
-    {
-      "id": "loc_5",
-      "name": "Police station",
-      "features": {
-        "accessibility": 0.8,
-        "isolability": 0.4,
-        "evidentiary_value": 0.7
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 0.3
       }
     }
   ],
   "organizations": [
     {
       "id": "org_0",
-      "name": "Political party (independent)",
+      "name": "University of Oxford",
       "features": {
-        "institutional_power": 0.6,
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Local police department",
+      "features": {
+        "institutional_power": 0.7,
         "secrecy_level": 0.3,
         "financial_scale": 0.5
       }
     },
     {
-      "id": "org_1",
-      "name": "Local police force",
-      "features": {
-        "institutional_power": 0.8,
-        "secrecy_level": 0.3,
-        "financial_scale": 0.7
-      }
-    },
-    {
       "id": "org_2",
-      "name": "Scotland Yard",
-      "features": {
-        "institutional_power": 0.9,
-        "secrecy_level": 0.3,
-        "financial_scale": 0.8
-      }
-    },
-    {
-      "id": "org_3",
-      "name": "Lunatic asylum",
+      "name": "Criminal operation",
       "features": {
         "institutional_power": 0.6,
-        "secrecy_level": 0.5,
-        "financial_scale": 0.4
+        "secrecy_level": 0.9,
+        "financial_scale": 0.7
       }
     }
   ],
@@ -295,124 +286,190 @@
       "directed": true
     },
     {
-      "source": "char_1",
-      "target": "occ_1",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_2",
-      "target": "loc_2",
-      "relation": "owns",
-      "directed": true
-    },
-    {
       "source": "char_0",
-      "target": "loc_2",
+      "target": "loc_1",
       "relation": "resides at",
       "directed": true
     },
     {
-      "source": "char_3",
-      "target": "occ_3",
-      "relation": "labeled as",
+      "source": "char_0",
+      "target": "occ_1",
+      "relation": "runs for",
       "directed": true
     },
     {
-      "source": "char_3",
-      "target": "org_3",
-      "relation": "incarcerated at",
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "campaigns in",
       "directed": true
     },
     {
-      "source": "char_4",
+      "source": "char_1",
       "target": "occ_4",
       "relation": "employed as",
       "directed": true
     },
     {
+      "source": "char_1",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_2",
+      "relation": "connected to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_2",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_4",
+      "relation": "escaped from",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "wanders through",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_5",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
       "source": "char_5",
       "target": "occ_5",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "org_2",
-      "relation": "affiliated with",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "loc_5",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "org_1",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "char_0",
-      "relation": "acquainted with",
+      "relation": "employs",
       "directed": true
     },
     {
       "source": "char_5",
       "target": "loc_2",
-      "relation": "present at",
+      "relation": "resides at",
       "directed": true
     },
     {
       "source": "char_6",
-      "target": "char_0",
-      "relation": "works with",
+      "target": "occ_4",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "resides at",
       "directed": true
     },
     {
       "source": "char_7",
-      "target": "char_0",
-      "relation": "works with",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "char_6",
-      "relation": "investigates",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "char_0",
-      "relation": "requests assistance from",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "char_5",
-      "relation": "kills",
+      "target": "loc_2",
+      "relation": "resides at",
       "directed": true
     },
     {
       "source": "char_0",
-      "target": "char_5",
-      "relation": "discovers body of",
+      "target": "char_1",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "identifies",
       "directed": true
     },
     {
       "source": "char_0",
       "target": "char_3",
-      "relation": "suspects",
+      "relation": "encounters",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "meets",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "meets",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "meets",
       "directed": true
     },
     {
       "source": "char_0",
       "target": "char_7",
-      "relation": "hires",
+      "relation": "meets",
       "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "killed by",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "suspected by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "org_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "org_1",
+      "target": "loc_2",
+      "relation": "located at",
+      "directed": false
     }
   ],
   "metadata": {

@@ -1,0 +1,462 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Nancy Drew",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Carson Drew",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Ryan Hudson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Ace",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Bess",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "George Fan",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Nick",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Aglaeca",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Founding families of Horseshoe Bay",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Frozen Hearts Killer",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Drew Catering Company employee",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "High school student",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Sea spirit",
+      "features": {
+        "authority_level": -1,
+        "access_level": 1.0,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Founding family member of Horseshoe Bay",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Murderer",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.4,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Horseshoe Bay",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Drew household",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Hudson mansion",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "High school",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Sea",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Historical sites of Horseshoe Bay",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Hudson family",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Drew Catering Company",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.4
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Horseshoe Bay founding families",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Horseshoe Bay police department",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.4
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Frozen Hearts Killer's organization",
+      "features": {
+        "institutional_power": -1,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_0",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_2",
+      "relation": "owns"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "related to"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_3",
+      "relation": "attends"
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_3",
+      "relation": "is"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_8",
+      "target": "org_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_0",
+      "relation": "near to"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_5",
+      "relation": "is"
+    },
+    {
+      "source": "char_9",
+      "target": "org_4",
+      "relation": "leads"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "operates in"
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_152",
+    "title": "Nancy Drew (TV series) season 2",
+    "author": "Noga Landau",
+    "year": 2021,
+    "medium": "TV Episode"
+  }
+}

@@ -54,7 +54,7 @@
     {
       "id": "char_3",
       "name": "Aggie",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.25,
@@ -71,7 +71,7 @@
     {
       "id": "char_4",
       "name": "Mrs Ruddle",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.25,
@@ -105,7 +105,7 @@
     {
       "id": "char_6",
       "name": "Local police constable",
-      "label": "Suspect",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.5,
