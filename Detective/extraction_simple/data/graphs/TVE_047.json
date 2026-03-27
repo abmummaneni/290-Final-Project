@@ -1,0 +1,208 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Elinor Carlisle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Roddy Welman",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Mary Gerrard",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Laura Welman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Nurse Hopkins",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Gerrard the lodge keeper",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "David Suchet",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "David Moore",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 1.0,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_047",
+    "title": "Poirot: Sad Cypress",
+    "author": "David Moore",
+    "year": 2003,
+    "medium": "TV Episode"
+  },
+  "graph_stats": {
+    "num_characters": 8,
+    "num_edges": 9,
+    "max_raw_weight": 4.0
+  }
+}

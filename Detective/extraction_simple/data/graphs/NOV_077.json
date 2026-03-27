@@ -1,0 +1,575 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Nero Wolfe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Archie Goodwin",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Marko Vukcic",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Jerome Berin",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Philip Laszio",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Barry Tolman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Louis Servan",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Leon Blanc",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Dina",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Raymond Liggett",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Alberto Malfi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Paul Whipple",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Constanza Berin",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_10",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_11",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_2",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_2",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_3",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_3",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_4",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_6",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_7",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "weight": 0.75,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "weight": 0.75,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "weight": 1.0,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_077",
+    "title": "Too Many Cooks",
+    "author": "Rex Stout",
+    "year": 1938,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 13,
+    "num_edges": 56,
+    "max_raw_weight": 4.0
+  }
+}

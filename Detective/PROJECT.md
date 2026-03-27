@@ -46,15 +46,21 @@ This is a multi-phase pipeline that builds a **heterogeneous knowledge graph dat
     │   ├── cleaner.py                    ← Text cleaning
     │   └── validator.py                  ← Quality scoring (word count, characters, events, resolution)
     │
-    └── extraction/                       ← Phase 2: Graph extraction code + checked-in outputs
+    ├── extraction/                       ← Phase 2: Graph extraction code + checked-in outputs
+    │   ├── __init__.py
+    │   ├── main.py                       ← Entry point: python -m extraction.main --all
+    │   ├── extractor.py                  ← Two-pass Ollama extraction + edge normalization
+    │   ├── prompt.py                     ← Pass 1 (nodes) and Pass 2 (edges) prompts
+    │   ├── normalize_labels.py           ← Label normalization script (run after extraction)
+    │   └── data/
+    │       ├── extraction_status.json    ← Tracks extraction status per entry
+    │       └── graphs/                   ← One .json per entry (576 heterogeneous graph files)
+    │
+    └── extraction_simple/                ← Simplified character-only graphs (for spectral baseline)
         ├── __init__.py
-        ├── main.py                       ← Entry point: python -m extraction.main --all
-        ├── extractor.py                  ← Two-pass Ollama extraction + edge normalization
-        ├── prompt.py                     ← Pass 1 (nodes) and Pass 2 (edges) prompts
-        ├── normalize_labels.py           ← Label normalization script (run after extraction)
+        ├── build_simple_graphs.py        ← Builds simple graphs from heterogeneous graphs
         └── data/
-            ├── extraction_status.json    ← Tracks extraction status per entry
-            └── graphs/                   ← One .json per entry (576 graph files)
+            └── graphs/                   ← One .json per entry (576 simple graph files)
 ```
 
 **Checked-in snapshot note:** This repo currently includes the extracted graph corpus under `extraction/data/graphs/`, but does not include the scraper runtime artifacts (`data/manifest.json`, `data/cleaned/`, `logs/`) that existed during the original pipeline runs.
@@ -129,6 +135,50 @@ Top relation types in the checked-in graph corpus:
 - **2 entries** with no villain but have victim (NOV_026 edge case, TVE_081 by design)
 - **Status file mismatch** — `extraction/data/extraction_status.json` lists 578 `SUCCESS` entries, but only 576 graph files are present; stale IDs are `SHO_018` and `SHO_019`
 
+### Phase 2b: Simple Graphs (Spectral Baseline) — COMPLETE
+
+Built from the existing heterogeneous graphs (no re-extraction needed). Located in `extraction_simple/data/graphs/`.
+
+**Purpose:** Provide a simpler graph representation for spectral analysis / Laplacian eigenmaps as a baseline comparison. We hypothesize the full relational (heterogeneous) graph will significantly outperform this simplified version.
+
+**Structure:**
+- **Nodes:** Characters only, with all 10 features preserved
+- **Edges:** Weighted, undirected, between character pairs
+- **Weights** combine two sources:
+  1. Direct character-character relationships (count of distinct relation types)
+  2. Shared context — characters connected to the same location, organization, or occupation each add +1
+- Weights are **normalized to [0,1] within each graph** (divided by max weight)
+
+**Data cleaning:**
+- UNK sentinel values (-1) replaced with **0** in all features
+- String motive types mapped to numeric: jealousy=0.25, money/financial=0.5, revenge/power=0.75, love=0.25
+- Non-parseable values default to 0
+
+**Regenerate with:**
+```bash
+python -m extraction_simple.build_simple_graphs
+```
+
+#### Simple Graph Statistics
+
+| Metric | Mean | Median | Min | Max |
+|---|---|---|---|---|
+| Characters per graph | 10.3 | 9 | 3 | 45 |
+| Edges per graph | 13.6 | 11 | 0 | 79 |
+| Edge weights | 0.53 | 0.50 | 0.008 | 1.0 |
+
+#### Simple Graph JSON Structure
+
+Each file in `extraction_simple/data/graphs/{ID}.json`:
+```json
+{
+  "characters": [{"id": "char_0", "name": "...", "label": "Villain", "features": {"gender": 0.0, ...}}],
+  "edges": [{"source": "char_0", "target": "char_1", "weight": 0.75, "raw_weight": 3.0}],
+  "metadata": {"entry_id": "...", "title": "...", ...},
+  "graph_stats": {"num_characters": 8, "num_edges": 12, "max_raw_weight": 4.0}
+}
+```
+
 ### Phase 3: Validation — COMPLETE
 
 - Label normalization applied via `extraction/normalize_labels.py`
@@ -142,6 +192,7 @@ Top relation types in the checked-in graph corpus:
 - Convert graph JSONs into PyTorch Geometric format for αLoNGAE
 - Train for villain prediction, motivation prediction, hidden relationship detection
 - Run ablation study variants defined in the graph schema
+- Run spectral baseline (Laplacian eigenmaps) on simple graphs for comparison
 - Reconcile `extraction_status.json` with the checked-in graph corpus before automating around it
 
 ---

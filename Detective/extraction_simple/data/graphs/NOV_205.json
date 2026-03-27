@@ -1,0 +1,192 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Lew Archer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Alexandra Sebastian",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Mr. Sebastian",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mrs. Sebastian",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Davy Spanner",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Harlan Bledsoe",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.1818,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.3636,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 0.1818,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "weight": 0.0909,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 11.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_205",
+    "title": "The Instant Enemy",
+    "author": "Ross Macdonald",
+    "year": 1968,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 6,
+    "num_edges": 12,
+    "max_raw_weight": 11.0
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Homer Wycherly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Phoebe Wycherly",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Archer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Bobby Doncaster",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Catherine Wycherly",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Ben Merriman",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Carl Trevor",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Stanley Quillan",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Phoebe (impersonating Catherine)",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 0.75,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "weight": 0.75,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "weight": 1.0,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_157",
+    "title": "The Wycherly Woman",
+    "author": "Ross Macdonald",
+    "year": 1961,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 9,
+    "num_edges": 18,
+    "max_raw_weight": 4.0
+  }
+}

@@ -1,0 +1,597 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Mr Shaitana",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Colonel Race",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mrs Ariadne Oliver",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Superintendent Battle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Dr Roberts",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mrs Lorrimer",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Anne Meredith",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Major Despard",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Rhoda Dawes",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Husband of one of Dr Roberts' patients",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9375,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Botanist that Despard had been guiding through the Amazon",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9375,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Elderly woman for whom Anne was acting as companion",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9375,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Window-cleaner",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Hired actor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_13",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.8,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_13",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_14",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_7",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_12",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 5.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_12",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_8",
+      "weight": 1.0,
+      "raw_weight": 5.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_6",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_7",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_2",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_3",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 5.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_6",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_7",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_8",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_8",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "weight": 0.8,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "weight": 1.0,
+      "raw_weight": 5.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_056",
+    "title": "Cards on the Table",
+    "author": "Agatha Christie",
+    "year": 1936,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 15,
+    "num_edges": 54,
+    "max_raw_weight": 5.0
+  }
+}
