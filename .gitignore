@@ -47,3 +47,6 @@ htmlcov/
 
 # Mypy
 .mypy_cache/
+.conda-env/
+
+.conda-env/
