@@ -1,0 +1,710 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Jerome 'Jerry' Lundegaard",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Jean Lundegaard",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Wade Gustafson",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Gaear Grimsrud",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Carl Showalter",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Shep Proudfoot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "State Trooper",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.55,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Passersby",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.56,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Marge Gunderson",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Mike Yanagita",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Stan Grossman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.65,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Norm Gunderson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Garage Attendant",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Executive Sales Manager",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Car Dealer",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Mechanic",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Parolee",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Kidnapper",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Police Chief",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Accountant",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Artist",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Garage Attendant",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Minneapolis Car Dealership",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.3,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Fargo Bar",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Remote Cabin in Moose Lake",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Brainerd (City)",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Brainerd Police Station",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.3,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Minneapolis Apartment",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.3,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Parking Garage in Minneapolis",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Highway Near Moose Lake",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Motel Outside Bismarck, North Dakota",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.3
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Car Dealership Owned by Wade Gustafson",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Moose Lake Criminals",
+      "features": {
+        "institutional_power": -1,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Brainerd Police Department",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Minneapolis Police Department",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Mallard Painting Competition",
+      "features": {
+        "institutional_power": -1,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "United States Postal Service",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "married to"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "label"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "owns"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "associated with"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "associated with"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "recommends"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "label"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_3",
+      "relation": "present at"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_5",
+      "relation": "label"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_4",
+      "relation": "present at"
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_8",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_10",
+      "target": "char_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_11",
+      "target": "occ_8",
+      "relation": "label"
+    },
+    {
+      "source": "char_12",
+      "target": "loc_6",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "hires"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "hires"
+    },
+    {
+      "source": "char_6",
+      "target": "char_4",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_3",
+      "relation": "near to"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_8",
+      "target": "char_4",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_8",
+      "target": "char_3",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "demands ransom from"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "kidnaps"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "owns"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "kidnaps"
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "discovers deception"
+    },
+    {
+      "source": "char_0",
+      "target": "char_12",
+      "relation": "indirectly kills"
+    },
+    {
+      "source": "char_4",
+      "target": "char_12",
+      "relation": "indirectly kills"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "indirectly kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "relation": "deceives"
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_028",
+    "title": "Fargo",
+    "author": "Coen Brothers",
+    "year": 1996,
+    "medium": "Film"
+  }
+}

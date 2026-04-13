@@ -1,0 +1,866 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Prince Ali Yusuf",
+      "label": "UNK",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Bob Rawlinson",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Jennifer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Joan",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Miss Bulstrode",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Miss Chadwick",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Miss Vansittart",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Miss Rich",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Miss Johnson",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Miss Angèle Blanche",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Grace Springer",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Ann Shapland",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Adam Goodman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Julia Upjohn",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Mrs. Upjohn (Mrs. Summerhayes)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Shaista",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Miss Rich's suitor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_18",
+      "name": "Mr. Robinson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_19",
+      "name": "Prince Ali Yusuf's secret wife",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Prince",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Pilot",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Niece of a pilot",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Sister of a pilot",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Headmistress",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Co-founder of a school",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Mathematics teacher",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "German teacher",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "English Literature teacher",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Girl's matron",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "French teacher",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Gym teacher",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Secretary",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Gardener",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_14",
+      "name": "British Intelligence agent",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_15",
+      "name": "School girl",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_16",
+      "name": "Aunt of a school girl",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_17",
+      "name": "Espionage agent",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_18",
+      "name": "Secret wife of a prince",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Ramat (Middle Eastern city-state)",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Meadowbank School (England)",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Sports pavilion",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.3,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Jennifer's room",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Julia's room",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Hercule Poirot's residence",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Meadowbank School",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "British Intelligence",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Prince Ali Yusuf's family",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Espionage group seeking Prince Ali Yusuf's jewels",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_15",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_4",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_6",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_8",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_9",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_10",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "occ_11",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "occ_17",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "occ_14",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "occ_15",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "occ_14",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_13",
+      "relation": "is aunt of",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "char_16",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_14",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_18",
+      "target": "org_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_19",
+      "target": "char_0",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "occ_0",
+      "relation": "is located at",
+      "directed": false
+    },
+    {
+      "source": "loc_1",
+      "target": "org_0",
+      "relation": "is",
+      "directed": false
+    },
+    {
+      "source": "loc_2",
+      "target": "loc_1",
+      "relation": "is part of",
+      "directed": false
+    },
+    {
+      "source": "loc_3",
+      "target": "char_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "loc_4",
+      "target": "char_13",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "loc_5",
+      "target": "char_14",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "org_0",
+      "target": "char_4",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_5",
+      "relation": "co-founded by",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_6",
+      "relation": "teaches at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_7",
+      "relation": "teaches at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_8",
+      "relation": "teaches at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_9",
+      "relation": "teaches at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_10",
+      "relation": "teaches at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_11",
+      "relation": "present at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_12",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "char_13",
+      "relation": "studies at",
+      "directed": false
+    },
+    {
+      "source": "org_1",
+      "target": "char_12",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "org_1",
+      "target": "char_17",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "char_0",
+      "relation": "is family of",
+      "directed": false
+    },
+    {
+      "source": "org_3",
+      "target": "char_11",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "org_3",
+      "target": "char_16",
+      "relation": "kidnaps",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_154",
+    "title": "Cat Among the Pigeons",
+    "author": "Agatha Christie",
+    "year": 1959,
+    "medium": "Novel"
+  }
+}

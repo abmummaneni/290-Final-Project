@@ -1,0 +1,841 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Alex Cross",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "John Sampson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Chief of Detectives Pittman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Sanders family (mother, daughter, toddler son)",
+      "label": "Victim",
+      "features": {
+        "gender": 0.33,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Gary Soneji",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Maggie-Rose Dunne",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Michael Goldberg",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jezzie Flanagan",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Michael's parents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Maggie-Rose's parents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Secret Service agents assigned to Michael Goldberg",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Mayor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Gary Murphy (door-to-door salesman)",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": -0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Delaware door-to-door salesman",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": -0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Gary's defense attorney",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Prison guard who helped Gary escape",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Jezzie's ex-boyfriend",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Native Bolivian family near the Andes Mountains",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": -0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Psychologist and police detective",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Police partner",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Chief of Detectives",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Secret Service agent",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "FBI agent",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Hostage rescue team supervisor",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Math teacher",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Door-to-door salesman",
+      "features": {
+        "authority_level": -0.25,
+        "access_level": 0.5,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Prison guard",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Defense attorney",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Judge",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.25,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Executioner",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.25,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Washington, D.C.",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Washington Southeast (poor neighborhood)",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.5,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Children's school",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "River in Maryland",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Florida (business location)",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Disney World",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Private plane",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Private airport in South Carolina",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Delaware (salesman area)",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_9",
+      "name": "Pennsylvania (McDonald's location)",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_10",
+      "name": "Virginia prison",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_11",
+      "name": "Caribbean getaway",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_12",
+      "name": "Bolivian native family location near the Andes Mountains",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_13",
+      "name": "White House (cornering location)",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Washington, D.C. police department",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Secret Service",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "FBI",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Hostage rescue team",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Courts and justice system",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Prison system",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_6",
+      "relation": "employs as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_2",
+      "relation": "studies at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "studies at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "kidnaps",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "relation": "kidnaps",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_5",
+      "relation": "employs as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_6",
+      "relation": "parents of",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_5",
+      "relation": "parents of",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_9",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "boss of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "demands",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_1",
+      "relation": "demands",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_3",
+      "relation": "body found near",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "occ_7",
+      "relation": "employs as",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_4",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_5",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "occ_7",
+      "relation": "employs as",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_13",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_4",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "testifies against",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_4",
+      "relation": "helps escape",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_15",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "char_7",
+      "relation": "ex-boyfriend of",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_5",
+      "relation": "hosts",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_13",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "attacks",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_210",
+    "title": "Along Came a Spider",
+    "author": "James Patterson",
+    "year": 1993,
+    "medium": "Novel"
+  }
+}

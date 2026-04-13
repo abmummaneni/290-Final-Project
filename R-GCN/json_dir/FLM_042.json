@@ -1,0 +1,1795 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Brendan Frye",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Emily Kostich",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Brain",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Kara",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Laura Dannon",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Brad Bramish",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Dode",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "The Pin",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 1,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Tug",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "High school student",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.5,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Drug addict",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.375,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Drug kingpin",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "School administrator",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "High school",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Tunnel",
+      "features": {
+        "accessibility": 0.375,
+        "isolability": 0.875,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Pin's house",
+      "features": {
+        "accessibility": 0.375,
+        "isolability": 0.625,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "School parking lot",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Tug's bedroom",
+      "features": {
+        "accessibility": 0.375,
+        "isolability": 0.625,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "School football field",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Drug operation",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.75,
+        "financial_scale": 0.875
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "relation": "leads",
+      "target": "org_0",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "relation": "romantically involved with",
+      "target": "char_1",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "ex-girlfriend of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_1",
+      "relation": "discovered by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_2",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_5",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_0",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "girlfriend of",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "boyfriend of",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "attacks",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "discovered by",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_6",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "faints",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "pregnant with child of",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "father of unborn child",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "killed by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "hides body in",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_1",
+      "relation": "body found at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "takes to house of",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "informs about murder of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "manipulated by",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_042",
+    "title": "Brick",
+    "author": "Rian Johnson",
+    "year": 2005,
+    "medium": "Film"
+  }
+}

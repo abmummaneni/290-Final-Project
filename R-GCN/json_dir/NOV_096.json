@@ -1,0 +1,237 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Penny Parker",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Anthony Parker",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Louise",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Eccentric elderly woman (rumored witch)",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Small group of criminals",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Newspaper editor",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Teenage girl",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Eccentric old woman",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Criminals",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Riverview (town)",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Old house (haunted)",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.75
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_1",
+      "relation": "is"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "is"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "is"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "is"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_3",
+      "relation": "is"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "exploits"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "related to"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_096",
+    "title": "Tale of the Witch Doll",
+    "author": "Mildred Wirt Benson",
+    "year": 1939,
+    "medium": "Novel"
+  }
+}

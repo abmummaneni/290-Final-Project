@@ -1,0 +1,457 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Pippa Fitz-Amobi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Sal Singh",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Ravi Singh",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Andie Bell",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Max Hastings",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Mr. Elliot Ward",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Cara Ward",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Becca Bell",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Isla",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "High School Student",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "History Teacher",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Little Kilton, Buckinghamshire",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Pip's Home",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Farmhouse Near Pip's Home",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Mr. Ward's Home",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 1.0
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Little Kilton High School",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Little Kilton Police Department",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_5",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_5",
+      "relation": "kidnaps",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "rapes",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "strangles",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_431",
+    "title": "A Good Girl's Guide to Murder",
+    "author": "Holly Jackson",
+    "year": 2019,
+    "medium": "Novel"
+  }
+}

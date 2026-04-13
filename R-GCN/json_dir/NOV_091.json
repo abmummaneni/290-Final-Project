@@ -1,0 +1,388 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Arlena Marshall",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Patrick Redfern",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Christine Redfern",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Emily Brewster",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Inspector Colgate",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Linda Marshall",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Edward Corrigan",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.0
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Alice Corrigan",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.0
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Local teacher",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.0
+      }
+    }
+  ],
+  "occupations": [],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Secluded hotel in Devon",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Pixy Cove",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Hidden cave near Pixy Cove",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Gull Cove",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Surrey Police",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "vacationing with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "interviewed"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "interviewed"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "interviewed"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "interviewed"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "flirting with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "married to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "married to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "rowing with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "married to"
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "relation": "equals"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "equals"
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "equals"
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "relation": "employed by"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_2",
+      "relation": "staying at"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_3",
+      "relation": "staying at"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_4",
+      "relation": "staying at"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_5",
+      "relation": "visited by"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_6",
+      "relation": "staying at"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_1",
+      "relation": "found dead at"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_2",
+      "relation": "searched for body at"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_3",
+      "relation": "suspected of killing at"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_4",
+      "relation": "rowed around"
+    },
+    {
+      "source": "loc_2",
+      "target": "char_1",
+      "relation": "body found in"
+    },
+    {
+      "source": "loc_2",
+      "target": "char_3",
+      "relation": "impersonated body at"
+    },
+    {
+      "source": "loc_3",
+      "target": "char_6",
+      "relation": "attempted suicide at"
+    },
+    {
+      "source": "org_0",
+      "target": "char_7",
+      "relation": "investigated by"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_091",
+    "title": "Evil Under the Sun",
+    "author": "Agatha Christie",
+    "year": 1941,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,550 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Denis Brooks",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Gervase Fen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Geoffrey Vintner",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Frances Butler",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Dr Butler",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "July Savernake",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Harry James",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Frances Butler (revealed as a Nazi sympathizer and Devil-worshiper)",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Sir John Dallow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Organist",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Composer",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Curate",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Landlord of the local pub",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Cathedral Chancellor",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Tolnbridge in Devon",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Small cathedral city of Tolnbridge",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Cathedral's clergy-house",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Cathedral",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Ancient tomb in the cathedral",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Department store in London",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Train from Paddington",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.4
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Cathedral people",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.4
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Suspected enemy spy ring",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Nazi sympathizers and Devil-worshippers",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_4",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_2",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_5",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_6",
+      "relation": "travelling on",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "sends telegram to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "loc_4",
+      "target": "loc_3",
+      "relation": "located in",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "attacks",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "falls in love with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_4",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_1",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "attacks",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_109",
+    "title": "Holy Disorders",
+    "author": "Edmund Crispin",
+    "year": 1945,
+    "medium": "Novel"
+  }
+}

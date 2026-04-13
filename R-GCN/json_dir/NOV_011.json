@@ -1,0 +1,344 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Arthur Hastings",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "John Cavendish",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Mary Cavendish",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Emily Inglethorp",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Alfred Inglethorp",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Lawrence Cavendish",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Cynthia Murdoch",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.33,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Evelyn Howard",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.33,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Inspector Japp",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.67,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.67,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Styles Court in Essex",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "The nearby village of Styles St Mary",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Styles household",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Inspector Japp's investigation team",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "org_0",
+      "relation": "owns",
+      "directed": false
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "lives with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": false
+    },
+    {
+      "source": "char_8",
+      "target": "org_1",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_4",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_4",
+      "relation": "aids",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_4",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_4",
+      "relation": "exonerates",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "arrests",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_4",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "deceives",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_011",
+    "title": "The Mysterious Affair at Styles",
+    "author": "Agatha Christie",
+    "year": 1920,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,403 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Susan Ryeland",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Andreas",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Lawrence Treherne",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Pauline Treherne",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Cecily Treherne",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Alan Conway",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Frank Parris",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Stefan Codrescu",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Aiden",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "hotel owner",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "editor",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "writer",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "sex worker",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "police detective",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Crete",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.1
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Branlow Hall hotel",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "England",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "hotel room",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "train station",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Branlow Hall hotel staff",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "police department",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "hotel industry",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "lives with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "spouse of",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "relation": "spouse of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "blackmailed by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_6",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_3",
+      "relation": "formerly employed as",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_4",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "org_1",
+      "relation": "investigated by",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "loc_1",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_1",
+      "target": "occ_0",
+      "relation": "located at",
+      "directed": false
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_380",
+    "title": "Moonflower Murders",
+    "author": "Anthony Horowitz",
+    "year": 2020,
+    "medium": "Novel"
+  }
+}

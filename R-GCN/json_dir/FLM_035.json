@@ -1,0 +1,351 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Tom Ripley",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Herbert Greenleaf",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Dickie Greenleaf",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Marge Sherwood",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Freddie Miles",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Shipping Magnate",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Confidence Man",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Writer",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "School Friend",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Private Detective",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "New York City",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Mongibello (Positano)",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "San Remo",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Rome",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Venice",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Outskirts of Rome",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Greece",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Greenleaf Shipping",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "acquaintance with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "hires"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "becomes friends with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_3",
+      "relation": "school friend of"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "obsessed with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "imitates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "travels to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_5",
+      "relation": "disposes body near"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_4",
+      "relation": "moves to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "contemplates murdering"
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "inherits from"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_4",
+      "relation": "present at"
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "discovers rings of"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "saves from murder"
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_035",
+    "title": "The Talented Mr. Ripley",
+    "author": "Anthony Minghella",
+    "year": 1999,
+    "medium": "Film"
+  }
+}

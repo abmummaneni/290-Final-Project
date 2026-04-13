@@ -1,0 +1,865 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Curtis Flowers",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Bertha Tardy",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Robert Golden",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Derrick Stewart",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Carmen Rigby",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Doug Evans",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Odell Hallmon",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Madeleine Baran",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Curtis Lovelace",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Tardy Furniture store employees",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Winona residents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Mississippi Supreme Court judges",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Jurors in Curtis Flowers's trials",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Mississippi Bureau of Investigation agents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Local police in Winona",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Tardy Furniture store customers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Tardy Furniture store owner",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Criminal justice system of Winona, Mississippi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_18",
+      "name": "Curtis Flowers's defense attorneys",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_19",
+      "name": "Criminal justice system of Mississippi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_20",
+      "name": "Curtis Flowers's family members",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_21",
+      "name": "Mississippi Supreme Court justices",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_22",
+      "name": "Criminal justice system of the United States",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_23",
+      "name": "U.S. Supreme Court justices",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_24",
+      "name": "Podcast listeners",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_25",
+      "name": "Criminal justice experts and scholars",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_26",
+      "name": "Civil rights organizations and activists",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_27",
+      "name": "Criminal justice system of the United States' history",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_28",
+      "name": "Mississippi's history of racial bias and discrimination",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_29",
+      "name": "Podcast production team and journalists",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_30",
+      "name": "Criminal justice system of Mississippi's history",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_31",
+      "name": "Mississippi's Fifth Circuit Court District residents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_32",
+      "name": "Tardy Furniture store owner's family members",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_33",
+      "name": "Tardy Furniture store employees' family members",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_34",
+      "name": "Winona's racial divide and history",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_35",
+      "name": "Criminal justice system of Mississippi's current state",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_36",
+      "name": "Mississippi's District Attorneys and their election processes",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_37",
+      "name": "Criminal justice system of the United States' current state",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_38",
+      "name": "Mississippi's jury selection processes and history",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_39",
+      "name": "Criminal appeals courts and their roles in the justice system",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_40",
+      "name": "Criminal justice system's reliance on eyewitness accounts and testimonies",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_41",
+      "name": "Criminal justice system's use of forensic evidence and its limitations",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_42",
+      "name": "Criminal justice system's handling of alternative suspects and leads",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_43",
+      "name": "Criminal justice system's treatment of race and its impact on the process",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_44",
+      "name": "Criminal justice system's role in investigating and prosecuting crimes",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [],
+  "locations": [],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "incarcerated with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "reverses conviction of",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_0",
+      "relation": "jurors in trials of",
+      "directed": true
+    },
+    {
+      "source": "char_18",
+      "target": "char_0",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_20",
+      "target": "char_0",
+      "relation": "family members of",
+      "directed": true
+    },
+    {
+      "source": "char_21",
+      "target": "char_0",
+      "relation": "reverses conviction of",
+      "directed": true
+    },
+    {
+      "source": "char_23",
+      "target": "char_0",
+      "relation": "decides on case of",
+      "directed": true
+    },
+    {
+      "source": "char_25",
+      "target": "char_0",
+      "relation": "analyzes case of",
+      "directed": true
+    },
+    {
+      "source": "char_26",
+      "target": "char_0",
+      "relation": "advocates for",
+      "directed": true
+    },
+    {
+      "source": "char_32",
+      "target": "char_1",
+      "relation": "family members of",
+      "directed": true
+    },
+    {
+      "source": "char_33",
+      "target": "char_2",
+      "relation": "family members of",
+      "directed": true
+    },
+    {
+      "source": "char_33",
+      "target": "char_3",
+      "relation": "family members of",
+      "directed": true
+    },
+    {
+      "source": "char_33",
+      "target": "char_4",
+      "relation": "family members of",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "POD_017",
+    "title": "In the Dark: Season 2",
+    "author": "APM Reports",
+    "year": 2018,
+    "medium": "Podcast"
+  }
+}

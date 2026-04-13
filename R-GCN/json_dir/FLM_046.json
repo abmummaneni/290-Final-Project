@@ -1,0 +1,696 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Anton Chigurh",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Sheriff's Deputy",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Gas Station Owner",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Llewelyn Moss",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Carla Jean Moss",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Terrell County Sheriff Ed Tom Bell",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mexican Gas Station Owner",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Carson Wells",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Mexican Hospital Nurse",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Ellis",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Hitman",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 1.0
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Sheriff's Deputy",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Gas Station Owner",
+      "features": {
+        "authority_level": 0.0,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Hunter",
+      "features": {
+        "authority_level": 0.0,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Bounty Hunter",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Sheriff",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.75,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Nurse",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Relative and Former Lawman",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Texas",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Sheriff's Office",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Desert",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 1.0,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Motel in Del Rio",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Hotel in Eagle Pass",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Mexican Hospital",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Mexican Hotel",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Motel in El Paso",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Rio Grande",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 1.0,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_9",
+      "name": "Crime Scene Motel Room",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_10",
+      "name": "Carla Jean's Bedroom",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_11",
+      "name": "Mountain Pass",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 1.0,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Drug Cartel",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.5,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Sheriff's Department",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Mexican Hospital",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Mexican Hotel",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Mexican Law Enforcement",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_5",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_6",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_6",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_4",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_6",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_5",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_5",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_7",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "org_1",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "spares",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "married to",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "hired by",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "offers protection to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "relatives of",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_9",
+      "relation": "informs about danger to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_8",
+      "relation": "hides money at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_3",
+      "relation": "searches for money at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_6",
+      "relation": "visits hospital to treat wounds",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "visits in hospital to offer protection",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "ambushes and kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "calls to threaten",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_7",
+      "relation": "meets at motel in el paso",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_9",
+      "relation": "present at crime scene",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_9",
+      "relation": "visits crime scene",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_9",
+      "relation": "enters room through blown out lock",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_9",
+      "relation": "informs about death of moss",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_9",
+      "relation": "visits crime scene again",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_046",
+    "title": "No Country for Old Men",
+    "author": "Coen Brothers",
+    "year": 2007,
+    "medium": "Film"
+  }
+}

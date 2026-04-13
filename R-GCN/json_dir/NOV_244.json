@@ -1,0 +1,262 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Thomas Lynley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Barbara Havers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Terry Cole",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Nicola Maiden",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Andy Maiden",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Julian Britton",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Police Detective",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Retired Police Detective",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "High-End Sex Worker",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Camping Enthusiast",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.6,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Derbyshire Moors",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 1,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "London",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "London Metropolitan Police",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_1",
+      "relation": "formerly employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_0",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "works with",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_244",
+    "title": "In Pursuit of the Proper Sinner",
+    "author": "Elizabeth George",
+    "year": 1999,
+    "medium": "Novel"
+  }
+}

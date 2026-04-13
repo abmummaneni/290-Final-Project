@@ -1,0 +1,426 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Buddy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Pa",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Ma",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Will",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Granny",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Pop",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Catherine",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Billy Clanton",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Moira",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Minister",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Worker",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.3,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Minister",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Criminal",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.4,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Belfast",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "England",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Church",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.4,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Sweet Shop",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.6,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Supermarket",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Hospital",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Protestant Loyalists",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Ulster Loyalists",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "British Army",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.3,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Police",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_016",
+    "title": "Belfast",
+    "author": "Kenneth Branagh",
+    "year": 1978,
+    "medium": "Film"
+  }
+}

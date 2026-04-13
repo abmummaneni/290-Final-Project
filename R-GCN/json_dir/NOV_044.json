@@ -1,0 +1,795 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Guffy Randall",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Albert Campion",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Eager-Wright",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Farquharson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Savanake",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Lugg",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Scatty Williams",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Mary Fitton",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Amanda Fitton",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Hal Fitton",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Aunt Hattie",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Peaky Doyle",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Dr Galley",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.3
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "friend",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "mountaineer",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "prospector",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "minor royalty",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "innkeeper",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "mill worker",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "medic",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "thief",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "policeman",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "army officer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "French hotel",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "continent",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "village of Pontisbright in Suffolk",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "local inn, the Gauntlett",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "local mill",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Norwich museum",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "old Pontisbright bell in a foreign convent",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "old well",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "foreign convent",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_9",
+      "name": "Galley's house",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_10",
+      "name": "camouflaged boat prepared by Amanda",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_11",
+      "name": "tree",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_12",
+      "name": "mill-pond",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_13",
+      "name": "rotten walkway",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_14",
+      "name": "waterwheel",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "team seeking proof of British rights",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "adversaries headed by a secretive financier named Savanake",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "group of associates working with Campion",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "police force",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "army",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "government",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "employer of",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "employer of",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "org_0",
+      "relation": "leader of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "servant of",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_10",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_10",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_10",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_8",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_4",
+      "relation": "associate of",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "loc_5",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_8",
+      "relation": "treats",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_11",
+      "relation": "heals",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "org_0",
+      "relation": "opposes",
+      "directed": true
+    },
+    {
+      "source": "loc_3",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_4",
+      "target": "char_7",
+      "relation": "employer of",
+      "directed": true
+    },
+    {
+      "source": "loc_4",
+      "target": "char_8",
+      "relation": "employer of",
+      "directed": true
+    },
+    {
+      "source": "loc_4",
+      "target": "char_9",
+      "relation": "employer of",
+      "directed": true
+    },
+    {
+      "source": "loc_4",
+      "target": "char_6",
+      "relation": "lives with",
+      "directed": false
+    },
+    {
+      "source": "loc_5",
+      "target": "char_8",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "loc_6",
+      "target": "loc_12",
+      "relation": "contains",
+      "directed": false
+    },
+    {
+      "source": "loc_7",
+      "target": "char_11",
+      "relation": "finds",
+      "directed": true
+    },
+    {
+      "source": "loc_9",
+      "target": "char_12",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "org_0",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": false
+    },
+    {
+      "source": "org_1",
+      "target": "char_4",
+      "relation": "leader of",
+      "directed": true
+    },
+    {
+      "source": "org_3",
+      "target": "char_11",
+      "relation": "arrests",
+      "directed": true
+    },
+    {
+      "source": "org_3",
+      "target": "char_12",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "org_4",
+      "target": "loc_2",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "org_5",
+      "target": "org_4",
+      "relation": "controls",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_044",
+    "title": "Sweet Danger",
+    "author": "Margery Allingham",
+    "year": 1933,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Agatha Troy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Roderick Alleyn",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Sonia Gluck",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Wolf Garcia",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Basil Pilgrim",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Valmai Seacliff",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Cedric Malmsley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Watt Hatchett",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Francis Ormerin",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Bobbie",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Inspector Fox",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Nigel Bathgate",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Painter",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Scotland Yard Inspector",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Sculptor",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Art Model",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Art Student",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Friend of Peer",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Journalist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Passenger Ship",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Troy's Home and Studio (Tatler's End)",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "London",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.1,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Holloway (claimed warehouse location)",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Brixton District Warehouse",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 1.0
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Scotland Yard",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Peer's Family",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_5",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "had past dalliances and flirtations with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_5",
+      "relation": "had past dalliances and flirtations with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_5",
+      "relation": "had past dalliances and flirtations with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_2",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "blackmailed by",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "relationship type",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "detests the career of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "org_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "paints",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "discovers the body of",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "father of unborn child of",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "informs about",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "pays for silence of",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "places knife under throne of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "watches garcia place knife under throne of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "helps transport statue of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "shoves onto knife",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_071",
+    "title": "Artists in Crime",
+    "author": "Ngaio Marsh",
+    "year": 1938,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Erica Falck",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Patrik Hedström",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Alexandra Wijkner",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Henrik Wijkner",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Nelly Lorentz",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Various Fjällbacka children",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Various Fjällbacka adults",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Writer of true crime biographical books",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Detective with the Fjällbacka police",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Wealthy man from a prominent Gothenburg family",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Matriarchal figure in the Fjällbacka community",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Fjällbacka",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Alexandra Wijkner's bathtub",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "married to"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "victims of"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "married to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "kills"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "relation": "relatives of"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_259",
+    "title": "The Ice Princess",
+    "author": "Camilla Läckberg",
+    "year": 2002,
+    "medium": "Novel"
+  }
+}

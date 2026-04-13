@@ -1,0 +1,533 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Lady Tressilian",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Nevile Strange",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Kay Strange",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Audrey Strange",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Thomas Royde",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Ted Latimer",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mr Treves",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.66,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Mary Aldin",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Angus MacWhirter",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Adrian Royde",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Lady of the Manor",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 1,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Tennis Star",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Long-time family friend",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Actor",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Retired Solicitor",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Lady's Companion",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Drycleaner",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Police Superintendent",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Gull's Point",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Seaside home at Gull's Point",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Nearby hotels",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Cliff where Angus MacWhirter attempted suicide",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Attic in Gull's Point",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Local newspapers",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Motor launch",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "owns"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "married to"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "ex-spouse of"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "long-time family friend of"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "married to"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "ex-spouse of"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "long-time family friend of"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "employs"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_3",
+      "relation": "near to"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_5",
+      "relation": "present at"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "kills"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "discovered by"
+    },
+    {
+      "source": "char_8",
+      "target": "char_3",
+      "relation": "protects"
+    },
+    {
+      "source": "char_8",
+      "target": "char_1",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_9",
+      "target": "char_5",
+      "relation": "romantically involved with"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_107",
+    "title": "Towards Zero",
+    "author": "Agatha Christie",
+    "year": 1944,
+    "medium": "Novel"
+  }
+}

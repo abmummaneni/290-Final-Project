@@ -1,0 +1,405 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Arthur Bryant",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "John May",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Raymond Land",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Ruth Singh",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Thomas Wallace",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Kallie Wallace",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Nathalie Soth",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Local CID",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Various residents of Balaklava Street",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Specialists and eccentrics",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 1.0,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Long-term resident",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Newcomer to the street",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Property developer",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Urban historian/archaeologist/hydrologist",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Balaklava Street",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Ruth Singh's house",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.5,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Underground watercourse/river",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "King's Cross St. Pancras regeneration area",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Peculiar Crimes Unit (PCU)",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.75,
+        "evidentiary_value": 0.75
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Peculiar Crimes Unit (PCU)",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.75,
+        "financial_scale": 0.25
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "London Metropolitan Police",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Property development companies",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.5,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Urban history/archaeology societies",
+      "features": {
+        "institutional_power": 0.25,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.25
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_1",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "married to",
+      "directed": false
+    },
+    {
+      "source": "char_4",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "gains access to via underground watercourse",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_4",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "loc_1",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "org_2",
+      "target": "loc_0",
+      "relation": "interested in developing",
+      "directed": true
+    },
+    {
+      "source": "org_3",
+      "target": "loc_2",
+      "relation": "studies",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_313",
+    "title": "The Water Room",
+    "author": "Christopher Fowler",
+    "year": 2004,
+    "medium": "Novel"
+  }
+}

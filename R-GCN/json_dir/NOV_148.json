@@ -1,0 +1,769 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Elspeth McGillicuddy",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Jane Marple",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Lucy Eyelesbarrow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Luther Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Luther's father",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Edmund Crackenthorpe",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Edith Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Alexander Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Cedric Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Harold Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Alfred Crackenthorpe",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "money",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Emma Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Bryan Eastley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "James Stoddart-West",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Dr Quimper",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "love",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Lady Stoddart-West",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Inspector Craddock",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Miss Marple",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "housekeeper",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "widower",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "biscuit manufacturer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "painter",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "businessman",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "doctor",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "freelance housekeeper",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "murderer",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "police inspector",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "amateur detective",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "train",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Rutherford Hall",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "France (World War II)",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "London",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "barn on the property",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "ballet troupe",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Resistance (France)",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Rutherford Hall household",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "British police force",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "French Resistance",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.1
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "British military (World War II)",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "British school system",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "occ_5",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "formerly employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_11",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_5",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_12",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_7",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "occ_9",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "loc_5",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "org_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "loc_6",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "org_3",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_4",
+      "relation": "found in",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_14",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_14",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_5",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_14",
+      "relation": "business partner of",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_10",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_12",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_9",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_8",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_7",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_6",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_3",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_14",
+      "relation": "discovers",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_148",
+    "title": "4:50 from Paddington",
+    "author": "Agatha Christie",
+    "year": 1957,
+    "medium": "Novel"
+  }
+}

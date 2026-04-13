@@ -1,0 +1,602 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Lew Archer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Tony Torres",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "George Wall",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "revenge",
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Clarence Bassett",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Hester Campbell/Wall",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Gabrielle Torres",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Manuel (Lance)",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Carl Stern",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.35
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Simon Graff",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.55,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Isobel Graff",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "jealousy",
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Rina Campbell",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Leroy Frost",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "money",
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Dr Frey",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Gateman",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Club Manager",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Diver",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Exhibition Diver",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Gangster",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Front Man",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Partner in Studio",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Member of Studio",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Schizophrenic Patient",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Security Head",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Doctor",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Channel Club on Malibu Beach",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Private grounds of Channel Club",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Beverly Hills house",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Lance's home",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Las Vegas hospital",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Helio-Graff Studios in Hollywood",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Channel Club party",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Channel Club",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Syndicate",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Helio-Graff Studios",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Stern's gang",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "married to"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "hires"
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "employs"
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "relation": "related to"
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "works with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "works with"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_5",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_7",
+      "target": "org_1",
+      "relation": "leads"
+    },
+    {
+      "source": "char_8",
+      "target": "org_2",
+      "relation": "leads"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_9",
+      "relation": "labeled as"
+    },
+    {
+      "source": "char_9",
+      "target": "char_5",
+      "relation": "kills"
+    },
+    {
+      "source": "char_9",
+      "target": "char_4",
+      "relation": "complicit in killing"
+    },
+    {
+      "source": "char_10",
+      "target": "char_4",
+      "relation": "related to"
+    },
+    {
+      "source": "char_10",
+      "target": "char_2",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_11",
+      "target": "org_2",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_11",
+      "target": "char_9",
+      "relation": "works with"
+    },
+    {
+      "source": "char_12",
+      "target": "occ_11",
+      "relation": "employed as"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "org_0",
+      "target": "loc_0",
+      "relation": "located at"
+    },
+    {
+      "source": "org_1",
+      "target": "char_7",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_2",
+      "target": "loc_5",
+      "relation": "located at"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_147",
+    "title": "The Barbarous Coast",
+    "author": "Ross Macdonald",
+    "year": 1956,
+    "medium": "Novel"
+  }
+}

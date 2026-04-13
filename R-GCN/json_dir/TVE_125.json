@@ -1,0 +1,488 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "The Professor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Tokyo",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Berlin",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Rio",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Moscow",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Denver",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Nairobi",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Oslo",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Helsinki",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Arturo Román",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Mónica Gaztambide",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.35,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Raquel Murillo",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Mastermind",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.9,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Robber",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Hostage",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Police Negotiator",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Royal Mint of Spain",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Professor's hideout",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.9,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Police Station",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Heist Team",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.9,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Spanish Police",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_1",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "related to"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_11",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_1",
+      "relation": "hacks for"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "tunnels into"
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "related to"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_1",
+      "relation": "manages printing operation"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_1",
+      "relation": "works with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "works with"
+    },
+    {
+      "source": "char_9",
+      "target": "char_2",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_10",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "mistress of"
+    },
+    {
+      "source": "char_10",
+      "target": "char_5",
+      "relation": "pregnant by"
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "discovers identity"
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "loc_0",
+      "target": "org_1",
+      "relation": "location of"
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "relation": "witnessed death"
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "mortally wounded"
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "relation": "protects"
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "chooses to protect"
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_125",
+    "title": "Money Heist: Season 1",
+    "author": "Álex Pina",
+    "year": 2017,
+    "medium": "TV Episode"
+  }
+}

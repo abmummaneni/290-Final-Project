@@ -1,0 +1,486 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Detective Inspector Alec Hardy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Detective Sergeant Ellie Miller",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Danny Latimer",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mark Latimer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Beth Latimer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Chloe Latimer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Joe Miller",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Olly Stevens",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Karen White",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Jack Marshall",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.35,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Susan Wright",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "The Reverend Paul Coates",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.65,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Steve Connelly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective Inspector",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Detective Sergeant",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Plumber",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Newsagent",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Local Clergyman",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Reclusive Woman",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Tabloid Journalist",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Local Journalist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Broadchurch",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Beach",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Cliff",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Caravan on the Cliff",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Local Newspaper Office",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.1,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "London",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.1,
+        "evidentiary_value": 0.2
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Dorset Police",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Broadchurch Community",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Local Newspaper",
+      "features": {
+        "institutional_power": 0.1,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "National Tabloid",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_7",
+      "relation": "employed by org_3",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_6",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_3",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_3",
+      "target": "loc_0",
+      "relation": "located at",
+      "directed": true
+    },
+    {
+      "source": "org_0",
+      "target": "loc_0",
+      "relation": "located at",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "char_7",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "org_3",
+      "target": "char_8",
+      "relation": "employs",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_095",
+    "title": "Broadchurch: Season 1",
+    "author": "James Strong",
+    "year": 2013,
+    "medium": "TV Episode"
+  }
+}

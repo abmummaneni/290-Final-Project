@@ -1,0 +1,287 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Inspector Morse",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Sergeant Lewis",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Victim in Oxford",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Australian Police",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Community of British Emigrants",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Individuals in the Community",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Killer",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "British Emigrant",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Australian Police",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Oxford",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Adelaide, South Australia",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "British Emigrant Community in Adelaide",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.75
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "subordinate",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_0",
+      "relation": "victim of",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": false
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": false
+    },
+    {
+      "source": "char_4",
+      "target": "loc_2",
+      "relation": "owns",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_1",
+      "relation": "employs as",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "investigates",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_027",
+    "title": "Morse: Promised Land",
+    "author": "John Madden",
+    "year": 1991,
+    "medium": "TV Episode"
+  }
+}

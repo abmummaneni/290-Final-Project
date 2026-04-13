@@ -1,0 +1,652 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Derace Kingsley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Crystal Kingsley",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Chris Lavery",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Philip Marlowe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Al Degarmo",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Dr Almore",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Muriel Chess",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.55,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Bill Chess",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.55,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Mildred Haviland",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Dr Almore's wife",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Mrs Fallbrook",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Kingsley's secretary",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Dr Almore's parents-in-law",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Drunk driving detective",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Mrs Degarmo",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Businessman",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Private Investigator",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Doctor",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Nurse",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Los Angeles",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Bay City",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Little Fawn Lake",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.9,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Kingsley's vacation cabin",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Lavery's house",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Dr Almore's house",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Detective's home",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Apartment where Marlowe meets Crystal",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Police Department",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Kingsley's company",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "spouse of",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_5",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_14",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_5",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_4",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_9",
+      "relation": "parents of",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_8",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "loc_6",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "interviews",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "interferes with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "relation": "identifies",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_10",
+      "relation": "interviews",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_12",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_14",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_3",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_4",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_5",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_103",
+    "title": "The Lady in the Lake",
+    "author": "Raymond Chandler",
+    "year": 1943,
+    "medium": "Novel"
+  }
+}

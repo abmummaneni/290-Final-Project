@@ -1,0 +1,285 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Sir Charles Cartwright",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Reverend Babbington",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Egg Lytton Gore",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Oliver Manders",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Mr. Bartholomew Strange",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Actor",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 1.0,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Clergyman",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Detective",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.8,
+        "capability_level": 1.0
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Young Woman",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.8,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Doctor",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Cornwall (house)",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Dinner Party",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "formerly employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "witnessed by",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "killed by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "discovered by",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "hires",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_082",
+    "title": "Poirot: Three Act Tragedy",
+    "author": "Ashley Pearce",
+    "year": 2010,
+    "medium": "TV Episode"
+  }
+}

@@ -1,0 +1,521 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Armand Gamache",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Jean-Guy Beauvoir",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Constance Ouellet",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Superintendent Francoeur",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "money",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Inspector Jean-Guy Beauvoir",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "manipulation",
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Agent Isabelle Lacoste",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Myrna Landers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Gabri and Olivier",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Ruth Zardo",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Clara Morrow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Peter",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Ouellet Quintuplets",
+      "label": "UNK",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Dionne Quintuplets",
+      "label": "UNK",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Chief Inspector of the Sûreté du Québec's homicide division",
+      "features": {
+        "authority_level": 1,
+        "access_level": 1,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Inspector of the Sûreté du Québec's homicide division",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Agent of the Sûreté du Québec's homicide division",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Bookshop owner",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Bistro owners",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Poet",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Artist",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Quintuplets",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Three Pines",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Montreal",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "State-run compound for the Ouellet Quintuplets",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 1,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Sûreté du Québec",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Quebec government",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Canadian child welfare system",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "employs"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "mentor of"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "mentee of"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_7",
+      "relation": "is one of"
+    },
+    {
+      "source": "char_11",
+      "target": "occ_7",
+      "relation": "equals"
+    },
+    {
+      "source": "char_12",
+      "target": "occ_7",
+      "relation": "equals"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_0",
+      "relation": "owns"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_2",
+      "relation": "resided at"
+    },
+    {
+      "source": "org_1",
+      "target": "loc_2",
+      "relation": "located at"
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_3",
+      "target": "org_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "works with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "trusted by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "helped"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "married to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_11",
+      "target": "org_2",
+      "relation": "victims of"
+    },
+    {
+      "source": "char_2",
+      "target": "char_11",
+      "relation": "one of"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_381",
+    "title": "How the Light Gets In",
+    "author": "Louise Penny",
+    "year": 2013,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Laure",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Gilou",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Joséphine Karlsson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Judge Roban",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Undocumented immigrants",
+      "label": "Victim",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Network operators",
+      "label": "Villain",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Middle-level managers",
+      "label": "Villain",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Higher-level figures",
+      "label": "Villain",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [],
+  "locations": [],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "professionally involved with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "reports to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "indirectly involved in harming",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "exploits",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_108",
+    "title": "Spiral: Series 5",
+    "author": "Various",
+    "year": 2014,
+    "medium": "TV Episode"
+  }
+}

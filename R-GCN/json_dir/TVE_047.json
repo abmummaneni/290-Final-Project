@@ -1,0 +1,363 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Elinor Carlisle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Roddy Welman",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Mary Gerrard",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Laura Welman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Nurse Hopkins",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Gerrard the lodge keeper",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "David Suchet",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "David Moore",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "heir",
+      "features": {
+        "authority_level": 0.33,
+        "access_level": 0.5,
+        "capability_level": 0.66
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "landowner",
+      "features": {
+        "authority_level": 0.83,
+        "access_level": 0.5,
+        "capability_level": 0.66
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "nurse",
+      "features": {
+        "authority_level": 0.33,
+        "access_level": 0.75,
+        "capability_level": 0.83
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "lodge keeper",
+      "features": {
+        "authority_level": 0.17,
+        "access_level": 0.5,
+        "capability_level": 0.33
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "actor",
+      "features": {
+        "authority_level": 0.17,
+        "access_level": 0.5,
+        "capability_level": 0.66
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "director",
+      "features": {
+        "authority_level": 0.83,
+        "access_level": 0.75,
+        "capability_level": 0.83
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Hunterbury Hall",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.17,
+        "evidentiary_value": 0.66
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Hunterbury cottage",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.33,
+        "evidentiary_value": 0.66
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "courtroom",
+      "features": {
+        "accessibility": 0.83,
+        "isolability": 0.5,
+        "evidentiary_value": 0.83
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Welman family",
+      "features": {
+        "institutional_power": 0.66,
+        "secrecy_level": 0.33,
+        "financial_scale": 0.83
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "legal system",
+      "features": {
+        "institutional_power": 0.92,
+        "secrecy_level": 0.17,
+        "financial_scale": 0.17
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "inherits"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "inherits"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_0",
+      "relation": "owns"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_4",
+      "relation": "plays as"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_5",
+      "relation": "directs"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "char_2",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_4",
+      "target": "org_1",
+      "relation": "accused by"
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_047",
+    "title": "Poirot: Sad Cypress",
+    "author": "David Moore",
+    "year": 2003,
+    "medium": "TV Episode"
+  }
+}

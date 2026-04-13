@@ -1,0 +1,257 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Bob",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Tess",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Martin Clarke",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mrs. Logan",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Mr. Logan",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Dr. Gideon Fell",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "butler",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "everyman",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "houseparty guest",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "detective",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "butler",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.25,
+        "capability_level": 0.5
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Longwood House",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "library",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.75,
+        "evidentiary_value": 1
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "relationship type",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "relationship type",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "hosts",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "married to",
+      "directed": false
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_3",
+      "relation": "employed as",
+      "directed": false
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "relation": "engineered death of",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_088",
+    "title": "The Man Who Could Not Shudder",
+    "author": "John Dickson Carr",
+    "year": 1940,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Dan Markel",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Wendi Adelson",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Charlie Adelson",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "money",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Donna Adelson",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "revenge",
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Sigfredo Garcia",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Luis Rivera",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Katherine Magbanua",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": "money",
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Neighbors",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Colleagues and friends of Dan Markel",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Tallahassee Police Department and FBI agents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Law professor",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Dentist",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Criminal",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Podcast host",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Criminal defense attorney",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Tallahassee",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Miami",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Tallahassee garage",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Florida State University College of Law",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "South Florida dental practice",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.2
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Florida State University",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.2,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Cuban-American organized crime family in South Florida",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Tallahassee Police Department",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.1,
+        "financial_scale": 0.3
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "FBI",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.1,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Criminal network associated with Garcia and Rivera",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "indirectly related to through employment",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "romantically involved with",
+      "directed": false
+    },
+    {
+      "source": "char_1",
+      "target": "char_7",
+      "relation": "neighbors with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "colleagues and friends with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_9",
+      "relation": "investigated by",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_4",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_4",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_4",
+      "relation": "has child with",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "romantically involved with",
+      "directed": false
+    },
+    {
+      "source": "char_6",
+      "target": "org_4",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_2",
+      "relation": "contains",
+      "directed": true
+    },
+    {
+      "source": "loc_2",
+      "target": "char_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "loc_3",
+      "target": "char_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "char_9",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "org_3",
+      "target": "char_9",
+      "relation": "employed by",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "POD_030",
+    "title": "Over My Dead Body: Tally",
+    "author": "Wondery",
+    "year": 2020,
+    "medium": "Podcast"
+  }
+}

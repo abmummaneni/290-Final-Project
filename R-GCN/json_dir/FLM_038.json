@@ -1,0 +1,811 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Sir William McCordle",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Lady Sylvia McCordle",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Isobel McCordle",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mrs Wilson",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Elsie",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Mary MacEachran",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Robert Parks",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Lord Stockbridge",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Lady Louisa Stockbridge",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Commander Anthony Meredith",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Constance, Countess of Trentham",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Freddie Nesbitt",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Mabel Nesbitt",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Ivor Novello",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Morris Weissman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Lord Rupert Standish",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Jeremy Blond",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Henry Denton",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_18",
+      "name": "Mrs Croft",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_19",
+      "name": "Inspector Thompson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_20",
+      "name": "Constable Dexter",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_21",
+      "name": "Freddie's blackmailer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_22",
+      "name": "Rupert's love interest",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Housekeeper",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Head housemaid",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Lady of the manor",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Lord of the manor",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Valet",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Maid",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Actor",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Film producer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Servant",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Footman",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Cook",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Inspector",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Constable",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Blackmailer",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Gosford Park",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Country estate",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Shooting party",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Drawing room",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Library",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Study",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Servants' quarters",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Dinner table",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Bedroom",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_9",
+      "name": "Factory",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "biological father of",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_18",
+      "relation": "biological father of",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_18",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_11",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "business partner of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "withdraws support from",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_9",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "fired by",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_5",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_19",
+      "target": "char_6",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_17",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_21",
+      "target": "char_11",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_16",
+      "relation": "ends courtship with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "relation": "discusses with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_18",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_1",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "deduces identity of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "speaks to",
+      "directed": true
+    },
+    {
+      "source": "char_18",
+      "target": "char_3",
+      "relation": "comforts",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "says goodbye to",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_038",
+    "title": "Gosford Park",
+    "author": "Robert Altman",
+    "year": 2001,
+    "medium": "Film"
+  }
+}

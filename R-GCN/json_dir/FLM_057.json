@@ -1,0 +1,475 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Stephanie Smothers",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Emily Nelson / Hope McLanden",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Sean Townsend",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Miles",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Nicky",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Chris",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Detective Summerville",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Diana Hyland",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Margaret",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Darren",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Faith McLanden",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "widowed single mother",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "PR director for a fashion company",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "English professor",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "painter",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "parent of one of the school students",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "detective",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Warfield, Connecticut",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "summer camp in Michigan",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Manhattan",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.1,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Berkeley",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "fashion company",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.7
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "is"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "is"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "is"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "married to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "married to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_0",
+      "relation": "attends school at"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "attends school at"
+    },
+    {
+      "source": "char_1",
+      "target": "org_1",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_0",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_2",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_1",
+      "target": "char_10",
+      "relation": "is"
+    },
+    {
+      "source": "char_10",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_1",
+      "target": "char_10",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_10",
+      "target": "char_1",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_6",
+      "target": "char_2",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "discovers body of"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "kills"
+    },
+    {
+      "source": "char_1",
+      "target": "char_10",
+      "relation": "kills"
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "protects"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "works with"
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_057",
+    "title": "A Simple Favor",
+    "author": "Paul Feig",
+    "year": 2018,
+    "medium": "Film"
+  }
+}

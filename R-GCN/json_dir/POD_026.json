@@ -1,0 +1,268 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Elizabeth Short",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Dr. George Hodel",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Rasha Pecoraro",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Yvette Gentile",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Tamar Hodel",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Steve Hodel",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Physician",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Podcaster",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Los Angeles",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Sowden House",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Philippines",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Hong Kong",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "LAPD",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "kills"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "victim of"
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "org_0",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "operates in"
+    }
+  ],
+  "metadata": {
+    "entry_id": "POD_026",
+    "title": "Root of Evil",
+    "author": "Cadence13",
+    "year": 2019,
+    "medium": "Podcast"
+  }
+}

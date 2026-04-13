@@ -1,0 +1,207 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Abigail Mitchell",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Edmund Galbraith",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Phyllis",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Columbo",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Mystery Writer",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Husband",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Niece",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.4,
+        "capability_level": 0.2
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Abigail's Study",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Abigail's House",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Police Station",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Police Department",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.3
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_2",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_009",
+    "title": "Columbo: Try and Catch Me",
+    "author": "James Frawley",
+    "year": 1977,
+    "medium": "TV Episode"
+  }
+}

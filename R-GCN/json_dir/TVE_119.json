@@ -1,0 +1,592 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Laure Berthaud",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Gilou Escoffier",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Judge Roban",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Joséphine Karlsson",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Gilou's child",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Victims of the murder network",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Members of the murder network",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Police officers in Laure's team",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Judges and lawyers in Roban's court",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Criminals connected to the murder network",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Victims of Gilou's methods",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "People in Joséphine's personal life",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Police detective",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Judge",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.8,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Defense attorney",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Criminal",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Businessperson",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.8,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Paris",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Police station",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Courthouse",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Prison",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Criminal hideouts",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Victims' homes and neighborhoods",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Paris Police Department",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "French Judiciary",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Criminal organizations in Paris",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "Legitimate businesses connected to crime",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.9
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "loc_2",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "org_1",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "org_2",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_4",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_1",
+      "target": "loc_4",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_2",
+      "target": "loc_4",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "loc_1",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "org_1",
+      "target": "loc_2",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "org_2",
+      "target": "loc_4",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "colleagues",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "colleagues",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_9",
+      "relation": "business partner of",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "colleagues",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "represents",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "victim of",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "colleagues",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_9",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "colleagues",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "colleagues",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_1",
+      "relation": "business partner of",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_6",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_1",
+      "relation": "victims of",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_119",
+    "title": "Spiral: Series 6",
+    "author": "Various",
+    "year": 2016,
+    "medium": "TV Episode"
+  }
+}

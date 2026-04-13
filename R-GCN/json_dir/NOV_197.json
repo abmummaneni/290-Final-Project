@@ -1,0 +1,734 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Detective Inspector Thomas Lynley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Detective Sergeant Barbara Havers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Matthew Whateley",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Jeannie Bonnamy",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Chas Quilter",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": "love",
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Cecilia Feld",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Emilia Bond",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "John Corntel",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": "other",
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Clive Pritchard",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "revenge",
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Pamela Byrne",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Edward Hsu",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Giles Byrne",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Brian Byrne",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": "revenge",
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Colonel Bonnamy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Barbara Havers' mother",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.2,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Barbara Havers' father",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Deborah",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective Inspector",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Detective Sergeant",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Student",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Chemistry Teacher",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Colonel (Retired)",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.4,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Board of Governors Member",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.4,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Dementia Patient",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.2
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Bredgar Chambers School",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Bredgar Chambers School Minibus",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Stoke Poges Churchyard",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.8,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Local Resident's Home (Colonel Bonnamy)",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Barbara Havers' Mother's Home",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 0.1
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Bredgar Chambers School",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "New Scotland Yard",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Board of Governors (Bredgar Chambers School)",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "char_11",
+      "relation": "married to"
+    },
+    {
+      "source": "char_9",
+      "target": "char_12",
+      "relation": "related to"
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "related to"
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "relation": "related to"
+    },
+    {
+      "source": "char_11",
+      "target": "org_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_12",
+      "target": "char_11",
+      "relation": "related to"
+    },
+    {
+      "source": "char_3",
+      "target": "char_13",
+      "relation": "related to"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_13",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_1",
+      "relation": "drives"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "business partner of"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "witnessed by"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "letter to"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "torments"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_0",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "discovers evidence against"
+    },
+    {
+      "source": "char_14",
+      "target": "char_15",
+      "relation": "spouse of"
+    },
+    {
+      "source": "char_15",
+      "target": "occ_6",
+      "relation": "suffering from"
+    },
+    {
+      "source": "char_1",
+      "target": "char_14",
+      "relation": "present at"
+    },
+    {
+      "source": "char_15",
+      "target": "loc_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "label": "Uninvolved",
+      "relation": "works with",
+      "target": "char_1"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_0",
+      "target": "char_12",
+      "relation": "arrests"
+    },
+    {
+      "source": "char_0",
+      "target": "char_13",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_1",
+      "target": "char_7",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_1",
+      "target": "char_12",
+      "relation": "arrests"
+    },
+    {
+      "source": "char_1",
+      "target": "char_13",
+      "relation": "interviews"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "discovers evidence against"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "torments"
+    },
+    {
+      "source": "char_12",
+      "target": "char_2",
+      "relation": "kills"
+    },
+    {
+      "source": "char_12",
+      "target": "char_8",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_1",
+      "relation": "drives"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "present at"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "ties up"
+    },
+    {
+      "source": "char_12",
+      "target": "char_2",
+      "relation": "leaves for dead in"
+    },
+    {
+      "source": "char_12",
+      "target": "char_8",
+      "relation": "transported the body with"
+    },
+    {
+      "source": "char_4",
+      "target": "org_0",
+      "relation": "student at"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_197",
+    "title": "Well-Schooled in Murder",
+    "author": "Elizabeth George",
+    "year": 1990,
+    "medium": "Novel"
+  }
+}

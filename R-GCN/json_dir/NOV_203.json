@@ -1,0 +1,833 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Colonel Turner",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Admiral Rolland",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Major John Smith/Major Johann Schmidt",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Sergeant Harrod",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Mary Ellison",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Heidi Schmidt",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Brigadier General George Carnaby/Corporal Cartwright Jones",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Sergeant MacPherson",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Captain Lee Thomas",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Captain Ted Berkeley",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Captain Olaf Christiansen",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Lieutenant Morris Schaffer",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "General Rosemeyer",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Colonel Kramer",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "SS Major von Hapen",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "MI6 Officer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Turner",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "MI6 Officer",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Admiral",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Colonel",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Major",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Sergeant",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Captain",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Lieutenant",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "German Soldier",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "US Army Ranger",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Agent",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Undercover Agent",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Double Agent",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "SS Officer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Bus Driver",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Schloß Adler (Castle of the Eagles)",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 1,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Bavaria",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Alpine mountaintop fortress",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 1,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Village at the base of Schloß Adler",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Tavern",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Cable car station",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Airfield",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Ju 52 transport",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Bus",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "MI6",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.9,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Schutzstaffel (SS)",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.9,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "German Army",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "US Army",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "British Army",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Whitehall",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.9,
+        "financial_scale": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_4",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_4",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_5",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_5",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "occ_5",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "occ_8",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "occ_7",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "occ_12",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "occ_12",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "occ_2",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "org_0",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_3",
+      "target": "loc_1",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "loc_4",
+      "target": "loc_3",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "loc_5",
+      "target": "loc_0",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_6",
+      "target": "loc_1",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "org_0",
+      "target": "loc_8",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_9",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_10",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "reports to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": false
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "reports to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_9",
+      "relation": "affiliated with",
+      "directed": false
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "reports to",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "in conflict with",
+      "directed": false
+    },
+    {
+      "source": "char_9",
+      "target": "char_2",
+      "relation": "in conflict with",
+      "directed": false
+    },
+    {
+      "source": "char_10",
+      "target": "char_2",
+      "relation": "in conflict with",
+      "directed": false
+    },
+    {
+      "source": "char_11",
+      "target": "char_8",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_9",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_10",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_6",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "target": "org_1",
+      "relation": "affiliated with",
+      "directed": false
+    },
+    {
+      "source": "char_14",
+      "target": "char_2",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "org_0",
+      "relation": "employs",
+      "directed": false
+    },
+    {
+      "source": "char_16",
+      "target": "char_2",
+      "relation": "deceives",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_203",
+    "title": "Where Eagles Dare",
+    "author": "Alistair MacLean",
+    "year": 1967,
+    "medium": "Novel"
+  }
+}

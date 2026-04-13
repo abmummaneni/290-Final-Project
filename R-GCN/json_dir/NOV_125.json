@@ -1,0 +1,586 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Letitia Blacklock",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Rudi Scherz",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Miss Marple",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Inspector Craddock",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Bunny",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Phillipa Haymes",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Edmund Swettenham",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": 1.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Miss Hinchcliffe",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Amy Murgatroyd",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Patrick Simmons",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Julia Simmons",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Pip (real Julia Simmons)",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Emma (fake Julia Simmons)",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Mitzi",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Charlotte",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Housekeeper",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Retired Governess",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.25,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Police Inspector",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Amateur Detective",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Swiss Worker",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Cook",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Secretary",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Gardener",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.25,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Nursemaid",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Wealthy Heiress",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Twins",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.25,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Surgeon",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Chipping Cleghorn",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Little Paddocks",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.25,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Swiss Hospital",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Local Hotel",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Scotland",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Goedler Family Estate",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employs"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "married to"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_9",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_6",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_12",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_13",
+      "target": "loc_1",
+      "relation": "employed at"
+    },
+    {
+      "source": "char_14",
+      "target": "char_0",
+      "relation": "is"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_3",
+      "relation": "worked at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "present in"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "investigates at"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_9",
+      "target": "org_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_10",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_11",
+      "target": "org_0",
+      "relation": "will inherit"
+    },
+    {
+      "source": "char_12",
+      "target": "org_0",
+      "relation": "will inherit"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "loc_1",
+      "target": "loc_2",
+      "relation": "related location"
+    },
+    {
+      "source": "loc_3",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "org_0",
+      "target": "loc_4",
+      "relation": "located at"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_125",
+    "title": "A Murder Is Announced",
+    "author": "Agatha Christie",
+    "year": 1950,
+    "medium": "Novel"
+  }
+}

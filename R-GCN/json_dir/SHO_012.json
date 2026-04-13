@@ -1,0 +1,502 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Lord Bellinger",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Right Honourable Trelawney Hope",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Lady Hilda Trelawney Hope",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Eduardo Lucas",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Madame Fournier",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Inspector Lestrade",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Dr. Watson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Sherlock Holmes",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.75
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Constable",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Lucas's wife from Paris",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Unnamed spy",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": -1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Prime Minister",
+      "features": {
+        "authority_level": 1,
+        "access_level": 1,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Secretary of State for European Affairs",
+      "features": {
+        "authority_level": 0.875,
+        "access_level": 0.625,
+        "capability_level": 0.625
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Sherlock Holmes' spy",
+      "features": {
+        "authority_level": 0.375,
+        "access_level": 0.625,
+        "capability_level": 0.625
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Doctor",
+      "features": {
+        "authority_level": 0.375,
+        "access_level": 0.375,
+        "capability_level": 0.625
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Inspector",
+      "features": {
+        "authority_level": 0.625,
+        "access_level": 0.375,
+        "capability_level": 0.625
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Constable",
+      "features": {
+        "authority_level": 0.375,
+        "access_level": 0.375,
+        "capability_level": 0.375
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Blackmailer",
+      "features": {
+        "authority_level": 0.125,
+        "access_level": 0.375,
+        "capability_level": 0.375
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Mistress",
+      "features": {
+        "authority_level": 0.125,
+        "access_level": 0.125,
+        "capability_level": 0.375
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Foreign potentate",
+      "features": {
+        "authority_level": 1,
+        "access_level": 1,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Spy",
+      "features": {
+        "authority_level": 0.375,
+        "access_level": 0.625,
+        "capability_level": 0.625
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "221B Baker Street",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.625,
+        "evidentiary_value": 0.375
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Whitehall Terrace",
+      "features": {
+        "accessibility": 0.625,
+        "isolability": 0.625,
+        "evidentiary_value": 0.375
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Lucas's house",
+      "features": {
+        "accessibility": 0.625,
+        "isolability": 0.375,
+        "evidentiary_value": 0.625
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Theatre for four hours",
+      "features": {
+        "accessibility": 0.375,
+        "isolability": 0.625,
+        "evidentiary_value": 0.125
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Paris",
+      "features": {
+        "accessibility": 0.375,
+        "isolability": 0.625,
+        "evidentiary_value": 0.125
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Home of Lord Bellinger and the Right Honourable Trelawney Hope",
+      "features": {
+        "accessibility": 0.625,
+        "isolability": 0.625,
+        "evidentiary_value": 0.375
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "British Government",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Lucas's blackmailing organization",
+      "features": {
+        "institutional_power": 0.375,
+        "secrecy_level": 0.875,
+        "financial_scale": 0.625
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Foreign Government",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.5,
+        "financial_scale": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "married to"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_6",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "married to"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "colleague with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_1",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_2",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_2",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_8",
+      "target": "char_5",
+      "relation": "subordinate to"
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "married to"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_9",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "relation": "informs"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_6",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_7",
+      "relation": "works with"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_2",
+      "target": "char_3",
+      "relation": "owns"
+    },
+    {
+      "source": "loc_3",
+      "target": "char_2",
+      "relation": "present at"
+    },
+    {
+      "source": "loc_4",
+      "target": "char_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_5",
+      "target": "char_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "org_0",
+      "target": "char_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_0",
+      "target": "char_1",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_1",
+      "target": "char_3",
+      "relation": "employed by"
+    },
+    {
+      "source": "org_2",
+      "target": "char_8",
+      "relation": "informs"
+    }
+  ],
+  "metadata": {
+    "entry_id": "SHO_012",
+    "title": "The Adventure of the Second Stain",
+    "author": "Arthur Conan Doyle",
+    "year": 1904,
+    "medium": "Short Story"
+  }
+}

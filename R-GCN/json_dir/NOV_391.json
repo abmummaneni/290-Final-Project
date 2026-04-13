@@ -1,0 +1,822 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Cormoran Strike",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.65,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Robin Ellacott",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.35,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Leonora Quine",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.35,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Owen Quine",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.65,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Kathryn Kent",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Phillip 'Pippa' Midgley",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Elizabeth Tassel",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jerry Waldegrave",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Daniel Chard",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Michael Fancourt",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.65,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Alexander",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Elspeth Fancourt",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Matthew",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.15
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Private Investigator",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Assistant",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Novelist",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Literary Agent",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Editor",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Publisher",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Author",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Relative",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Spouse",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Paralegal",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "London",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Cottage",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Publisher's Office",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Party",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Prison",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Strike's Agency",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Publishing House",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Metropolitan Police",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.1,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_3",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "org_1",
+      "relation": "leads",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_6",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_9",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_1",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "loc_0",
+      "relation": "located at",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "business partner of",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_9",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "discovers",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_2",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_1",
+      "relation": "hires",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_9",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_9",
+      "relation": "rivals with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_11",
+      "relation": "avenges",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "deceives",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "exonerates",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "exonerates",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "autopsies",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_0",
+      "relation": "confides in",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "buries",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "poses",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "confronts",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "confronts",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "publishes",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "readies for publication",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "uncovers authorship of",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "uncovers authorship of",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "writes for publication",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "catches",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "catches",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "relation": "authors parody of",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "char_3",
+      "relation": "suicides after",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "blames for parody",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_11",
+      "relation": "blames for death of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "discovers body of",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "mutilates and kills",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "notifies of release from prison",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "acknowledges literary value of work of",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_3",
+      "relation": "plans to write introduction for publication of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "gives enrollment in investigative training courses as gift to",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_391",
+    "title": "The Silkworm",
+    "author": "Robert Galbraith",
+    "year": 2014,
+    "medium": "Novel"
+  }
+}

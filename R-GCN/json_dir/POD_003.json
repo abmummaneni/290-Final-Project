@@ -1,0 +1,196 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Adrien McNaughton",
+      "label": "Victim",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1.0,
+        "present_at_crime_scene": -1.0,
+        "has_motive": -1.0,
+        "is_concealing_information": -1.0,
+        "has_hidden_relationship": -1.0,
+        "motive_type": -1.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Don McNaughton",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1.0,
+        "present_at_crime_scene": -1.0,
+        "has_motive": -1.0,
+        "is_concealing_information": -1.0,
+        "has_hidden_relationship": -1.0,
+        "motive_type": -1.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Adrien's Father",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": -1.0,
+        "is_concealing_information": -1.0,
+        "has_hidden_relationship": -1.0,
+        "motive_type": -1.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Adrien's Brothers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": -1.0,
+        "is_concealing_information": -1.0,
+        "has_hidden_relationship": -1.0,
+        "motive_type": -1.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "David Ridgen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": -1.0,
+        "present_at_crime_scene": -1.0,
+        "has_motive": -1.0,
+        "is_concealing_information": -1.0,
+        "has_hidden_relationship": -1.0,
+        "motive_type": -1.0,
+        "narrative_prominence": 0.6
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Investigative Journalist",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Family Member",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Olmstead Pond in Lanark County, Ontario, Canada",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_1",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "POD_003",
+    "title": "Somebody Knows Something: S1",
+    "author": "CBC / David Ridgen",
+    "year": 2015,
+    "medium": "Podcast"
+  }
+}

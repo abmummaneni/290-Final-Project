@@ -1,0 +1,641 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Ariadne Oliver",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Judith Butler",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Joyce Reynolds",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Retired Superintendent Spence",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Miranda Butler",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Michael Garfield",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Rowena Drake",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Mrs Llewellyn-Smythe",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Olga Seminoff",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Leslie Ferrier",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.87,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Leopold Reynolds",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Elizabeth Whittaker",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.55,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Novelist",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Housewife",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Child",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.2
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Retired Police Officer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Mathematics Teacher",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Cleaner",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.4,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Garden Designer",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Lawyer's Clerk",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Heir",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Affair Partner",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Lover",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Woodleigh Common",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Judith Butler's house",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Rowena Drake's house",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Local library",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.5,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Local quarry and garden",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Pagoda sacrificial altar",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Local woods near quarry",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Greek island",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_4",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_2",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_7",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "occ_6",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "occ_8",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "occ_9",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "occ_5",
+      "relation": "is",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_3",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_4",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_2",
+      "target": "loc_4",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_9",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "witnesses by",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_8",
+      "relation": "witnesses by",
+      "directed": true
+    },
+    {
+      "source": "loc_4",
+      "target": "loc_6",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "char_7",
+      "target": "char_11",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "discovers by",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_1",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "kills",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_173",
+    "title": "Hallowe'en Party",
+    "author": "Agatha Christie",
+    "year": 1969,
+    "medium": "Novel"
+  }
+}

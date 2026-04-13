@@ -1,0 +1,248 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Kristal Reisinger",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Payne Lindsey",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Joshua Lee Valentine",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Kristal's mother and family members",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "People in Crestone community",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Filmmaker",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Sheriff's Office personnel",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Spiritual seekers and alternative-lifestyle adherents",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.7,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Drug culture participants",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.8,
+        "capability_level": 0.4
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Crestone, Colorado",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.8,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Kristal's last known whereabouts",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Crestone community",
+      "features": {
+        "institutional_power": 0.3,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Saguache County Sheriff's Office",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_2",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_0",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_3",
+      "relation": "involved in",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "org_0",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_1",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "POD_022",
+    "title": "Up and Vanished: Season 2",
+    "author": "Payne Lindsey",
+    "year": 2018,
+    "medium": "Podcast"
+  }
+}
