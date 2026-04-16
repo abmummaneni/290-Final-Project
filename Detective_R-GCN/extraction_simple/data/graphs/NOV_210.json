@@ -1,0 +1,462 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Alex Cross",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "John Sampson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Chief of Detectives Pittman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Sanders family (mother, daughter, toddler son)",
+      "label": "Victim",
+      "features": {
+        "gender": 0.33,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Gary Soneji",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Maggie-Rose Dunne",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Michael Goldberg",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jezzie Flanagan",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Michael's parents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Maggie-Rose's parents",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Secret Service agents assigned to Michael Goldberg",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Mayor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Gary Murphy (door-to-door salesman)",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": -0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Delaware door-to-door salesman",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": -0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Gary's defense attorney",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Prison guard who helped Gary escape",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Jezzie's ex-boyfriend",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Native Bolivian family near the Andes Mountains",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": -0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_13",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_15",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 5.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_11",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_13",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_15",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_16",
+      "target": "char_7",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_17",
+      "target": "char_5",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_9",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_9",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_210",
+    "title": "Along Came a Spider",
+    "author": "James Patterson",
+    "year": 1993,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 18,
+    "num_edges": 23,
+    "max_raw_weight": 5.0
+  }
+}

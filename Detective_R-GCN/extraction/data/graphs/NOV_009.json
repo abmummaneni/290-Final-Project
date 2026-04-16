@@ -1,0 +1,593 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Sherlock Holmes",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Fred Porlock",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Professor Moriarty",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Inspector MacDonald",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Dr. Watson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Douglas/Birdy Edwards",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Cecil Barker",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Mrs. Douglas",
+      "label": "Witness",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Ted Baldwin/Jack McMurdo",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Local detective White Mason",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Unnamed American",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Pinkerton detective agency",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Scowrers gang",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "African ship crew",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Pseudonymous double agent",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Country gentleman",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Frequent guest at Birlstone House",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Housekeeper",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Pinkerton detective",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Coal miners trade union member",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Ship crew member",
+      "features": {
+        "authority_level": -1,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "221B Baker Street",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Birlstone House",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Shallow moat around Birlstone House",
+      "features": {
+        "accessibility": -1,
+        "isolability": 0.75,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Vermissa Valley (The Valley of Fear)",
+      "features": {
+        "accessibility": -1,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "African ship",
+      "features": {
+        "accessibility": -1,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Professor Moriarty's criminal network",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 1,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Pinkerton detective agency",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Scowrers gang",
+      "features": {
+        "institutional_power": 0.25,
+        "secrecy_level": 1,
+        "financial_scale": 0.25
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employs",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "loc_1",
+      "relation": "frequent guest at",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "discovered by",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_5",
+      "relation": "married to",
+      "directed": false
+    },
+    {
+      "source": "char_8",
+      "target": "occ_6",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_5",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "char_10",
+      "target": "org_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "relation": "employs",
+      "target": "char_5",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "relation": "located at",
+      "target": "loc_3",
+      "directed": false
+    },
+    {
+      "source": "char_12",
+      "relation": "employer of",
+      "target": "char_8",
+      "directed": true
+    },
+    {
+      "source": "char_13",
+      "relation": "employs",
+      "target": "char_5",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "relation": "blackmails",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "friends with",
+      "directed": false
+    },
+    {
+      "source": "char_7",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": false
+    },
+    {
+      "source": "char_8",
+      "target": "char_5",
+      "relation": "attempts to kill",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_5",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_8",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_10",
+      "relation": "hides from",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_12",
+      "relation": "works against",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_11",
+      "relation": "employed by",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_009",
+    "title": "The Valley of Fear",
+    "author": "Arthur Conan Doyle",
+    "year": 1915,
+    "medium": "Novel"
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Ted Hastings",
+      "label": "UNK",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "DS Kate Fleming",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "DS Steve Arnott",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "John Corbett",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Steph (Corbett's wife)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Lisa McQueen",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.4
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_136",
+    "title": "Line of Duty: Series 5",
+    "author": "John Strickland",
+    "year": 2019,
+    "medium": "TV Episode"
+  },
+  "graph_stats": {
+    "num_characters": 6,
+    "num_edges": 6,
+    "max_raw_weight": 2.0
+  }
+}

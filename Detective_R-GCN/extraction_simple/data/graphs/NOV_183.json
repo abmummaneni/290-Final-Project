@@ -1,0 +1,392 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Gwenda Reed",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Giles Reed",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Raymond West",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Wife of Raymond West",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Miss Jane Marple",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Helen Halliday (née Kennedy)",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Father of Gwenda Reed",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.5,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Step-mother of Gwenda Reed (Helen Halliday)",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.25,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Dr Kennedy",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.75,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Halliday's husband",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Workmen at Hillside",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Raymond West's aunt",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Author of The Duchess of Malfi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Lily (former maid of Halliday family)",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Man who once gardened for the Kennedy family",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Edith (cook from the Halliday household)",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_7",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_2",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_15",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "weight": 1.0,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_183",
+    "title": "Sleeping Murder",
+    "author": "Agatha Christie",
+    "year": 1976,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 16,
+    "num_edges": 17,
+    "max_raw_weight": 4.0
+  }
+}

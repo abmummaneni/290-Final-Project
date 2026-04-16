@@ -1,0 +1,295 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Inspector Harry Hole",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Chief Inspector",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Tom Waaler",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Ellen Gjelsten",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Beate Lønn",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "First victim",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Second victim's husband",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Third victim",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Sven",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Olaug Sivertsen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Oleg",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 5.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "weight": 0.8,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 0.4,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "weight": 0.6,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "weight": 0.2,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_264",
+    "title": "The Devil's Star",
+    "author": "Jo Nesbø",
+    "year": 2003,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 11,
+    "num_edges": 15,
+    "max_raw_weight": 5.0
+  }
+}

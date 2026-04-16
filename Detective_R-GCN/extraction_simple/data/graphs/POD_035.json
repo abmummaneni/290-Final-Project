@@ -1,0 +1,378 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Curtis Flowers",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Bertha Tardy",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Carmen Rigby",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Robert Golden",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Derrick Stewart",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "John Johnson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Doug Evans",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jacob Wetterling",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Madeleine Baran",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "APM Reports",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Winona",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Tardy Furniture store",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Mississippi Attorney General's office",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Fifth Circuit Court District of Mississippi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "United States Supreme Court",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Brett Kavanaugh",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Jury members",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Witnesses who recanted or changed their accounts",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_16",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_17",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_11",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_6",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_15",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_17",
+      "target": "char_6",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "POD_035",
+    "title": "In the Dark: Season 3",
+    "author": "APM Reports",
+    "year": 2022,
+    "medium": "Podcast"
+  },
+  "graph_stats": {
+    "num_characters": 18,
+    "num_edges": 9,
+    "max_raw_weight": 1.0
+  }
+}

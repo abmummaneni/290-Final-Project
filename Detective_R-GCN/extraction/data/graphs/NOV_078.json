@@ -1,0 +1,896 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Thomas Rogers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Ethel Rogers",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Anthony Marston",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "General MacArthur",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Mr Rogers",
+      "label": "Victim",
+      "features": {
+        "gender": -1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Emily Brent",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mr Justice Wargrave",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Dr Armstrong",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Philip Lombard",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Vera Claythorne",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "William Blore",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Isaac Morris",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Scotland Yard officials",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "butler",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "housekeeper",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "guest",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "judge",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "doctor",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "soldier",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "teacher",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "actor",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "sleazy agent",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "police officer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "island off the Devon coast",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "house on the island",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "guest rooms",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "dining room",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "woodpile",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "drawing room",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "beach",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.6
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Scotland Yard",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Isaac Morris's client list",
+      "features": {
+        "institutional_power": 0.2,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_10",
+      "target": "occ_5",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_11",
+      "target": "occ_8",
+      "relation": "employs"
+    },
+    {
+      "source": "org_1",
+      "target": "char_11",
+      "relation": "employs"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_6",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_5",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_6",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_5",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_6",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_7",
+      "relation": "employs"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to"
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_6",
+      "relation": "kills"
+    },
+    {
+      "source": "char_2",
+      "target": "char_2",
+      "relation": "dies"
+    },
+    {
+      "source": "char_1",
+      "target": "char_1",
+      "relation": "dies"
+    },
+    {
+      "source": "char_3",
+      "target": "char_3",
+      "relation": "dies"
+    },
+    {
+      "source": "char_4",
+      "target": "char_4",
+      "relation": "dies"
+    },
+    {
+      "source": "char_5",
+      "target": "char_5",
+      "relation": "dies"
+    },
+    {
+      "source": "char_7",
+      "target": "char_7",
+      "relation": "dies"
+    },
+    {
+      "source": "char_8",
+      "target": "char_8",
+      "relation": "dies"
+    },
+    {
+      "source": "char_9",
+      "target": "char_9",
+      "relation": "dies"
+    },
+    {
+      "source": "char_6",
+      "target": "char_6",
+      "relation": "dies"
+    },
+    {
+      "source": "char_7",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_8",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_9",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_6",
+      "target": "char_10",
+      "relation": "deceives"
+    },
+    {
+      "source": "char_7",
+      "target": "char_6",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_8",
+      "target": "char_6",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_9",
+      "target": "char_6",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_10",
+      "target": "char_6",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_10",
+      "target": "char_8",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_7",
+      "target": "char_10",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_8",
+      "target": "char_10",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_9",
+      "target": "char_10",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "kills"
+    },
+    {
+      "source": "char_9",
+      "target": "char_7",
+      "relation": "kills"
+    },
+    {
+      "source": "char_10",
+      "target": "char_7",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "kills"
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "kills"
+    },
+    {
+      "source": "char_10",
+      "target": "char_8",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "char_9",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "kills"
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "char_10",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_7",
+      "target": "char_10",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "char_10",
+      "relation": "kills"
+    },
+    {
+      "source": "char_9",
+      "target": "char_10",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "char_11",
+      "relation": "hires"
+    },
+    {
+      "source": "char_8",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_9",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_8",
+      "relation": "dies"
+    },
+    {
+      "source": "char_9",
+      "target": "char_9",
+      "relation": "dies"
+    },
+    {
+      "source": "loc_4",
+      "target": "char_4",
+      "relation": "kills"
+    },
+    {
+      "source": "loc_5",
+      "target": "char_5",
+      "relation": "kills"
+    },
+    {
+      "source": "char_6",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_8",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_9",
+      "target": "char_12",
+      "relation": "investigates"
+    },
+    {
+      "source": "loc_6",
+      "target": "char_7",
+      "relation": "kills"
+    },
+    {
+      "source": "char_8",
+      "target": "char_10",
+      "relation": "dies"
+    },
+    {
+      "source": "char_9",
+      "target": "char_10",
+      "relation": "dies"
+    },
+    {
+      "source": "loc_2",
+      "target": "char_6",
+      "relation": "fakes death"
+    },
+    {
+      "source": "char_7",
+      "target": "char_6",
+      "relation": "assists in faking death"
+    },
+    {
+      "source": "char_8",
+      "target": "char_11",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_9",
+      "target": "char_11",
+      "relation": "blackmails"
+    },
+    {
+      "source": "char_6",
+      "target": "char_6",
+      "relation": "shoots self"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_2",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_1",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_3",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_4",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_5",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_7",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_8",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_9",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_6",
+      "relation": "body found"
+    },
+    {
+      "source": "loc_2",
+      "target": "char_8",
+      "relation": "kills"
+    },
+    {
+      "source": "loc_5",
+      "target": "char_9",
+      "relation": "kills"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_10",
+      "relation": "body found"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_078",
+    "title": "And Then There Were None",
+    "author": "Agatha Christie",
+    "year": 1939,
+    "medium": "Novel"
+  }
+}

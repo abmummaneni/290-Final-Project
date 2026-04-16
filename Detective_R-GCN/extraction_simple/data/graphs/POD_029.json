@@ -1,0 +1,102 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Hargobind Tahilramani",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Josh Dean",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Amy Pascal",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Kathleen Kennedy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Victims of the fraud",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "edges": [],
+  "metadata": {
+    "entry_id": "POD_029",
+    "title": "Chameleon: Hollywood Con Queen",
+    "author": "Campside Media",
+    "year": 2020,
+    "medium": "Podcast"
+  },
+  "graph_stats": {
+    "num_characters": 5,
+    "num_edges": 0,
+    "max_raw_weight": 1.0
+  }
+}

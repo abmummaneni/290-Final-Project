@@ -1,0 +1,306 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Sherlock Holmes",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "John Watson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Mary Morstan",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Captain Arthur Morstan",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.66,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Major Sholto",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.83,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Thaddeus Sholto",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.83,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Bartholomew Sholto",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.83,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Jonathan Small",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.16,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Tonga",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.16,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Major Sholto's housekeeper",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Achmet",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.33,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Major Sholto's uncle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.83,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_9",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_004",
+    "title": "The Sign of the Four",
+    "author": "Arthur Conan Doyle",
+    "year": 1890,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 12,
+    "num_edges": 14,
+    "max_raw_weight": 3.0
+  }
+}

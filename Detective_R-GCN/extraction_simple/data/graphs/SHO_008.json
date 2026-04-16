@@ -1,0 +1,236 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Holmes",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Watson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Lady Eva Blackwell",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Milverton",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Milverton's housemaid",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Milverton's hated rival",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Milverton's former victim",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Milverton's victim's husband",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Inspector Lestrade",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Milverton's killer",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "SHO_008",
+    "title": "The Adventure of Charles Augustus Milverton",
+    "author": "Arthur Conan Doyle",
+    "year": 1904,
+    "medium": "Short Story"
+  },
+  "graph_stats": {
+    "num_characters": 10,
+    "num_edges": 8,
+    "max_raw_weight": 2.0
+  }
+}

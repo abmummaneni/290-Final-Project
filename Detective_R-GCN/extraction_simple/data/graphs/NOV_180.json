@@ -1,0 +1,191 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "I. M. Fletcher",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Alan Stanwyck",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Stanwyck's high school sweetheart",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Stanwyck's wife",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Stanwyck's friends and family",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Two attorneys chasing Fletch for alimony",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Police chief",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 1.0,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_180",
+    "title": "Fletch",
+    "author": "Gregory Mcdonald",
+    "year": 1974,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 7,
+    "num_edges": 9,
+    "max_raw_weight": 3.0
+  }
+}

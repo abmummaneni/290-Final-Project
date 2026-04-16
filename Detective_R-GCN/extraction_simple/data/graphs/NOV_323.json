@@ -1,0 +1,178 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Detective Inspector Thomas Lynley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Detective Sergeant Barbara Havers",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Helen Clyde",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Winston Nkata",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Robbie Kilfoyle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Serial Killer",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Teenage Boy",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Victims' Families and Communities",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "weight": 1.0,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_323",
+    "title": "With No One as Witness",
+    "author": "Elizabeth George",
+    "year": 2005,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 8,
+    "num_edges": 4,
+    "max_raw_weight": 1.0
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Harry Lockhart",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Dabney Shaw",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Gay Perry van Shrike",
+      "label": "Witness",
+      "features": {
+        "gender": 0.5,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.28,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Harmony Lane",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.35,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Jenna Lane",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Harlan Dexter",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Veronica Dexter",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Harmony's friend",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Pink-haired woman",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Actor",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Casting director",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Private detective",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.6,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Retired actor",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Mental hospital staff",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Bedridden father",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.3
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "New York City",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "L.A.",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Big Bear Lake cabin",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.8,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Harlan Dexter's mental hospital",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Harmony's friend's home",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Pink-haired woman's home",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.8,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Hospital",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.4,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Jenna's funeral",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.5,
+        "evidentiary_value": 0.3
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Film industry",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Mental hospital owned by Harlan Dexter",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.6,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "label"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "label"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "met by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "met by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "has a crush on"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "hired to tutor"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "is sister of"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "met by"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_3",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_1",
+      "relation": "owns"
+    },
+    {
+      "source": "char_6",
+      "target": "char_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "supposedly father of"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "hired char_2 to follow"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_3",
+      "relation": "was patient at"
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "client of"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_5",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "protects"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "helped cope with"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_3",
+      "relation": "owns"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "feud over inheritance with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "hired char_2 to follow"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "unwittingly driven by"
+    },
+    {
+      "source": "char_8",
+      "target": "char_2",
+      "relation": "killed by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "confessed to"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "confessed to"
+    },
+    {
+      "source": "char_5",
+      "target": "org_1",
+      "relation": "owns"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "works with"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "romantically involved with"
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_043",
+    "title": "Kiss Kiss Bang Bang",
+    "author": "Shane Black",
+    "year": 2005,
+    "medium": "Film"
+  }
+}

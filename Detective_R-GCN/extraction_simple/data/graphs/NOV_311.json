@@ -1,0 +1,456 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Frank Mackey",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Rosie Daly",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Olivia",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Holly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Jackie",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Mick 'Scorcher' Kennedy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Cooper",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Carmel",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Father",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Mother",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Shay",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Kevin",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Mandy",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Nora Daly",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Matt Daly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Imelda",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Stephen Moran",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Rosie's mother",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 1.0,
+      "raw_weight": 4.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_12",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_13",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_14",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_15",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_16",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.75,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_12",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_13",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_15",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_16",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_17",
+      "target": "char_8",
+      "weight": 0.25,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_311",
+    "title": "Faithful Place",
+    "author": "Tana French",
+    "year": 2010,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 18,
+    "num_edges": 22,
+    "max_raw_weight": 4.0
+  }
+}

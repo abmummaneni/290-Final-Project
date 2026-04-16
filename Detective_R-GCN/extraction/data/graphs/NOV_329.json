@@ -1,0 +1,482 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Harry Hole",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Dubái",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Gusto Hansenn",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Oleg Fauke",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Retired police officer",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Katrine Bratt",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Bjørn Holm",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Beate Lønn",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Anton Mittet",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Valentin Gjeltsen",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Mikael Bellman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Isabelle Skøyen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Ståle Aune",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Police officer",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Drug dealer",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Forensic psychologist",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 1
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "City councilor for social affairs",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Provincial police chief",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Oslo",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Maridalen forest",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Rikshospitalet",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.4,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Ski slope",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Police Academy",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.7,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Oslo Police Department",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Dubái's drug organization",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.8,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "City council of Oslo",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.8
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employs"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_0",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_1",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_4",
+      "relation": "leads"
+    },
+    {
+      "source": "char_11",
+      "target": "occ_3",
+      "relation": "holds position"
+    },
+    {
+      "source": "char_5",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_4",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "incarcerated at"
+    },
+    {
+      "source": "char_1",
+      "target": "org_1",
+      "relation": "leads"
+    },
+    {
+      "source": "char_2",
+      "target": "org_1",
+      "relation": "employs"
+    },
+    {
+      "source": "char_3",
+      "target": "org_1",
+      "relation": "accused by"
+    },
+    {
+      "source": "char_5",
+      "target": "org_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_7",
+      "target": "org_0",
+      "relation": "works with"
+    },
+    {
+      "source": "char_10",
+      "target": "org_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_11",
+      "target": "org_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "loc_1",
+      "target": "loc_0",
+      "relation": "near to"
+    },
+    {
+      "source": "org_1",
+      "target": "loc_0",
+      "relation": "located at"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_329",
+    "title": "Police",
+    "author": "Jo Nesbø",
+    "year": 2013,
+    "medium": "Novel"
+  }
+}

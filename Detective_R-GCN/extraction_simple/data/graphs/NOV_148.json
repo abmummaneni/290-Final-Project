@@ -1,0 +1,474 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Elspeth McGillicuddy",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Jane Marple",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Lucy Eyelesbarrow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Luther Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Luther's father",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Edmund Crackenthorpe",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Edith Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Alexander Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Cedric Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Harold Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Alfred Crackenthorpe",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.5,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Emma Crackenthorpe",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Bryan Eastley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "James Stoddart-West",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Dr Quimper",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.25,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Lady Stoddart-West",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Inspector Craddock",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Miss Marple",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_14",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_14",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_14",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_14",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_15",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_17",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_15",
+      "target": "char_17",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_15",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_15",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_148",
+    "title": "4:50 from Paddington",
+    "author": "Agatha Christie",
+    "year": 1957,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 18,
+    "num_edges": 25,
+    "max_raw_weight": 2.0
+  }
+}

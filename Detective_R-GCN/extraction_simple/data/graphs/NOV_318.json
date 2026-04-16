@@ -1,0 +1,339 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Nete",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Tage",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Nurse Gitte Charles",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Dr. Curt Wad",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Assad",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Mørck",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Marcus",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Nour",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Brandt",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Rita",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Philip Nørvig",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Mie",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Gitte Charles",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Officer",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Wad's wife",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_12",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_9",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_318",
+    "title": "The Purity of Vengeance",
+    "author": "Jussi Adler-Olsen",
+    "year": 2011,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 15,
+    "num_edges": 11,
+    "max_raw_weight": 2.0
+  }
+}

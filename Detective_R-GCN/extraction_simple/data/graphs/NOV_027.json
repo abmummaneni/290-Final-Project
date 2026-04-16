@@ -1,0 +1,399 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Sir Oswald Coote",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Lady Coote",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Gerry Wade",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 1.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Jimmy Thesiger",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.45
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Ronny Devereux",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Bill Eversleigh",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.15
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Rupert 'Pongo' Bateman",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Lord Caterham",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Lady Eileen 'Bundle' Brent",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.35
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Doctor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.45,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Mosgorovsky",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.65,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Alfred",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.65,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Bauer",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Loraine Wade",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Superintendent Battle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.05
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_11",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_12",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_14",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_8",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_8",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_13",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_2",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_3",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_3",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_8",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 1.0,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_8",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_027",
+    "title": "The Seven Dials Mystery",
+    "author": "Agatha Christie",
+    "year": 1929,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 15,
+    "num_edges": 21,
+    "max_raw_weight": 3.0
+  }
+}

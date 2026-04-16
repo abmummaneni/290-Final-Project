@@ -1,0 +1,213 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Maggie Baird",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Hamish Macbeth",
+      "label": "Witness",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Alison Kerr",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Mrs. Todd",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Towser",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "PC Mary Graham",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Halbuton-Smyths",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Maggie's former lovers",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Maggie's late husband",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_194",
+    "title": "Death of a Hussy",
+    "author": "M.C. Beaton",
+    "year": 1990,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 9,
+    "num_edges": 7,
+    "max_raw_weight": 2.0
+  }
+}

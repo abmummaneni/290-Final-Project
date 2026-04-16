@@ -1,0 +1,459 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Gordon",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Reggie (The Bagman)",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Patrice",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Nate",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Anika",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Anton",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Andrei",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Galvinsons",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Roman Rashnikov",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Money Launderer",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Hitman for Hire",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.4,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Art Gallery Manager",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Drug Dealer",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Art Painter (Minor)",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Mafia Don",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Art Connoisseur",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.4,
+        "capability_level": 0.7
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Bialy Bread Store (Front)",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.3
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Mafia Money Laundering Location (Back)",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.9
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Elite Art Gallery",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Drug Dealer's Residence",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.5,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Reggie's Residence",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Art Gallery Show Location",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Patrice's Art Gallery",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Roman Rashnikov's Boat",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Mafia",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 0.8,
+        "financial_scale": 1
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Art World",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Drug Dealing Circle",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "owns"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "employed at"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "kills"
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "rivals with"
+    },
+    {
+      "source": "char_5",
+      "target": "org_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "leads"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_6",
+      "relation": "is"
+    },
+    {
+      "source": "char_8",
+      "target": "loc_7",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "hired by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "hires"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "lives with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "works with"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "discovers"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "protects"
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "buys from"
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "relation": "sells to"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_331",
+    "title": "The Kill Room",
+    "author": "Jeffery Deaver",
+    "year": 2013,
+    "medium": "Novel"
+  }
+}

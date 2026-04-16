@@ -1,0 +1,237 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Malcolm Bright",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Dr. Martin Whitly",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Gil Arroyo",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Dani Powell",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "JT Tarmel",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.125,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Jessica Whitly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Ainsley Whitly",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.375,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Girl in the box",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Copycat killer",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.6667,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_6",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_7",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "weight": 1.0,
+      "raw_weight": 3.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "weight": 0.3333,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_139",
+    "title": "Prodigal Son (season 1)",
+    "author": "Chris Fedak",
+    "year": 2019,
+    "medium": "TV Episode"
+  },
+  "graph_stats": {
+    "num_characters": 9,
+    "num_edges": 11,
+    "max_raw_weight": 3.0
+  }
+}

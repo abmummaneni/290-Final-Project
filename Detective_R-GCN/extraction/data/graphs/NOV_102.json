@@ -1,0 +1,678 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Colonel Edward Claire",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Colonel Claire's wife",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Barbara",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Simon",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.4
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Maurice Questing",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Dr. James Ackrington",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Chief Inspector Roderick Alleyn",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Geoffrey Gaunt",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Dikon Bell",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Septimus Falls",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Bert Smith",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Rua",
+      "label": "Uninvolved",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Huia",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Retired officer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.4,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Poor businessman",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.4,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Wife of a businessman",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Adult child of a businessman",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Young adult child of a businessman",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Loud businessman",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Physician",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Famous Shakespearean actor",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Secretary",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Dresser/valet",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Enigmatic man",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Alcoholic handyman",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.3,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Elderly chief of Maori community",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.4,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Maori housekeeper and Rua's granddaughter",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.2,
+        "capability_level": 0.3
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Wai-ata-tapu",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.3,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Harpoon",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.6,
+        "evidentiary_value": 0.2
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Geothermal landscape of boiling mud pools and steaming vents",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.6
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Maori community's land and sacred artifacts",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Guest house",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Te Rarawa community hall",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.5,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Taupo-tapu mud pool",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Rangi Peak and along the coast",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 0.3
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Wai-ata-tapu resort",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Maori community",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Allied forces",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.7
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "German forces (U-boats)",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.6
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "occ_1",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_5",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_6",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_7",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "occ_8",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "occ_11",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "loc_3",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "occ_13",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_12",
+      "target": "char_11",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_4",
+      "target": "org_0",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "loc_5",
+      "target": "loc_0",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "loc_6",
+      "target": "loc_0",
+      "relation": "part of",
+      "directed": false
+    },
+    {
+      "source": "org_1",
+      "target": "loc_3",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_2",
+      "relation": "makes lecherous advances to",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "falls in love with",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "pressures",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_10",
+      "relation": "associates with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "loc_2",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_4",
+      "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_4",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "visits as a guest",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_4",
+      "relation": "discovers body of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_7",
+      "relation": "mentor of",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "org_1",
+      "relation": "loots from",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_4",
+      "relation": "blackmails",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_102",
+    "title": "Colour Scheme",
+    "author": "Ngaio Marsh",
+    "year": 1943,
+    "medium": "Novel"
+  }
+}

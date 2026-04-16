@@ -1,0 +1,678 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Michael Rogers",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Rudolf Santonix",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Fenella (Ellie) Guteman",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Greta Andersen",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Mrs. Rogers (Michael's mother)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Cora (Ellie's stepmother)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mrs. Lee (old gipsy woman)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Claudia Hardcastle",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.925,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.075
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Major Phillpot",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.975,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.025
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Stanford Lloyd (Ellie's lawyer)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Mr. Lippincott (Ellie's head lawyer)",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.975,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.025
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Chauffeur",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Architect",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Heiress",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.5,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Hired companion",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Mother",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Step-mother",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Gipsy woman",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Riding companion",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Landowner",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Lawyer",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Head lawyer",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "Doctor",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Village road near Gipsy's Acre property",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Gipsy's Acre property",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Auction for Gipsy's Acre property",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Michael's mother's house",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.1
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Gipsy's Acre mansion",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Folly near the cliffs on Gipsy's Acre property",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Village in Gipsy's Acre property area",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Quarry",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "Sea voyage from California to UK",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.1
+      }
+    },
+    {
+      "id": "loc_9",
+      "name": "Gipsy's Acre dream home",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "label"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_2",
+      "relation": "label"
+    },
+    {
+      "source": "char_3",
+      "target": "occ_3",
+      "relation": "label"
+    },
+    {
+      "source": "char_4",
+      "target": "occ_4",
+      "relation": "label"
+    },
+    {
+      "source": "char_5",
+      "target": "occ_5",
+      "relation": "label"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_6",
+      "relation": "label"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_7",
+      "relation": "label"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_8",
+      "relation": "label"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_9",
+      "relation": "label"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_10",
+      "relation": "label"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_0",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_1",
+      "relation": "fantasizes about residing at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_2",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_5",
+      "relation": "discovers and restores"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_6",
+      "relation": "meets villagers at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_7",
+      "relation": "present at"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_8",
+      "relation": "travels on"
+    },
+    {
+      "source": "char_0",
+      "target": "loc_9",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_1",
+      "target": "char_0",
+      "relation": "meets"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_1",
+      "relation": "present at"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "married to, romantically involved with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_2",
+      "target": "loc_4",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "married to, kills, romantically involved with"
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_3",
+      "target": "loc_1",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_4",
+      "target": "char_0",
+      "relation": "related to, in conflict with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_6",
+      "target": "char_0",
+      "relation": "warns"
+    },
+    {
+      "source": "char_6",
+      "target": "char_2",
+      "relation": "warns"
+    },
+    {
+      "source": "char_7",
+      "target": "char_2",
+      "relation": "friends with, rides horses with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_0",
+      "relation": "friends with"
+    },
+    {
+      "source": "char_9",
+      "target": "char_2",
+      "relation": "related to, lawyer of"
+    },
+    {
+      "source": "char_10",
+      "target": "char_2",
+      "relation": "related to, head lawyer of"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "step-child of"
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "relation": "step-daughter in law of"
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "relation": "step-daughter in law of"
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "relation": "related to, half-sister of"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_1",
+      "relation": "visits regularly"
+    },
+    {
+      "source": "char_0",
+      "target": "char_10",
+      "relation": "accused by"
+    },
+    {
+      "source": "char_2",
+      "target": "char_10",
+      "relation": "client of"
+    },
+    {
+      "source": "char_3",
+      "target": "char_10",
+      "relation": "deceives, kills client of"
+    },
+    {
+      "source": "char_7",
+      "target": "char_9",
+      "relation": "formerly married to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "hires"
+    },
+    {
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "deceives, kills architect of"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "pays to scare"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "eliminates accidentally"
+    },
+    {
+      "source": "char_3",
+      "target": "char_7",
+      "relation": "deceives, eliminates accidentally"
+    },
+    {
+      "source": "char_0",
+      "target": "char_8",
+      "relation": "becomes close with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "relation": "riding companion of"
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_170",
+    "title": "Endless Night",
+    "author": "Agatha Christie",
+    "year": 1967,
+    "medium": "Novel"
+  }
+}

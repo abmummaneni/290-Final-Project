@@ -1,0 +1,390 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Colonel Mustard",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Mrs. White",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Mrs. Peacock",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Professor Plum",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Miss Scarlet",
+      "label": "Villain",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 1.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Mr. Green",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 1.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Wadsworth",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.9
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Yvette",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Mr. Boddy",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.7
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Stranded motorist",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Policeman",
+      "label": "Victim",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Singing telegram girl",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 1.0,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_9",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_3",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_6",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_3",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_5",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    },
+    {
+      "source": "char_6",
+      "target": "char_8",
+      "weight": 0.5,
+      "raw_weight": 1.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "FLM_019",
+    "title": "Clue",
+    "author": "Jonathan Lynn",
+    "year": 1985,
+    "medium": "Film"
+  },
+  "graph_stats": {
+    "num_characters": 12,
+    "num_edges": 28,
+    "max_raw_weight": 2.0
+  }
+}

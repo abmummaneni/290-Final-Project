@@ -1,0 +1,278 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Kurt Wallander",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Dolores Maria Santana",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Hoover (or similar)",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Linda Wallander",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Povel Wallander",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Artist",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Trafficking Network Member",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Trafficking Victim",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.25,
+        "capability_level": 0.25
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Killer",
+      "features": {
+        "authority_level": 0,
+        "access_level": 0.25,
+        "capability_level": 0.75
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Yellow Field",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 1,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Ystad",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Sweden",
+      "features": {
+        "accessibility": 0.75,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Dominican Republic",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 1,
+        "evidentiary_value": 0.25
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Trafficking Network",
+      "features": {
+        "institutional_power": 1,
+        "secrecy_level": 1,
+        "financial_scale": 1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "occ_3",
+      "relation": "labeled as",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "occ_4",
+      "relation": "labeled as",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_0",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "occ_0",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "char_1",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "char_2",
+      "relation": "near to",
+      "directed": true
+    },
+    {
+      "source": "loc_0",
+      "target": "char_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "loc_1",
+      "target": "char_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "loc_2",
+      "target": "char_0",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "loc_3",
+      "target": "char_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "org_0",
+      "target": "char_2",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "org_0",
+      "target": "char_0",
+      "relation": "investigates",
+      "directed": true
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_077",
+    "title": "Wallander: Sidetracked",
+    "author": "Philip Martin",
+    "year": 2008,
+    "medium": "TV Episode"
+  }
+}

@@ -1,0 +1,1059 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Thomas Lynley",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 1.0
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Barbara Havers",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Elena Weaver",
+      "label": "Victim",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Anthony Weaver",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Gareth Randolph",
+      "label": "Villain",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 1.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.7,
+        "narrative_prominence": 0.3
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Helen Clyde",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Gareth's mother",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Sarah Gordon",
+      "label": "Witness",
+      "features": {
+        "gender": 1.0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Gareth's father",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Elena's academic advisor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Cambridge student",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Cambridge administrator",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Cambridge security officer",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Gareth's friend",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Cambridge professor",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Cambridge student 2",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Cambridge student 3",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Cambridge student 4",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_18",
+      "name": "Cambridge student 5",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_19",
+      "name": "Cambridge student 6",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_20",
+      "name": "Cambridge student 7",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_21",
+      "name": "Cambridge student 8",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_22",
+      "name": "Cambridge student 9",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_23",
+      "name": "Cambridge student 10",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_24",
+      "name": "Gareth's ex-girlfriend",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_25",
+      "name": "Cambridge professor 2",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_26",
+      "name": "Cambridge student 11",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_27",
+      "name": "Cambridge student 12",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_28",
+      "name": "Cambridge student 13",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_29",
+      "name": "Cambridge student 14",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_30",
+      "name": "Cambridge student 15",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_31",
+      "name": "Cambridge student 16",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_32",
+      "name": "Cambridge student 17",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_33",
+      "name": "Cambridge student 18",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_34",
+      "name": "Cambridge student 19",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_35",
+      "name": "Cambridge student 20",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_36",
+      "name": "Cambridge student 21",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_37",
+      "name": "Cambridge student 22",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_38",
+      "name": "Cambridge student 23",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_39",
+      "name": "Cambridge student 24",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_40",
+      "name": "Cambridge student 25",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_41",
+      "name": "Cambridge student 26",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_42",
+      "name": "Cambridge student 27",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_43",
+      "name": "Cambridge student 28",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_44",
+      "name": "Cambridge student 29",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0.0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1.0,
+        "present_at_crime_scene": 0.0,
+        "has_motive": 0.0,
+        "is_concealing_information": 0.0,
+        "has_hidden_relationship": 0.0,
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_1",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_10",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_11",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_12",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_13",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_25",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_14",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_15",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_16",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_17",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_18",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_19",
+      "target": "char_2",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_20",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_21",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_22",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_23",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_24",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_26",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_27",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_28",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_29",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_30",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_31",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_32",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_33",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_34",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_35",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_36",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_37",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_38",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_39",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_4",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_40",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_41",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_42",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_43",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_44",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_2",
+      "target": "char_9",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_7",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    },
+    {
+      "source": "char_4",
+      "target": "char_8",
+      "weight": 1.0,
+      "raw_weight": 2.0
+    }
+  ],
+  "metadata": {
+    "entry_id": "NOV_246",
+    "title": "For the Sake of Elena",
+    "author": "Elizabeth George",
+    "year": 1992,
+    "medium": "Novel"
+  },
+  "graph_stats": {
+    "num_characters": 45,
+    "num_edges": 46,
+    "max_raw_weight": 2.0
+  }
+}
