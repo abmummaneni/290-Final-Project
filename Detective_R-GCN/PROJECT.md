@@ -1,7 +1,18 @@
 # Detective Project — Comprehensive Handoff & Reference
 
-**Last updated:** 2026-04-16
+**Last updated:** 2026-04-22
 **Purpose:** Read this file at the start of any new chat to fully resume work on the Detective subproject. This is the single source of truth for project status, architecture, and next steps.
+
+### For teammates / future readers
+
+If you're picking up this project (or asking an LLM to read this file), the fastest way to get oriented:
+
+1. **Read "Results Summary"** (below) — self-contained overview of what we built and what we found
+2. **Read "Failure Analysis"** — the deep-dive on where the model fails, with paper-ready tables
+3. **See `failure_analysis_results.txt`** for the raw analysis output
+4. **See `unsolved_cases.md`** for the 11 test stories we couldn't solve — candidates for re-extraction with better synopses
+
+The model code (`rgcn_model.py`), data loader (`load_mystery_graphs.py`), and training notebook (`detective_training.ipynb`) are unchanged except where PROJECT.md says they've been updated. The spectral baseline (`spectral_baseline.py`) and failure analysis (`failure_analysis.py`) are standalone and reproducible.
 
 ---
 
@@ -50,16 +61,24 @@ The dataset is 576 murder mystery plots (novels, films, TV episodes, podcasts, s
 
 ### How well it works
 
-**Cross-validated results** (5 different random train/test splits, 50 epochs each):
+**Cross-validated results** (5 different random train/test splits, 50 epochs each, narrative metadata features excluded — see "Feature selection" below):
 
 | Metric | R-GCN (mean ± std) | LogReg Baseline (mean ± std) |
 |---|---|---|
-| **Villain Precision** | **0.836 ± 0.051** | 0.673 ± 0.052 |
-| **Villain Recall** | 0.604 ± 0.047 | **0.717 ± 0.033** |
-| **Villain F1** | **0.699 ± 0.027** | 0.693 ± 0.024 |
-| **Overall Accuracy** | **0.891 ± 0.009** | 0.866 ± 0.014 |
+| **Villain Precision** | **0.843 ± 0.037** | 0.684 ± 0.040 |
+| **Villain Recall** | 0.606 ± 0.044 | **0.719 ± 0.032** |
+| **Villain F1** | **0.703 ± 0.024** | 0.700 ± 0.024 |
+| **Overall Accuracy** | **0.893 ± 0.006** | 0.870 ± 0.012 |
 
 These results are stable across random splits (low standard deviations), confirming this is real signal, not a lucky split.
+
+### Feature selection (what evidence the model uses)
+
+We deliberately **excluded `narrative_prominence` and `narrative_introduction_timing`** from the feature set. These describe a character's role in the narrative (how central they are, when they're introduced) — things a real detective wouldn't observe. Keeping them would leak story-structure information into the detective model.
+
+The 8 remaining features are all things a detective could actually observe or infer: gender, social status, alibi, presence at crime scene, motive (binary + type), concealment behavior, hidden relationships.
+
+Removing the narrative features had essentially zero impact on performance (F1 +0.004) and reduced result variance — the model wasn't relying on them anyway.
 
 ### What this means
 
@@ -79,13 +98,97 @@ These results are stable across random splits (low standard deviations), confirm
 
 Feature analysis of the ~40% of villains the model misses reveals they have **no villain-indicative features at all** — no motive, no concealment, no hidden relationships. These villains are indistinguishable from innocent characters in the data. This is an extraction quality issue (the LLM didn't flag these traits), not a model limitation. No model architecture can recover signal that isn't in the input data.
 
-### Strongest predictors of villainy (LogReg feature importances)
+### Strongest predictors of villainy (LogReg feature importances, narrative features excluded)
 
-1. `motive_type` (+0.86) — having a specific motive is the strongest signal
-2. `has_motive` (+0.71) — binary motive flag
-3. `has_alibi` (-0.71) — alibi anti-correlates with being the villain
-4. `concealing_info` (+0.46) — concealment behavior
-5. `narrative_prominence` (+0.27) — more prominent characters are more likely to be villains
+1. `motive_type` (+1.37) — having a specific motive type (jealousy, revenge, etc.) is the strongest signal
+2. `has_alibi` (-1.34) — having an alibi strongly anti-correlates with being the villain
+3. `has_motive` (+0.95) — binary motive flag
+4. `is_concealing_information` (+0.62) — concealment behavior
+5. `gender` (-0.60) — in this corpus, male characters are more often villains
+6. `social_status` (-0.35) — lower status correlates slightly with being the villain
+
+`present_at_crime_scene` and `has_hidden_relationship` had near-zero weights in the binary LogReg — they're dominated by the stronger signals above but may still contribute through feature interactions the linear model can't capture.
+
+---
+
+## Failure Analysis (2026-04-22)
+
+Full reproducible analysis in `failure_analysis.py` (output: `failure_analysis_results.txt`). Single-seed analysis on seed 42 test split (57 stories, 554 test characters, 108 villains). All numbers use the crime-edge-masked evaluation with narrative features excluded.
+
+### The key story-level finding
+
+> **The R-GCN's value lies not in solving more cases, but in solving them cleanly.**
+
+We measured two story-level outcomes on the 57 test stories:
+1. **Solved:** model correctly identifies at least one true villain in the story
+2. **Clean solve:** solved *and* made no false accusations of innocents in that story
+
+| Metric | R-GCN | LogReg | Difference |
+|---|---|---|---|
+| Solved at least one villain | 43 / 57 (75.4%) | 46 / 57 (80.7%) | LogReg +5.3 pts |
+| **Clean solves (no false accusations)** | **32 / 57 (56.1%)** | **23 / 57 (40.4%)** | **R-GCN +15.8 pts** |
+| Neither model solved | 11 / 57 (19.3%) | — |
+
+The LogReg catches villains in 3 more stories, but at the cost of falsely accusing innocents in 23 stories where it did solve the case. The R-GCN solves 32 cases cleanly — a 39% relative improvement over LogReg's 23 clean solves. If the deployment cost of a wrongful accusation is non-trivial, the R-GCN is the better model despite the F1 tie.
+
+### Analysis 1 — Multi-villain stories
+
+Test stories have 1 to 6 villains each. Both models degrade as the number of villains increases, but similarly:
+
+| True # Villains | Stories | R-GCN Recall | LogReg Recall | R-GCN Caught All | LogReg Caught All |
+|---|---|---|---|---|---|
+| 1 | 27 | 70.4% | 74.1% | — | — |
+| 2 | 18 | 77.8% | 80.6% | 14 / 18 (77.8%) | 14 / 18 (77.8%) |
+| 3 | 7 | 57.1% | 66.7% | 2 / 7 (28.6%) | 3 / 7 (42.9%) |
+| 4 | 3 | 50.0% | 58.3% | 1 / 3 (33.3%) | 1 / 3 (33.3%) |
+| 6 | 2 | 33.3% | 41.7% | 0 / 2 (0.0%) | 0 / 2 (0.0%) |
+
+Neither model handles large ensembles well. Stories with 6 villains (*Murder on the Orient Express*-style collective-guilt plots) are essentially unsolvable under the current architecture — the models catch 1-2 of the 6 and miss the rest. These are the structural limit cases: the graph/feature patterns that distinguish a villain from a victim break down when almost everyone is a villain.
+
+### Analysis 2 — Zero-villain stories
+
+The seed-42 test split happens to contain no test stories with zero labeled villains (the two known edge cases, NOV_026 and TVE_081, landed in train/val). This analysis is preserved in the framework for other splits.
+
+### Analysis 3 — Where R-GCN and LogReg disagree (28 characters, 5.1% of test set)
+
+| Disagreement type | Count | What it means |
+|---|---|---|
+| Both agree | 526 (94.9%) | Same prediction, whether right or wrong |
+| R-GCN right, LogReg wrong | 21 (3.8%) | |
+| LogReg right, R-GCN wrong | 7 (1.3%) | |
+
+**The asymmetry is striking:** when R-GCN wins (21 cases), it is *always* by clearing an innocent that LogReg flagged. When LogReg wins (7 cases), it is *mostly* by catching a villain that R-GCN missed (6 of 7).
+
+This precisely characterizes the architectural trade-off: the graph structure gives the R-GCN additional context to reject false positives that the feature-only model can't rule out (e.g., a sympathetic character with motive who is, in context, actually the detective). The LogReg's simpler per-character logic catches a few villains the graph context talked the R-GCN out of.
+
+### Analysis 4 — False positive composition
+
+| Model | False Positives | Breakdown |
+|---|---|---|
+| R-GCN | 19 | 18 Uninvolved, 1 Victim |
+| LogReg | 39 | 30 Uninvolved, 5 Witnesses, 4 Victims |
+
+The R-GCN cuts false accusations in half (39 → 19), and importantly: **the R-GCN almost never accuses victims or witnesses.** The LogReg flags 9 victims and witnesses as villains. For the detective framing — where the victim is known and assumed innocent — this is a meaningful quality-of-reasoning difference.
+
+### Analysis 5 — The 11 unsolved cases
+
+These stories are where neither model catches any villain. They are the clearest candidates for qualitative investigation and possible re-extraction:
+
+```
+FLM_047, NOV_019, NOV_110, NOV_189, NOV_209,
+NOV_391, NOV_414, POD_035, TVE_089, TVE_130, TVE_143
+```
+
+Based on the earlier feature analysis, most of these likely have villains with missing motive/concealment features in the extracted graph — the LLM (mixtral:8x7b) did not surface the right traits from the Wikipedia synopsis. This is the population for which better extraction (e.g. longer synopsis, larger LLM, targeted villain-detection prompt) could add the most value.
+
+### Takeaways for the paper
+
+1. **F1 is an insufficient headline metric.** R-GCN F1 ≈ LogReg F1, but they fail in different ways. Story-level outcomes tell the real story.
+2. **The R-GCN is a higher-precision detective.** It catches fewer villains but almost never accuses victims, witnesses, or a second innocent when it does accuse.
+3. **Clean solve rate (56% vs 40%) is the most honest measure of detective quality.**
+4. **The disagreement pattern provides interpretability.** Graph structure helps the model *exclude* false suspects more than it helps *find* true ones — consistent with how the relational context encodes "this person has an alibi because they were elsewhere, with witnesses."
+5. **Multi-villain ensembles are a structural limit.** Neither model solves 6-villain cases. This is a known limitation of detective graphs; an Agatha Christie-style collective-guilt plot may require a fundamentally different modeling approach (e.g., graph-level classification, or iterative detective reasoning).
+6. **The ~19% unsolved cases point to extraction as the next lever.** No architectural change can recover villains whose features weren't flagged by the LLM. Re-extraction with better prompts or a stronger model should target these 11 stories specifically.
 
 ---
 
@@ -99,6 +202,11 @@ Detective_R-GCN/
 │                                            RGCNMultiTask model, training & evaluation utilities
 ├── load_mystery_graphs.py                ← Loads 576 graph JSONs → single RelationalGraph
 │                                            with 2-stage relation normalization (16 types)
+├── spectral_baseline.py                  ← Laplacian eigenmaps baseline on simple graphs
+├── failure_analysis.py                   ← Per-story deep-dive analysis (5 failure modes)
+├── failure_analysis_results.txt          ← Latest failure analysis output (reproducible)
+├── unsolved_cases.md                     ← 11 test stories neither model solved
+│                                            (metadata + current features, for re-extraction)
 ├── detective_training.ipynb              ← Training notebook (multi-task: villain + link pred)
 │
 ├── extraction/                           ← Graph data (576 heterogeneous graph JSONs)
@@ -361,22 +469,35 @@ Single-split: 2-class R-GCN beats all baselines on Villain F1 (0.722), precision
 
 **Cross-validation results (2026-04-16) — 5 random seeds, binary Villain vs Non-Villain:**
 
+Two rounds of cross-validation were run. The second round excludes narrative metadata features (`narrative_prominence`, `narrative_introduction_timing`) that a detective wouldn't have access to in practice. The narrative features contributed negligibly (F1 +0.004) and reduced variance, so the narrative-excluded version is the final reported result.
+
+*Final result — narrative features excluded:*
+
 | Metric | R-GCN (mean ± std) | LogReg (mean ± std) |
 |---|---|---|
-| Villain Precision | **0.836 ± 0.051** | 0.673 ± 0.052 |
-| Villain Recall | 0.604 ± 0.047 | **0.717 ± 0.033** |
-| Villain F1 | **0.699 ± 0.027** | 0.693 ± 0.024 |
-| Overall Accuracy | **0.891 ± 0.009** | 0.866 ± 0.014 |
+| Villain Precision | **0.843 ± 0.037** | 0.684 ± 0.040 |
+| Villain Recall | 0.606 ± 0.044 | **0.719 ± 0.032** |
+| Villain F1 | **0.703 ± 0.024** | 0.700 ± 0.024 |
+| Overall Accuracy | **0.893 ± 0.006** | 0.870 ± 0.012 |
 
-Per-seed breakdown:
+Per-seed breakdown (narrative features excluded):
 
 | Seed | Test Villains | R-GCN P/R/F1 | LogReg P/R/F1 |
 |---|---|---|---|
-| 42 | 108 | .81/.65/.72 | .66/.69/.67 |
-| 123 | 130 | .89/.54/.67 | .69/.68/.69 |
-| 456 | 115 | .78/.66/.72 | .61/.75/.67 |
-| 789 | 113 | .80/.57/.66 | .65/.76/.70 |
-| 2024 | 147 | .91/.61/.73 | .76/.71/.74 |
+| 42 | 108 | .80/.61/.69 | .66/.69/.68 |
+| 123 | 130 | .88/.55/.68 | .69/.68/.68 |
+| 456 | 115 | .80/.68/.74 | .63/.75/.69 |
+| 789 | 113 | .85/.57/.68 | .69/.76/.73 |
+| 2024 | 147 | .88/.62/.73 | .75/.71/.73 |
+
+*Earlier result — narrative features included (for reference):*
+
+| Metric | R-GCN (mean ± std) | LogReg (mean ± std) |
+|---|---|---|
+| Villain Precision | 0.836 ± 0.051 | 0.673 ± 0.052 |
+| Villain Recall | 0.604 ± 0.047 | 0.717 ± 0.033 |
+| Villain F1 | 0.699 ± 0.027 | 0.693 ± 0.024 |
+| Overall Accuracy | 0.891 ± 0.009 | 0.866 ± 0.014 |
 
 Results are stable across splits (low std). The R-GCN's precision advantage over LogReg is consistent and significant (+16 points). LogReg's recall advantage is also consistent (+11 points). F1 is essentially tied.
 
@@ -388,12 +509,13 @@ Of 108 test villains, 40 are missed. These 40 have features indistinguishable fr
 
 This is an **extraction quality ceiling**, not a model limitation. The LLM (mixtral:8x7b) didn't flag these characters with villain-indicative features. No model architecture can recover signal that isn't in the data.
 
-**LogReg feature importances** (strongest predictors of Villain):
-1. `motive_type` (+0.86) — strongest signal
-2. `has_motive` (+0.71)
-3. `has_alibi` (-0.71) — having an alibi anti-correlates with being villain
-4. `gender` (-0.59)
-5. `concealing_info` (+0.46)
+**LogReg feature importances** (strongest predictors of Villain, narrative features excluded):
+1. `motive_type` (+1.37) — having a specific motive type is the strongest signal
+2. `has_alibi` (-1.34) — alibi strongly anti-correlates with being the villain
+3. `has_motive` (+0.95) — binary motive flag
+4. `is_concealing_information` (+0.62) — concealment behavior
+5. `gender` (-0.60) — in this corpus, male characters are more often villains
+6. `social_status` (-0.35) — slight negative correlation
 
 ### Step 4: Ablation study
 Potential ablation variants:
@@ -412,6 +534,13 @@ Potential ablation variants:
 - Reconcile `extraction_status.json` stale entries (`SHO_018`, `SHO_019`)
 - Consider adding early stopping to training loop
 - Consider learning rate scheduling
+
+### Known data-quality issues (to fix before paper submission)
+See `unsolved_cases.md` for details. Two ground-truth labeling problems discovered during failure analysis:
+- **POD_035 (*In the Dark: Season 3*)** — Curtis Flowers is mislabeled as Villain; he is a wrongly-convicted innocent and the podcast is about his exoneration. Doug Evans (the prosecutor who framed him) is the actual antagonist.
+- **TVE_089 (*Vera: Hidden Depths*)** — the labeled Villain is the string "People with specific forms of desperation and violence", not a named character. Extraction failed to identify the specific perpetrator.
+
+Both should be addressed (re-label or exclude) before the final paper, and noted as data-quality observations regardless.
 
 ---
 

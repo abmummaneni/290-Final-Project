@@ -1,0 +1,145 @@
+Detective R-GCN Failure Analysis
+=================================
+Seed: 42
+Excluded features: ['narrative_introduction_timing', 'narrative_prominence']
+Run started: 2026-04-22 18:17:25
+
+Loading graph...
+Stories — train/val/test split using seed 42
+Test characters: 554
+Test villains: 108
+
+Training R-GCN...
+  Trained in 36.5s
+Training LogReg...
+  Done.
+
+Reconstructing story membership from JSON files...
+  576 total stories, 14020 nodes mapped.
+
+Test story records built: 57 stories with valid test characters.
+
+==============================================================================
+ANALYSIS 1: MULTI-VILLAIN STORIES
+==============================================================================
+
+Distribution of true villain count per test story:
+  1 villains:  27 stories
+  2 villains:  18 stories
+  3 villains:   7 stories
+  4 villains:   3 stories
+  6 villains:   2 stories
+
+Stories with 1 villain(s) — 27 stories, 27 villains total:
+  R-GCN villain recall:   0.704 (19/27)
+  LogReg villain recall:  0.741 (20/27)
+
+Stories with 2 villain(s) — 18 stories, 36 villains total:
+  R-GCN villain recall:   0.778 (28/36)
+  LogReg villain recall:  0.806 (29/36)
+  R-GCN caught ALL villains in story: 14/18 (77.8%)
+  LogReg caught ALL villains in story: 14/18 (77.8%)
+
+Stories with 3 villain(s) — 7 stories, 21 villains total:
+  R-GCN villain recall:   0.571 (12/21)
+  LogReg villain recall:  0.667 (14/21)
+  R-GCN caught ALL villains in story: 2/7 (28.6%)
+  LogReg caught ALL villains in story: 3/7 (42.9%)
+
+Stories with 4 villain(s) — 3 stories, 12 villains total:
+  R-GCN villain recall:   0.500 (6/12)
+  LogReg villain recall:  0.583 (7/12)
+  R-GCN caught ALL villains in story: 1/3 (33.3%)
+  LogReg caught ALL villains in story: 1/3 (33.3%)
+
+Stories with 6 villain(s) — 2 stories, 12 villains total:
+  R-GCN villain recall:   0.333 (4/12)
+  LogReg villain recall:  0.417 (5/12)
+  R-GCN caught ALL villains in story: 0/2 (0.0%)
+  LogReg caught ALL villains in story: 0/2 (0.0%)
+
+==============================================================================
+ANALYSIS 2: ZERO-VILLAIN STORIES
+==============================================================================
+
+No test stories had zero villains.
+
+==============================================================================
+ANALYSIS 3: R-GCN vs LogReg DISAGREEMENTS
+==============================================================================
+
+Total test characters: 554
+Both models agree: 526 (94.9%)
+R-GCN right, LogReg wrong: 21 (3.8%)
+LogReg right, R-GCN wrong: 7 (1.3%)
+
+R-GCN wins:
+  Villains caught only by this model: 0
+  Innocents cleared only by this model: 21
+
+LogReg wins:
+  Villains caught only by this model: 6
+  Innocents cleared only by this model: 1
+
+Sample cases where R-GCN wins (first 5):
+    FLM_007 — Chief Inspector Hubbard (truly innocent)
+    FLM_031 — Joe Ross (truly innocent)
+    NOV_028 — Dr Stone (truly innocent)
+    NOV_028 — Miss Cram (truly innocent)
+    NOV_038 — Antoine (truly innocent)
+
+Sample cases where LogReg wins (first 5):
+    FLM_031 — Julian 'Jimmy' Dell (truly VILLAIN)
+    NOV_042 — Jane Wilkinson (truly VILLAIN)
+    NOV_091 — Edward Corrigan (truly VILLAIN)
+    NOV_384 — Mart Lavin (truly VILLAIN)
+    NOV_450 — Daniel Hawthorne (truly innocent)
+
+==============================================================================
+ANALYSIS 4: FALSE POSITIVES (INNOCENTS FALSELY ACCUSED)
+==============================================================================
+
+R-GCN: 19 false positives
+  True labels of falsely accused:
+    uninvolved        18
+    victim             1
+
+LogReg: 39 false positives
+  True labels of falsely accused:
+    uninvolved        30
+    witness            5
+    victim             4
+
+==============================================================================
+ANALYSIS 5: STORY-LEVEL ERROR ANALYSIS ("DID WE SOLVE THE CASE?")
+==============================================================================
+
+For each test story, we ask: did the model correctly identify
+AT LEAST ONE true villain? (Analogous to a detective finding the
+murderer, even if they miss accomplices.)
+
+Test stories with at least 1 villain: 57
+
+                                     R-GCN       LogReg
+Caught at least one villain:        43 (75.4%)     46 (80.7%)
+  ...with NO false accusations:     32 (56.1%)     23 (40.4%)
+
+Agreement on solving:
+  Both caught a villain:    43 (75.4%)
+  R-GCN only:                0 (0.0%)
+  LogReg only:               3 (5.3%)
+  Neither (case unsolved):  11 (19.3%)
+
+Unsolved stories (neither model caught any villain):
+  FLM_047
+  NOV_019
+  NOV_110
+  NOV_189
+  NOV_209
+  NOV_391
+  NOV_414
+  POD_035
+  TVE_089
+  TVE_130
+  TVE_143
+

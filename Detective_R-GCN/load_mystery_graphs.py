@@ -50,6 +50,7 @@ import os
 import re
 import random
 import torch
+from typing import Optional
 from rgcn_model import RelationalGraph
 
 
@@ -140,10 +141,28 @@ def safe_float(k: str, v) -> float:
     return 0.0
 
 
-def extract_node_features(node: dict, node_type: str) -> list:
-    """Return a fixed-length float list for a node, zero-padded to FEAT_DIM."""
+def extract_node_features(node: dict, node_type: str,
+                          exclude_features: Optional[set] = None) -> list:
+    """
+    Return a fixed-length float list for a node, zero-padded to FEAT_DIM.
+
+    Parameters
+    ----------
+    node             : the node dict from the JSON
+    node_type        : "characters", "occupations", "locations", or "organizations"
+    exclude_features : set of feature names to zero out (per-node-type). Useful
+                       for ablations — e.g. {"narrative_prominence",
+                       "narrative_introduction_timing"} removes narrative
+                       metadata that a detective wouldn't have access to.
+    """
     keys = NODE_TYPE_FEATURES[node_type]
-    feats = [safe_float(k, node["features"].get(k, 0.0)) for k in keys]
+    exclude = exclude_features or set()
+    feats = []
+    for k in keys:
+        if k in exclude:
+            feats.append(0.0)
+        else:
+            feats.append(safe_float(k, node["features"].get(k, 0.0)))
     feats += [0.0] * (FEAT_DIM - len(feats))
     return feats
 
@@ -456,6 +475,7 @@ def load_mystery_graphs(
     val_fraction: float  = 0.1,
     test_fraction: float = 0.1,
     seed: int            = 42,
+    exclude_features: Optional[set] = None,
 ) -> RelationalGraph:
     """
     Merge all mystery JSON files in json_dir into a single RelationalGraph
@@ -463,10 +483,13 @@ def load_mystery_graphs(
 
     Parameters
     ----------
-    json_dir      : directory containing the .json files
-    val_fraction  : fraction of *stories* held out for validation
-    test_fraction : fraction of *stories* held out for test
-    seed          : random seed for the story-level split
+    json_dir         : directory containing the .json files
+    val_fraction     : fraction of *stories* held out for validation
+    test_fraction    : fraction of *stories* held out for test
+    seed             : random seed for the story-level split
+    exclude_features : optional set of feature names to zero out. E.g.
+                       {"narrative_prominence", "narrative_introduction_timing"}
+                       removes narrative metadata a real detective would not have.
 
     Returns
     -------
@@ -494,6 +517,8 @@ def load_mystery_graphs(
 
     print(f"Story split — train: {len(train_files)}, "
           f"val: {len(val_files)}, test: {len(test_files)}")
+    if exclude_features:
+        print(f"Excluded features: {sorted(exclude_features)}")
 
     # Accumulators
     all_features    = []
@@ -538,7 +563,7 @@ def load_mystery_graphs(
             for node in data.get(node_type, []):
                 local_to_global[node["id"]] = node_offset
                 node_labels[node_offset]    = node["name"]
-                all_features.append(extract_node_features(node, node_type))
+                all_features.append(extract_node_features(node, node_type, exclude_features))
                 node_split.append(split_name)
 
                 if node_type == "characters":
