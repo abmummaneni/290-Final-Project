@@ -31,11 +31,6 @@ from torch.optim import Adam
 from dataclasses import dataclass, field
 from typing import Optional
 
-import matplotlib.pyplot as plt
-import matplotlib
-
-matplotlib.rcParams["figure.dpi"] = 120
-
 # ---------------------------------------------------------------------------
 # Device
 # ---------------------------------------------------------------------------
@@ -590,6 +585,11 @@ def train(
 
 def plot_history(history: dict, title: str):
     """Plot training loss and validation metrics from a history dict."""
+    import matplotlib
+    import matplotlib.pyplot as plt
+
+    matplotlib.rcParams["figure.dpi"] = 120
+
     fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
     fig.suptitle(title, fontsize=13)
     ax1.plot(history["train_loss"])
