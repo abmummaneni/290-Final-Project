@@ -1,15 +1,11 @@
 # Variational Graph Autoencoder using R-GCN
 
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 from tqdm import tqdm
 
-try:
-    from .rgcn_model import RGCNScratch, DistMultDecoder, sample_negatives
-except ImportError:
-    from rgcn_model import RGCNScratch, DistMultDecoder, sample_negatives
+from rgcn_model import RGCNScratch, DistMultDecoder, sample_negatives
 
 DEVICE = (
     torch.device("cuda")
@@ -51,46 +47,54 @@ class VGAE(nn.Module):
         )
         return z, mu, log_var
 
-    def fit(self, graph, epochs, lr=0.01, neg_ratio=1, kl_beta=1.0):
+    def fit(self, graph, epochs, lr=0.01, batch_size=4096, neg_ratio=1, kl_beta=1.0):
         self.to(DEVICE)
         super().train(True)
         optimizer = torch.optim.Adam(self.parameters(), lr=lr)
         total_loss = 0.0
         node_features = graph.node_features.to(DEVICE) if graph.node_features is not None else None
         train_edges = graph.train_edges.to(DEVICE)
+        edge_index = train_edges[:, :2].t().contiguous()
+        edge_type = train_edges[:, 2]
 
         for _ in tqdm(range(epochs)):
-            train_edges = train_edges[torch.randperm(len(train_edges), device=DEVICE)]
-            neg_edges = sample_negatives(train_edges, graph.num_nodes, neg_ratio)
-            all_edges = torch.cat([train_edges, neg_edges], dim=0)
-            labels = torch.cat(
-                [
-                    torch.ones(len(train_edges), device=DEVICE),
-                    torch.zeros(len(neg_edges), device=DEVICE),
-                ]
-            )
+            shuffled_edges = train_edges[torch.randperm(len(train_edges), device=DEVICE)]
+            epoch_loss = 0.0
+            num_batches = 0
 
-            edge_index = train_edges[:, :2].t().contiguous()
-            edge_type = train_edges[:, 2]
-            z, mu, log_var = self(
-                edge_index,
-                edge_type,
-                node_features=node_features,
-                num_nodes=graph.num_nodes,
-            )
+            for start in range(0, len(shuffled_edges), batch_size):
+                pos_edges = shuffled_edges[start : start + batch_size]
+                neg_edges = sample_negatives(pos_edges, graph.num_nodes, neg_ratio)
+                all_edges = torch.cat([pos_edges, neg_edges], dim=0)
+                labels = torch.cat(
+                    [
+                        torch.ones(len(pos_edges), device=DEVICE),
+                        torch.zeros(len(neg_edges), device=DEVICE),
+                    ]
+                )
 
-            logits = self.decoder(z, all_edges[:, 0], all_edges[:, 1], all_edges[:, 2])
-            bce_loss = F.binary_cross_entropy_with_logits(logits, labels)
-            kl_loss = -0.5 * torch.sum(
-                1 + log_var - mu.pow(2) - log_var.exp(),
-                dim=1,
-            ).mean()
-            loss = bce_loss + kl_beta * kl_loss
+                z, mu, log_var = self(
+                    edge_index,
+                    edge_type,
+                    node_features=node_features,
+                    num_nodes=graph.num_nodes,
+                )
 
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
+                logits = self.decoder(z, all_edges[:, 0], all_edges[:, 1], all_edges[:, 2])
+                bce_loss = F.binary_cross_entropy_with_logits(logits, labels)
+                kl_loss = -0.5 * torch.sum(
+                    1 + log_var - mu.pow(2) - log_var.exp(),
+                    dim=1,
+                ).mean()
+                loss = bce_loss + kl_beta * kl_loss
 
-            total_loss += loss.item()
+                optimizer.zero_grad()
+                loss.backward()
+                optimizer.step()
+
+                epoch_loss += loss.item()
+                num_batches += 1
+
+            total_loss += epoch_loss / num_batches
 
         return total_loss / epochs
