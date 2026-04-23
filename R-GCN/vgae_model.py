@@ -26,21 +26,21 @@ def sample_vgae_negatives(
 ) -> torch.Tensor:
     """Sample negatives by corrupting either endpoint."""
     neg_edges = pos_edges.repeat_interleave(neg_ratio, dim=0).clone()
-    rows_to_resample = torch.ones(len(neg_edges), dtype=torch.bool, device=pos_edges.device)
+    rows = torch.arange(len(neg_edges), device=pos_edges.device)
     attempts = max_attempts if known_edge_ids is not None else 1
 
     for _ in range(attempts):
-        rows = rows_to_resample.nonzero(as_tuple=False).flatten()
         if len(rows) == 0:
             break
         corrupt_src = torch.rand(len(rows), device=pos_edges.device) < 0.5
         random_nodes = torch.randint(0, num_nodes, (len(rows),), device=pos_edges.device)
         neg_edges[rows[corrupt_src], 0] = random_nodes[corrupt_src]
         neg_edges[rows[~corrupt_src], 1] = random_nodes[~corrupt_src]
-        if known_edge_ids is not None:
-            rows_to_resample = edge_id_isin(
-                neg_edges, known_edge_ids, num_nodes, num_relations
-            )
+        if known_edge_ids is None:
+            break
+        rows = rows[
+            edge_id_isin(neg_edges[rows], known_edge_ids, num_nodes, num_relations)
+        ]
 
     return neg_edges
 
@@ -99,13 +99,14 @@ def sample_vgae_tail_negatives(
 
     flat_src = src[:, None].expand(-1, num_negatives).reshape(-1)
     flat_rel = rel[:, None].expand(-1, num_negatives).reshape(-1)
-    rows_to_resample = torch.ones(len(flat_src), dtype=torch.bool, device=src.device)
     flat_dst = neg_dst.reshape(-1)
+    rows = torch.arange(len(flat_dst), device=src.device)
 
     for _ in range(max_attempts):
-        edges = torch.stack([flat_src, flat_dst, flat_rel], dim=1)
-        rows_to_resample = edge_id_isin(edges, known_edge_ids, num_nodes, num_relations)
-        rows = rows_to_resample.nonzero(as_tuple=False).flatten()
+        if len(rows) == 0:
+            break
+        edges = torch.stack([flat_src[rows], flat_dst[rows], flat_rel[rows]], dim=1)
+        rows = rows[edge_id_isin(edges, known_edge_ids, num_nodes, num_relations)]
         if len(rows) == 0:
             break
         flat_dst[rows] = torch.randint(0, num_nodes, (len(rows),), device=src.device)
@@ -178,7 +179,7 @@ class VGAE(nn.Module):
         kl_pretrain_epochs=5,
         weight_decay=1e-5,
         use_adamw=True,
-        filtered_negatives=True,
+        filtered_negatives=False,
         reciprocal_edges=False,
         return_history=False,
     ):
