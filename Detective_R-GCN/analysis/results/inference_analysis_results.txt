@@ -1,0 +1,68 @@
+Held-Out Inference Analysis (real-world / no-confirmed-villain cases)
+=====================================================================
+Seed: 42
+Targets: ['FLM_047', 'POD_035']
+Excluded entries (train+test): ['FLM_047', 'POD_035', 'TVE_089', 'TVE_093']
+Excluded features: ['narrative_introduction_timing', 'narrative_prominence']
+Run: 2026-04-26 14:18:55
+
+
+==============================================================================
+FLM_047 — Zodiac — Suspect Ranking
+==============================================================================
+
+Story: Zodiac (2007)
+Total characters: 20
+Total edges (with inverse): 58
+Crime edges masked: 3
+
+Rank  P(Villain)  Label         Name
+------------------------------------------------------------------------------
+1     0.9997      UNK           Arthur Leigh Allen  ★
+2     0.9994      Villain       Zodiac Killer (unidentified)
+3     0.2085      Uninvolved    Rick Marshall
+4     0.0771      Uninvolved    Inspector Bill Armstrong
+5     0.0771      Uninvolved    Attorney Melvin Belli
+6     0.0439      Uninvolved    Paul Avery
+7     0.0416      Uninvolved    Bob Vaughn
+8     0.0242      Uninvolved    Robert Graysmith
+9     0.0198      Uninvolved    Inspector David Toschi
+10    0.0174      Victim        Darlene Ferrin
+11    0.0151      Victim        Cheri Jo Bates
+12    0.0082      Witness       Linda del Buono
+13    0.0041      Victim        Cecelia Shepard
+14    0.0039      Uninvolved    Melanie
+15    0.0037      Witness       Bryan Hartnell
+16    0.0027      Uninvolved    Captain Marty Lee
+17    0.0022      Victim        Paul Stine
+18    0.0011      Uninvolved    Jack Mulanax
+19    0.0011      Uninvolved    Ken Narlow
+20    0.0000      Witness       Mike Mageau
+
+==============================================================================
+POD_035 — In the Dark: Season 3 — Suspect Ranking
+==============================================================================
+
+Story: In the Dark: Season 3 (2022)
+Total characters: 16
+Total edges (with inverse): 46
+Crime edges masked: 0
+
+Rank  P(Villain)  Label         Name
+------------------------------------------------------------------------------
+1     1.0000      Villain       Doug Evans  ★
+2     1.0000      Suspect       Willie James Hemphill
+3     0.9999      Villain       John Johnson
+4     0.9999      Suspect       Marcus Presley
+5     0.9999      Suspect       LaSamuel Gamble
+6     0.9994      Witness       Odell Hallmon
+7     0.0494      Uninvolved    Parker Yesko
+8     0.0151      Uninvolved    Samara Freemark
+9     0.0086      Witness       Twanda Woods
+10    0.0053      Victim        Robert Golden
+11    0.0028      Victim        Carmen Rigby
+12    0.0016      Victim        Bertha Tardy
+13    0.0010      Victim        Derrick 'Bobo' Stewart
+14    0.0006      Uninvolved    Madeleine Baran
+15    0.0001      Uninvolved    Katie Ali
+16    0.0000      Uninvolved    Curtis Flowers

@@ -1,0 +1,15 @@
+Cross-validation (FLM_047, POD_035, TVE_089, TVE_093 excluded; TVE_094 re-extracted)
+================================================================================
+Seed   42 | Villains 136 | R-GCN P=0.838 R=0.721 F1=0.775 | LogReg P=0.738 R=0.809 F1=0.772 | 54s
+Seed  123 | Villains 118 | R-GCN P=0.762 R=0.678 F1=0.717 | LogReg P=0.576 R=0.703 F1=0.634 | 1061s
+Seed  456 | Villains 126 | R-GCN P=0.832 R=0.706 F1=0.764 | LogReg P=0.686 R=0.762 F1=0.722 | 963s
+Seed  789 | Villains 124 | R-GCN P=0.858 R=0.734 F1=0.791 | LogReg P=0.676 R=0.790 F1=0.729 | 728s
+Seed 2024 | Villains 128 | R-GCN P=0.833 R=0.703 F1=0.763 | LogReg P=0.742 R=0.695 F1=0.718 | 60s
+
+================================================================================
+Metric                 R-GCN mean  R-GCN std  LogReg mean LogReg std
+--------------------------------------------------------------------------------
+Villain Prec                0.825      0.033        0.684      0.060
+Villain Recall              0.708      0.019        0.752      0.046
+Villain F1                  0.762      0.025        0.715      0.045
+Overall Acc                 0.904      0.007        0.869      0.019

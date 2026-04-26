@@ -75,3 +75,14 @@ Final summary:
 2026-04-26 07:04:23,505 [INFO]   SUCCESS: 2
 2026-04-26 07:04:23,505 [INFO]   FAILED: 0
 2026-04-26 07:04:23,505 [INFO]   VALIDATION_WARNINGS: 0
+2026-04-26 07:37:54,077 [INFO] Re-extracting 1 entries: ['TVE_094']
+2026-04-26 07:37:54,077 [INFO] [1/1] TVE_094: The Killing: Season 2 (2639 words)
+2026-04-26 07:37:54,077 [INFO] Extracting TVE_094: The Killing: Season 2 — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-26 07:42:17,652 [INFO] TVE_094: Pass 1 done — 18 characters, 8 locations, 12 occupations
+2026-04-26 07:42:17,653 [INFO] TVE_094: Pass 2: edges
+2026-04-26 07:43:30,691 [INFO] TVE_094 saved — 18 chars, 43 edges, 8 locs, 336.6s
+2026-04-26 07:43:30,691 [INFO] 
+Final summary:
+2026-04-26 07:43:30,691 [INFO]   SUCCESS: 1
+2026-04-26 07:43:30,691 [INFO]   FAILED: 0
+2026-04-26 07:43:30,691 [INFO]   VALIDATION_WARNINGS: 0

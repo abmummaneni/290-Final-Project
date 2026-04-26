@@ -1,5 +1,0 @@
-.env
-data/raw/
-logs/
-__pycache__/
-*.pyc

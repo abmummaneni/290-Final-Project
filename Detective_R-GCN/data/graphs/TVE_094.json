@@ -1,0 +1,792 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Rosie Larsen",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Stan Larsen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Mitch Larsen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Tommy Larsen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Denny Larsen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.1,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Detective Sarah Linden",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Detective Stephen Holder",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Darren Richmond",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Jamie Wright",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.5,
+        "narrative_prominence": 0.8
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Terry Marek",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 0,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Michael Ames",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Nicole Jackson",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.9,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Ted Wright",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Janek Kovarsky",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Mayor Lesley Adams",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Bennet Ahmed",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Beau Soleil owner / Adela",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Gwen Eaton",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.1
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "High school student",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Parent",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "Homicide detective",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Mayoral candidate",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Campaign manager",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Moving company owner/operator",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Casino manager/tribal chief",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "High-end escort service owner",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Chief of staff/politician's girlfriend",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.7,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Property developer",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Politician",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "High school teacher",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.3
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Seattle",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Discovery Park area of Seattle",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Wapi Eagle Casino's tenth-floor construction site",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Lake in Discovery Park area of Seattle",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Hospital in early Season 2",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Seattle moving company office",
+      "features": {
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Richmond's election-night offices",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 1
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Sea-Tac airport",
+      "features": {
+        "accessibility": 1,
+        "isolability": 0.2,
+        "evidentiary_value": 0.5
+      }
+    }
+  ],
+  "organizations": [
+    {
+      "id": "org_0",
+      "name": "Seattle Police Department",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Beau Soleil high-end escort agency",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.9,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "Wapi Eagle Casino",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "AMC (American Broadcasting Company)",
+      "features": {
+        "institutional_power": 0.9,
+        "secrecy_level": 0.2,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Native American tribe connected to Wapi Eagle Casino",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.7,
+        "financial_scale": 0.8
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Seattle high school",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_6",
+      "name": "Narcotics Anonymous program",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.2
+      }
+    },
+    {
+      "id": "org_7",
+      "name": "Family",
+      "features": {
+        "institutional_power": 0.4,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.2
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "related to"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_1",
+      "target": "occ_5",
+      "relation": "leads"
+    },
+    {
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "related to"
+    },
+    {
+      "source": "char_1",
+      "target": "char_4",
+      "relation": "related to"
+    },
+    {
+      "source": "char_2",
+      "target": "char_0",
+      "relation": "related to"
+    },
+    {
+      "source": "char_5",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "partner of"
+    },
+    {
+      "source": "char_6",
+      "target": "org_0",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_7",
+      "target": "occ_3",
+      "relation": "candidate for"
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "employer of"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_4",
+      "relation": "present at"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_4",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_8",
+      "target": "org_0",
+      "relation": "antagonist of"
+    },
+    {
+      "source": "char_8",
+      "target": "char_7",
+      "relation": "in conflict with"
+    },
+    {
+      "source": "char_9",
+      "target": "char_2",
+      "relation": "related to"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_7",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_3",
+      "relation": "present at"
+    },
+    {
+      "source": "char_9",
+      "target": "char_0",
+      "relation": "kills"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_9",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_10",
+      "target": "org_4",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "char_10",
+      "target": "char_8",
+      "relation": "business partner of"
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_11",
+      "target": "org_6",
+      "relation": "leads"
+    },
+    {
+      "source": "char_11",
+      "target": "org_2",
+      "relation": "located at"
+    },
+    {
+      "source": "char_11",
+      "target": "char_8",
+      "relation": "corrupts"
+    },
+    {
+      "source": "char_11",
+      "target": "char_9",
+      "relation": "corrupts"
+    },
+    {
+      "source": "char_12",
+      "target": "char_8",
+      "relation": "related to"
+    },
+    {
+      "source": "char_13",
+      "target": "char_1",
+      "relation": "formerly employed by"
+    },
+    {
+      "source": "char_14",
+      "target": "org_0",
+      "relation": "antagonist of"
+    },
+    {
+      "source": "char_15",
+      "target": "occ_11",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_16",
+      "target": "occ_7",
+      "relation": "operates"
+    },
+    {
+      "source": "char_17",
+      "target": "char_7",
+      "relation": "girlfriend of"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "investigated by"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "investigated by"
+    },
+    {
+      "source": "char_1",
+      "target": "char_8",
+      "relation": "conflicts with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_9",
+      "relation": "conceals from"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "works with"
+    },
+    {
+      "source": "char_7",
+      "target": "char_8",
+      "relation": "deceived by"
+    },
+    {
+      "source": "char_9",
+      "target": "char_10",
+      "relation": "protects"
+    },
+    {
+      "source": "char_11",
+      "target": "char_8",
+      "relation": "accuses"
+    },
+    {
+      "source": "char_11",
+      "target": "char_9",
+      "relation": "accuses"
+    }
+  ],
+  "metadata": {
+    "entry_id": "TVE_094",
+    "title": "The Killing: Season 2",
+    "author": "Various",
+    "year": 2012,
+    "medium": "TV Episode"
+  }
+}

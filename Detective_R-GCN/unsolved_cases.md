@@ -1,6 +1,6 @@
 # Case Status — Detective R-GCN (2026-04-26)
 
-This file tracks the status of every test story the model couldn't initially handle. After two rounds of targeted re-extraction, label cleanup, and four exclusions, the corpus is in a clean state for reporting.
+This file tracks every test story we've had to address — re-extracted, re-labeled, or excluded — across three rounds of refinement. After three rounds, **zero test stories remain unsolved by both models**.
 
 ---
 
@@ -10,10 +10,11 @@ This file tracks the status of every test story the model couldn't initially han
 |---|---|---|
 | Originally unsolved (2026-04-22) | 11 | All addressed |
 | Round 2 emerged unsolved (2026-04-25) | 2 | Both re-extracted on 2026-04-26 |
+| Round 3 emerged unsolved (2026-04-26) | 1 | TVE_094, re-extracted same day |
 | Held out as inference-only (no real-world villain) | 2 | FLM_047 (Zodiac), POD_035 (In the Dark) |
 | Fully excluded (genre/extraction mismatch) | 2 | TVE_089, TVE_093 |
-| Re-extracted to solved | 10 | (the rest of Round 1 + Round 2) |
-| Currently unsolved | 1 | TVE_094 — same generic-villain pattern (candidate for next exclusion) |
+| Re-extracted to solved | 11 | (Round 1 + Round 2 + Round 3) |
+| **Currently unsolved** | **0** | First time this state has been reached |
 
 ---
 
@@ -77,21 +78,15 @@ Both newly-emerged unsolved cases resolved:
 
 ---
 
-## Flagged for review (next exclusion candidate)
+## Round 3 (2026-04-26 late) — final residual case resolved
 
-After excluding TVE_093, the seed-42 test split surfaces another story with the same generic-villain pattern:
+After excluding TVE_093, the seed-42 split surfaced TVE_094 (*The Killing: Season 2*) as a new unsolved case — the original extraction had labeled the villain as a code name ("The Pasha") with all-UNK features. A detailed synopsis was generated and re-extracted, surfacing 4 named villains:
 
-### TVE_094 — *The Killing: Season 2*
+| Entry | Title | Old → New | Status |
+|---|---|---|---|
+| TVE_094 | *The Killing: Season 2* | 1 generic villain → 4 named villains | Solved |
 
-- **Author:** Various
-- **Year:** 2012
-- **Medium:** TV Episode
-- **Total characters:** 9
-- **Labeled villains:** 1
-
-- Villain: `The Pasha` (features all UNK)
-
-This appears to follow the same code-name / generic-perpetrator pattern as TVE_089 and TVE_093. Consider excluding (treat like TVE_093) or generating a more detailed synopsis that names a specific perpetrator.
+After Round 3, the test set has zero stories where neither model catches a villain.
 
 ---
 

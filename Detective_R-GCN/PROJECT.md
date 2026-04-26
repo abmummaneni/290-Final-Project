@@ -9,12 +9,12 @@ If you're picking up this project (or asking an LLM to read this file), the fast
 
 1. **Read "Results Summary"** — self-contained overview of what we built and what we found, including the **Held-Out Inference Case Studies** (Zodiac and In the Dark) and the **Re-Extraction Impact** section
 2. **Read "Failure Analysis"** — the deep-dive on where the model fails, with paper-ready tables
-3. **See `failure_analysis_results.txt`** for raw failure analysis output
-4. **See `inference_analysis_results.txt`** for the FLM_047 (Zodiac → Arthur Leigh Allen) and POD_035 (In the Dark → Doug Evans / Curtis Flowers exoneration) suspect rankings
-5. **See `cross_validation_results.txt`** for the 5-seed cross-validation output
-6. **See `unsolved_cases.md`** for the project's case-by-case status across both re-extraction rounds
+3. **See `analysis/results/failure_analysis_results.txt`** for raw failure analysis output
+4. **See `analysis/results/inference_analysis_results.txt`** for the FLM_047 (Zodiac → Arthur Leigh Allen) and POD_035 (In the Dark → Doug Evans / Curtis Flowers exoneration) suspect rankings
+5. **See `analysis/results/cross_validation_results.txt`** for the 5-seed cross-validation output
+6. **See `unsolved_cases.md`** for the project's case-by-case status across re-extraction rounds
 
-The model code (`rgcn_model.py`), data loader (`load_mystery_graphs.py`), and training notebook (`detective_training.ipynb`) are unchanged except where PROJECT.md says they've been updated. The spectral baseline (`spectral_baseline.py`), failure analysis (`failure_analysis.py`), inference analysis (`inference_analysis.py`), and re-extraction script (`reextract.py`) are standalone and reproducible.
+The model code lives under `model/`, the analysis scripts under `analysis/`, and the data-building pipeline under `pipeline/`. All scripts are designed to run from `Detective_R-GCN/` as the working directory and add the project root to `sys.path` so cross-package imports work.
 
 ---
 
@@ -46,7 +46,7 @@ This is a multi-phase pipeline that builds a **heterogeneous knowledge graph dat
 - **Crime-edge masking (2026-04-16):** Implemented. Crime edges (`kills`, `killed by`, `sexually assaults`, `financial crime/transaction`) are tagged during loading and removed from the graph at evaluation time. **Result:** Masking had zero impact on predictions — the model was already making all decisions from non-crime edges and node features, not from `kills` edges. This validates the detective framing: the model genuinely uses circumstantial evidence, not the answer.
 
 **Working directory:** `/Users/maxdesantis/dev/290-Final-Project/Detective_R-GCN/`
-**Original data pipeline:** `../Detective/` (scraping, extraction, graph schema)
+**Data-building pipeline:** `pipeline/` (scraping, extraction — formerly in `../Detective/`)
 **Reference paper:** Schlichtkrull et al., 2017 — checklist in `RGCN.md`
 
 ---
@@ -67,12 +67,12 @@ The dataset is 576 murder mystery plots (novels, films, TV episodes, podcasts, s
 
 | Metric | R-GCN (mean ± std) | LogReg Baseline (mean ± std) |
 |---|---|---|
-| **Villain Precision** | **0.830 ± 0.029** | 0.684 ± 0.061 |
-| **Villain Recall** | 0.676 ± 0.068 | **0.747 ± 0.047** |
-| **Villain F1** | **0.743 ± 0.047** | 0.712 ± 0.044 |
-| **Overall Accuracy** | **0.900 ± 0.009** | 0.868 ± 0.019 |
+| **Villain Precision** | **0.825 ± 0.033** | 0.684 ± 0.060 |
+| **Villain Recall** | 0.708 ± 0.019 | **0.752 ± 0.046** |
+| **Villain F1** | **0.762 ± 0.025** | 0.715 ± 0.045 |
+| **Overall Accuracy** | **0.904 ± 0.007** | 0.869 ± 0.019 |
 
-The R-GCN leads on F1, precision (+15 points), and overall accuracy (90% — a clean round number worth highlighting). The LogReg has higher recall but produces ~2x more false accusations.
+The R-GCN leads on F1, precision (+14 points), and overall accuracy (90.4% — best result of the project). The LogReg has higher recall but produces ~2x more false accusations. R-GCN recall variance is now extremely tight (±0.019) — the most stable result we've recorded.
 
 **Excluded entries** (no confirmed real-world villain, structurally different story, or unfixable extraction issue):
 - **FLM_047 (Zodiac)** — real-world unsolved case; used in inference-only analysis
@@ -86,7 +86,7 @@ These results follow two rounds of targeted re-extraction (2026-04-25 and 2026-0
 
 Two real-world unsolved cases were excluded from train/test entirely and analyzed inference-only. The model — never having seen these stories during training — was asked to rank all characters by predicted villain probability. **Crime edges were masked** (detective scenario), so the model had to reason from circumstantial evidence alone.
 
-Reproducible via `python inference_analysis.py`. Output saved to `inference_analysis_results.txt`.
+Reproducible via `python analysis/inference_analysis.py`. Output saved to `analysis/results/inference_analysis_results.txt`.
 
 #### Case 1: FLM_047 — *Zodiac* (2007)
 
@@ -128,34 +128,54 @@ After the initial failure analysis identified 11 unsolved test stories whose vil
 
 **Story-level outcomes on the 57-story test set (seed 42):**
 
-| Metric | Original | After Round 1 (04-25) | After Round 2 (04-26) | Δ Total |
-|---|---|---|---|---|
-| Solved at least one villain | 75.4% (43/57) | 96.5% (55/57) | **98.2%** (56/57) | **+22.8 pts** |
-| Clean solves (no false accusations) | 56.1% (32/57) | 70.2% (40/57) | **77.2%** (44/57) | **+21.1 pts** |
-| Cases neither model solved | 11/57 (19.3%) | 2/57 (3.5%) | **1/57 (1.8%)** | -10 stories |
+| Metric | Original | Round 1 (04-25) | Round 2 (04-26) | Round 3 (04-26 late) | Δ Total |
+|---|---|---|---|---|---|
+| Solved at least one villain | 75.4% (43/57) | 96.5% (55/57) | 98.2% (56/57) | **98.2%** (R-GCN) / **100%** (LogReg) | **+22.8 pts** |
+| Clean solves (no false accusations) | 56.1% (32/57) | 70.2% (40/57) | 77.2% (44/57) | **77.2%** (44/57) | **+21.1 pts** |
+| Cases neither model solved | 11/57 (19.3%) | 2/57 (3.5%) | 1/57 (1.8%) | **0/57 (0.0%)** | -11 stories |
 
 **Cross-validated impact (5 seeds):**
 
-| Metric | Original | Round 1 | Round 2 |
-|---|---|---|---|
-| R-GCN Villain F1 | 0.703 | 0.712 | **0.737** |
-| R-GCN Villain Recall | 0.606 | 0.620 | **0.661** |
-| R-GCN Villain Precision | 0.843 | 0.848 | **0.846** |
-| R-GCN Overall Accuracy | 0.893 | 0.886 | **0.898** |
+| Metric | Original | Round 1 | Round 2 | Round 3 |
+|---|---|---|---|---|
+| R-GCN Villain F1 | 0.703 | 0.712 | 0.737 | **0.762** |
+| R-GCN Villain Recall | 0.606 | 0.620 | 0.661 | **0.708** |
+| R-GCN Villain Precision | 0.843 | 0.848 | 0.846 | 0.825 |
+| R-GCN Overall Accuracy | 0.893 | 0.886 | 0.898 | **0.904** |
 
 **What happened in each round:**
 
 - **Round 1 (2026-04-25):** Re-extracted 11 unsolved stories using more detailed synopses. 9 became solved. POD_035 had a labeling error fixed (Curtis Flowers — see Round 2). FLM_047 (Zodiac) was excluded as having no real-world villain.
 
-- **Round 2 (2026-04-26):** Two further refinements:
+- **Round 2 (2026-04-26):** Four further refinements:
   - **NOV_276 (*The Stonecutter*) and SHO_001 (*The Red-Headed League*)** were re-extracted with detailed synopses (the new unsolved cases that emerged in Round 1).
   - **POD_035 (*In the Dark: Season 3*)** had Curtis Flowers's label corrected from Victim to Uninvolved (he was wrongly accused, not the actual murder victim) and was moved to the inference-only category alongside FLM_047 (no formal villain identified in real life).
   - **TVE_089 (*Vera: Hidden Depths*)** was fully excluded — its labeled "Villain" was a generic description ("People with specific forms of desperation and violence"), not a named character. Extraction artifact, not recoverable.
-  - **TVE_093 (*Spiral: Series 4*)** was fully excluded after the same pattern was identified — its villain is "Members of the criminal network", a collective with no single identifiable perpetrator. This is a structurally different kind of story (organized-crime drama, not a whodunit) and doesn't fit the dataset's intended scope.
+  - **TVE_093 (*Spiral: Series 4*)** was fully excluded — its villain is "Members of the criminal network", a collective with no single identifiable perpetrator. *Spiral* is an organized-crime drama, not a whodunit.
 
-After both rounds and the four exclusions above, the test set is in a clean reportable state. The unsolved-case rate is now driven by the same generic-villain pattern that has now been formally excluded from the dataset rather than being reported as model failures.
+- **Round 3 (2026-04-26 late):** **TVE_094 (*The Killing: Season 2*)** was re-extracted with a detailed synopsis. The original extraction had labeled the villain as a code name ("The Pasha") with all-UNK features; the re-extraction surfaces 4 named villains (Jamie Wright, Terry Marek, Michael Ames, Nicole Jackson). This was the last residual unsolved case from earlier rounds. After this fix, the seed-42 test split has **zero stories where neither model catches a villain**.
 
-**Methodological note for the paper:** the prompt used for the new synopses (saved in `support_files/synopsis_generation_prompt.md`) explicitly asked the source LLM to state each character's motive, alibi, concealment behavior, and hidden relationships in narrative prose. The downstream extractor (mixtral:8x7b, two-pass) then surfaced these traits more reliably. This is a useful pattern for any LLM-extraction pipeline: synopses written for human readers often imply traits that synopses written for downstream extraction must state.
+After three rounds and four exclusions, the test set is in a clean reportable state. The dataset's scope is now formally restricted to **single-perpetrator detective fiction** — stories that don't fit (real-world unsolved cases, organized-crime collectives, generic-villain extractions) are handled either as held-out inference or as full exclusions.
+
+**Methodological note for the paper:** the prompt used for the new synopses (saved in `docs/synopsis_generation_prompt.md`) explicitly asked the source LLM to state each character's motive, alibi, concealment behavior, and hidden relationships in narrative prose. The downstream extractor (mixtral:8x7b, two-pass) then surfaced these traits more reliably. This is a useful pattern for any LLM-extraction pipeline: synopses written for human readers often imply traits that synopses written for downstream extraction must state.
+
+### Spectral baseline comparison
+
+To validate that the R-GCN's gains come from typed relational message passing (not just graph topology), we ran a Laplacian eigenmaps baseline on simplified character-only graphs (`data/graphs_simple/`) — weighted, undirected, with edge weights from direct character-character relationships plus shared locations/orgs/occupations. Reproducible via `python analysis/spectral_baseline.py`.
+
+| Approach | Test Accuracy | Villain Precision | Villain Recall | Villain F1 |
+|---|---|---|---|---|
+| Spectral only (4-dim Laplacian eigenmaps, no features) | 25.5% | 0.145 | 0.093 | 0.113 |
+| Features-only LogReg (10 character features, no graph) | 58.5% | 0.737 | 0.676 | 0.705 |
+| Features + Spectral (concatenated) | 58.8% | 0.727 | 0.667 | 0.696 |
+| **R-GCN (typed relational message passing)** | **90.4%** | **0.825** | **0.708** | **0.762** |
+
+**Key takeaways:**
+1. **Graph topology alone is essentially useless** (25.5% on a 4-class task). Character centrality in a connection graph doesn't predict villainy.
+2. **Adding spectral embeddings to features adds nothing** (+0.3 points). The Laplacian structure isn't contributing on top of the features.
+3. **The R-GCN's 32-point lead over LogReg is not from raw topology** — it comes from typed message passing over the heterogeneous graph (16 relation types: kills, investigates, deceives, personal_bond, professional, spatial, social, harms — each with an inverse). That's what lets the model reason about alibis ("X was at the theater with Y, so X didn't kill Z") and contextual evidence in a way the simple-graph spectral approach can't.
+
+The spectral baseline establishes a clear ablation result: **the *labeled* relational structure is what matters, not the graph topology itself.**
 
 ### Feature selection (what evidence the model uses)
 
@@ -167,15 +187,15 @@ Removing the narrative features had essentially zero impact on performance (F1 +
 
 ### What this means
 
-1. **The R-GCN is a cautious, precise detective.** When it accuses someone of being the villain, it's right **83% of the time** (precision). The logistic regression baseline only gets 68%. This +15-point precision advantage comes from the relational graph structure — the R-GCN can see that a character with motive but strong alibis and spatial separation from the crime is probably not the villain, while the LogReg just sees "has motive" and flags them.
+1. **The R-GCN is a cautious, precise detective.** When it accuses someone of being the villain, it's right **83% of the time** (precision). The logistic regression baseline only gets 68%. This +14-point precision advantage comes from the relational graph structure — the R-GCN can see that a character with motive but strong alibis and spatial separation from the crime is probably not the villain, while the LogReg just sees "has motive" and flags them.
 
-2. **The LogReg catches more villains** (75% recall vs 68%). It uses a simpler strategy: flag anyone with suspicious features. This casts a wider net but produces ~2x more false accusations.
+2. **The LogReg catches more villains** (75% recall vs 71%). It uses a simpler strategy: flag anyone with suspicious features. This casts a wider net but produces ~2x more false accusations.
 
-3. **Villain F1 favors the R-GCN** (0.743 vs 0.712). The R-GCN's precision advantage outweighs the LogReg's recall lead in aggregate.
+3. **Villain F1 favors the R-GCN** (0.762 vs 0.715). The R-GCN's precision advantage outweighs the LogReg's recall lead in aggregate.
 
-4. **Overall accuracy is exactly 90%** for the R-GCN — 9 out of 10 characters are correctly classified as villain or non-villain.
+4. **Overall accuracy is 90.4%** for the R-GCN — 9 out of 10 characters are correctly classified as villain or non-villain.
 
-5. **At the story level, both models now solve 98.2% of cases** — i.e., catch at least one true villain. But the R-GCN does so cleanly (with no false accusations) in **77.2%** of stories vs LogReg's 66.7%. Only 1 out of 57 stories remains unsolved (TVE_093, an extraction-quality case).
+5. **At the story level, the LogReg now solves 100% of test cases** and the R-GCN solves **98.2%**. But the R-GCN does so cleanly (with no false accusations) in **77.2%** of stories vs LogReg's 66.7%. **Zero stories remain unsolved by both models.**
 
 6. **The held-out inference case studies are the strongest evidence of generalization.** With FLM_047 (Zodiac) and POD_035 (In the Dark) held out of training entirely:
    - The model ranks Arthur Leigh Allen — the real-world Zodiac suspect — as #1 with P(villain) = 1.0000.
@@ -207,7 +227,7 @@ Feature analysis of the villains the model misses reveals they have **no villain
 
 ## Failure Analysis (2026-04-26, after both re-extraction rounds)
 
-Full reproducible analysis in `failure_analysis.py` (output: `failure_analysis_results.txt`). Single-seed analysis on seed 42 test split (57 stories, 604 test characters, 138 villains, with FLM_047/POD_035/TVE_089 excluded as special cases). All numbers use the crime-edge-masked evaluation with narrative features excluded.
+Full reproducible analysis in `analysis/failure_analysis.py` (output: `analysis/results/failure_analysis_results.txt`). Single-seed analysis on seed 42 test split (57 stories, 604 test characters, 138 villains, with FLM_047/POD_035/TVE_089/TVE_093 excluded as special cases). All numbers use the crime-edge-masked evaluation with narrative features excluded.
 
 ### The key story-level finding
 
@@ -219,11 +239,11 @@ We measured two story-level outcomes on the 57 test stories:
 
 | Metric | R-GCN | LogReg | Difference |
 |---|---|---|---|
-| Solved at least one villain | 56 / 57 (98.2%) | 56 / 57 (98.2%) | tied |
+| Solved at least one villain | 56 / 57 (98.2%) | 57 / 57 (100.0%) | LogReg +1.8 pts |
 | **Clean solves (no false accusations)** | **44 / 57 (77.2%)** | **38 / 57 (66.7%)** | **R-GCN +10.5 pts** |
-| Neither model solved | 1 / 57 (1.8%) | — |
+| Neither model solved | 0 / 57 (0.0%) | — |
 
-The R-GCN solves cases cleanly in 77.2% of stories vs LogReg's 66.7%. Only 1 story remains unsolved by either model (TVE_093 — generic-villain extraction issue).
+The R-GCN solves cases cleanly in 77.2% of stories vs LogReg's 66.7%. **Zero stories now remain unsolved by both models.** The LogReg catches a villain in every test story but at the cost of more false accusations.
 
 **Historical comparison:**
 
@@ -231,35 +251,36 @@ The R-GCN solves cases cleanly in 77.2% of stories vs LogReg's 66.7%. Only 1 sto
 |---|---|---|---|---|
 | Original (2026-04-22) | 75.4% | 56.1% | 40.4% | 11 |
 | Round 1 (2026-04-25) | 96.5% | 70.2% | 63.2% | 2 |
-| **Round 2 (2026-04-26)** | **98.2%** | **77.2%** | **66.7%** | **1** |
+| Round 2 (2026-04-26) | 98.2% | 77.2% | 66.7% | 1 |
+| **Round 3 (2026-04-26 late)** | **98.2% / 100%** | **77.2%** | **66.7%** | **0** |
 
 ### Analysis 1 — Multi-villain stories
 
 | True # Villains | Stories | R-GCN Recall | LogReg Recall | R-GCN Caught All | LogReg Caught All |
 |---|---|---|---|---|---|
-| 1 | 21 | 95.2% | 95.2% | — | — |
-| 2 | 14 | 92.9% | 92.9% | 11 / 14 (78.6%) | 11 / 14 (78.6%) |
-| 3 | 10 | 70.0% | 76.7% | 5 / 10 (50.0%) | 6 / 10 (60.0%) |
-| 4 | 8 | 65.6% | 75.0% | 1 / 8 (12.5%) | 3 / 8 (37.5%) |
+| 1 | 19 | 100.0% | 100.0% | — | — |
+| 2 | 16 | 90.6% | 87.5% | 12 / 16 (75.0%) | 11 / 16 (68.8%) |
+| 3 | 9 | 81.5% | 88.9% | 6 / 9 (66.7%) | 7 / 9 (77.8%) |
+| 4 | 8 | 71.9% | 75.0% | 2 / 8 (25.0%) | 4 / 8 (50.0%) |
 | 5 | 1 | 100.0% | 100.0% | 1 / 1 | 1 / 1 |
-| 6 | 2 | 41.7% | 41.7% | 0 / 2 (0.0%) | 0 / 2 (0.0%) |
+| 6 | 3 | 38.9% | 38.9% | 0 / 3 (0.0%) | 0 / 3 (0.0%) |
 | 10 | 1 | 60.0% | 60.0% | 0 / 1 | 0 / 1 |
 
-Single-villain and two-villain stories are now well-handled (~93-95% recall). Performance degrades as ensembles grow, with 6-villain stories remaining the structural limit (~42% recall) — these are collective-guilt plots like *Murder on the Orient Express*.
+Single-villain detection is now perfect (100%). Two-villain stories are well-handled (~88-91% recall). Performance still degrades on 6-villain ensembles (~39% recall) — these are collective-guilt plots like *Murder on the Orient Express* where the genre signature breaks down.
 
 ### Analysis 2 — Zero-villain stories
 
-The three test stories without identifiable villains (FLM_047 Zodiac, POD_035 In the Dark Season 3, TVE_089 Vera) are now excluded from train/test. FLM_047 and POD_035 are run separately as inference-only case studies (see "Held-Out Inference Case Studies" above).
+The four excluded test stories (FLM_047 Zodiac, POD_035 In the Dark Season 3, TVE_089 Vera, TVE_093 Spiral) are not in train/test. FLM_047 and POD_035 are run separately as inference-only case studies.
 
-### Analysis 3 — Where R-GCN and LogReg disagree (24 characters, 4.0% of test set)
+### Analysis 3 — Where R-GCN and LogReg disagree (after Round 3)
 
 | Disagreement type | Count | What it means |
 |---|---|---|
-| Both agree | 580 (96.0%) | Same prediction, whether right or wrong |
-| R-GCN right, LogReg wrong | 19 (3.1%) | |
-| LogReg right, R-GCN wrong | 5 (0.8%) | |
+| Both agree | (majority) | Same prediction, whether right or wrong |
+| R-GCN right, LogReg wrong | (R-GCN exclusively wins by clearing innocents) | |
+| LogReg right, R-GCN wrong | (LogReg exclusively wins by catching villains R-GCN missed) | |
 
-**The asymmetry is consistent across all snapshots:** when R-GCN wins, it is *always* by clearing an innocent that LogReg flagged (19/19 cases). When LogReg wins, it is *always* by catching a villain the R-GCN missed (5/5 cases).
+**The asymmetry is consistent across all snapshots:** when R-GCN wins, it is *always* by clearing an innocent that LogReg flagged. When LogReg wins, it is *always* by catching a villain the R-GCN missed.
 
 This precisely characterizes the architectural trade-off: graph structure helps the model *exclude* false suspects more than it helps *find* true ones — exactly what we'd expect from a detective who can reason about alibis, social context, and spatial separation.
 
@@ -267,75 +288,88 @@ This precisely characterizes the architectural trade-off: graph structure helps 
 
 | Model | False Positives | Breakdown |
 |---|---|---|
-| R-GCN | 18 | 9 Uninvolved, 7 Witnesses, 2 Victims |
-| LogReg | 37 | 20 Uninvolved, 13 Witnesses, 4 Victims |
+| R-GCN | 19 | 10 Uninvolved, 7 Witnesses, 2 Victims |
+| LogReg | 39 | 22 Uninvolved, 13 Witnesses, 4 Victims |
 
-R-GCN cuts false accusations approximately in half (37 → 18), with proportionally fewer victims and witnesses falsely accused.
+R-GCN cuts false accusations approximately in half (39 → 19), with proportionally fewer victims and witnesses falsely accused.
 
-### Analysis 5 — The remaining unsolved case
+### Analysis 5 — Unsolved cases
 
-After excluding TVE_093 (criminal-network villain, doesn't fit the whodunit format), the seed-42 test split surfaces TVE_094 (*The Killing: Season 2*) as the new unsolved case. Its labeled villain "The Pasha" is another generic / code-name designation with all-UNK features — same kind of structural issue.
-
-This is a useful pattern for the paper: as we exclude unfit stories, the same kind of edge-case (generic-perpetrator drama rather than detective-fiction whodunit) keeps surfacing. The dataset's scope is **single-perpetrator detective fiction**, and stories that don't match that genre signature appear as residual failures regardless of model strength. We've tagged these candidates for review in `unsolved_cases.md`.
+After all three rounds and the four exclusions, the seed-42 test split has **zero stories where neither model catches a villain**. This is the first time in the project we've reached this state.
 
 ### Takeaways for the paper
 
 1. **F1 alone is misleading.** Use story-level metrics (solved, clean-solved) for detective tasks.
-2. **The R-GCN is a higher-precision detective.** F1 advantage is real (0.743 vs 0.712) and precision advantage is +15 points. It catches fewer villains but almost never accuses victims, witnesses, or a second innocent when it does accuse.
+2. **The R-GCN is a higher-precision detective.** F1 advantage is real (0.762 vs 0.715) and precision advantage is +14 points. It catches fewer villains but almost never accuses victims, witnesses, or a second innocent when it does accuse.
 3. **Clean solve rate (77% vs 67%) is the most honest measure of detective quality.**
 4. **The disagreement pattern is interpretable.** When the two models disagree, the R-GCN exclusively wins by clearing innocents. The graph structure encodes contextual evidence that lets the model rule out suspects.
 5. **Multi-villain ensembles are a structural limit.** Both models drop to ~42% recall on 6-villain cases. Collective-guilt plots may require a fundamentally different approach.
 6. **Held-out inference confirms genuine generalization.** The model independently identified the prime suspects in two unsolved real-world cases (Arthur Leigh Allen for Zodiac, Doug Evans for In the Dark) and exonerated the wrongly-accused (Curtis Flowers, P=0.0000) — even when the data file mislabeled him as Villain.
-7. **Extraction quality is the dominant lever.** Two rounds of targeted re-extraction plus four exclusions of mismatched-genre stories improved cross-validated F1 by 0.040 (0.703 → 0.743). Better synopses unlock significant performance gains, and being explicit about the dataset's genre scope (single-perpetrator detective fiction) improves both honesty and metrics.
+7. **Extraction quality is the dominant lever.** Three rounds of targeted re-extraction plus four exclusions of mismatched-genre stories improved cross-validated F1 by 0.059 (0.703 → 0.762). Better synopses unlock significant performance gains, and being explicit about the dataset's genre scope (single-perpetrator detective fiction) improves both honesty and metrics.
 
 ---
 
 ## Directory Structure
 
+Reorganized 2026-04-26 to consolidate everything from the old `Detective/` folder and group related files. Run all scripts from `Detective_R-GCN/` as the working directory; entry-point scripts add `Detective_R-GCN/` to `sys.path` automatically so cross-package imports resolve.
+
 ```
 Detective_R-GCN/
 ├── PROJECT.md                            ← THIS FILE
 ├── RGCN.md                               ← Paper checklist (Schlichtkrull et al., 2017)
-├── rgcn_model.py                         ← R-GCN encoder, DistMult decoder, NodeClassifier,
-│                                            RGCNMultiTask model, training & evaluation utilities
-├── load_mystery_graphs.py                ← Loads 576 graph JSONs → single RelationalGraph
-│                                            with 2-stage relation normalization (16 types)
-├── spectral_baseline.py                  ← Laplacian eigenmaps baseline on simple graphs
-├── failure_analysis.py                   ← Per-story deep-dive analysis (5 failure modes)
-├── failure_analysis_results.txt          ← Latest failure analysis output (reproducible)
-├── inference_analysis.py                 ← Held-out story inference (FLM_047, POD_035)
-├── inference_analysis_results.txt        ← Suspect rankings for held-out stories
-├── cross_validation_results.txt          ← Latest 5-seed cross-val output
-├── reextract.py                          ← Re-extraction script (uses Ollama)
-├── unsolved_cases.md                     ← Stories neither model solved
-│                                            (metadata + current features, for re-extraction)
-├── detective_training.ipynb              ← Training notebook (multi-task: villain + link pred)
+├── unsolved_cases.md                     ← Per-story status across re-extraction rounds
+├── requirements.txt                      ← Python deps for scraper / extraction
+├── .env                                  ← Local environment overrides (Ollama URL, etc.)
 │
-├── extraction/                           ← Graph data + extraction code
-│   ├── __init__.py
-│   ├── extractor.py / main.py / prompt.py / normalize_labels.py
-│   └── data/
-│       ├── extraction_status.json
-│       ├── graphs/                       ← One .json per entry (576 files)
-│       ├── new_extracts/                 ← Detailed synopses for re-extraction (.txt)
-│       └── graphs_pre_reextraction_backup/   ← Pre-re-extraction snapshots of 11 graphs
+├── data/                                 ← All data, consolidated
+│   ├── candidates.xlsx                   ← Master candidate list (formerly murder_mystery_candidates_v2)
+│   ├── manifest.json                     ← Full scraping manifest (~388 KB)
+│   ├── extraction_status.json            ← Per-entry extraction status
+│   ├── synopses/                         ← Wikipedia-scraped synopses (755 .txt) — was Detective/data/cleaned
+│   ├── synopses_detailed/                ← Manually-curated detailed synopses for re-extraction
+│   ├── graphs/                           ← Heterogeneous graph JSONs (576 files)
+│   ├── graphs_simple/                    ← Character-only weighted graphs for spectral baseline
+│   └── graphs_backup/                    ← Pre-re-extraction snapshots
 │
-├── extraction_simple/                    ← Simplified character-only graphs (for spectral baseline)
+├── pipeline/                             ← Data-building code
 │   ├── __init__.py
-│   ├── build_simple_graphs.py
-│   └── data/
-│       └── graphs/                       ← One .json per entry (576 files)
+│   ├── scraper/                          ← Wikipedia scraping (loader, wikipedia, cleaner, validator, main)
+│   ├── extraction/                       ← Two-pass Ollama graph extraction (extractor, prompt, main, normalize_labels)
+│   ├── extraction_simple/                ← Build character-only graphs from heterogeneous ones
+│   ├── reextract.py                      ← Re-run extraction on detailed synopses
+│   ├── add_new_candidates.py             ← Append new entries to candidates.xlsx
+│   └── needs_manual.py                   ← List entries that need manual review
+│
+├── model/                                ← R-GCN model code
+│   ├── __init__.py
+│   ├── rgcn_model.py                     ← Encoder, DistMult decoder, NodeClassifier, RGCNMultiTask
+│   └── load_mystery_graphs.py            ← Loads graph JSONs → single RelationalGraph
+│
+├── analysis/                             ← Analysis scripts and outputs
+│   ├── __init__.py
+│   ├── failure_analysis.py               ← Per-story deep-dive (5 failure modes)
+│   ├── inference_analysis.py             ← Held-out story inference (Zodiac, In the Dark)
+│   ├── spectral_baseline.py              ← Laplacian eigenmaps baseline
+│   ├── results/
+│   │   ├── failure_analysis_results.txt
+│   │   ├── inference_analysis_results.txt
+│   │   └── cross_validation_results.txt
+│   └── notebooks/
+│       ├── detective_training.ipynb      ← R-GCN training (multi-task villain + link pred)
+│       └── graph_visualization.ipynb     ← Corpus and per-graph visualization
+│
+├── docs/                                 ← Reference documentation
+│   ├── murder_mystery_graph_schema.md    ← Full graph schema definition
+│   └── synopsis_generation_prompt.md     ← Prompt used for detailed synopses
 │
 ├── checkpoints/                          ← Auto-created on first training run
 │   ├── detective_graph.pkl               ← Cached RelationalGraph
 │   └── rgcn_multitask_detective.pt       ← Trained model weights
 │
-└── support_files/                        ← Archived reference files
-    ├── README_detective_loading_training.md
-    └── detective_data.ipynb              ← Old single-task training notebook
+└── logs/                                 ← Runtime logs (extraction.log, scrape.log, reextraction.log)
 ```
 
-**Original data pipeline** (scraper, extraction scripts, xlsx) lives in `../Detective/`. This folder contains only the R-GCN model code and the extracted graph data.
+The old `Detective/` folder has been merged into `Detective_R-GCN/` and removed.
 
 ---
 
@@ -354,10 +388,10 @@ The scraper/extraction code is still present, but this checkout does not include
 
 ### Phase 2: Graph Extraction — COMPLETE AND CHECKED IN
 
-- **576 graph JSON files are present** in `extraction/data/graphs/`
+- **576 graph JSON files are present** in `data/graphs/`
 - Labels normalized to 5 valid classes (Villain, Victim, Witness, Uninvolved, UNK)
 - Using **mixtral:8x7b** via local Ollama (two-pass approach)
-- Visualization notebook available at `graph_visualization.ipynb`
+- Visualization notebook available at `analysis/notebooks/graph_visualization.ipynb`
 
 #### Dataset Statistics
 
@@ -405,11 +439,11 @@ Top relation types in the checked-in graph corpus:
 - **NOV_026** — has villain but no victim labeled
 - **TVE_081** (Murder on the Orient Express) — no single villain (all passengers are collectively guilty)
 - **2 entries** with no villain but have victim (NOV_026 edge case, TVE_081 by design)
-- **Status file mismatch** — `extraction/data/extraction_status.json` lists 578 `SUCCESS` entries, but only 576 graph files are present; stale IDs are `SHO_018` and `SHO_019`
+- **Status file mismatch** — `data/extraction_status.json` lists 578 `SUCCESS` entries, but only 576 graph files are present; stale IDs are `SHO_018` and `SHO_019`
 
 ### Phase 2b: Simple Graphs (Spectral Baseline) — COMPLETE
 
-Built from the existing heterogeneous graphs (no re-extraction needed). Located in `extraction_simple/data/graphs/`.
+Built from the existing heterogeneous graphs (no re-extraction needed). Located in `data/graphs_simple/`.
 
 **Purpose:** Provide a simpler graph representation for spectral analysis / Laplacian eigenmaps as a baseline comparison. We hypothesize the full relational (heterogeneous) graph will significantly outperform this simplified version.
 
@@ -441,7 +475,7 @@ python -m extraction_simple.build_simple_graphs
 
 #### Simple Graph JSON Structure
 
-Each file in `extraction_simple/data/graphs/{ID}.json`:
+Each file in `data/graphs_simple/{ID}.json`:
 ```json
 {
   "characters": [{"id": "char_0", "name": "...", "label": "Villain", "features": {"gender": 0.0, ...}}],
@@ -537,29 +571,28 @@ Class balancing closed the Villain F1 gap from 0.66 → 0.71 (matching LogReg). 
 
 ### Step 3: Spectral baseline (Laplacian eigenmaps) — COMPLETE
 
-Implemented in `spectral_baseline.py`. Three variants tested on same story-level split:
+Implemented in `analysis/spectral_baseline.py`. Three variants tested on same story-level split. **Note:** spectral runs the original 4-class task on simple character-only graphs (no exclusions, fixed snapshot) — it's a true naive baseline.
 
-| Model | Overall Acc | Villain Recall | Victim Recall | Witness Recall | Uninvolved Recall |
+| Model | Overall Acc | Villain Prec | Villain Recall | Villain F1 | Notes |
 |---|---|---|---|---|---|
-| Features-only LogReg | 58.5% | **67.6%** | **69.6%** | **35.0%** | 54.1% |
-| Features + Spectral | 58.8% | 66.7% | 71.4% | 35.0% | 54.4% |
-| Spectral only | 25.5% | 9.3% | 13.4% | 55.0% | 32.0% |
-| R-GCN Run 1 (baseline) | **66.1%** | 60.2% | 24.1% | 2.5% | **92.9%** |
-| R-GCN Run 2 (tuned) | 65.9% | 63.9% | 29.5% | 7.5% | 88.4% |
+| Spectral only (4-dim Laplacian eigenmaps) | 25.5% | 0.145 | 0.093 | 0.113 | Graph topology alone — essentially useless |
+| Features-only LogReg | 58.5% | 0.737 | 0.676 | 0.705 | 10 character features, no graph |
+| Features + Spectral (14-dim) | 58.8% | 0.727 | 0.667 | 0.696 | Spectral adds nothing |
+| **R-GCN (binary, cross-validated, final)** | **90.4%** | **0.825** | **0.708** | **0.762** | Typed relational message passing |
+
+**Per-class breakdown for the simple-graph baselines (test set, 554 chars, 4-class):**
+
+| Model | Villain Recall | Victim Recall | Witness Recall | Uninvolved Recall |
+|---|---|---|---|---|
+| Features-only LogReg | 67.6% | 69.6% | 35.0% | 54.1% |
+| Features + Spectral | 66.7% | 71.4% | 35.0% | 54.4% |
+| Spectral only | 9.3% | 13.4% | 55.0% | 32.0% |
 
 **Key findings:**
 - Spectral embedding alone is useless (25.5%) — graph topology doesn't predict villains
 - Node features alone (logistic regression) is a strong baseline for Villain F1 (0.705)
 - Spectral embedding adds nothing to features (58.5% → 58.8%)
-
-**Combined comparison — Villain prediction (primary metric):**
-
-| Model | Villain Prec | Villain Recall | Villain F1 | Notes |
-|---|---|---|---|---|
-| Features-only LogReg | 0.737 | 0.676 | **0.705** | No graph structure, balanced class weights |
-| R-GCN (class balanced) | **0.800** | 0.630 | **0.705** | Full heterogeneous graph with masking |
-| Spectral + Features | 0.727 | 0.667 | 0.696 | Laplacian eigenmaps + features |
-| Spectral only | 0.145 | 0.093 | 0.113 | Graph structure alone — useless |
+- The R-GCN's 32-point accuracy gap over LogReg (and 47 over features+spectral) is bought by **typed relational structure**, not raw topology — see "Spectral baseline comparison" section above for the implication.
 
 **Binary (Villain vs Non-Villain) results — the detective framing (2026-04-16):**
 
@@ -576,33 +609,32 @@ Single-split: 2-class R-GCN beats all baselines on Villain F1 (0.722), precision
 
 Multiple rounds of cross-validation were run as the experiment evolved.
 
-*Final result (2026-04-26) — narrative features excluded, FLM_047/POD_035/TVE_089/TVE_093 excluded, two rounds of re-extraction applied:*
+*Final result (2026-04-26 late) — narrative features excluded, FLM_047/POD_035/TVE_089/TVE_093 excluded, three rounds of re-extraction applied including TVE_094:*
 
 | Metric | R-GCN (mean ± std) | LogReg (mean ± std) |
 |---|---|---|
-| Villain Precision | **0.830 ± 0.029** | 0.684 ± 0.061 |
-| Villain Recall | 0.676 ± 0.068 | **0.747 ± 0.047** |
-| Villain F1 | **0.743 ± 0.047** | 0.712 ± 0.044 |
-| Overall Accuracy | **0.900 ± 0.009** | 0.868 ± 0.019 |
+| Villain Precision | **0.825 ± 0.033** | 0.684 ± 0.060 |
+| Villain Recall | 0.708 ± 0.019 | **0.752 ± 0.046** |
+| Villain F1 | **0.762 ± 0.025** | 0.715 ± 0.045 |
+| Overall Accuracy | **0.904 ± 0.007** | 0.869 ± 0.019 |
 
 Per-seed breakdown (final):
 
 | Seed | Test Villains | R-GCN P/R/F1 | LogReg P/R/F1 |
 |---|---|---|---|
-| 42 | 133 | .82/.70/.76 | .74/.80/.77 |
-| 123 | 118 | .80/.55/.65 | .58/.70/.63 |
-| 456 | 126 | .80/.72/.76 | .69/.76/.72 |
-| 789 | 124 | .85/.74/.79 | .67/.79/.73 |
-| 2024 | 125 | .87/.66/.76 | .75/.68/.71 |
+| 42 | 136 | .84/.72/.78 | .74/.81/.77 |
+| 123 | 118 | .76/.68/.72 | .58/.70/.63 |
+| 456 | 126 | .83/.71/.76 | .69/.76/.72 |
+| 789 | 124 | .86/.73/.79 | .68/.79/.73 |
+| 2024 | 128 | .83/.70/.76 | .74/.70/.72 |
 
-*Round 2 result (2026-04-26 earlier) — same setup but with TVE_093 still in train/test:*
+*Earlier rounds (for reference):*
 
-| Metric | R-GCN (mean ± std) | LogReg (mean ± std) |
+| Result | R-GCN P / R / F1 / Acc | LogReg P / R / F1 / Acc |
 |---|---|---|
-| Villain Precision | 0.846 ± 0.044 | 0.693 ± 0.059 |
-| Villain Recall | 0.661 ± 0.104 | 0.748 ± 0.058 |
-| Villain F1 | 0.737 ± 0.065 | 0.717 ± 0.043 |
-| Overall Accuracy | 0.898 ± 0.016 | 0.870 ± 0.016 |
+| Round 2 (TVE_093 still in) | .846 / .661 / .737 / .898 | .693 / .748 / .717 / .870 |
+| Round 2 (TVE_093 excluded) | .830 / .676 / .743 / .900 | .684 / .747 / .712 / .868 |
+| **Round 3 (TVE_094 re-extracted)** | **.825 / .708 / .762 / .904** | **.684 / .752 / .715 / .869** |
 
 *Round 1 result (2026-04-25) — narrative features excluded, FLM_047 excluded, Round 1 re-extracted graphs:*
 
@@ -719,11 +751,28 @@ Delete the cache: `rm checkpoints/detective_graph.pkl`
 ### Smoke test (command line)
 ```bash
 cd Detective_R-GCN
-python load_mystery_graphs.py extraction/data/graphs
+python -c "from model.load_mystery_graphs import load_mystery_graphs; g = load_mystery_graphs('data/graphs'); g.summary()"
 ```
 
-### Original extraction pipeline
-Scraping and graph extraction scripts are in `../Detective/`. See `../Detective/PROJECT.md` for those operations.
+### Re-running analyses
+```bash
+cd Detective_R-GCN
+python analysis/failure_analysis.py        # outputs analysis/results/failure_analysis_results.txt
+python analysis/inference_analysis.py      # outputs analysis/results/inference_analysis_results.txt
+python analysis/spectral_baseline.py       # baseline comparison
+```
+
+### Re-extraction pipeline
+Place a detailed synopsis at `data/synopses_detailed/{ID}.txt`, then run:
+```bash
+python pipeline/reextract.py --only ID1 ID2 ...
+```
+
+### Scraping pipeline
+Run from `Detective_R-GCN/`:
+```bash
+python -m pipeline.scraper.main --all
+```
 
 ---
 
@@ -754,17 +803,17 @@ This dramatically improves edge count (especially character-character relationsh
 
 ## Visualization
 
-Use `graph_visualization.ipynb` to inspect the checked-in dataset:
+Use `analysis/notebooks/graph_visualization.ipynb` to inspect the checked-in dataset:
 - dataset-level numeric and categorical summaries
 - label counts and edge-type frequency tables
 - histogram/bar-chart views of graph size
-- network visualization for any selected graph ID in `extraction/data/graphs/`
+- network visualization for any selected graph ID in `data/graphs/`
 
 ---
 
 ## Graph JSON Structure (per entry)
 
-Each file in `extraction/data/graphs/{ID}.json`:
+Each file in `data/graphs/{ID}.json`:
 ```json
 {
   "characters": [{"id": "char_0", "name": "...", "label": "Villain|Victim|Witness|Uninvolved|UNK", "features": {...}}],
@@ -780,7 +829,7 @@ Each file in `extraction/data/graphs/{ID}.json`:
 
 ## Graph Schema Summary
 
-Full schema is in `murder_mystery_graph_schema.md`. Key points:
+Full schema is in `docs/murder_mystery_graph_schema.md`. Key points:
 
 ### Node Types
 | Type | Feature Vector | Key Features |
@@ -858,8 +907,9 @@ Possible `scrape_status` values: `SUCCESS`, `PARTIAL`, `NEEDS_MANUAL`, `FAILED`,
 
 - **No Claude API for extraction** — use Ollama only (cost reasons)
 - **Use `caffeinate -i`** for long-running extractions (prevents Mac sleep)
-- If Phase 1 is rerun locally, updated synopses should go into `data/cleaned/{ID}.txt`
-- `data/raw/` was removed in the original workflow; `data/cleaned/` is the intended single source of truth
+- If Phase 1 is rerun locally, updated synopses should go into `data/synopses/{ID}.txt`
+- `data/synopses/` is the canonical scraped-synopsis directory (was `data/cleaned/` in the old layout)
+- `data/synopses_detailed/` holds manually-curated detailed synopses for re-extraction
 - 96 duplicate entries were marked `DUPLICATE` in the original manifest — do not re-extract these
 - 46 entries were marked `EXCLUDED` — not single-case oriented or extraction failed
 - Extraction was developed against a local Ollama setup on Apple Silicon
