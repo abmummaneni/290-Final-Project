@@ -2,11 +2,11 @@
   "characters": [
     {
       "id": "char_0",
-      "name": "Hercule Poirot",
+      "name": "Captain Arthur Hastings",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 1,
+        "social_status": 0.5,
         "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -14,13 +14,13 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 1
+        "narrative_prominence": 1.0
       }
     },
     {
       "id": "char_1",
-      "name": "Hastings",
-      "label": "Witness",
+      "name": "Hercule Poirot",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
         "social_status": 0.5,
@@ -31,16 +31,33 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.8
+        "narrative_prominence": 1.0
       }
     },
     {
       "id": "char_2",
-      "name": "Mayerling",
+      "name": "Inspector (later Chief Inspector) James Japp of Scotland Yard",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Unknown gaunt man",
       "label": "Victim",
       "features": {
-        "gender": 1,
-        "social_status": 0.5,
+        "gender": 0,
+        "social_status": -1,
         "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -48,306 +65,299 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
-      }
-    },
-    {
-      "id": "char_3",
-      "name": "John Ingles",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.3,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_4",
-      "name": "Jonathan Whalley",
-      "label": "Victim",
-      "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.4,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
-      }
-    },
-    {
-      "id": "char_5",
       "name": "Li Chang Yen",
       "label": "Villain",
       "features": {
         "gender": -1,
-        "social_status": 1,
-        "narrative_introduction_timing": 0.4,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.5
       }
     },
     {
-      "id": "char_6",
+      "id": "char_5",
       "name": "Abe Ryland",
       "label": "Villain",
       "features": {
         "gender": 0,
-        "social_status": 1,
-        "narrative_introduction_timing": 0.7,
+        "social_status": 1.0,
+        "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Madame Régine Olivier",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_7",
-      "name": "Claude Darrell",
+      "name": "Claude Darrell / Number Four",
       "label": "Villain",
       "features": {
         "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.9,
+        "social_status": -1,
+        "narrative_introduction_timing": -1,
         "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
+        "motive_type": 0.5,
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_8",
-      "name": "Doctor Quentin",
-      "label": "Villain",
+      "name": "Mr. Paynter",
+      "label": "Victim",
       "features": {
         "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.6,
+        "social_status": -1,
+        "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_9",
-      "name": "Gilmour Wilson",
+      "name": "Mr. Whalley",
       "label": "Victim",
       "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.8,
+        "gender": -1,
+        "social_status": -1,
+        "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_10",
-      "name": "Doctor Savaronoff",
-      "label": "Uninvolved",
+      "name": "Dr. Savaronoff / Number Four",
+      "label": "Villain",
       "features": {
         "gender": -1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.8,
+        "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
+        "motive_type": 0.5,
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_11",
-      "name": "Japp",
-      "label": "Uninvolved",
+      "name": "Countess Vera Rosakoff",
+      "label": "Witness|Uninvolved",
       "features": {
-        "gender": 0,
+        "gender": 1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.9,
+        "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
-      }
-    },
-    {
-      "id": "char_12",
-      "name": "Achille Poirot",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 1,
-        "narrative_introduction_timing": 1.0,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.5
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
-      "name": "informant",
+      "name": "English former military officer of middle social status",
       "features": {
-        "authority_level": 0.3,
+        "authority_level": 0.5,
         "access_level": 0.5,
-        "capability_level": 0.4
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_1",
-      "name": "Chinese political mastermind",
+      "name": "Belgian private detective",
       "features": {
-        "authority_level": 1,
+        "authority_level": 0.5,
         "access_level": 0.5,
-        "capability_level": 0.9
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_2",
-      "name": "American millionaire",
+      "name": "Middle-aged English policeman of middle social status",
       "features": {
-        "authority_level": 1,
+        "authority_level": 1.0,
         "access_level": 0.5,
-        "capability_level": 0.9
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_3",
-      "name": "French scientist",
+      "name": "Chinese political mastermind and overall leader of the cabal",
       "features": {
-        "authority_level": 1,
-        "access_level": 0.5,
-        "capability_level": 0.9
+        "authority_level": 1.0,
+        "access_level": 1.0,
+        "capability_level": 1.0
       }
     },
     {
       "id": "occ_4",
-      "name": "British scientist",
+      "name": "American multimillionaire industrialist",
       "features": {
-        "authority_level": 1,
-        "access_level": 0.5,
-        "capability_level": 0.9
+        "authority_level": 1.0,
+        "access_level": 1.0,
+        "capability_level": 1.0
       }
     },
     {
       "id": "occ_5",
-      "name": "doctor",
+      "name": "Frenchwoman, celebrated nuclear physicist and analytical chemist",
       "features": {
-        "authority_level": 0.7,
-        "access_level": 0.5,
-        "capability_level": 0.9
+        "authority_level": 1.0,
+        "access_level": 1.0,
+        "capability_level": 1.0
       }
     },
     {
       "id": "occ_6",
-      "name": "chess grandmaster",
+      "name": "English actor with no fixed identity",
       "features": {
-        "authority_level": 0.7,
-        "access_level": 0.5,
-        "capability_level": 0.9
+        "authority_level": -1,
+        "access_level": -1,
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_7",
-      "name": "Russian refugee",
+      "name": "Chess grandmaster",
       "features": {
-        "authority_level": 0.3,
+        "authority_level": 0.5,
         "access_level": 0.5,
-        "capability_level": 0.4
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_8",
-      "name": "actor",
+      "name": "Globally recognized Russian jewel thief",
       "features": {
-        "authority_level": 0.3,
+        "authority_level": -1,
         "access_level": 0.5,
-        "capability_level": 0.4
+        "capability_level": 0.5
       }
     }
   ],
   "locations": [
     {
       "id": "loc_0",
-      "name": "Hercule Poirot's bedroom",
+      "name": "London",
       "features": {
-        "accessibility": 1,
+        "accessibility": 0.5,
         "isolability": 0.5,
-        "evidentiary_value": 0.8
+        "evidentiary_value": 0.5
       }
     },
     {
       "id": "loc_1",
-      "name": "Ingles's house",
+      "name": "Poirot's flat",
       "features": {
-        "accessibility": 0.7,
-        "isolability": 0.5,
-        "evidentiary_value": 0.6
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_2",
-      "name": "France",
+      "name": "Italian Dolomites",
       "features": {
-        "accessibility": 0.8,
-        "isolability": 0.3,
+        "accessibility": 0.1,
+        "isolability": 0.9,
         "evidentiary_value": 0.5
       }
     },
     {
       "id": "loc_3",
-      "name": "Worcestershire",
+      "name": "Felsenlabyrinth quarry",
       "features": {
-        "accessibility": 0.7,
-        "isolability": 0.4,
-        "evidentiary_value": 0.6
+        "accessibility": 0.1,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_4",
-      "name": "Italy",
+      "name": "Rio de Janeiro",
       "features": {
         "accessibility": 0.5,
-        "isolability": 0.1,
+        "isolability": 0.3,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "China",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": -1
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Madame Olivier's laboratory",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Quarry in the Italian Dolomites that conceals the cabal's underground headquarters",
+      "features": {
+        "accessibility": 0.1,
+        "isolability": 0.9,
         "evidentiary_value": 0.8
       }
     }
@@ -357,18 +367,45 @@
       "id": "org_0",
       "name": "The Big Four",
       "features": {
-        "institutional_power": 1,
-        "secrecy_level": 1,
-        "financial_scale": 1
+        "institutional_power": 1.0,
+        "secrecy_level": 1.0,
+        "financial_scale": 1.0
       }
     },
     {
       "id": "org_1",
-      "name": "Police",
+      "name": "Chinese politics",
       "features": {
-        "institutional_power": 1,
-        "secrecy_level": 0.2,
-        "financial_scale": 0.5
+        "institutional_power": 0.8,
+        "secrecy_level": 0.5,
+        "financial_scale": -1
+      }
+    },
+    {
+      "id": "org_2",
+      "name": "American industry",
+      "features": {
+        "institutional_power": 0.8,
+        "secrecy_level": 0.5,
+        "financial_scale": 1.0
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "French scientific community",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.5,
+        "financial_scale": -1
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "European criminal underworld",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.9,
+        "financial_scale": -1
       }
     }
   ],
@@ -376,139 +413,145 @@
     {
       "source": "char_0",
       "target": "char_1",
-      "relation": "works with",
+      "relation": "friends with",
       "directed": true
     },
     {
-      "source": "char_2",
-      "target": "char_0",
-      "relation": "visited by",
+      "source": "char_1",
+      "target": "occ_1",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "occ_0",
+      "relation": "formerly employed as",
       "directed": true
     },
     {
       "source": "char_2",
       "target": "char_1",
-      "relation": "visited by",
+      "relation": "works with",
       "directed": true
     },
     {
-      "source": "char_2",
+      "source": "char_3",
+      "target": "char_1",
+      "relation": "stumbles into",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "org_0",
+      "relation": "victim of",
+      "directed": true
+    },
+    {
+      "source": "char_1",
+      "target": "org_0",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_3",
+      "relation": "represented by",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "org_1",
+      "relation": "high-status figure within",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "occ_4",
+      "relation": "represented by",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "org_2",
+      "relation": "high-status figure within",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_5",
+      "relation": "represented by",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "org_3",
+      "relation": "high-status figure within",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "occ_6",
+      "relation": "assumed identity of",
+      "directed": true
+    },
+    {
+      "source": "char_7",
       "target": "org_0",
       "relation": "affiliated with",
       "directed": true
     },
     {
-      "source": "char_0",
-      "target": "char_3",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "char_3",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "occ_0",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "char_0",
-      "relation": "kills",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "char_1",
-      "relation": "kills",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "org_0",
-      "relation": "leads",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "org_0",
-      "relation": "leads",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "occ_8",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "char_0",
-      "relation": "deceives",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "char_1",
-      "relation": "deceives",
+      "source": "char_8",
+      "target": "char_11",
+      "relation": "employed by",
       "directed": true
     },
     {
       "source": "char_8",
-      "target": "char_3",
-      "relation": "kills",
+      "target": "org_0",
+      "relation": "victim of",
       "directed": true
     },
     {
       "source": "char_9",
-      "target": "occ_6",
-      "relation": "employed as",
+      "target": "org_0",
+      "relation": "victim of",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "occ_7",
+      "relation": "assumed identity of",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "org_4",
+      "relation": "affiliated with",
       "directed": true
     },
     {
       "source": "char_11",
-      "target": "char_0",
-      "relation": "works with",
+      "target": "occ_8",
+      "relation": "present at",
       "directed": true
     },
     {
-      "source": "char_12",
-      "target": "char_0",
-      "relation": "is related to",
+      "source": "char_11",
+      "target": "org_4",
+      "relation": "affiliated with",
       "directed": true
     },
     {
-      "source": "char_0",
-      "target": "char_12",
-      "relation": "is related to",
-      "directed": true
+      "source": "loc_7",
+      "target": "loc_2",
+      "relation": "near to",
+      "directed": false
     },
     {
-      "source": "char_7",
-      "target": "loc_4",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_1",
-      "relation": "protects",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "char_1",
-      "relation": "kidnaps",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "org_1",
-      "relation": "employed by",
+      "source": "org_0",
+      "target": "loc_7",
+      "relation": "located at",
       "directed": true
     }
   ],

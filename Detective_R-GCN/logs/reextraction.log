@@ -1,0 +1,77 @@
+2026-04-25 18:45:44,196 [INFO] Re-extracting 11 entries: ['FLM_047', 'NOV_019', 'NOV_110', 'NOV_189', 'NOV_209', 'NOV_391', 'NOV_414', 'POD_035', 'TVE_089', 'TVE_130', 'TVE_143']
+2026-04-25 18:45:44,197 [INFO] [1/11] FLM_047: Zodiac (1421 words)
+2026-04-25 18:45:44,197 [INFO] Extracting FLM_047: Zodiac — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 18:50:12,402 [INFO] FLM_047: Pass 1 done — 20 characters, 7 locations, 10 occupations
+2026-04-25 18:50:12,402 [INFO] FLM_047: Pass 2: edges
+2026-04-25 18:51:33,076 [INFO] FLM_047 saved — 20 chars, 32 edges, 7 locs, 348.9s
+2026-04-25 18:51:33,078 [INFO] [2/11] NOV_019: The Big Four (1619 words)
+2026-04-25 18:51:33,078 [INFO] Extracting NOV_019: The Big Four — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 18:54:42,596 [INFO] NOV_019: Pass 1 done — 12 characters, 8 locations, 9 occupations
+2026-04-25 18:54:42,596 [INFO] NOV_019: Pass 2: edges
+2026-04-25 18:55:46,101 [INFO] NOV_019 saved — 12 chars, 24 edges, 8 locs, 253.0s
+2026-04-25 18:55:46,102 [INFO] [3/11] NOV_110: He Who Whispers (1855 words)
+2026-04-25 18:55:46,102 [INFO] Extracting NOV_110: He Who Whispers — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 18:58:36,229 [INFO] NOV_110: Pass 1 done — 9 characters, 9 locations, 11 occupations
+2026-04-25 18:58:36,230 [INFO] NOV_110: Pass 2: edges
+2026-04-25 18:59:35,931 [INFO] NOV_110 saved — 9 chars, 18 edges, 9 locs, 229.8s
+2026-04-25 18:59:35,932 [INFO] [4/11] NOV_189: Nerve (1473 words)
+2026-04-25 18:59:35,932 [INFO] Extracting NOV_189: Nerve — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:01:45,318 [INFO] NOV_189: Pass 1 done — 10 characters, 4 locations, 7 occupations
+2026-04-25 19:01:45,319 [INFO] NOV_189: Pass 2: edges
+2026-04-25 19:02:44,221 [INFO] NOV_189 saved — 10 chars, 30 edges, 4 locs, 188.3s
+2026-04-25 19:02:44,222 [INFO] [5/11] NOV_209: The Blessing Way (1745 words)
+2026-04-25 19:02:44,223 [INFO] Extracting NOV_209: The Blessing Way — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:05:33,893 [INFO] NOV_209: Pass 1 done — 12 characters, 8 locations, 7 occupations
+2026-04-25 19:05:33,893 [INFO] NOV_209: Pass 2: edges
+2026-04-25 19:06:51,491 [INFO] NOV_209 saved — 12 chars, 34 edges, 8 locs, 247.3s
+2026-04-25 19:06:51,493 [INFO] [6/11] NOV_391: The Silkworm (1923 words)
+2026-04-25 19:06:51,493 [INFO] Extracting NOV_391: The Silkworm — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:10:43,258 [INFO] NOV_391: Pass 1 done — 11 characters, 6 locations, 27 occupations
+2026-04-25 19:10:43,258 [INFO] NOV_391: Pass 2: edges
+2026-04-25 19:12:06,768 [INFO] NOV_391 saved — 11 chars, 48 edges, 6 locs, 315.3s
+2026-04-25 19:12:06,769 [INFO] [7/11] NOV_414: The Lying Game (1909 words)
+2026-04-25 19:12:06,769 [INFO] Extracting NOV_414: The Lying Game — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:14:15,147 [INFO] NOV_414: Pass 1 done — 10 characters, 5 locations, 5 occupations
+2026-04-25 19:14:15,147 [INFO] NOV_414: Pass 2: edges
+2026-04-25 19:15:15,472 [INFO] NOV_414 saved — 10 chars, 24 edges, 5 locs, 188.7s
+2026-04-25 19:15:15,473 [INFO] [8/11] POD_035: In the Dark: Season 3 (1323 words)
+2026-04-25 19:15:15,474 [INFO] Extracting POD_035: In the Dark: Season 3 — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:17:59,643 [INFO] POD_035: Pass 1 done — 16 characters, 4 locations, 0 occupations
+2026-04-25 19:17:59,643 [INFO] POD_035: Pass 2: edges
+2026-04-25 19:18:38,059 [INFO] POD_035 saved — 16 chars, 23 edges, 4 locs, 202.6s
+2026-04-25 19:18:38,060 [INFO] [9/11] TVE_089: Vera: Hidden Depths (1028 words)
+2026-04-25 19:18:38,060 [INFO] Extracting TVE_089: Vera: Hidden Depths — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:22:24,750 [INFO] TVE_089: Pass 1 done — 17 characters, 8 locations, 16 occupations
+2026-04-25 19:22:24,751 [INFO] TVE_089: Pass 2: edges
+2026-04-25 19:23:16,530 [INFO] TVE_089 saved — 17 chars, 25 edges, 8 locs, 278.5s
+2026-04-25 19:23:16,531 [INFO] [10/11] TVE_130: Unforgotten: Series 2 (2084 words)
+2026-04-25 19:23:16,531 [INFO] Extracting TVE_130: Unforgotten: Series 2 — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:27:17,235 [INFO] TVE_130: Pass 1 done — 16 characters, 7 locations, 16 occupations
+2026-04-25 19:27:17,235 [INFO] TVE_130: Pass 2: edges
+2026-04-25 19:28:04,712 [INFO] TVE_130 saved — 16 chars, 25 edges, 7 locs, 288.2s
+2026-04-25 19:28:04,714 [INFO] [11/11] TVE_143: Unbelievable (miniseries) (1834 words)
+2026-04-25 19:28:04,714 [INFO] Extracting TVE_143: Unbelievable (miniseries) — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-25 19:30:17,428 [INFO] TVE_143: Pass 1 done — 9 characters, 4 locations, 6 occupations
+2026-04-25 19:30:17,429 [INFO] TVE_143: Pass 2: edges
+2026-04-25 19:31:10,475 [INFO] TVE_143 saved — 9 chars, 27 edges, 4 locs, 185.8s
+2026-04-25 19:31:10,475 [INFO] 
+Final summary:
+2026-04-25 19:31:10,475 [INFO]   SUCCESS: 11
+2026-04-25 19:31:10,475 [INFO]   FAILED: 0
+2026-04-25 19:31:10,475 [INFO]   VALIDATION_WARNINGS: 0
+2026-04-26 06:54:36,765 [INFO] Re-extracting 2 entries: ['NOV_276', 'SHO_001']
+2026-04-26 06:54:36,766 [INFO] [1/2] NOV_276: The Stonecutter (2377 words)
+2026-04-26 06:54:36,766 [INFO] Extracting NOV_276: The Stonecutter — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-26 07:00:35,284 [INFO] NOV_276: Pass 1 done — 25 characters, 10 locations, 18 occupations
+2026-04-26 07:00:35,285 [INFO] NOV_276: Pass 2: edges
+2026-04-26 07:01:44,067 [INFO] NOV_276 saved — 25 chars, 32 edges, 10 locs, 427.3s
+2026-04-26 07:01:44,068 [INFO] [2/2] SHO_001: The Red-Headed League (1817 words)
+2026-04-26 07:01:44,068 [INFO] Extracting SHO_001: The Red-Headed League — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-26 07:03:43,419 [INFO] SHO_001: Pass 1 done — 7 characters, 5 locations, 8 occupations
+2026-04-26 07:03:43,419 [INFO] SHO_001: Pass 2: edges
+2026-04-26 07:04:23,504 [INFO] SHO_001 saved — 7 chars, 18 edges, 5 locs, 159.4s
+2026-04-26 07:04:23,504 [INFO] 
+Final summary:
+2026-04-26 07:04:23,505 [INFO]   SUCCESS: 2
+2026-04-26 07:04:23,505 [INFO]   FAILED: 0
+2026-04-26 07:04:23,505 [INFO]   VALIDATION_WARNINGS: 0

@@ -5,387 +5,438 @@
       "name": "Darlene Ferrin",
       "label": "Victim",
       "features": {
-        "gender": 1,
-        "social_status": 0.2,
-        "narrative_introduction_timing": 0.05,
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
         "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "has_hidden_relationship": 1,
         "motive_type": -1,
-        "narrative_prominence": 0.6
+        "narrative_prominence": 0.75
       }
     },
     {
       "id": "char_1",
       "name": "Mike Mageau",
-      "label": "Victim",
+      "label": "Witness",
       "features": {
         "gender": 0,
-        "social_status": 0.2,
-        "narrative_introduction_timing": 0.05,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.6
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_2",
-      "name": "Robert Graysmith",
-      "label": "Uninvolved",
+      "name": "Zodiac Killer (unidentified)",
+      "label": "Villain",
       "features": {
-        "gender": 0,
-        "social_status": 0.4,
-        "narrative_introduction_timing": 0.15,
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
         "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.8
+        "narrative_prominence": 0.9
       }
     },
     {
       "id": "char_3",
-      "name": "Paul Avery",
+      "name": "Arthur Leigh Allen",
+      "label": "UNK",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.65
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Robert Graysmith",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.15,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.7
-      }
-    },
-    {
-      "id": "char_4",
-      "name": "Bryan Hartnell",
-      "label": "Victim",
-      "features": {
-        "gender": 0,
-        "social_status": 0.3,
-        "narrative_introduction_timing": 0.45,
-        "has_alibi": -1,
-        "present_at_crime_scene": 1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.4
+        "narrative_prominence": 0.75
       }
     },
     {
       "id": "char_5",
-      "name": "Cecelia Shepard",
-      "label": "Victim",
+      "name": "Melanie",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.3,
-        "narrative_introduction_timing": 0.45,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Paul Avery",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Inspector David Toschi",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Inspector Bill Armstrong",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.35
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Jack Mulanax",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Ken Narlow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Captain Marty Lee",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Attorney Melvin Belli",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.75,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Bryan Hartnell",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.625,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.4
+        "narrative_prominence": 0.35
       }
     },
     {
-      "id": "char_6",
+      "id": "char_14",
+      "name": "Cecelia Shepard",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.625,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.35
+      }
+    },
+    {
+      "id": "char_15",
       "name": "Paul Stine",
       "label": "Victim",
       "features": {
         "gender": 0,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.7,
+        "narrative_introduction_timing": 0.875,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.3
-      }
-    },
-    {
-      "id": "char_7",
-      "name": "Dave Toschi",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.75,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.7
-      }
-    },
-    {
-      "id": "char_8",
-      "name": "Bill Armstrong",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.75,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_9",
-      "name": "Marty Lee",
-      "label": "Uninvolved",
-      "features": {
-        "gender": -1,
-        "social_status": 0.8,
-        "narrative_introduction_timing": 0.75,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
-      }
-    },
-    {
-      "id": "char_10",
-      "name": "Jack Mulanax",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.85,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_11",
-      "name": "Ken Narlow",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.85,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_12",
-      "name": "Arthur Leigh Allen",
-      "label": "Villain",
-      "features": {
-        "gender": 0,
-        "social_status": 0.4,
-        "narrative_introduction_timing": 0.95,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.3
-      }
-    },
-    {
-      "id": "char_13",
-      "name": "Melvin Belli",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.8,
-        "narrative_introduction_timing": 0.95,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.3
-      }
-    },
-    {
-      "id": "char_14",
-      "name": "Jim Dunbar",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.95,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
-      }
-    },
-    {
-      "id": "char_15",
-      "name": "Melanie Graysmith",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 1,
-        "social_status": 0.4,
-        "narrative_introduction_timing": 0.95,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_16",
-      "name": "Mike Mageau (witness identification)",
-      "label": "Witness",
+      "name": "Cheri Jo Bates",
+      "label": "Victim",
       "features": {
-        "gender": 0,
-        "social_status": 0.2,
-        "narrative_introduction_timing": 1.05,
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Rick Marshall",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_18",
+      "name": "Bob Vaughn",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_19",
+      "name": "Linda del Buono",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.875,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
-      "name": "Political cartoonist",
+      "name": "Waitress",
       "features": {
-        "authority_level": 0.4,
-        "access_level": 0.6,
-        "capability_level": 0.5
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
       }
     },
     {
       "id": "occ_1",
-      "name": "Crime reporter",
+      "name": "Student",
       "features": {
-        "authority_level": 0.4,
-        "access_level": 0.6,
-        "capability_level": 0.5
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
       }
     },
     {
       "id": "occ_2",
-      "name": "Law student",
+      "name": "Elementary School Teacher",
       "features": {
-        "authority_level": 0.1,
-        "access_level": 0.3,
-        "capability_level": 0.5
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.6
       }
     },
     {
       "id": "occ_3",
-      "name": "Taxicab driver",
+      "name": "Hardware Store Clerk",
       "features": {
-        "authority_level": 0.1,
-        "access_level": 0.4,
-        "capability_level": 0.5
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
       }
     },
     {
       "id": "occ_4",
-      "name": "Police inspector",
+      "name": "Political Cartoonist",
       "features": {
-        "authority_level": 0.9,
-        "access_level": 0.8,
-        "capability_level": 0.7
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.6
       }
     },
     {
       "id": "occ_5",
-      "name": "Police captain",
+      "name": "Librarian",
       "features": {
-        "authority_level": 0.9,
-        "access_level": 0.8,
-        "capability_level": 0.7
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
       }
     },
     {
       "id": "occ_6",
-      "name": "Sales clerk",
+      "name": "Crime Reporter",
       "features": {
-        "authority_level": 0.1,
-        "access_level": 0.3,
+        "authority_level": 0.3,
+        "access_level": 0.7,
         "capability_level": 0.5
       }
     },
     {
       "id": "occ_7",
-      "name": "Author",
+      "name": "Homicide Detective",
       "features": {
-        "authority_level": 0.4,
-        "access_level": 0.6,
-        "capability_level": 0.5
+        "authority_level": 0.9,
+        "access_level": 0.8,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Projectionist",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Friend",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.5,
+        "capability_level": 0.4
       }
     }
   ],
   "locations": [
     {
       "id": "loc_0",
-      "name": "Vallejo, California",
-      "features": {
-        "accessibility": 0.7,
-        "isolability": 0.3,
-        "evidentiary_value": 0.6
-      }
-    },
-    {
-      "id": "loc_1",
-      "name": "San Francisco Chronicle office",
-      "features": {
-        "accessibility": 0.8,
-        "isolability": 0.4,
-        "evidentiary_value": 0.7
-      }
-    },
-    {
-      "id": "loc_2",
-      "name": "Lake Berryessa, Napa County",
+      "name": "Lovers' Lane in Vallejo, California",
       "features": {
         "accessibility": 0.3,
         "isolability": 0.8,
@@ -393,48 +444,57 @@
       }
     },
     {
-      "id": "loc_3",
-      "name": "Presidio Heights district, San Francisco",
+      "id": "loc_1",
+      "name": "Lake Berryessa",
       "features": {
-        "accessibility": 0.8,
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Presidio Heights in San Francisco",
+      "features": {
+        "accessibility": 0.5,
         "isolability": 0.4,
         "evidentiary_value": 0.7
       }
     },
     {
-      "id": "loc_4",
-      "name": "Ace Hardware store, Vallejo",
+      "id": "loc_3",
+      "name": "Riverside",
       "features": {
-        "accessibility": 0.6,
-        "isolability": 0.5,
+        "accessibility": 0.5,
+        "isolability": 0.6,
+        "evidentiary_value": 0.4
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Blue Rock Springs",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.8,
         "evidentiary_value": 0.7
       }
     },
     {
       "id": "loc_5",
-      "name": "Riverside Police Department",
+      "name": "Ace Hardware store in Vallejo",
       "features": {
         "accessibility": 0.6,
-        "isolability": 0.5,
-        "evidentiary_value": 0.7
+        "isolability": 0.4,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_6",
-      "name": "Sacramento Bee office",
+      "name": "Creaky old house of Bob Vaughn",
       "features": {
-        "accessibility": 0.8,
-        "isolability": 0.4,
-        "evidentiary_value": 0.7
-      }
-    },
-    {
-      "id": "loc_7",
-      "name": "Hollywood film theater",
-      "features": {
-        "accessibility": 0.8,
-        "isolability": 0.4,
-        "evidentiary_value": 0.5
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 0.2
       }
     }
   ],
@@ -444,7 +504,7 @@
       "name": "San Francisco Chronicle",
       "features": {
         "institutional_power": 0.8,
-        "secrecy_level": 0.3,
+        "secrecy_level": 0.2,
         "financial_scale": 0.7
       }
     },
@@ -452,9 +512,9 @@
       "id": "org_1",
       "name": "San Francisco Police Department",
       "features": {
-        "institutional_power": 0.8,
+        "institutional_power": 0.9,
         "secrecy_level": 0.3,
-        "financial_scale": 0.7
+        "financial_scale": 0.6
       }
     },
     {
@@ -463,258 +523,219 @@
       "features": {
         "institutional_power": 0.8,
         "secrecy_level": 0.3,
-        "financial_scale": 0.7
-      }
-    },
-    {
-      "id": "org_3",
-      "name": "Napa County Police Department",
-      "features": {
-        "institutional_power": 0.8,
-        "secrecy_level": 0.3,
-        "financial_scale": 0.7
-      }
-    },
-    {
-      "id": "org_4",
-      "name": "Riverside Police Department",
-      "features": {
-        "institutional_power": 0.8,
-        "secrecy_level": 0.3,
-        "financial_scale": 0.7
-      }
-    },
-    {
-      "id": "org_5",
-      "name": "Ace Hardware",
-      "features": {
-        "institutional_power": 0.4,
-        "secrecy_level": 0.2,
         "financial_scale": 0.6
       }
     },
     {
-      "id": "org_6",
-      "name": "Sacramento Bee",
+      "id": "org_3",
+      "name": "Napa County Sheriff's Office",
       "features": {
         "institutional_power": 0.8,
         "secrecy_level": 0.3,
-        "financial_scale": 0.7
+        "financial_scale": 0.6
       }
     },
     {
-      "id": "org_7",
-      "name": "Hollywood film industry",
+      "id": "org_4",
+      "name": "Solano County Sheriff's Office",
       "features": {
         "institutional_power": 0.8,
         "secrecy_level": 0.3,
-        "financial_scale": 0.7
+        "financial_scale": 0.6
       }
     }
   ],
   "edges": [
     {
-      "source": "char_1",
-      "target": "char_0",
-      "relation": "in conflict with",
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "married to",
       "directed": true
     },
     {
-      "source": "char_2",
+      "source": "char_5",
+      "target": "char_4",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_0",
       "target": "occ_0",
       "relation": "employed as",
       "directed": true
     },
     {
-      "source": "char_3",
+      "source": "char_1",
       "target": "occ_1",
-      "relation": "employed as",
+      "relation": "student",
       "directed": true
     },
     {
-      "source": "char_4",
-      "target": "char_5",
-      "relation": "relationship type",
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "suspects",
       "directed": true
     },
     {
-      "source": "char_6",
-      "target": "occ_3",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "occ_4",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_8",
-      "target": "char_7",
-      "relation": "works with",
-      "directed": true
-    },
-    {
-      "source": "char_9",
-      "target": "char_7",
-      "relation": "superior of",
-      "directed": true
-    },
-    {
-      "source": "char_10",
-      "target": "char_7",
-      "relation": "works with",
-      "directed": true
-    },
-    {
-      "source": "char_11",
-      "target": "char_10",
-      "relation": "superior of",
-      "directed": true
-    },
-    {
-      "source": "char_12",
-      "target": "occ_6",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_13",
-      "target": "occ_7",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_14",
-      "target": "loc_3",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_14",
+      "source": "char_3",
+      "target": "char_2",
       "relation": "kills",
       "directed": true
     },
     {
-      "source": "char_7",
-      "target": "org_1",
-      "relation": "affiliated with",
-      "directed": true
-    },
-    {
-      "source": "char_8",
-      "target": "char_7",
-      "relation": "works with",
-      "directed": true
-    },
-    {
-      "source": "char_12",
-      "target": "loc_0",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_15",
-      "target": "char_2",
-      "relation": "spouse of",
-      "directed": true
-    },
-    {
-      "source": "char_16",
+      "source": "char_19",
       "target": "char_0",
       "relation": "witnessed by",
       "directed": true
     },
     {
-      "source": "char_12",
-      "target": "char_12",
-      "relation": "related to",
-      "directed": false
-    },
-    {
-      "source": "char_3",
-      "target": "char_2",
-      "relation": "works with",
+      "source": "char_1",
+      "target": "char_3",
+      "relation": "identified from mugshot lineup as attacker",
       "directed": true
     },
     {
-      "source": "char_12",
-      "target": "occ_0",
-      "relation": "inspired by",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_6",
-      "relation": "investigates",
-      "directed": true
-    },
-    {
-      "source": "char_12",
-      "target": "org_0",
-      "relation": "sends letters to",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_12",
-      "relation": "accuses",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "char_12",
-      "relation": "investigates",
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "prior acquaintance with",
       "directed": true
     },
     {
       "source": "char_13",
-      "target": "char_12",
-      "relation": "interacts with",
+      "target": "occ_1",
+      "relation": "student",
       "directed": true
     },
     {
       "source": "char_14",
-      "target": "char_12",
-      "relation": "speaks on the phone with",
-      "directed": true
-    },
-    {
-      "source": "char_12",
-      "target": "org_3",
-      "relation": "sends letters to",
-      "directed": true
-    },
-    {
-      "source": "char_12",
-      "target": "org_4",
-      "relation": "might have been active before the initial killings in",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "char_12",
-      "relation": "demoted for supposedly forging a letter from",
+      "target": "occ_1",
+      "relation": "student",
       "directed": true
     },
     {
       "source": "char_2",
-      "target": "char_12",
-      "relation": "writes a book about",
+      "target": "loc_0",
+      "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "loc_2",
+      "relation": "killed at",
       "directed": true
     },
     {
       "source": "char_16",
-      "target": "char_12",
-      "relation": "identifies from a police mugshot",
+      "target": "loc_3",
+      "relation": "killed at",
       "directed": true
     },
     {
-      "source": "char_12",
-      "target": "loc_4",
+      "source": "char_2",
+      "target": "org_0",
+      "relation": "sends taunting letters and ciphers to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "occ_4",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "occ_5",
+      "relation": "librarian",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "relation": "makes anonymous heavy-breathing phone calls to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_6",
+      "relation": "works with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "relation": "sends personal death threat to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_7",
+      "relation": "partnered with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_9",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_10",
+      "relation": "investigates",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_11",
+      "relation": "contacted by",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "loc_5",
       "relation": "present at",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_3",
+      "relation": "stands face-to-face with",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "occ_8",
+      "relation": "handwriting and film-buff connection to cipher references",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "char_2",
+      "relation": "tipped as possible zodiac",
+      "directed": true
+    },
+    {
+      "source": "char_18",
+      "target": "occ_9",
+      "relation": "friend of",
+      "directed": true
+    },
+    {
+      "source": "char_18",
+      "target": "loc_6",
+      "relation": "lives in",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "org_2",
+      "relation": "receives anonymous heavy-breathing phone calls during investigation from",
+      "directed": true
+    },
+    {
+      "source": "char_19",
+      "target": "char_0",
+      "relation": "discovered by",
       "directed": true
     }
   ],

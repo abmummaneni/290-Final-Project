@@ -6,63 +6,63 @@
       "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.7,
-        "narrative_introduction_timing": 0.0,
-        "has_alibi": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 1.0
+        "narrative_prominence": 1
       }
     },
     {
       "id": "char_1",
-      "name": "DS Sunny Khan",
+      "name": "DI Sunny Khan",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.7,
+        "social_status": 0.5,
         "narrative_introduction_timing": 0.2,
-        "has_alibi": -1,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.8
+        "narrative_prominence": 0.75
       }
     },
     {
       "id": "char_2",
       "name": "David Walker",
-      "label": "Victim",
+      "label": "Villain|Victim",
       "features": {
-        "gender": 1,
-        "social_status": 0.3,
-        "narrative_introduction_timing": 0.5,
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.6
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_3",
-      "name": "Marion Kelsey",
+      "name": "Tessa Nixon",
       "label": "Uninvolved",
       "features": {
         "gender": 1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.3,
-        "has_alibi": -1,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
         "narrative_prominence": 0.5
@@ -70,45 +70,28 @@
     },
     {
       "id": "char_4",
-      "name": "Colin Osborne",
+      "name": "Jason Walker",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.8,
-        "narrative_introduction_timing": 0.4,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.6,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.5
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_5",
-      "name": "Elise Penning",
+      "name": "Cath",
       "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.6,
-        "narrative_introduction_timing": 0.7,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_6",
-      "name": "Tony Wetherall",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.9,
+        "social_status": 0.25,
         "narrative_introduction_timing": 0.8,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -116,276 +99,572 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Marion Kelsey",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
         "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_7",
-      "name": "Ray Dawson",
-      "label": "Villain",
+      "name": "Tony Kelsey",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.4,
-        "narrative_introduction_timing": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.6,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.3
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Colin Osborne",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Simon",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Sara Mahmoud",
+      "label": "Villain",
+      "features": {
+        "gender": 1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Hassan Mahmoud",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Paul Nixon",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Joy",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Elise",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Harry Paterson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
-      "name": "Police Officer",
+      "name": "Detective Chief Inspector (DCI)",
       "features": {
         "authority_level": 1,
-        "access_level": 0.8,
-        "capability_level": 0.7
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     },
     {
       "id": "occ_1",
-      "name": "Prison Officer",
+      "name": "Detective Inspector (DI)",
       "features": {
-        "authority_level": 0.6,
-        "access_level": 0.5,
-        "capability_level": 0.4
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     },
     {
       "id": "occ_2",
-      "name": "Business Owner",
-      "features": {
-        "authority_level": 0.8,
-        "access_level": 0.7,
-        "capability_level": 0.9
-      }
-    },
-    {
-      "id": "occ_3",
-      "name": "Community Figure",
+      "name": "Detective Constable (DC)",
       "features": {
         "authority_level": 0.5,
-        "access_level": 0.6,
+        "access_level": 0.5,
         "capability_level": 0.5
       }
     },
     {
-      "id": "occ_4",
-      "name": "Retired Professional",
+      "id": "occ_3",
+      "name": "Detective Superintendent (DSI)",
       "features": {
-        "authority_level": 0.7,
-        "access_level": 0.6,
-        "capability_level": 0.8
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Conservative Party fundraiser and club promoter",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Child-cancer nurse",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Barrister specializing in defending young offenders",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "English teacher and head of sixth form",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Scoutmaster",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Senior officer in the Metropolitan Police",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Supportive neighbor",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "IRA roommate",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Mother of two",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "High-flying City banker",
+      "features": {
+        "authority_level": 1,
+        "access_level": 0.75,
+        "capability_level": 0.75
+      }
+    },
+    {
+      "id": "occ_14",
+      "name": "Adoption agency representative",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_15",
+      "name": "Biological mother of Flo",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.5,
+        "capability_level": 0.5
       }
     }
   ],
   "locations": [
     {
       "id": "loc_0",
-      "name": "London",
+      "name": "River Lea in north-east London",
       "features": {
-        "accessibility": 1,
-        "isolability": 0.2,
-        "evidentiary_value": 0.5
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 1
       }
     },
     {
       "id": "loc_1",
-      "name": "Gay Clubs",
+      "name": "House in Brentford",
       "features": {
-        "accessibility": 0.4,
-        "isolability": 0.7,
-        "evidentiary_value": 0.3
+        "accessibility": 0.5,
+        "isolability": 0.25,
+        "evidentiary_value": 0.75
       }
     },
     {
       "id": "loc_2",
-      "name": "Construction Site",
+      "name": "London pub",
       "features": {
         "accessibility": 0.5,
-        "isolability": 0.8,
-        "evidentiary_value": 0.7
+        "isolability": 0.5,
+        "evidentiary_value": 0.75
       }
     },
     {
       "id": "loc_3",
-      "name": "Prison",
+      "name": "Irish pub in Ireland",
       "features": {
-        "accessibility": 0.2,
-        "isolability": 0.9,
-        "evidentiary_value": 0.6
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Italy",
+      "features": {
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "St. Helena Hospital",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.25
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "Country pub",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.75
       }
     }
   ],
   "organizations": [
     {
       "id": "org_0",
-      "name": "London Metropolitan Police",
+      "name": "London Metropolitan Police's cold-case unit",
       "features": {
         "institutional_power": 1,
-        "secrecy_level": 0.3,
-        "financial_scale": 0.6
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
       }
     },
     {
       "id": "org_1",
-      "name": "London Gay Community",
+      "name": "Conservative Party",
       "features": {
-        "institutional_power": 0.2,
-        "secrecy_level": 0.7,
-        "financial_scale": 0.3
+        "institutional_power": 1,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
       }
     },
     {
       "id": "org_2",
-      "name": "Construction Company",
+      "name": "IRA",
       "features": {
-        "institutional_power": 0.5,
-        "secrecy_level": 0.4,
-        "financial_scale": 0.7
+        "institutional_power": 1,
+        "secrecy_level": 0.75,
+        "financial_scale": 0.25
       }
     },
     {
       "id": "org_3",
-      "name": "Prison System",
+      "name": "Club Rangers",
       "features": {
-        "institutional_power": 0.8,
-        "secrecy_level": 0.5,
-        "financial_scale": 0.5
+        "institutional_power": 0.5,
+        "secrecy_level": 0.75,
+        "financial_scale": 0.25
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "School in special measures",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.25
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Adoption agency",
+      "features": {
+        "institutional_power": 0.75,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.75
       }
     }
   ],
   "edges": [
     {
-      "source": "char_2",
-      "target": "loc_1",
-      "relation": "resides at",
-      "directed": false
-    },
-    {
-      "source": "char_3",
+      "source": "char_0",
       "target": "occ_0",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "occ_2",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "occ_3",
-      "relation": "affiliated with",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "occ_4",
-      "relation": "formerly employed as",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "org_2",
-      "relation": "employed by",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "loc_3",
-      "relation": "resides at",
-      "directed": false
-    },
-    {
-      "source": "char_4",
-      "target": "char_3",
-      "relation": "related to",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "char_5",
-      "relation": "romantically involved with",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "char_2",
-      "relation": "kills",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_7",
-      "relation": "witnessed by",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "char_7",
-      "relation": "complicit with",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "char_7",
-      "relation": "in conflict with",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_7",
-      "relation": "deceives",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_1",
-      "relation": "works with",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_2",
-      "relation": "investigates",
-      "directed": true
+      "relation": "employed as"
     },
     {
       "source": "char_1",
-      "target": "char_2",
-      "relation": "investigates",
-      "directed": true
+      "target": "occ_1",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_2",
+      "target": "occ_4",
+      "relation": "employed as"
     },
     {
       "source": "char_3",
-      "target": "char_0",
-      "relation": "accuses by",
-      "directed": true
+      "target": "char_2",
+      "relation": "married to"
     },
     {
       "source": "char_4",
-      "target": "char_0",
-      "relation": "suspects by",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "char_0",
-      "relation": "hires lawyer to protect",
-      "directed": true
+      "target": "char_2",
+      "relation": "related to"
     },
     {
       "source": "char_6",
-      "target": "char_0",
-      "relation": "protected by",
-      "directed": true
+      "target": "char_7",
+      "relation": "married to"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_6",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "char_8",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_10",
+      "target": "occ_7",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_10",
+      "target": "char_11",
+      "relation": "married to"
+    },
+    {
+      "source": "char_12",
+      "target": "char_3",
+      "relation": "married to"
+    },
+    {
+      "source": "char_13",
+      "target": "char_6",
+      "relation": "related to"
+    },
+    {
+      "source": "char_14",
+      "target": "char_8",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_15",
+      "target": "char_9",
+      "relation": "blackmails"
+    },
+    {
+      "source": "loc_0",
+      "target": "loc_2",
+      "relation": "near to"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_2",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_3",
+      "target": "char_6",
+      "relation": "resides at"
+    },
+    {
+      "source": "loc_4",
+      "target": "char_10",
+      "relation": "present at"
+    },
+    {
+      "source": "loc_5",
+      "target": "char_6",
+      "relation": "treated at"
+    },
+    {
+      "source": "loc_6",
+      "target": "char_8",
+      "relation": "works with"
+    },
+    {
+      "source": "org_0",
+      "target": "loc_2",
+      "relation": "located at"
+    },
+    {
+      "source": "org_1",
+      "target": "char_2",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_2",
+      "target": "char_6",
+      "relation": "affiliated with"
+    },
+    {
+      "source": "org_3",
+      "target": "char_8",
+      "relation": "leads"
+    },
+    {
+      "source": "org_4",
+      "target": "char_10",
+      "relation": "applies to lead"
     }
   ],
   "metadata": {

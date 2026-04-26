@@ -6,7 +6,7 @@
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.65,
+        "social_status": 0.5,
         "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -14,7 +14,7 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 1.0
+        "narrative_prominence": 1
       }
     },
     {
@@ -23,8 +23,8 @@
       "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.35,
-        "narrative_introduction_timing": 0.2,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
@@ -36,19 +36,19 @@
     },
     {
       "id": "char_2",
-      "name": "Leonora Quine",
-      "label": "Victim",
+      "name": "Elizabeth Tassel",
+      "label": "Villain",
       "features": {
         "gender": 1,
-        "social_status": 0.35,
-        "narrative_introduction_timing": 0.25,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.6,
         "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.3
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
       }
     },
     {
@@ -57,42 +57,42 @@
       "label": "Victim",
       "features": {
         "gender": 0,
-        "social_status": 0.65,
-        "narrative_introduction_timing": 0.1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.2,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "has_hidden_relationship": 1,
         "motive_type": -1,
         "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_4",
-      "name": "Kathryn Kent",
-      "label": "Witness",
+      "name": "Leonora Quine",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.35,
-        "has_alibi": -1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": 0,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
+        "has_motive": 0,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.4
       }
     },
     {
       "id": "char_5",
-      "name": "Phillip 'Pippa' Midgley",
-      "label": "Witness",
+      "name": "Orlando Quine",
+      "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": 0.3,
-        "narrative_introduction_timing": 0.45,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.3,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
@@ -104,121 +104,87 @@
     },
     {
       "id": "char_6",
-      "name": "Elizabeth Tassel",
-      "label": "Villain",
+      "name": "Michael Fancourt",
+      "label": "Uninvolved",
       "features": {
-        "gender": 1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.4,
-        "has_alibi": -1,
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
+        "has_motive": 1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.25
+        "motive_type": 0.66,
+        "narrative_prominence": 0.3
       }
     },
     {
       "id": "char_7",
-      "name": "Jerry Waldegrave",
-      "label": "Witness",
+      "name": "Daniel Chard",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.3,
-        "has_alibi": -1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.7,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
+        "motive_type": 0.33,
         "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_8",
-      "name": "Daniel Chard",
-      "label": "Witness",
+      "name": "Jerry Waldegrave",
+      "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.7,
-        "narrative_introduction_timing": 0.5,
-        "has_alibi": -1,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
+        "motive_type": 0.33,
         "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_9",
-      "name": "Michael Fancourt",
-      "label": "Villain",
+      "name": "Kathryn Kent",
+      "label": "Uninvolved",
       "features": {
-        "gender": 0,
-        "social_status": 0.8,
-        "narrative_introduction_timing": 0.65,
-        "has_alibi": -1,
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.25
+        "motive_type": 0.0,
+        "narrative_prominence": 0.1
       }
     },
     {
       "id": "char_10",
-      "name": "Alexander",
+      "name": "Pippa Midgley",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": 0.4,
-        "narrative_introduction_timing": 0.95,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.9,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
+        "motive_type": 0.0,
         "narrative_prominence": 0.1
-      }
-    },
-    {
-      "id": "char_11",
-      "name": "Elspeth Fancourt",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 1,
-        "social_status": 0.6,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
-      }
-    },
-    {
-      "id": "char_12",
-      "name": "Matthew",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.4,
-        "narrative_introduction_timing": 0.25,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.15
       }
     }
   ],
@@ -227,90 +193,243 @@
       "id": "occ_0",
       "name": "Private Investigator",
       "features": {
-        "authority_level": 0.4,
-        "access_level": 0.5,
-        "capability_level": 0.7
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.9
       }
     },
     {
       "id": "occ_1",
       "name": "Assistant",
       "features": {
-        "authority_level": 0.2,
-        "access_level": 0.5,
-        "capability_level": 0.4
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
       }
     },
     {
       "id": "occ_2",
-      "name": "Novelist",
+      "name": "Literary Agent",
       "features": {
-        "authority_level": 0.6,
-        "access_level": 0.5,
+        "authority_level": 0.5,
+        "access_level": 0.75,
         "capability_level": 0.8
       }
     },
     {
       "id": "occ_3",
-      "name": "Literary Agent",
+      "name": "Novelist",
       "features": {
-        "authority_level": 0.6,
-        "access_level": 0.5,
-        "capability_level": 0.7
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.9
       }
     },
     {
       "id": "occ_4",
       "name": "Editor",
       "features": {
-        "authority_level": 0.6,
-        "access_level": 0.5,
-        "capability_level": 0.7
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.8
       }
     },
     {
       "id": "occ_5",
       "name": "Publisher",
       "features": {
-        "authority_level": 0.8,
-        "access_level": 0.5,
-        "capability_level": 0.7
+        "authority_level": 0.75,
+        "access_level": 0.9,
+        "capability_level": 0.8
       }
     },
     {
       "id": "occ_6",
-      "name": "Author",
+      "name": "Transgender Woman",
       "features": {
-        "authority_level": 0.8,
-        "access_level": 0.5,
-        "capability_level": 0.7
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
       }
     },
     {
       "id": "occ_7",
-      "name": "Relative",
+      "name": "Self-Published Erotic Novelist",
       "features": {
-        "authority_level": 0.2,
-        "access_level": 0.5,
-        "capability_level": 0.3
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
       }
     },
     {
       "id": "occ_8",
-      "name": "Spouse",
+      "name": "Secretary",
       "features": {
-        "authority_level": 0.4,
-        "access_level": 0.5,
-        "capability_level": 0.4
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
       }
     },
     {
       "id": "occ_9",
-      "name": "Paralegal",
+      "name": "Accountant",
       "features": {
-        "authority_level": 0.3,
-        "access_level": 0.5,
-        "capability_level": 0.4
+        "authority_level": 0.75,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Detective Inspector",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_11",
+      "name": "War Veteran",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_12",
+      "name": "Rock Star",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.9,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_13",
+      "name": "Volatile Ex-Fiancé",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_14",
+      "name": "Working-Class Woman",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_15",
+      "name": "Daughter with Intellectual Disabilities",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_16",
+      "name": "Middle-Aged Man with Emphysema and Chronic Cough",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_17",
+      "name": "Middle-Aged Woman with Intellectual Disabilities",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_18",
+      "name": "Celebrated Misogynistic Novelist",
+      "features": {
+        "authority_level": 0.75,
+        "access_level": 0.9,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_19",
+      "name": "Young Protégé",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_20",
+      "name": "Mistress",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_21",
+      "name": "Birth-Named Phillip",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_22",
+      "name": "Rejected by Birth Mother",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_23",
+      "name": "Married Man with Dying Sister",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_24",
+      "name": "Alcoholic",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_25",
+      "name": "Cuckold",
+      "features": {
+        "authority_level": 0.5,
+        "access_level": 0.75,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_26",
+      "name": "Transgender Woman Preparing for Gender Reassignment Surgery",
+      "features": {
+        "authority_level": 0.25,
+        "access_level": 0.75,
+        "capability_level": 0.6
       }
     }
   ],
@@ -319,74 +438,110 @@
       "id": "loc_0",
       "name": "London",
       "features": {
-        "accessibility": 1.0,
-        "isolability": 0.2,
-        "evidentiary_value": 0.5
+        "accessibility": 1,
+        "isolability": 0.25,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_1",
-      "name": "Cottage",
+      "name": "Derelict House on Talgarth Road",
       "features": {
-        "accessibility": 0.4,
-        "isolability": 0.8,
-        "evidentiary_value": 0.5
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 1
       }
     },
     {
       "id": "loc_2",
-      "name": "Publisher's Office",
+      "name": "Yorkshire",
       "features": {
-        "accessibility": 0.6,
-        "isolability": 0.4,
-        "evidentiary_value": 0.5
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 0.3
       }
     },
     {
       "id": "loc_3",
-      "name": "Party",
+      "name": "Corporate Retreat",
       "features": {
-        "accessibility": 0.7,
-        "isolability": 0.2,
-        "evidentiary_value": 0.5
+        "accessibility": 0.25,
+        "isolability": 0.75,
+        "evidentiary_value": 0.3
       }
     },
     {
       "id": "loc_4",
-      "name": "Prison",
+      "name": "Flat of Kathryn Kent",
       "features": {
-        "accessibility": 0.3,
-        "isolability": 0.8,
-        "evidentiary_value": 0.5
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Hospital for Dying Sister",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.75,
+        "evidentiary_value": 0.3
       }
     }
   ],
   "organizations": [
     {
       "id": "org_0",
-      "name": "Strike's Agency",
+      "name": "Cormoran Strike's Detective Agency",
       "features": {
-        "institutional_power": 0.4,
-        "secrecy_level": 0.2,
-        "financial_scale": 0.5
+        "institutional_power": 0.5,
+        "secrecy_level": 0.25,
+        "financial_scale": 0.6
       }
     },
     {
       "id": "org_1",
-      "name": "Publishing House",
+      "name": "Metropolitan Police",
       "features": {
         "institutional_power": 0.8,
-        "secrecy_level": 0.3,
-        "financial_scale": 0.9
+        "secrecy_level": 0.25,
+        "financial_scale": 0.6
       }
     },
     {
       "id": "org_2",
-      "name": "Metropolitan Police",
+      "name": "Roper Chard Publishing House",
       "features": {
-        "institutional_power": 1.0,
-        "secrecy_level": 0.1,
-        "financial_scale": 0.8
+        "institutional_power": 0.7,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.9
+      }
+    },
+    {
+      "id": "org_3",
+      "name": "London Literary Establishment",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "University of Michael Fancourt and Owen Quine",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Literary Agency of Elizabeth Tassel",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.6
       }
     }
   ],
@@ -405,170 +560,206 @@
     },
     {
       "source": "char_2",
-      "target": "char_3",
-      "relation": "married to",
+      "target": "occ_2",
+      "relation": "leads",
       "directed": true
     },
     {
       "source": "char_3",
-      "target": "occ_2",
+      "target": "occ_3",
       "relation": "employed as",
       "directed": true
     },
     {
       "source": "char_4",
-      "target": "char_3",
-      "relation": "romantically involved with",
+      "target": "occ_14",
+      "relation": "related to",
       "directed": true
     },
     {
       "source": "char_5",
-      "target": "char_4",
+      "target": "occ_17",
       "relation": "related to",
       "directed": true
     },
     {
       "source": "char_6",
-      "target": "char_3",
-      "relation": "accuses",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "occ_3",
-      "relation": "employed by",
+      "target": "occ_18",
+      "relation": "employed as",
       "directed": true
     },
     {
       "source": "char_7",
-      "target": "char_3",
-      "relation": "works with",
-      "directed": true
-    },
-    {
-      "source": "char_8",
-      "target": "org_1",
+      "target": "occ_5",
       "relation": "leads",
       "directed": true
     },
     {
-      "source": "char_9",
-      "target": "occ_6",
+      "source": "char_8",
+      "target": "occ_4",
       "relation": "employed as",
       "directed": true
     },
     {
       "source": "char_9",
-      "target": "char_3",
-      "relation": "in conflict with",
+      "target": "occ_7",
+      "relation": "employed as",
       "directed": true
     },
     {
       "source": "char_10",
-      "target": "char_0",
+      "target": "occ_6",
       "relation": "related to",
       "directed": true
     },
     {
-      "source": "char_11",
+      "source": "loc_0",
+      "target": "loc_1",
+      "relation": "near to",
+      "directed": false
+    },
+    {
+      "source": "loc_4",
       "target": "char_9",
-      "relation": "married to",
+      "relation": "resides at",
       "directed": true
     },
     {
-      "source": "char_11",
-      "target": "occ_2",
-      "relation": "employed as",
+      "source": "org_0",
+      "target": "char_0",
+      "relation": "affiliated with",
       "directed": true
     },
     {
-      "source": "char_12",
-      "target": "char_1",
-      "relation": "romantically involved with",
+      "source": "org_1",
+      "target": "char_0",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "char_3",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "char_7",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "org_2",
+      "target": "char_8",
+      "relation": "affiliated with",
+      "directed": true
+    },
+    {
+      "source": "org_3",
+      "target": "loc_0",
+      "relation": "located at",
+      "directed": false
+    },
+    {
+      "source": "org_4",
+      "target": "char_2",
+      "relation": "attended university together",
+      "directed": true
+    },
+    {
+      "source": "org_4",
+      "target": "char_3",
+      "relation": "attended university together",
+      "directed": true
+    },
+    {
+      "source": "org_5",
+      "target": "char_2",
+      "relation": "employed by",
       "directed": true
     },
     {
       "source": "char_0",
       "target": "char_1",
-      "relation": "works with",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "loc_0",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_4",
-      "target": "loc_0",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_5",
-      "target": "loc_0",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "loc_0",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_7",
-      "target": "loc_2",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_8",
-      "target": "loc_2",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_9",
-      "target": "loc_0",
-      "relation": "present at",
-      "directed": true
-    },
-    {
-      "source": "char_10",
-      "target": "loc_1",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "org_2",
-      "target": "loc_0",
-      "relation": "located at",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_6",
       "relation": "business partner of",
       "directed": true
     },
     {
-      "source": "char_6",
-      "target": "char_9",
-      "relation": "friends with",
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "hired by",
       "directed": true
     },
     {
-      "source": "char_6",
+      "source": "char_2",
       "target": "char_3",
       "relation": "blackmails",
       "directed": true
     },
     {
-      "source": "char_6",
+      "source": "char_2",
       "target": "char_3",
       "relation": "kills",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_9",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_10",
+      "relation": "mentor of",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "protects",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "married to",
+      "directed": true
+    },
+    {
+      "source": "char_7",
+      "target": "char_3",
+      "relation": "revenge against",
+      "directed": true
+    },
+    {
+      "source": "char_8",
+      "target": "char_3",
+      "relation": "professional humiliation of",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_10",
+      "target": "char_9",
+      "relation": "protégé of",
+      "directed": true
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "investigates",
       "directed": true
     },
     {
@@ -578,237 +769,69 @@
       "directed": true
     },
     {
-      "source": "char_1",
-      "target": "char_0",
-      "relation": "works with",
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "investigates",
       "directed": true
     },
     {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "discovers",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
+      "source": "char_0",
+      "target": "char_6",
       "relation": "deceives",
       "directed": true
     },
     {
-      "source": "char_6",
-      "target": "char_2",
+      "source": "char_0",
+      "target": "char_7",
       "relation": "accuses",
       "directed": true
     },
     {
-      "source": "char_6",
-      "target": "org_1",
-      "relation": "hires",
-      "directed": true
-    },
-    {
       "source": "char_0",
-      "target": "char_6",
-      "relation": "suspects",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "char_6",
-      "relation": "suspects",
+      "target": "char_8",
+      "relation": "accuses",
       "directed": true
     },
     {
       "source": "char_0",
       "target": "char_9",
-      "relation": "suspects",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "char_9",
-      "relation": "suspects",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_9",
-      "relation": "rivals with",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_6",
-      "relation": "protects",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_11",
-      "relation": "avenges",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "deceives",
+      "relation": "accuses",
       "directed": true
     },
     {
       "source": "char_0",
+      "target": "char_10",
+      "relation": "accuses",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_6",
+      "relation": "in conflict with",
+      "directed": true
+    },
+    {
+      "source": "char_7",
       "target": "char_2",
-      "relation": "exonerates",
+      "relation": "suspects",
       "directed": true
     },
     {
-      "source": "char_1",
-      "target": "char_2",
-      "relation": "exonerates",
-      "directed": true
-    },
-    {
-      "source": "char_6",
+      "source": "char_8",
       "target": "char_3",
-      "relation": "autopsies",
+      "relation": "suspects",
+      "directed": true
+    },
+    {
+      "source": "char_9",
+      "target": "char_2",
+      "relation": "discovers",
       "directed": true
     },
     {
       "source": "char_10",
       "target": "char_0",
-      "relation": "confides in",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "buries",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "poses",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_6",
-      "relation": "confronts",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "char_6",
-      "relation": "confronts",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "publishes",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "readies for publication",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_6",
-      "relation": "uncovers authorship of",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "char_6",
-      "relation": "uncovers authorship of",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "writes for publication",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_6",
-      "relation": "catches",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "char_6",
-      "relation": "catches",
-      "directed": true
-    },
-    {
-      "source": "char_10",
-      "target": "char_0",
-      "relation": "related to",
-      "directed": true
-    },
-    {
-      "source": "char_3",
-      "target": "char_6",
-      "relation": "authors parody of",
-      "directed": true
-    },
-    {
-      "source": "char_11",
-      "target": "char_3",
-      "relation": "suicides after",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "blames for parody",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_11",
-      "relation": "blames for death of",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_3",
-      "relation": "discovers body of",
-      "directed": true
-    },
-    {
-      "source": "char_6",
-      "target": "char_3",
-      "relation": "mutilates and kills",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_2",
-      "relation": "notifies of release from prison",
-      "directed": true
-    },
-    {
-      "source": "char_9",
-      "target": "char_3",
-      "relation": "acknowledges literary value of work of",
-      "directed": true
-    },
-    {
-      "source": "char_9",
-      "target": "char_3",
-      "relation": "plans to write introduction for publication of",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_1",
-      "relation": "gives enrollment in investigative training courses as gift to",
+      "relation": "attacks with knife",
       "directed": true
     }
   ],

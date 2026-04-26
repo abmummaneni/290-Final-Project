@@ -2,170 +2,338 @@
   "characters": [
     {
       "id": "char_0",
-      "name": "Murder Club members",
+      "name": "Miles Hammond",
       "label": "Uninvolved",
       "features": {
-        "gender": -1,
-        "social_status": 0.5,
+        "gender": 0,
+        "social_status": 0.8,
         "narrative_introduction_timing": 0.0,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 1
       }
     },
     {
       "id": "char_1",
-      "name": "Miles Hammond",
+      "name": "Marion Hammond",
       "label": "Victim",
       "features": {
-        "gender": 0,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.3,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": 0,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.8
-      }
-    },
-    {
-      "id": "char_2",
-      "name": "Fay Seton",
-      "label": "Villain",
-      "features": {
         "gender": 1,
-        "social_status": 0.3,
-        "narrative_introduction_timing": 0.5,
-        "has_alibi": -1,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
         "present_at_crime_scene": 1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.7
-      }
-    },
-    {
-      "id": "char_3",
-      "name": "Howard Brooke",
-      "label": "Victim",
-      "features": {
-        "gender": 1,
-        "social_status": 0.7,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.3
-      }
-    },
-    {
-      "id": "char_4",
-      "name": "Dr. Gideon Fell",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": 0.7,
-        "narrative_introduction_timing": 0.6,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
         "motive_type": -1,
         "narrative_prominence": 0.5
       }
     },
     {
-      "id": "char_5",
-      "name": "Friends of Miles Hammond",
+      "id": "char_2",
+      "name": "Stephen 'Steve' Curtis / Harry Brooke",
+      "label": "Villain",
+      "features": {
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.33,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Barbara Morell",
       "label": "Uninvolved",
       "features": {
-        "gender": -1,
+        "gender": 1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.2,
+        "narrative_introduction_timing": 0.25,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Professor Georges Antoine Rigaud",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.05,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": 0,
+        "is_concealing_information": 0,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Howard Brooke",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 1.0,
+        "narrative_introduction_timing": 0.15,
         "has_alibi": -1,
-        "present_at_crime_scene": -1,
+        "present_at_crime_scene": 0,
         "has_motive": -1,
         "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "has_hidden_relationship": 0,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Mrs. Brooke",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 1.0,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.05
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Fay Seton",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Jim Morell",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.05
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
-      "name": "Mystery enthusiasts",
+      "name": "Historian",
       "features": {
-        "authority_level": 0.3,
+        "authority_level": 0.6,
         "access_level": 0.5,
         "capability_level": 0.5
       }
     },
     {
       "id": "occ_1",
-      "name": "Writer",
+      "name": "Librarian",
       "features": {
-        "authority_level": 0.3,
-        "access_level": 0.7,
-        "capability_level": 0.8
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_2",
+      "name": "Englishwoman",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Ex-soldier",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "French academic",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.8,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Artist",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_6",
       "name": "Secretary",
       "features": {
-        "authority_level": 0.3,
+        "authority_level": 0.4,
         "access_level": 0.5,
         "capability_level": 0.6
       }
     },
     {
-      "id": "occ_3",
-      "name": "Detective",
+      "id": "occ_7",
+      "name": "Expatriate businessman",
       "features": {
-        "authority_level": 0.9,
-        "access_level": 0.8,
+        "authority_level": 0.8,
+        "access_level": 0.5,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Lexicographer-detective",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.9,
         "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Superintendent",
+      "features": {
+        "authority_level": 1.0,
+        "access_level": 0.8,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_10",
+      "name": "Local doctor",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.9,
+        "capability_level": 0.8
       }
     }
   ],
   "locations": [
     {
       "id": "loc_0",
-      "name": "Murder Club meeting place",
+      "name": "London",
       "features": {
-        "accessibility": 0.7,
-        "isolability": 0.3,
+        "accessibility": 1.0,
+        "isolability": 0.2,
         "evidentiary_value": 0.5
       }
     },
     {
       "id": "loc_1",
-      "name": "Chartres tower",
+      "name": "New Forest estate",
       "features": {
-        "accessibility": 0.2,
-        "isolability": 0.9,
-        "evidentiary_value": 0.8
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.7
       }
     },
     {
       "id": "loc_2",
-      "name": "Fay Seton's residence",
+      "name": "Murder Club dinner",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.8,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Country villa near Chartres, France",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_4",
+      "name": "Ruined riverside tower (tower of Henry IV)",
+      "features": {
+        "accessibility": 0.2,
+        "isolability": 0.9,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_5",
+      "name": "Picnicking family at the base of the tower",
+      "features": {
+        "accessibility": 0.3,
+        "isolability": 0.9,
+        "evidentiary_value": 1.0
+      }
+    },
+    {
+      "id": "loc_6",
+      "name": "First-floor bedroom in the New Forest estate",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_7",
+      "name": "Local doctor's office or residence",
       "features": {
         "accessibility": 0.6,
         "isolability": 0.4,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_8",
+      "name": "London (confrontation)",
+      "features": {
+        "accessibility": 1.0,
+        "isolability": 0.2,
         "evidentiary_value": 0.5
       }
     }
@@ -175,9 +343,18 @@
       "id": "org_0",
       "name": "Murder Club",
       "features": {
-        "institutional_power": 0.4,
-        "secrecy_level": 0.7,
-        "financial_scale": 0.3
+        "institutional_power": 0.6,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.4
+      }
+    },
+    {
+      "id": "org_1",
+      "name": "Scotland Yard",
+      "features": {
+        "institutional_power": 1.0,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.9
       }
     }
   ],
@@ -185,74 +362,92 @@
     {
       "source": "char_0",
       "target": "occ_0",
-      "relation": "affiliated with",
-      "directed": true
+      "relation": "employed as"
     },
     {
       "source": "char_1",
-      "target": "occ_1",
-      "relation": "employed as",
-      "directed": true
+      "target": "occ_2",
+      "relation": "labeled as"
     },
     {
       "source": "char_2",
-      "target": "occ_2",
-      "relation": "employed as",
-      "directed": true
+      "target": "char_3",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_7",
+      "relation": "romantically involved with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_1",
+      "relation": "attempted to kill"
     },
     {
       "source": "char_3",
-      "target": "char_0",
-      "relation": "unrelated to",
-      "directed": false
-    },
-    {
-      "source": "char_3",
-      "target": "loc_1",
-      "relation": "resides at",
-      "directed": true
+      "target": "char_8",
+      "relation": "is sister of"
     },
     {
       "source": "char_4",
-      "target": "occ_3",
-      "relation": "employed by",
-      "directed": true
+      "target": "occ_4",
+      "relation": "labeled as"
     },
     {
       "source": "char_5",
-      "target": "char_1",
-      "relation": "friends with",
-      "directed": true
+      "target": "occ_7",
+      "relation": "labeled as"
     },
     {
-      "source": "char_5",
-      "target": "char_2",
-      "relation": "suspects",
-      "directed": true
+      "source": "char_6",
+      "target": "loc_2",
+      "relation": "owns"
     },
     {
-      "source": "char_1",
-      "target": "char_2",
-      "relation": "romantically involved with",
-      "directed": true
+      "source": "char_6",
+      "target": "char_8",
+      "relation": "died of natural causes"
     },
     {
-      "source": "char_1",
+      "source": "char_7",
+      "target": "occ_6",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_7",
+      "target": "loc_3",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_7",
+      "target": "char_5",
+      "relation": "related to"
+    },
+    {
+      "source": "char_8",
+      "target": "occ_5",
+      "relation": "labeled as"
+    },
+    {
+      "source": "char_8",
       "target": "char_3",
-      "relation": "related to",
-      "directed": false
+      "relation": "committed suicide"
     },
     {
-      "source": "loc_1",
-      "target": "loc_0",
-      "relation": "near to",
-      "directed": true
+      "source": "char_7",
+      "target": "occ_8",
+      "relation": "cleared of false reputation by"
     },
     {
-      "source": "org_0",
-      "target": "loc_0",
-      "relation": "located at",
-      "directed": true
+      "source": "char_7",
+      "target": "loc_6",
+      "relation": "present at"
+    },
+    {
+      "source": "char_1",
+      "target": "loc_6",
+      "relation": "attacked at"
     }
   ],
   "metadata": {

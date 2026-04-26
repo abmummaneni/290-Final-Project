@@ -2,79 +2,79 @@
   "characters": [
     {
       "id": "char_0",
-      "name": "Sara",
+      "name": "Sara Antonsson",
       "label": "Victim",
       "features": {
-        "gender": 0,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.3
+        "narrative_prominence": 1
       }
     },
     {
       "id": "char_1",
-      "name": "Charlotte",
+      "name": "Charlotte Klinga",
       "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_2",
-      "name": "Erica",
+      "name": "Niclas Antonsson",
       "label": "Uninvolved",
       "features": {
-        "gender": 1,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_3",
-      "name": "Lilian",
-      "label": "Uninvolved",
+      "name": "Lilian Florin",
+      "label": "Villain",
       "features": {
         "gender": 1,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.25,
         "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
+        "present_at_crime_scene": 1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": 0.66,
+        "narrative_prominence": 0.5
       }
     },
     {
       "id": "char_4",
-      "name": "Kaj",
-      "label": "Uninvolved",
+      "name": "Anders Andersson",
+      "label": "Victim",
       "features": {
         "gender": 0,
-        "social_status": -1,
+        "social_status": 0.0,
         "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -82,33 +82,33 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.1
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_5",
-      "name": "Morgan",
-      "label": "Uninvolved",
+      "name": "Agnes Stjernkvist",
+      "label": "Villain",
       "features": {
-        "gender": 0,
-        "social_status": -1,
+        "gender": 1,
+        "social_status": 0.75,
         "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
+        "has_motive": 1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
+        "motive_type": 0.66,
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_6",
-      "name": "Patrik",
+      "name": "Mary (Agnes's adopted daughter)",
       "label": "Uninvolved",
       "features": {
-        "gender": 0,
-        "social_status": -1,
+        "gender": 1,
+        "social_status": 0.25,
         "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -116,84 +116,84 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.2
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_7",
-      "name": "Martin",
+      "name": "Erica Falck",
       "label": "Uninvolved",
       "features": {
-        "gender": 0,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
-        "is_concealing_information": -1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.1
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_8",
-      "name": "Ernst Lundgren",
+      "name": "Patrik Hedström",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.1
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_9",
-      "name": "Maja",
+      "name": "Anna Maxwell",
       "label": "Uninvolved",
       "features": {
         "gender": 1,
-        "social_status": -1,
+        "social_status": 0.5,
         "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
-        "is_concealing_information": -1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.1
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_10",
-      "name": "Kristina",
+      "name": "Lucas Maxwell",
       "label": "Uninvolved",
       "features": {
-        "gender": 1,
-        "social_status": -1,
+        "gender": 0,
+        "social_status": 0.5,
         "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
-        "is_concealing_information": -1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.1
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_11",
-      "name": "Chief Inspector Mellberg",
+      "name": "Kaj Wiberg",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": -1,
+        "social_status": 0.5,
         "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -201,101 +201,33 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.1
+        "narrative_prominence": 0.25
       }
     },
     {
       "id": "char_12",
-      "name": "Simon",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
-      }
-    },
-    {
-      "id": "char_13",
-      "name": "Anders",
-      "label": "Victim",
-      "features": {
-        "gender": 0,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
-      }
-    },
-    {
-      "id": "char_14",
-      "name": "Agnes",
-      "label": "Villain",
-      "features": {
-        "gender": 1,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.2
-      }
-    },
-    {
-      "id": "char_15",
-      "name": "Mary",
-      "label": "Victim",
-      "features": {
-        "gender": 1,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
-      }
-    },
-    {
-      "id": "char_16",
-      "name": "Åke",
-      "label": "Uninvolved",
-      "features": {
-        "gender": 0,
-        "social_status": -1,
-        "narrative_introduction_timing": -1,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.1
-      }
-    },
-    {
-      "id": "char_17",
       "name": "Morgan Wiberg",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
-        "social_status": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Monika Wiberg",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
         "narrative_introduction_timing": -1,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
@@ -303,314 +235,525 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.1
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Frida",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Veronika",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Stig Florin",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "August Stjernkvist",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_18",
+      "name": "Aina",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_19",
+      "name": "Jeanette Lind",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_20",
+      "name": "Sebastian Rydén",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_21",
+      "name": "Rune Rydén",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_22",
+      "name": "Per-Erik",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_23",
+      "name": "Elisabeth",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_24",
+      "name": "Arne Antonsson",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": -1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
       }
     }
   ],
   "occupations": [
     {
       "id": "occ_0",
-      "name": "Fisherman",
+      "name": "General Practitioner",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.75,
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     },
     {
       "id": "occ_1",
-      "name": "Friend",
+      "name": "Detective Inspector",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.9,
+        "access_level": 0.8,
+        "capability_level": 0.8
       }
     },
     {
       "id": "occ_2",
-      "name": "Mother",
+      "name": "Detective Chief Inspector",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.95,
+        "access_level": 0.7,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_3",
-      "name": "Father",
+      "name": "Detective",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.85,
+        "access_level": 0.75,
+        "capability_level": 0.75
       }
     },
     {
       "id": "occ_4",
-      "name": "Grandmother",
+      "name": "Receptionist",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.3,
+        "access_level": 0.6,
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_5",
-      "name": "Neighbor",
+      "name": "Forensic Pathologist",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.9,
+        "access_level": 0.6,
+        "capability_level": 0.8
       }
     },
     {
       "id": "occ_6",
-      "name": "Son",
+      "name": "Video Game Designer",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.8
       }
     },
     {
       "id": "occ_7",
-      "name": "Colleague",
+      "name": "Medical Assistant",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.4,
+        "access_level": 0.6,
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_8",
-      "name": "Baby",
+      "name": "Stonecutter",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.2,
+        "access_level": 0.6,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_9",
-      "name": "Police Chief",
+      "name": "Stone-quarry Owner",
       "features": {
-        "authority_level": 1,
-        "access_level": 1,
-        "capability_level": 1
+        "authority_level": 0.8,
+        "access_level": 0.6,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_10",
-      "name": "Teenager",
+      "name": "Sexton",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_11",
-      "name": "Stonecutter",
+      "name": "Writer/Journalist/Amateur Sleuth",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_12",
-      "name": "Daughter",
+      "name": "Abused Child",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.1,
+        "access_level": 0.5,
+        "capability_level": 0.3
       }
     },
     {
       "id": "occ_13",
-      "name": "Boss",
+      "name": "Abuser/Paedophile",
       "features": {
-        "authority_level": 1,
-        "access_level": 1,
-        "capability_level": 1
+        "authority_level": 0.5,
+        "access_level": 0.6,
+        "capability_level": 0.7
       }
     },
     {
       "id": "occ_14",
-      "name": "Married Man",
+      "name": "Housewife",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.3,
+        "access_level": 0.5,
+        "capability_level": 0.5
       }
     },
     {
       "id": "occ_15",
-      "name": "Asperger's Syndrome",
+      "name": "Husband of Abuser/Paedophile",
       "features": {
-        "authority_level": -1,
-        "access_level": -1,
-        "capability_level": -1
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_16",
+      "name": "Married Man",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_17",
+      "name": "Wife of Married Man",
+      "features": {
+        "authority_level": 0.4,
+        "access_level": 0.5,
+        "capability_level": 0.5
       }
     }
   ],
   "locations": [
     {
       "id": "loc_0",
-      "name": "Fjällbacka",
+      "name": "Fjällbacka (Tanumshede)",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": -1
+        "accessibility": 0.6,
+        "isolability": 0.4,
+        "evidentiary_value": 0.5
       }
     },
     {
       "id": "loc_1",
-      "name": "Fisherman's net",
+      "name": "Florin Household",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_2",
-      "name": "Home of Sara's parents",
+      "name": "Klinga Household",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_3",
-      "name": "Lilian's house",
+      "name": "Antonsson Household",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_4",
-      "name": "Kaj's house",
+      "name": "Fisherman's Lobster Net",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_5",
-      "name": "Morgan's room",
+      "name": "Bathroom of Florin Household",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.9
       }
     },
     {
       "id": "loc_6",
-      "name": "Police station",
+      "name": "Cellar of Agnes's Household (1920s)",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.3,
+        "isolability": 0.7,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_7",
-      "name": "Strömstad (1923)",
+      "name": "Stone-quarry (1920s)",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.4,
+        "isolability": 0.6,
+        "evidentiary_value": 0.8
       }
     },
     {
       "id": "loc_8",
-      "name": "Small house in Fjällbacka (1923)",
+      "name": "United States (1950s-onward)",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.2,
+        "isolability": 0.8,
+        "evidentiary_value": 0.6
       }
     },
     {
       "id": "loc_9",
-      "name": "United States (1920s)",
+      "name": "Strömstad (1923)",
       "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
-      }
-    },
-    {
-      "id": "loc_10",
-      "name": "Sweden (1950s)",
-      "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
-      }
-    },
-    {
-      "id": "loc_11",
-      "name": "Cellar",
-      "features": {
-        "accessibility": -1,
-        "isolability": -1,
-        "evidentiary_value": 1
+        "accessibility": 0.5,
+        "isolability": 0.5,
+        "evidentiary_value": 0.8
       }
     }
   ],
   "organizations": [
     {
       "id": "org_0",
-      "name": "Family",
+      "name": "Tanumshede Police Department",
       "features": {
-        "institutional_power": -1,
-        "secrecy_level": -1,
-        "financial_scale": -1
+        "institutional_power": 0.9,
+        "secrecy_level": 0.3,
+        "financial_scale": 0.5
       }
     },
     {
       "id": "org_1",
-      "name": "Police Department",
+      "name": "Swedish Coastal Town of Fjällbacka in the Province of Bohuslän",
       "features": {
-        "institutional_power": 1,
-        "secrecy_level": -1,
-        "financial_scale": -1
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
       }
     },
     {
       "id": "org_2",
-      "name": "Society (1920s)",
+      "name": "Antonsson Family",
       "features": {
-        "institutional_power": 1,
-        "secrecy_level": -1,
-        "financial_scale": -1
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
       }
     },
     {
       "id": "org_3",
-      "name": "Marriage",
+      "name": "Klinga Family",
       "features": {
-        "institutional_power": 1,
-        "secrecy_level": -1,
-        "financial_scale": -1
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
       }
     },
     {
       "id": "org_4",
-      "name": "Asperger's Syndrome",
+      "name": "Florin Family",
       "features": {
-        "institutional_power": -1,
-        "secrecy_level": -1,
-        "financial_scale": -1
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_5",
+      "name": "Stjernkvist Family",
+      "features": {
+        "institutional_power": 0.7,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.6
+      }
+    },
+    {
+      "id": "org_6",
+      "name": "Paedophile Ring",
+      "features": {
+        "institutional_power": 0.5,
+        "secrecy_level": 0.8,
+        "financial_scale": 0.4
       }
     }
   ],
   "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "lives with",
+      "directed": true
+    },
     {
       "source": "char_1",
       "target": "char_0",
@@ -618,9 +761,33 @@
       "directed": true
     },
     {
+      "source": "char_1",
+      "target": "char_2",
+      "relation": "spouse of",
+      "directed": true
+    },
+    {
       "source": "char_2",
+      "target": "char_1",
+      "relation": "spouse of",
+      "directed": true
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_2",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
       "target": "char_0",
-      "relation": "friends with",
+      "relation": "grandparent of",
       "directed": true
     },
     {
@@ -631,122 +798,146 @@
     },
     {
       "source": "char_4",
-      "target": "char_3",
-      "relation": "lives with",
+      "target": "char_5",
+      "relation": "spouse of",
       "directed": true
     },
     {
       "source": "char_5",
       "target": "char_4",
+      "relation": "spouse of",
+      "directed": true
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
       "relation": "related to",
       "directed": true
     },
     {
       "source": "char_6",
-      "target": "char_8",
+      "target": "char_5",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_6",
+      "target": "char_3",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_3",
+      "target": "char_6",
       "relation": "related to",
       "directed": true
     },
     {
       "source": "char_7",
-      "target": "char_6",
-      "relation": "colleague of",
+      "target": "char_8",
+      "relation": "romantically involved with",
       "directed": true
     },
     {
       "source": "char_8",
-      "target": "char_6",
-      "relation": "employed as",
+      "target": "char_7",
+      "relation": "romantically involved with",
       "directed": true
     },
     {
       "source": "char_9",
-      "target": "char_6",
-      "relation": "related to",
+      "target": "char_10",
+      "relation": "spouse of",
       "directed": true
     },
     {
       "source": "char_10",
-      "target": "char_11",
-      "relation": "related to",
+      "target": "char_9",
+      "relation": "spouse of",
+      "directed": true
+    },
+    {
+      "source": "char_11",
+      "target": "org_0",
+      "relation": "employed by",
       "directed": true
     },
     {
       "source": "char_12",
+      "target": "occ_6",
+      "relation": "employed as",
+      "directed": true
+    },
+    {
+      "source": "char_14",
+      "target": "char_0",
+      "relation": "friends with",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_14",
+      "relation": "related to",
+      "directed": true
+    },
+    {
+      "source": "char_15",
+      "target": "char_0",
+      "relation": "witnessed by",
+      "directed": true
+    },
+    {
+      "source": "char_16",
+      "target": "loc_1",
+      "relation": "resides at",
+      "directed": true
+    },
+    {
+      "source": "char_17",
+      "target": "loc_7",
+      "relation": "owns",
+      "directed": true
+    },
+    {
+      "source": "char_18",
+      "target": "char_2",
+      "relation": "employed by",
+      "directed": true
+    },
+    {
+      "source": "char_19",
+      "target": "char_2",
+      "relation": "romantically involved with",
+      "directed": true
+    },
+    {
+      "source": "char_20",
       "target": "char_13",
       "relation": "related to",
       "directed": true
     },
     {
-      "source": "char_14",
-      "target": "char_12",
+      "source": "char_20",
+      "target": "char_11",
+      "relation": "patient of",
+      "directed": true
+    },
+    {
+      "source": "char_21",
+      "target": "char_20",
       "relation": "related to",
       "directed": true
     },
     {
-      "source": "char_15",
-      "target": "char_14",
-      "relation": "related to",
-      "directed": true
-    },
-    {
-      "source": "char_16",
-      "target": "char_14",
+      "source": "char_23",
+      "target": "char_22",
       "relation": "spouse of",
       "directed": true
     },
     {
-      "source": "char_17",
-      "target": "loc_5",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "occ_0",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_13",
-      "relation": "occupation",
-      "target": "occ_11",
-      "directed": false
-    },
-    {
-      "source": "char_14",
-      "target": "loc_7",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_14",
-      "target": "org_3",
-      "relation": "affiliated with",
-      "directed": true
-    },
-    {
-      "source": "char_16",
-      "target": "loc_8",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_14",
-      "target": "org_2",
-      "relation": "affiliated with",
-      "directed": true
-    },
-    {
-      "source": "char_15",
-      "target": "loc_11",
-      "relation": "resides at",
-      "directed": true
-    },
-    {
-      "source": "char_14",
-      "target": "org_0",
-      "relation": "affiliated with",
+      "source": "char_24",
+      "target": "char_2",
+      "relation": "related to",
       "directed": true
     }
   ],

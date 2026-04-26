@@ -3,18 +3,18 @@
     {
       "id": "char_0",
       "name": "Curtis Flowers",
-      "label": "Villain",
+      "label": "Uninvolved",
       "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.5,
-        "has_alibi": -1,
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.2,
+        "has_alibi": 1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 1.0
+        "narrative_prominence": 0.9
       }
     },
     {
@@ -22,9 +22,9 @@
       "name": "Bertha Tardy",
       "label": "Victim",
       "features": {
-        "gender": 0,
-        "social_status": 1.0,
-        "narrative_introduction_timing": 0.0,
+        "gender": 1,
+        "social_status": 0.7,
+        "narrative_introduction_timing": 0.1,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
@@ -39,9 +39,9 @@
       "name": "Carmen Rigby",
       "label": "Victim",
       "features": {
-        "gender": 0,
+        "gender": 1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "narrative_introduction_timing": 0.1,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
@@ -56,9 +56,9 @@
       "name": "Robert Golden",
       "label": "Victim",
       "features": {
-        "gender": 1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
@@ -70,12 +70,12 @@
     },
     {
       "id": "char_4",
-      "name": "Derrick Stewart",
+      "name": "Derrick 'Bobo' Stewart",
       "label": "Victim",
       "features": {
-        "gender": 1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "gender": 0,
+        "social_status": 0.2,
+        "narrative_introduction_timing": 0.1,
         "has_alibi": -1,
         "present_at_crime_scene": 1,
         "has_motive": -1,
@@ -87,44 +87,61 @@
     },
     {
       "id": "char_5",
-      "name": "John Johnson",
-      "label": "Uninvolved",
+      "name": "Doug Evans",
+      "label": "Villain",
       "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.2,
+        "gender": 0,
+        "social_status": 0.8,
+        "narrative_introduction_timing": 0.3,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
+        "motive_type": 0.5,
+        "narrative_prominence": 0.7
       }
     },
     {
       "id": "char_6",
-      "name": "Doug Evans",
+      "name": "John Johnson",
       "label": "Villain",
       "features": {
-        "gender": -1,
+        "gender": 0,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.2,
+        "narrative_introduction_timing": 0.4,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
+        "motive_type": 0.5,
+        "narrative_prominence": 0.3
       }
     },
     {
       "id": "char_7",
-      "name": "Jacob Wetterling",
-      "label": "Victim",
+      "name": "Odell Hallmon",
+      "label": "Witness",
       "features": {
-        "gender": -1,
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.5,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": 0.5,
+        "narrative_prominence": 0.2
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Madeleine Baran",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
         "social_status": 0.5,
         "narrative_introduction_timing": 0.0,
         "has_alibi": -1,
@@ -133,12 +150,29 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.5
+        "narrative_prominence": 0.6
       }
     },
     {
-      "id": "char_8",
-      "name": "Madeleine Baran",
+      "id": "char_9",
+      "name": "Samara Freemark",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.6
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Parker Yesko",
       "label": "Uninvolved",
       "features": {
         "gender": 0,
@@ -150,263 +184,131 @@
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_9",
-      "name": "APM Reports",
-      "label": "Uninvolved",
-      "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_10",
-      "name": "Winona",
-      "label": "Uninvolved",
-      "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
+        "narrative_prominence": 0.6
       }
     },
     {
       "id": "char_11",
-      "name": "Tardy Furniture store",
-      "label": "Uninvolved",
+      "name": "Willie James Hemphill",
+      "label": "Suspect",
       "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
+        "motive_type": 0.5,
+        "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_12",
-      "name": "Mississippi Attorney General's office",
-      "label": "Uninvolved",
+      "name": "Marcus Presley",
+      "label": "Suspect",
       "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
+        "motive_type": 0.5,
+        "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_13",
-      "name": "Fifth Circuit Court District of Mississippi",
-      "label": "Uninvolved",
+      "name": "LaSamuel Gamble",
+      "label": "Suspect",
       "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.6,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
+        "has_motive": 1,
+        "is_concealing_information": 1,
         "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
+        "motive_type": 0.5,
+        "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_14",
-      "name": "United States Supreme Court",
-      "label": "Uninvolved",
+      "name": "Twanda Woods",
+      "label": "Witness",
       "features": {
-        "gender": -1,
+        "gender": 1,
         "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "narrative_introduction_timing": 0.7,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.5
+        "narrative_prominence": 0.2
       }
     },
     {
       "id": "char_15",
-      "name": "Brett Kavanaugh",
+      "name": "Katie Ali",
       "label": "Uninvolved",
       "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
+        "gender": 1,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 0.8,
         "has_alibi": -1,
         "present_at_crime_scene": -1,
         "has_motive": -1,
         "is_concealing_information": -1,
         "has_hidden_relationship": -1,
         "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_16",
-      "name": "Jury members",
-      "label": "Uninvolved",
-      "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
-      }
-    },
-    {
-      "id": "char_17",
-      "name": "Witnesses who recanted or changed their accounts",
-      "label": "Uninvolved",
-      "features": {
-        "gender": -1,
-        "social_status": 0.5,
-        "narrative_introduction_timing": 0.0,
-        "has_alibi": -1,
-        "present_at_crime_scene": -1,
-        "has_motive": -1,
-        "is_concealing_information": -1,
-        "has_hidden_relationship": -1,
-        "motive_type": -1,
-        "narrative_prominence": 0.5
+        "narrative_prominence": 0.2
       }
     }
   ],
-  "occupations": [
-    {
-      "id": "occ_0",
-      "name": "Investigative journalist",
-      "features": {
-        "authority_level": 0.3,
-        "access_level": 0.7,
-        "capability_level": 0.8
-      }
-    },
-    {
-      "id": "occ_1",
-      "name": "Special investigator (Mississippi Attorney General's office)",
-      "features": {
-        "authority_level": 0.7,
-        "access_level": 0.6,
-        "capability_level": 0.8
-      }
-    },
-    {
-      "id": "occ_2",
-      "name": "District Attorney",
-      "features": {
-        "authority_level": 0.9,
-        "access_level": 0.6,
-        "capability_level": 0.8
-      }
-    },
-    {
-      "id": "occ_3",
-      "name": "Supreme Court Justice",
-      "features": {
-        "authority_level": 1.0,
-        "access_level": 0.5,
-        "capability_level": 0.9
-      }
-    },
-    {
-      "id": "occ_4",
-      "name": "Juror",
-      "features": {
-        "authority_level": 0.3,
-        "access_level": 0.5,
-        "capability_level": 0.6
-      }
-    },
-    {
-      "id": "occ_5",
-      "name": "Witness",
-      "features": {
-        "authority_level": 0.4,
-        "access_level": 0.5,
-        "capability_level": 0.6
-      }
-    }
-  ],
+  "occupations": [],
   "locations": [
     {
       "id": "loc_0",
-      "name": "Winona, Mississippi",
+      "name": "Tardy Furniture",
       "features": {
-        "accessibility": 0.5,
-        "isolability": 0.4,
-        "evidentiary_value": 0.6
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 1
       }
     },
     {
       "id": "loc_1",
-      "name": "Tardy Furniture store (crime scene)",
+      "name": "Winona, Mississippi",
       "features": {
         "accessibility": 0.7,
         "isolability": 0.3,
-        "evidentiary_value": 0.9
-      }
-    },
-    {
-      "id": "loc_2",
-      "name": "Courtrooms",
-      "features": {
-        "accessibility": 0.6,
-        "isolability": 0.5,
-        "evidentiary_value": 0.8
-      }
-    },
-    {
-      "id": "loc_3",
-      "name": "Prison",
-      "features": {
-        "accessibility": 0.4,
-        "isolability": 0.7,
         "evidentiary_value": 0.5
       }
     },
     {
-      "id": "loc_4",
-      "name": "Supreme Court",
+      "id": "loc_2",
+      "name": "Memphis mall",
+      "features": {
+        "accessibility": 0.7,
+        "isolability": 0.3,
+        "evidentiary_value": 0.5
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Jail",
       "features": {
         "accessibility": 0.3,
-        "isolability": 0.8,
-        "evidentiary_value": 0.9
+        "isolability": 0.7,
+        "evidentiary_value": 0.5
       }
     }
   ],
@@ -417,127 +319,161 @@
       "features": {
         "institutional_power": 0.7,
         "secrecy_level": 0.3,
-        "financial_scale": 0.6
+        "financial_scale": 0.5
       }
     },
     {
       "id": "org_1",
-      "name": "Mississippi Attorney General's office",
+      "name": "Mississippi's Fifth Circuit Court District",
       "features": {
-        "institutional_power": 0.8,
-        "secrecy_level": 0.4,
-        "financial_scale": 0.7
+        "institutional_power": 0.9,
+        "secrecy_level": 0.5,
+        "financial_scale": 0.3
       }
     },
     {
       "id": "org_2",
-      "name": "Fifth Circuit Court District of Mississippi",
+      "name": "District Attorney's office",
       "features": {
-        "institutional_power": 0.9,
+        "institutional_power": 0.8,
         "secrecy_level": 0.5,
-        "financial_scale": 0.6
+        "financial_scale": 0.3
       }
     },
     {
       "id": "org_3",
-      "name": "United States Supreme Court",
+      "name": "In the Dark team",
       "features": {
-        "institutional_power": 1.0,
-        "secrecy_level": 0.2,
-        "financial_scale": 0.8
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
+      }
+    },
+    {
+      "id": "org_4",
+      "name": "Curtis Flowers's defense team",
+      "features": {
+        "institutional_power": 0.6,
+        "secrecy_level": 0.4,
+        "financial_scale": 0.5
       }
     }
   ],
   "edges": [
     {
-      "source": "char_0",
-      "target": "occ_0",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_1",
-      "target": "loc_1",
-      "relation": "owns",
-      "directed": true
+      "source": "char_5",
+      "target": "char_0",
+      "relation": "prosecutes"
     },
     {
       "source": "char_5",
-      "target": "occ_1",
-      "relation": "employed as",
-      "directed": true
+      "target": "char_1",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_2",
+      "relation": "employed by"
+    },
+    {
+      "source": "char_5",
+      "target": "char_3",
+      "relation": "employed by"
     },
     {
       "source": "char_6",
-      "target": "occ_2",
-      "relation": "employed as",
-      "directed": true
-    },
-    {
-      "source": "char_0",
       "target": "char_5",
-      "relation": "investigates",
-      "directed": true
+      "relation": "works with"
     },
     {
-      "source": "char_0",
-      "target": "char_6",
-      "relation": "prosecuted by",
-      "directed": true
-    },
-    {
-      "source": "char_10",
-      "target": "loc_0",
-      "relation": "located at",
-      "directed": true
+      "source": "char_7",
+      "target": "char_0",
+      "relation": "testifies against"
     },
     {
       "source": "char_11",
-      "target": "loc_1",
-      "relation": "present at",
-      "directed": true
+      "target": "char_0",
+      "relation": "suspects"
     },
     {
       "source": "char_12",
-      "target": "occ_1",
-      "relation": "employs",
-      "directed": true
+      "target": "char_0",
+      "relation": "suspects"
     },
     {
       "source": "char_13",
-      "target": "occ_2",
-      "relation": "elected in",
-      "directed": true
+      "target": "char_0",
+      "relation": "suspects"
     },
     {
       "source": "char_14",
-      "target": "loc_4",
-      "relation": "located at",
-      "directed": true
+      "target": "char_11",
+      "relation": "associated with"
     },
     {
       "source": "char_15",
-      "target": "char_14",
-      "relation": "affiliated with",
-      "directed": true
-    },
-    {
-      "source": "char_0",
-      "target": "char_16",
-      "relation": "witnessed by",
-      "directed": true
-    },
-    {
-      "source": "char_17",
       "target": "char_0",
-      "relation": "testifies against",
-      "directed": true
+      "relation": "protects"
     },
     {
-      "source": "char_17",
+      "source": "loc_0",
+      "target": "char_1",
+      "relation": "employs"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_2",
+      "relation": "employs"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_3",
+      "relation": "employs"
+    },
+    {
+      "source": "loc_0",
+      "target": "char_4",
+      "relation": "employs"
+    },
+    {
+      "source": "loc_1",
+      "target": "char_5",
+      "relation": "works in"
+    },
+    {
+      "source": "loc_2",
+      "target": "char_14",
+      "relation": "visited by"
+    },
+    {
+      "source": "loc_3",
+      "target": "char_7",
+      "relation": "incarcerated at"
+    },
+    {
+      "source": "org_0",
+      "target": "char_8",
+      "relation": "employs"
+    },
+    {
+      "source": "org_1",
+      "target": "char_5",
+      "relation": "position in"
+    },
+    {
+      "source": "org_2",
       "target": "char_6",
-      "relation": "hired by",
-      "directed": true
+      "relation": "employed by"
+    },
+    {
+      "source": "org_3",
+      "target": "char_8",
+      "relation": "team of"
+    },
+    {
+      "source": "org_4",
+      "target": "char_0",
+      "relation": "represented by"
     }
   ],
   "metadata": {

@@ -476,6 +476,7 @@ def load_mystery_graphs(
     test_fraction: float = 0.1,
     seed: int            = 42,
     exclude_features: Optional[set] = None,
+    exclude_entries: Optional[set] = None,
 ) -> RelationalGraph:
     """
     Merge all mystery JSON files in json_dir into a single RelationalGraph
@@ -490,6 +491,10 @@ def load_mystery_graphs(
     exclude_features : optional set of feature names to zero out. E.g.
                        {"narrative_prominence", "narrative_introduction_timing"}
                        removes narrative metadata a real detective would not have.
+    exclude_entries  : optional set of entry IDs (e.g. {"FLM_047"}) to drop
+                       entirely. Useful for stories with no identified villain
+                       that shouldn't pollute train/test labels but may still
+                       be loaded separately for inference-only analysis.
 
     Returns
     -------
@@ -500,6 +505,14 @@ def load_mystery_graphs(
     json_files = sorted([f for f in os.listdir(json_dir) if f.endswith(".json")])
     if not json_files:
         raise FileNotFoundError(f"No .json files found in {json_dir}")
+
+    if exclude_entries:
+        before = len(json_files)
+        json_files = [f for f in json_files
+                      if f.replace(".json", "") not in exclude_entries]
+        dropped = before - len(json_files)
+        if dropped > 0:
+            print(f"Excluded {dropped} entries: {sorted(exclude_entries)}")
 
     # Story-level split
     rng = random.Random(seed)

@@ -41,6 +41,12 @@ from load_mystery_graphs import load_mystery_graphs, CHARACTER_FEATURES
 
 
 EXCLUDE_FEATURES = {"narrative_prominence", "narrative_introduction_timing"}
+EXCLUDE_ENTRIES = {
+    "FLM_047",   # Zodiac — no real-world identified villain (inference-only)
+    "POD_035",   # In the Dark Season 3 — Curtis Flowers wrongful prosecution; no confirmed villain (inference-only)
+    "TVE_089",   # Vera: Hidden Depths — invalid villain entity in extraction (fully excluded)
+    "TVE_093",   # Spiral: Series 4 — different kind of story; villain is a criminal network, not a person (fully excluded)
+}
 
 
 # ---------------------------------------------------------------------------
@@ -71,7 +77,8 @@ class RGCNBinaryDetective(torch.nn.Module):
 # 2. Story membership reconstruction
 # ---------------------------------------------------------------------------
 
-def build_story_membership(json_dir: str, seed: int):
+def build_story_membership(json_dir: str, seed: int,
+                            exclude_entries: set = None):
     """
     Reproduce the loader's node iteration order to map each global node index
     back to its source story.
@@ -83,7 +90,10 @@ def build_story_membership(json_dir: str, seed: int):
                         for character nodes in that story
     all_stories       : dict story_id → metadata from the JSON
     """
+    exclude_entries = exclude_entries or set()
     json_files = sorted([f for f in os.listdir(json_dir) if f.endswith(".json")])
+    json_files = [f for f in json_files
+                  if f.replace(".json", "") not in exclude_entries]
 
     node_story = []
     story_of_test = defaultdict(list)
@@ -516,13 +526,15 @@ def main():
     out.write(f"=================================\n")
     out.write(f"Seed: {args.seed}\n")
     out.write(f"Excluded features: {sorted(EXCLUDE_FEATURES)}\n")
+    out.write(f"Excluded entries: {sorted(EXCLUDE_ENTRIES)}\n")
     out.write(f"Run started: {time.strftime('%Y-%m-%d %H:%M:%S')}\n\n")
 
     # Load graph
     out.write("Loading graph...\n")
     with redirect_stdout(io.StringIO()):
         graph = load_mystery_graphs(args.graph_dir, seed=args.seed,
-                                     exclude_features=EXCLUDE_FEATURES)
+                                     exclude_features=EXCLUDE_FEATURES,
+                                     exclude_entries=EXCLUDE_ENTRIES)
 
     # Binary labels
     binary_labels = (graph.class_labels == 0).long()
@@ -545,7 +557,7 @@ def main():
     # Reconstruct story membership
     out.write("Reconstructing story membership from JSON files...\n")
     node_story, story_of_test, all_stories = build_story_membership(
-        args.graph_dir, args.seed)
+        args.graph_dir, args.seed, exclude_entries=EXCLUDE_ENTRIES)
     out.write(f"  {len(all_stories)} total stories, {len(node_story)} nodes mapped.\n\n")
 
     # Build per-story records
