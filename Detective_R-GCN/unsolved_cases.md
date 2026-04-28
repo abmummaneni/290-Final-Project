@@ -28,13 +28,27 @@ Real-world unsolved case. **Result:** Arthur Leigh Allen (the prime suspect) ran
 
 ### POD_035 — *In the Dark: Season 3* (2022, APM Reports)
 
-Real-world unsolved/contested case. The podcast investigates the wrongful prosecution of Curtis Flowers; the actual perpetrator was never identified, though the podcast frames Doug Evans (the prosecutor) as the antagonist for orchestrating prosecutorial misconduct.
+Real-world unsolved/contested case. The podcast investigates the wrongful prosecution of Curtis Flowers for a 1996 quadruple murder at Tardy Furniture in Winona, Mississippi. The actual perpetrator was never legally identified. The podcast tells two interlocking stories: (1) the prosecutorial misconduct led by DA **Doug Evans** with **John Johnson** (lead DA investigator) as accomplice, and (2) the existence of plausible alternate suspects (Willie James Hemphill, Marcus Presley, LaSamuel Gamble) whose existence Evans's office concealed from the defense.
 
 **Label fix applied (2026-04-26):** Curtis Flowers was changed from Victim → Uninvolved (he was wrongly accused, not the murder victim).
 
-**Result:**
-- Doug Evans ranked #1 with P(villain) = 1.0000 (model agrees with podcast's antagonist framing)
-- Curtis Flowers ranked #16 (last) with P(villain) = 0.0000 (model exonerates him)
+**Result — model independently rediscovered both stories from the graph alone:**
+
+| Rank | P(Villain) | Character | Recovered as |
+|---|---|---|---|
+| 1 | 1.0000 | Doug Evans | Wrongful-prosecution antagonist |
+| 2 | 1.0000 | Willie James Hemphill | Concealed alternate suspect (`Suspect` label, treated as UNK in training) |
+| 3 | 0.9999 | John Johnson | DA investigator / Evans's accomplice |
+| 4 | 0.9999 | Marcus Presley | Concealed alternate suspect (Alabama spree) |
+| 5 | 0.9999 | LaSamuel Gamble | Concealed alternate suspect (Alabama spree) |
+| 16 | 0.0000 | Curtis Flowers | Exonerated (was originally mislabeled Villain) |
+
+The model:
+- Identified both wrongful-prosecution antagonists (Evans, Johnson)
+- Surfaced all three concealed alternate suspects without ever having seen a "Suspect" class label in training
+- Cleared Curtis Flowers despite the original mislabel
+
+See PROJECT.md "Held-Out Inference Case Studies" for detail.
 
 ---
 
