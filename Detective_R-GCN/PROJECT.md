@@ -190,6 +190,34 @@ To validate that the R-GCN's gains come from typed relational message passing (n
 
 The spectral baseline establishes a clear ablation result: **the *labeled* relational structure is what matters, not the graph topology itself.**
 
+### Relation handling: directional encoder, symmetric decoder
+
+Following the original R-GCN paper (Schlichtkrull et al., 2018, §5.1), we use **directional relations during message passing** — each source edge `(A, relation, B)` is duplicated as two distinct typed edges in the training graph:
+
+- `(A, relation, B)` — canonical, relation type ID 0–7
+- `(B, relation_inv, A)` — inverse, relation type ID 8–15 (e.g. `kills_inv`)
+
+The 8 base relations and their inverses give us **16 relation types total**. The R-GCN encoder learns **separate weight matrices** for each, so `kills` and `kills_inv` are not the same relation — when the encoder updates A's embedding via a `kills` edge it uses a different `W_r` matrix than when updating B's embedding via the corresponding `kills_inv` edge. This lets the model distinguish "A killed B" from "B was killed by A" and learn different semantic patterns for each direction.
+
+The 16 relations are:
+
+| Canonical (0–7) | Inverse (8–15) |
+|---|---|
+| `kills` (lethal violence) | `kills_inv` |
+| `harms` (non-lethal violence, coercion, conflict) | `harms_inv` |
+| `investigates` (detection, legal process, testimony) | `investigates_inv` |
+| `deceives` (deception, concealment, criminal alliance) | `deceives_inv` |
+| `personal_bond` (family, romance, friendship, emotional ties) | `personal_bond_inv` |
+| `professional` (employment, mentorship, medical care) | `professional_inv` |
+| `spatial` (residence, physical location, proximity) | `spatial_inv` |
+| `social` (residual narrative contact, lightweight social) | `social_inv` |
+
+These 8 base classes are the result of a two-stage normalization (in `model/load_mystery_graphs.py`): ~1,500 free-text relation strings from extraction → ~35 intermediate canonical forms (regex-based) → 8 coarse classes (lookup table). The full intermediate-to-coarse mapping is in `_COARSE_MAP`.
+
+**Decoder symmetry caveat.** Our DistMult decoder is symmetric by construction: `score(A, r, B) == score(B, r, A)`. This is a property of DistMult itself, not a project choice — the encoder's directionality is preserved in the node embeddings used by the **node classifier** (villain prediction), but for **link prediction** the decoder cannot distinguish subject from object. This split (directional encoder, symmetric decoder) follows the original R-GCN paper exactly. The paper accepts the limitation in exchange for DistMult's simplicity and computational efficiency.
+
+For the detective task (villain prediction), the directional encoder is what matters — it gives villain classification its asymmetric reasoning power.
+
 ### Feature selection (what evidence the model uses)
 
 We deliberately **excluded `narrative_prominence` and `narrative_introduction_timing`** from the feature set. These describe a character's role in the narrative (how central they are, when they're introduced) — things a real detective wouldn't observe. Keeping them would leak story-structure information into the detective model.
