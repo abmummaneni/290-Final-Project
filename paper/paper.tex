@@ -54,6 +54,18 @@ That is, let $\mathbf{x} \in \mathbb{R}^{|V|}$ be a signal on the graph and $\ma
 Then we can first diagonalize the Laplacian $L = U \Lambda U^T$ and write the convolution as:
 $$ g_\theta * x = U g_\theta(\Lambda) U^T x $$
 where $g_\theta(\Lambda)$ is a diagonal matrix containing the filter coefficients in the spectral domain.
+Multiple simplifying assumptions were required of $g_\theta (\Lambda)$ to make this computationally efficient.
+The first simplification was to restrict the filter to be a polynomial of the eigenvalues, which allows us to avoid explicitly computing the eigenvectors and instead use powers of the Laplacian.
+This was further simplified by using chebyshev polynomials to approximate the polynomial filter.
+Finally, the current standard GCN layer \cite{kipf2017semi} uses a first order approximation of the chebyshev polynomials and a normalized form of the Laplacian to create individual convolutinal layers.
+
+\subsection{Graph Autoencoders and Generative Graph Models}
+
+\subsection{Relational Graphs and Relational GCNs}
+
+\subsection{Message Passing, Attention, and Graph Transformers}
+
+\subsection{Expressivity and Limitations}
 
 \section{Proposed Approach and Algorithm}
 
