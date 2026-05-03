@@ -1,0 +1,76 @@
+
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Title}
+\author{Adam Abramowitz \and Max Desantis \and Isaac Dreeben \and Abhi Mummaneni}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+\end{abstract}
+
+\section{Introduction}
+
+
+\section{Related Work}
+
+\subsection{Early Methods in Graph Learning}
+One of the earliest works in learning on graphs is the seminal paper by Belkin and Niyogi \cite{belkin2001laplacian}.
+In their work, graph structures are imposed on unlabeled data to guide dimensionality reduction and clustering.
+The algorithm uses the properties of spectral embeddings to find low dimensional representations which preserve similarity encoded by local neighborhood connectivity.
+Explicitly, the algorithm constructs a weight matrix $\mathbf{W}$ from the training data $\mathbf{X}$ and then solves the minimization problem $ \min_{\mathbf{Y}} \sum_{i,j} W_{ij} \| Y_i - Y_j \|^2 $ subject to $Y^T D Y = I$ and $Y^T D \mathbf{1} = 0$, where $D$ is the diagonal degree matrix of $W$.
+In this formulation, $\mathbf{Y}$ is the low-dimensional representation of the data, and the constraints ensure that the embedding is non-trivial and centered.
+This method is motivated by the Laplace Beltrami operator of the underlying manifold from which we assume the data is sampled, and the resulting embedding can be interpreted as a discrete approximation to the eigenfunctions of this operator.
+
+This notion of Laplacian regularization can be extended to functions on the nodes of a graph and promotes smoothness with respect to the graph structure \cite{belkin2006manifold}. 
+Later works formalized the idea of viewing graph learning objectives in the context of signals on graphs \cite{shuman2013emerging}.
+A graph signal in this context is simply a function $f : V -> R$ defined on the vertices of a graph where we use the standard notation for graphs $G = (V, E)$ with vertex set $V$ and edge set $E$.
+As opposed to audio and video data domains which already had well developed sparse domains, graph structured data could come in various forms due to its highly generalizable structure and hence different forms of regularization were required.
+Building upon the early sucesses of spectral methods in embeddings, the natural choice for representing signals on graphs became the use of spectral convolutions.
+As a discrete analogue to the Fourier transform, the graph Fourier transform used for spectral convolutions is defined as a decomposition of the signal into the eigenbasis of the Laplacian:
+$$ \hat{f}(\lambda_l) = \sum_{v \in V} f(v) u_l(v) $$
+where $u_l$ is the eigenvector corresponding to the $l$-th eigenvalue $\lambda_l$.
+
+This decomposition provides a new measure of osciallation by considering the number of zero crossings induced by a signal.
+Every signal can be thought of as partitioning the graph into two regions, one where the signal is positive and one where it is negative.
+The number of zero crossings is then the number of edges that connect vertices in different regions.
+Since eigenvectors corresponding to smaller eigenvalues have fewer zero crossings, they are considered to be smoother with respect to the graph structure.
+In contrast, a signal whose decomposition is dominated by eigenvectors corresponding to larger eigenvalues will have more zero crossings and thus be considered less smooth.
+
+\subsection{Graph Convolutional Networks}
+This rewriting of a signal in the eigenbasis allows us to define convolutional filters on graphs as a generalization of Convolutional Neural Networks (CNNs) \cite{bruna2014spectral, defferrard2016convolutional, kipf2017semi}.
+Unlike CNNs which operate on highly regular graphs, Graph Convolutional Networks (GCNs) must be designed to handle the irregularity of graphs.
+Despite these irregularities, GCNs are still highly effective since graphs can often have local learnable structures.
+To define a convolutional filter, we use the convolution theorem to express the filter operation in the spectral domain.
+That is, let $\mathbf{x} \in \mathbb{R}^{|V|}$ be a signal on the graph and $\mathbf{g}_\theta$ be a filter parameterized by $\theta$.
+Then we can first diagonalize the Laplacian $L = U \Lambda U^T$ and write the convolution as:
+$$ g_\theta * x = U g_\theta(\Lambda) U^T x $$
+where $g_\theta(\Lambda)$ is a diagonal matrix containing the filter coefficients in the spectral domain.
+
+\section{Proposed Approach and Algorithm}
+
+
+\section{Results}
+
+
+\section{Discussion}
+
+\section{Conclusion}
+
+\section{Appendix}
+
+
+
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\end{document}

@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{belkin2001laplacian}
+Mikhail Belkin and Partha Niyogi.
+\newblock Laplacian eigenmaps and spectral techniques for embedding and clustering.
+\newblock In {\em Advances in Neural Information Processing Systems}, volume~14, 2001.
+
+\bibitem{belkin2006manifold}
+Mikhail Belkin, Partha Niyogi, and Vikas Sindhwani.
+\newblock Manifold regularization: A geometric framework for learning from labeled and unlabeled examples.
+\newblock {\em Journal of Machine Learning Research}, 7:2399--2434, 2006.
+
+\bibitem{bruna2014spectral}
+Joan Bruna, Wojciech Zaremba, Arthur Szlam, and Yann LeCun.
+\newblock Spectral networks and locally connected networks on graphs.
+\newblock In {\em International Conference on Learning Representations}, 2014.
+
+\bibitem{defferrard2016convolutional}
+Micha{\"e}l Defferrard, Xavier Bresson, and Pierre Vandergheynst.
+\newblock Convolutional neural networks on graphs with fast localized spectral filtering.
+\newblock In {\em Advances in Neural Information Processing Systems}, volume~29, 2016.
+
+\bibitem{kipf2017semi}
+Thomas~N. Kipf and Max Welling.
+\newblock Semi-supervised classification with graph convolutional networks.
+\newblock In {\em International Conference on Learning Representations}, 2017.
+
+\bibitem{shuman2013emerging}
+David~I. Shuman, Sunil~K. Narang, Pascal Frossard, Antonio Ortega, and Pierre Vandergheynst.
+\newblock The emerging field of signal processing on graphs: Extending high-dimensional data analysis to networks and other irregular domains.
+\newblock {\em IEEE Signal Processing Magazine}, 30(3):83--98, 2013.
+
+\end{thebibliography}
