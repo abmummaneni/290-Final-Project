@@ -22,53 +22,187 @@
 
 \section{Related Work}
 
+
 \subsection{Early Methods in Graph Learning}
-One of the earliest works in learning on graphs is the seminal paper by Belkin and Niyogi \cite{belkin2001laplacian}.
-In their work, graph structures are imposed on unlabeled data to guide dimensionality reduction and clustering.
-The algorithm uses the properties of spectral embeddings to find low dimensional representations which preserve similarity encoded by local neighborhood connectivity.
-Explicitly, the algorithm constructs a weight matrix $\mathbf{W}$ from the training data $\mathbf{X}$ and then solves the minimization problem $ \min_{\mathbf{Y}} \sum_{i,j} W_{ij} \| Y_i - Y_j \|^2 $ subject to $Y^T D Y = I$ and $Y^T D \mathbf{1} = 0$, where $D$ is the diagonal degree matrix of $W$.
-In this formulation, $\mathbf{Y}$ is the low-dimensional representation of the data, and the constraints ensure that the embedding is non-trivial and centered.
-This method is motivated by the Laplace Beltrami operator of the underlying manifold from which we assume the data is sampled, and the resulting embedding can be interpreted as a discrete approximation to the eigenfunctions of this operator.
+Early graph-learning methods were motivated by the observation that graph structure can be used as an inductive bias for representation learning. In Laplacian Eigenmaps, Belkin and Niyogi \cite{belkin2001laplacian} construct a weighted graph over data points and seek low-dimensional embeddings that keep neighboring nodes close. Let $W$ be the weighted adjacency matrix, $D$ the diagonal degree matrix, and $L = D - W$ the combinatorial graph Laplacian. The embedding matrix $Y \in \mathbb{R}^{|V| \times d}$ is obtained by solving
+\[
+    \min_Y \; \frac{1}{2}\sum_{i,j} W_{ij}\|Y_i - Y_j\|_2^2
+    = \min_Y \; \operatorname{tr}(Y^\top L Y),
+    \qquad
+    \text{s.t. } Y^\top D Y = I, \; Y^\top D\mathbf{1}=0.
+\]
+This objective makes the geometric assumption explicit: if two examples are adjacent in the graph, their learned representations should vary smoothly across that edge. The solution is given by the generalized eigenvectors of $L y = \lambda D y$, connecting graph embeddings to spectral approximations of the Laplace--Beltrami operator on an underlying manifold.
 
-This notion of Laplacian regularization can be extended to functions on the nodes of a graph and promotes smoothness with respect to the graph structure \cite{belkin2006manifold}. 
-Later works formalized the idea of viewing graph learning objectives in the context of signals on graphs \cite{shuman2013emerging}.
-A graph signal in this context is simply a function $f : V -> R$ defined on the vertices of a graph where we use the standard notation for graphs $G = (V, E)$ with vertex set $V$ and edge set $E$.
-As opposed to audio and video data domains which already had well developed sparse domains, graph structured data could come in various forms due to its highly generalizable structure and hence different forms of regularization were required.
-Building upon the early sucesses of spectral methods in embeddings, the natural choice for representing signals on graphs became the use of spectral convolutions.
-As a discrete analogue to the Fourier transform, the graph Fourier transform used for spectral convolutions is defined as a decomposition of the signal into the eigenbasis of the Laplacian:
-$$ \hat{f}(\lambda_l) = \sum_{v \in V} f(v) u_l(v) $$
-where $u_l$ is the eigenvector corresponding to the $l$-th eigenvalue $\lambda_l$.
-
-This decomposition provides a new measure of osciallation by considering the number of zero crossings induced by a signal.
-Every signal can be thought of as partitioning the graph into two regions, one where the signal is positive and one where it is negative.
-The number of zero crossings is then the number of edges that connect vertices in different regions.
-Since eigenvectors corresponding to smaller eigenvalues have fewer zero crossings, they are considered to be smoother with respect to the graph structure.
-In contrast, a signal whose decomposition is dominated by eigenvectors corresponding to larger eigenvalues will have more zero crossings and thus be considered less smooth.
+This smoothness viewpoint was further developed in manifold regularization \cite{belkin2006manifold}, where the graph is used to regularize functions defined on data points. For a graph signal $f : V \to \mathbb{R}$, the graph smoothness penalty is
+\[
+    \mathcal{R}_{G}(f)
+    = \frac{1}{2}\sum_{i,j} W_{ij}\big(f_i - f_j\big)^2
+    = f^\top L f.
+\]
+Thus, learning on graphs can be interpreted as learning functions whose values change slowly across high-weight edges. Shuman et al. \cite{shuman2013emerging} generalized this interpretation through the language of graph signal processing. If $L = U\Lambda U^\top$ is an eigendecomposition of the graph Laplacian, then the graph Fourier transform of a signal $x \in \mathbb{R}^{|V|}$ is
+\[
+    \widehat{x} = U^\top x,
+    \qquad
+    x = U\widehat{x}.
+\]
+Eigenvectors associated with small eigenvalues correspond to smooth, low-frequency variation over the graph, while larger eigenvalues correspond to high-frequency oscillations. This spectral viewpoint provides the foundation for defining graph convolutional filters.
 
 \subsection{Graph Convolutional Networks}
-This rewriting of a signal in the eigenbasis allows us to define convolutional filters on graphs as a generalization of Convolutional Neural Networks (CNNs) \cite{bruna2014spectral, defferrard2016convolutional, kipf2017semi}.
-Unlike CNNs which operate on highly regular graphs, Graph Convolutional Networks (GCNs) must be designed to handle the irregularity of graphs.
-Despite these irregularities, GCNs are still highly effective since graphs can often have local learnable structures.
-To define a convolutional filter, we use the convolution theorem to express the filter operation in the spectral domain.
-That is, let $\mathbf{x} \in \mathbb{R}^{|V|}$ be a signal on the graph and $\mathbf{g}_\theta$ be a filter parameterized by $\theta$.
-Then we can first diagonalize the Laplacian $L = U \Lambda U^T$ and write the convolution as:
-$$ g_\theta * x = U g_\theta(\Lambda) U^T x $$
-where $g_\theta(\Lambda)$ is a diagonal matrix containing the filter coefficients in the spectral domain.
-Multiple simplifying assumptions were required of $g_\theta (\Lambda)$ to make this computationally efficient.
-The first simplification was to restrict the filter to be a polynomial of the eigenvalues, which allows us to avoid explicitly computing the eigenvectors and instead use powers of the Laplacian.
-This was further simplified by using chebyshev polynomials to approximate the polynomial filter.
-Finally, the current standard GCN layer \cite{kipf2017semi} uses a first order approximation of the chebyshev polynomials and a normalized form of the Laplacian to create individual convolutinal layers.
+Spectral graph neural networks extend convolution from Euclidean domains to irregular graph domains by filtering graph signals in the Laplacian eigenbasis \cite{bruna2014spectral,defferrard2016convolutional,kipf2017semi}. Given a signal $x$ and a spectral filter $g_\theta$, convolution can be written as
+\[
+    g_\theta * x
+    = U g_\theta(\Lambda) U^\top x,
+\]
+where $g_\theta(\Lambda)$ scales each graph-frequency component independently. This formulation is expressive but depends on the eigendecomposition of the graph Laplacian, which is expensive for large graphs and not naturally transferable across graphs with different eigenbases.
+
+Chebyshev spectral networks address this limitation by approximating the filter as a polynomial of the rescaled Laplacian \cite{defferrard2016convolutional}:
+\[
+    g_\theta * x
+    \approx \sum_{k=0}^{K} \theta_k T_k(\widetilde{L})x,
+    \qquad
+    \widetilde{L} = \frac{2}{\lambda_{\max}}L - I,
+\]
+where $T_k$ denotes the $k$-th Chebyshev polynomial. Because this filter is a $K$-th order polynomial in $L$, it is localized to $K$-hop neighborhoods and avoids explicit eigendecomposition.
+
+Kipf and Welling \cite{kipf2017semi} further simplified this construction by using a first-order approximation and a renormalized adjacency matrix. With self-loops $\widetilde{A}=A+I$ and degree matrix $\widetilde{D}_{ii}=\sum_j \widetilde{A}_{ij}$, a standard GCN layer is
+\[
+    H^{(\ell+1)}
+    = \sigma\!\left(
+        \widetilde{D}^{-1/2}\widetilde{A}\widetilde{D}^{-1/2}
+        H^{(\ell)}W^{(\ell)}
+      \right).
+\]
+This layer averages transformed node features over local neighborhoods, making GCNs an efficient and widely used architecture for semi-supervised node classification. However, repeated applications of the propagation operator can also cause node representations to become indistinguishable. Li, Han, and Wu \cite{li2018deeper} interpret GCN propagation as Laplacian smoothing; after $K$ propagation steps, the representation is dominated by powers of the normalized adjacency:
+\[
+    H^{(K)} \approx
+    \left(\widetilde{D}^{-1/2}\widetilde{A}\widetilde{D}^{-1/2}\right)^K X.
+\]
+This smoothing perspective motivates later work on deeper GNNs, residual connections, attention mechanisms, and architectures designed to preserve long-range or high-frequency information.
 
 \subsection{Graph Autoencoders and Generative Graph Models}
+A second line of work relevant to graph representation learning comes from autoencoders and variational autoencoders. The variational autoencoder framework of Kingma and Welling \cite{kingma2014autoencoding} introduces a latent-variable model in which an encoder approximates the posterior distribution over latent variables and a decoder reconstructs the observed data. For data $x$, latent variable $z$, prior $p(z)$, encoder $q_\phi(z\mid x)$, and decoder $p_\theta(x\mid z)$, the evidence lower bound is
+\[
+    \mathcal{L}_{\mathrm{VAE}}(\theta,\phi;x)
+    = \mathbb{E}_{q_\phi(z\mid x)}\big[\log p_\theta(x\mid z)\big]
+      - \mathrm{KL}\!\left(q_\phi(z\mid x)\;\|\;p(z)\right).
+\]
+The first term encourages accurate reconstruction, while the KL term regularizes the latent space toward the prior. This framework naturally supports probabilistic generation by sampling from $p(z)$ and decoding.
+
+Variational Graph Autoencoders (VGAEs) adapt this idea to graph-structured data by using a GCN encoder and an edge-probability decoder \cite{kipf2016variational}. Given node features $X$ and adjacency matrix $A$, the encoder factorizes over nodes as
+\[
+    q_\phi(Z\mid X,A)
+    = \prod_{i=1}^{|V|} q_\phi(z_i\mid X,A),
+    \qquad
+    q_\phi(z_i\mid X,A)
+    = \mathcal{N}\!\left(z_i\mid \mu_i,\operatorname{diag}(\sigma_i^2)\right),
+\]
+and the decoder predicts edges through an inner product:
+\[
+    p_\theta(A_{ij}=1\mid z_i,z_j)
+    = \sigma(z_i^\top z_j).
+\]
+This model connects graph representation learning with link prediction: the latent embedding must encode enough structural information to reconstruct the observed adjacency matrix.
+
+Subsequent generative graph models extend VGAEs from link prediction toward whole-graph generation. GraphVAE \cite{simonovsky2018graphvae} decodes latent variables into probabilistic node and edge tensors for small graphs, while Graphite \cite{grover2019graphite} improves the decoder by iteratively refining a generated graph. These models can be viewed as learning a distribution over graphs,
+\[
+    p_\theta(G)
+    = \int p_\theta(G\mid z)p(z)\,dz,
+\]
+where the decoder must capture both local edge dependencies and global graph-level constraints. This generative perspective complements discriminative GNNs by emphasizing reconstruction, latent structure, and graph synthesis.
 
 \subsection{Relational Graphs and Relational GCNs}
+Many real-world graphs are not homogeneous: edges may represent different relation types, and nodes may belong to different semantic categories. Relational GCNs extend the GCN update rule to multi-relational graphs by assigning relation-specific transformations \cite{schlichtkrull2018modeling}. For relation set $\mathcal{R}$, relation-specific neighborhood $\mathcal{N}_i^r$, and normalization constant $c_{i,r}$, the R-GCN update is
+\[
+    h_i^{(\ell+1)}
+    = \sigma\!\left(
+        \sum_{r\in\mathcal{R}}\sum_{j\in\mathcal{N}_i^r}
+        \frac{1}{c_{i,r}} W_r^{(\ell)}h_j^{(\ell)}
+        + W_0^{(\ell)}h_i^{(\ell)}
+      \right).
+\]
+This formulation separates messages by relation type, making it suitable for knowledge graphs and other structured domains in which edge labels carry semantic meaning.
+
+Heterogeneous graph models further generalize this idea by allowing both node-type-specific and edge-type-specific transformations. The Heterogeneous Graph Transformer of Hu et al. \cite{hu2020heterogeneous} uses attention mechanisms whose parameters depend on the source node type, target node type, and relation type. A simplified relation-aware attention score can be written as
+\[
+    \alpha_{ij}^{r}
+    = \operatorname{softmax}_{j\in\mathcal{N}_i^r}
+      \left(
+      \frac{(Q_{\tau(i)}h_i)^\top R_r(K_{\tau(j)}h_j)}{\sqrt{d}}
+      \right),
+\]
+where $\tau(i)$ denotes the type of node $i$ and $r$ denotes the relation connecting nodes $i$ and $j$. This line of work shows how similarity graphs used in early spectral methods can be extended to typed, relational, and semantically structured graphs.
 
 \subsection{Message Passing, Attention, and Graph Transformers}
+Message passing provides a unifying abstraction for many GNN architectures. Gilmer et al. \cite{gilmer2017neural} formulate neural message passing in terms of a message function, aggregation operation, and update function. At layer $t$, a generic message passing update is
+\[
+    m_i^{(t+1)}
+    = \sum_{j\in\mathcal{N}(i)} M_t\!\left(h_i^{(t)}, h_j^{(t)}, e_{ij}\right),
+    \qquad
+    h_i^{(t+1)}
+    = U_t\!\left(h_i^{(t)}, m_i^{(t+1)}\right).
+\]
+GCNs, R-GCNs, and many spectral approximations can be interpreted as instances of this template with different choices of message function, normalization, and aggregation.
+
+Graph Attention Networks make the connection between message passing and attention explicit by replacing fixed neighborhood averaging with learned attention weights \cite{velickovic2018graph}. For neighboring nodes $i$ and $j$, attention coefficients are computed as
+\[
+    \alpha_{ij}
+    = \operatorname{softmax}_{j\in\mathcal{N}(i)}
+      \left(
+      \operatorname{LeakyReLU}\!\left(a^\top[Wh_i\,\|\,Wh_j]\right)
+      \right),
+\]
+and the node update becomes
+\[
+    h_i'
+    = \sigma\!\left(\sum_{j\in\mathcal{N}(i)} \alpha_{ij}Wh_j\right).
+\]
+Attention allows the model to assign different weights to different neighbors, rather than assuming that all adjacent nodes contribute equally.
+
+Transformer-style graph models generalize this principle by combining global or constrained attention with structural encodings. Dwivedi and Bresson \cite{dwivedi2020generalization} adapt Transformers to arbitrary graphs using graph-aware positional encodings, while Graphormer \cite{ying2021transformers} demonstrates that full attention can be effective when enriched with structural biases such as shortest-path distances and edge encodings. A common way to express graph-biased attention is
+\[
+    \operatorname{Attn}(Q,K,V;B)
+    = \operatorname{softmax}\!\left(\frac{QK^\top}{\sqrt{d}} + B\right)V,
+\]
+where $B_{ij}$ encodes graph structure. In constrained attention, one may set
+\[
+    B_{ij}=
+    \begin{cases}
+    0, & (i,j)\in E \text{ or } i=j,\\
+    -\infty, & \text{otherwise},
+    \end{cases}
+\]
+which recovers neighborhood-restricted attention; richer choices of $B$ permit long-range interactions while preserving graph inductive bias. Recent graph language models \cite{plenz-frank-2024-graph} further connect this line of work to language modeling by incorporating graph structure into pretrained, Transformer-like architectures.
 
 \subsection{Expressivity and Limitations}
+Although message passing architectures are broadly useful, their expressivity is limited. 
+Xu et al. \cite{xu2019powerful} relate the discriminative power of GNNs to the Weisfeiler--Lehman (WL) graph isomorphism test. 
+In WL-style refinement, node colors are updated by hashing the previous color together with the multiset of neighboring colors:
+\[
+    c_i^{(k)}
+    = \operatorname{HASH}\!\left(
+        c_i^{(k-1)},
+        \left\{c_j^{(k-1)} : j\in\mathcal{N}(i)\right\}
+      \right).
+\]
+Similarly, standard message passing GNNs update node embeddings by aggregating multisets of neighbor representations. As a result, many GNNs cannot distinguish graph structures that the 1-WL test cannot distinguish.
 
-\section{Proposed Approach and Algorithm}
+A separate limitation is over-squashing: information from a large receptive field must be compressed into fixed-dimensional node embeddings. After $T$ message passing layers, a node representation can depend on all nodes within $T$ hops,
+\[
+    h_i^{(T)}
+    = \Phi_T\!\left(\left\{x_j : \operatorname{dist}(i,j)\leq T\right\}\right)
+    \in \mathbb{R}^d,
+\]
+but the dimension $d$ remains fixed even when the number of contributing nodes grows exponentially with distance. Alon and Yahav \cite{alon2021bottleneck} identify this bottleneck as a practical obstacle for long-range reasoning on graphs.
 
+These limitations motivate architectures that augment message passing with virtual edges, positional encodings, higher-order structures, or global attention.
+However, as seen in \cite{velickovic2022message} many approaches that appear to go beyond message passing can be reframed as message passing over an augmented graph,
+\[
+    G' = (V',E'),
+    \qquad
+    E \subseteq E',
+\]
+where added edges, nodes, or features change the computational graph over which information flows.
+This perspective ties together spectral embeddings, GCNs, relational models, graph autoencoders, and graph Transformers: each can be understood as making a different choice about the graph structure, message function, and inductive bias used to propagate information.
 
 \section{Results}
 

@@ -3,44 +3,46 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: paper.aux
 The style file: plain.bst
 Database file #1: references.bib
-You've used 6 entries,
+Warning--can't use both volume and number fields in li2018deeper
+You've used 21 entries,
             2118 wiz_defined-function locations,
-            531 strings with 5178 characters,
-and the built_in function-call counts, 2010 in all, are:
-= -- 178
-> -- 113
-< -- 2
-+ -- 45
-- -- 38
-* -- 141
-:= -- 343
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 37
+            611 strings with 7908 characters,
+and the built_in function-call counts, 8370 in all, are:
+= -- 801
+> -- 417
+< -- 15
++ -- 165
+- -- 142
+* -- 563
+:= -- 1307
+add.period$ -- 69
+call.type$ -- 21
+change.case$ -- 134
 chr.to.int$ -- 0
-cite$ -- 6
-duplicate$ -- 78
-empty$ -- 166
-format.name$ -- 38
-if$ -- 411
+cite$ -- 22
+duplicate$ -- 359
+empty$ -- 675
+format.name$ -- 142
+if$ -- 1816
 int.to.chr$ -- 0
-int.to.str$ -- 6
-missing$ -- 6
-newline$ -- 33
-num.names$ -- 12
-pop$ -- 47
+int.to.str$ -- 21
+missing$ -- 21
+newline$ -- 108
+num.names$ -- 42
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 31
+purify$ -- 113
 quote$ -- 0
-skip$ -- 46
+skip$ -- 260
 stack$ -- 0
-substring$ -- 81
-swap$ -- 12
-text.length$ -- 2
+substring$ -- 429
+swap$ -- 125
+text.length$ -- 15
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 24
-warning$ -- 0
-while$ -- 16
-width$ -- 7
-write$ -- 66
+type$ -- 84
+warning$ -- 1
+while$ -- 67
+width$ -- 23
+write$ -- 236
+(There was 1 warning)

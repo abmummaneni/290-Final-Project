@@ -1,4 +1,9 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{alon2021bottleneck}
+Uri Alon and Eran Yahav.
+\newblock On the bottleneck of graph neural networks and its practical implications.
+\newblock In {\em International Conference on Learning Representations}, 2021.
 
 \bibitem{belkin2001laplacian}
 Mikhail Belkin and Partha Niyogi.
@@ -20,14 +25,84 @@ Micha{\"e}l Defferrard, Xavier Bresson, and Pierre Vandergheynst.
 \newblock Convolutional neural networks on graphs with fast localized spectral filtering.
 \newblock In {\em Advances in Neural Information Processing Systems}, volume~29, 2016.
 
+\bibitem{dwivedi2020generalization}
+Vijay~Prakash Dwivedi and Xavier Bresson.
+\newblock A generalization of transformer networks to graphs.
+\newblock {\em arXiv preprint arXiv:2012.09699}, 2020.
+
+\bibitem{gilmer2017neural}
+Justin Gilmer, Samuel~S. Schoenholz, Patrick~F. Riley, Oriol Vinyals, and George~E. Dahl.
+\newblock Neural message passing for quantum chemistry.
+\newblock In {\em Proceedings of the 34th International Conference on Machine Learning}, volume~70 of {\em Proceedings of Machine Learning Research}, pages 1263--1272. PMLR, 2017.
+
+\bibitem{grover2019graphite}
+Aditya Grover, Aaron Zweig, and Stefano Ermon.
+\newblock Graphite: Iterative generative modeling of graphs.
+\newblock In {\em Proceedings of the 36th International Conference on Machine Learning}, volume~97 of {\em Proceedings of Machine Learning Research}, pages 2434--2444. PMLR, 2019.
+
+\bibitem{hu2020heterogeneous}
+Ziniu Hu, Yuxiao Dong, Kuansan Wang, and Yizhou Sun.
+\newblock Heterogeneous graph transformer.
+\newblock In {\em Proceedings of The Web Conference 2020}, pages 2704--2710. Association for Computing Machinery, 2020.
+
+\bibitem{kingma2014autoencoding}
+Diederik~P. Kingma and Max Welling.
+\newblock Auto-encoding variational bayes.
+\newblock In {\em International Conference on Learning Representations}, 2014.
+
+\bibitem{kipf2016variational}
+Thomas~N. Kipf and Max Welling.
+\newblock Variational graph auto-encoders.
+\newblock {\em arXiv preprint arXiv:1611.07308}, 2016.
+
 \bibitem{kipf2017semi}
 Thomas~N. Kipf and Max Welling.
 \newblock Semi-supervised classification with graph convolutional networks.
 \newblock In {\em International Conference on Learning Representations}, 2017.
 
+\bibitem{li2018deeper}
+Qimai Li, Zhichao Han, and Xiao-Ming Wu.
+\newblock Deeper insights into graph convolutional networks for semi-supervised learning.
+\newblock In {\em Proceedings of the AAAI Conference on Artificial Intelligence}, volume~32, 2018.
+
+\bibitem{plenz-frank-2024-graph}
+Moritz Plenz and Anette Frank.
+\newblock Graph language models.
+\newblock In {\em Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 4477--4494, Bangkok, Thailand, 2024. Association for Computational Linguistics.
+
+\bibitem{schlichtkrull2018modeling}
+Michael Schlichtkrull, Thomas~N. Kipf, Peter Bloem, Rianne van~den Berg, Ivan Titov, and Max Welling.
+\newblock Modeling relational data with graph convolutional networks.
+\newblock In {\em The Semantic Web}, volume 10843 of {\em Lecture Notes in Computer Science}, pages 593--607. Springer, 2018.
+
 \bibitem{shuman2013emerging}
 David~I. Shuman, Sunil~K. Narang, Pascal Frossard, Antonio Ortega, and Pierre Vandergheynst.
 \newblock The emerging field of signal processing on graphs: Extending high-dimensional data analysis to networks and other irregular domains.
 \newblock {\em IEEE Signal Processing Magazine}, 30(3):83--98, 2013.
+
+\bibitem{simonovsky2018graphvae}
+Martin Simonovsky and Nikos Komodakis.
+\newblock {GraphVAE}: Towards generation of small graphs using variational autoencoders.
+\newblock In {\em Artificial Neural Networks and Machine Learning -- ICANN 2018}, volume 11139 of {\em Lecture Notes in Computer Science}, pages 412--422. Springer, 2018.
+
+\bibitem{velickovic2022message}
+Petar Veli{\v{c}}kovi{\'c}.
+\newblock Message passing all the way up.
+\newblock In {\em ICLR 2022 Workshop on Geometrical and Topological Representation Learning}, 2022.
+
+\bibitem{velickovic2018graph}
+Petar Veli{\v{c}}kovi{\'c}, Guillem Cucurull, Arantxa Casanova, Adriana Romero, Pietro Li{\`o}, and Yoshua Bengio.
+\newblock Graph attention networks.
+\newblock In {\em International Conference on Learning Representations}, 2018.
+
+\bibitem{xu2019powerful}
+Keyulu Xu, Weihua Hu, Jure Leskovec, and Stefanie Jegelka.
+\newblock How powerful are graph neural networks?
+\newblock In {\em International Conference on Learning Representations}, 2019.
+
+\bibitem{ying2021transformers}
+Chengxuan Ying, Tianle Cai, Shengjie Luo, Shuxin Zheng, Guolin Ke, Di~He, Yanming Shen, and Tie-Yan Liu.
+\newblock Do transformers really perform bad for graph representation?
+\newblock In {\em Advances in Neural Information Processing Systems}, volume~34, pages 28877--28888, 2021.
 
 \end{thebibliography}
