@@ -40,8 +40,8 @@ from model.load_mystery_graphs import load_mystery_graphs
 
 
 EXCLUDE_FEATURES = {"narrative_prominence", "narrative_introduction_timing"}
-EXCLUDE_ENTRIES = {"FLM_047", "POD_035", "TVE_089", "TVE_093"}
-INFERENCE_TARGETS = ["FLM_047", "POD_035"]  # TVE_089 and TVE_093 fully excluded
+EXCLUDE_ENTRIES = {"FLM_047", "POD_035", "TVE_089", "TVE_093", "ZODIAC_FACTUAL"}
+INFERENCE_TARGETS = ["FLM_047", "POD_035"]  # TVE_089 and TVE_093 fully excluded; ZODIAC_FACTUAL run via --targets
 
 
 class RGCNBinaryDetective(torch.nn.Module):
@@ -226,6 +226,13 @@ predict_zodiac = predict_held_out
 TARGET_HIGHLIGHTS = {
     "FLM_047": ["arthur leigh allen"],          # prime suspect, never charged
     "POD_035": ["doug evans"],                   # prosecutor; podcast frames as antagonist
+    "ZODIAC_FACTUAL": [
+        "arthur leigh allen",                    # only suspect ever publicly named by police
+        "lawrence kane", "larry kane", "lawrence kaye", "lawrence klein",
+        "rick marshall", "richard marshall",
+        "richard gaikowski",
+        "gary francis poste", "gary poste",
+    ],
 }
 
 

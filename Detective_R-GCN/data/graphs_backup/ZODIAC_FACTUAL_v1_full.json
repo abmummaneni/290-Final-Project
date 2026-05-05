@@ -1,0 +1,914 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "Zodiac Killer",
+      "label": "Villain",
+      "features": {
+        "gender": -1,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": 1,
+        "motive_type": -1,
+        "narrative_prominence": 1
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "David Arthur Faraday",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Betty Lou Jensen",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.0,
+        "narrative_introduction_timing": 0.0,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Michael Renault Mageau",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Darlene Elizabeth Ferrin",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.1,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": 0,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Bryan Calvin Hartnell",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Cecelia Ann Shepard",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.25,
+        "narrative_introduction_timing": 0.3,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Paul Lee Stine",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Lindsey Robbins",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.125,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Rebecca Robbins",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.125,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 0,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Arthur Leigh Allen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": 0,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Lawrence Kane / Lawrence Kaye / Lawrence Klein",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Richard Marshall",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_13",
+      "name": "Richard Joseph Gaikowski",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_14",
+      "name": "Gary Francis Poste",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_15",
+      "name": "Darlene Ferrin's sister Linda",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_16",
+      "name": "Officer Don Fouke",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_17",
+      "name": "Eric Zelms",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_18",
+      "name": "Kathleen Johns",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_19",
+      "name": "Donna Less",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_20",
+      "name": "Ken Narlow",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_21",
+      "name": "Harvey Hines",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_22",
+      "name": "Paul Avery",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_23",
+      "name": "Sherwood Morrill",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_24",
+      "name": "Donald Cheney",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_25",
+      "name": "Nancy Slover",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_26",
+      "name": "Goldcatcher (Blaine Blaine)",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_27",
+      "name": "Cheri Jo Bates",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_28",
+      "name": "Donna Lass",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_29",
+      "name": "Earl Van Best Jr.",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_30",
+      "name": "Gary Stewart",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_31",
+      "name": "Paul Doerr",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_32",
+      "name": "Jim Dunbar",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_33",
+      "name": "Lee",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_34",
+      "name": "Ralph Spinelli",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_35",
+      "name": "John Lynch",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_36",
+      "name": "Jack Mulanax",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_37",
+      "name": "Daniel Pitta",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_38",
+      "name": "Les Lundblad",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_39",
+      "name": "Tom Bruton",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.75,
+        "narrative_introduction_timing": 0.8,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_40",
+      "name": "Deborah Perez",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 1,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_41",
+      "name": "Robert Ivan Nichols",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_42",
+      "name": "Ross Sullivan",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    },
+    {
+      "id": "char_43",
+      "name": "Jack Tarrance",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.375,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": 1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.125
+      }
+    }
+  ],
+  "occupations": [],
+  "locations": [],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_2",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_3",
+      "relation": "attacks"
+    },
+    {
+      "source": "char_0",
+      "target": "char_4",
+      "relation": "attacks"
+    },
+    {
+      "source": "char_0",
+      "target": "char_5",
+      "relation": "attacks"
+    },
+    {
+      "source": "char_0",
+      "target": "char_6",
+      "relation": "kills"
+    },
+    {
+      "source": "char_0",
+      "target": "char_7",
+      "relation": "kills"
+    },
+    {
+      "source": "char_3",
+      "target": "char_4",
+      "relation": "on date with"
+    },
+    {
+      "source": "char_5",
+      "target": "char_6",
+      "relation": "on date with"
+    },
+    {
+      "source": "char_8",
+      "target": "char_9",
+      "relation": "sisters"
+    },
+    {
+      "source": "char_10",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_11",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_12",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_13",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_14",
+      "target": "char_0",
+      "relation": "suspects"
+    },
+    {
+      "source": "char_15",
+      "target": "char_11",
+      "relation": "identifies"
+    },
+    {
+      "source": "char_16",
+      "target": "char_11",
+      "relation": "observes"
+    },
+    {
+      "source": "char_17",
+      "target": "char_11",
+      "relation": "observes"
+    },
+    {
+      "source": "char_18",
+      "target": "char_0",
+      "relation": "claims to have been abducted by"
+    },
+    {
+      "source": "char_19",
+      "target": "char_11",
+      "relation": "works with"
+    },
+    {
+      "source": "char_20",
+      "target": "char_10",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_21",
+      "target": "char_11",
+      "relation": "investigates"
+    },
+    {
+      "source": "char_22",
+      "target": "char_0",
+      "relation": "receives letter from"
+    },
+    {
+      "source": "char_23",
+      "target": "char_0",
+      "relation": "analyzes letters of"
+    },
+    {
+      "source": "char_24",
+      "target": "char_10",
+      "relation": "identifies"
+    },
+    {
+      "source": "char_25",
+      "target": "char_0",
+      "relation": "receives call from"
+    },
+    {
+      "source": "char_27",
+      "target": "char_0",
+      "relation": "possibly connected to"
+    },
+    {
+      "source": "char_28",
+      "target": "char_11",
+      "relation": "works with"
+    },
+    {
+      "source": "char_29",
+      "target": "char_30",
+      "relation": "related to"
+    },
+    {
+      "source": "char_31",
+      "target": "char_0",
+      "relation": "suspects, not confirmed as zodiac killer"
+    }
+  ],
+  "metadata": {
+    "entry_id": "ZODIAC_FACTUAL",
+    "title": "The Zodiac Killer Case (factual record)",
+    "author": "Compiled from FBI, SFPD, Vallejo PD, Napa County SO, Solano County SO, CA DOJ, contemporaneous press",
+    "year": 1969,
+    "medium": "Documentary"
+  }
+}

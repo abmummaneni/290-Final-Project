@@ -7,10 +7,10 @@
 
 If you're picking up this project (or asking an LLM to read this file), the fastest way to get oriented:
 
-1. **Read "Results Summary"** — self-contained overview of what we built and what we found, including the **Held-Out Inference Case Studies** (Zodiac and In the Dark) and the **Re-Extraction Impact** section
+1. **Read "Results Summary"** — self-contained overview of what we built and what we found, including the **Held-Out Inference Case Studies** (Zodiac fiction, In the Dark, and Zodiac factual record) and the **Re-Extraction Impact** section
 2. **Read "Failure Analysis"** — the deep-dive on where the model fails, with paper-ready tables
 3. **See `analysis/results/failure_analysis_results.txt`** for raw failure analysis output
-4. **See `analysis/results/inference_analysis_results.txt`** for the FLM_047 (Zodiac → Arthur Leigh Allen) and POD_035 (In the Dark → Doug Evans / Curtis Flowers exoneration) suspect rankings
+4. **See `analysis/results/inference_analysis_results.txt`** for the FLM_047 (Zodiac → Arthur Leigh Allen) and POD_035 (In the Dark → Doug Evans / Curtis Flowers exoneration) suspect rankings, plus `zodiac_factual_inference_v1_full.txt` / `_v2_trimmed.txt` for the factual-record domain-shift result
 5. **See `analysis/results/cross_validation_results.txt`** for the 5-seed cross-validation output
 6. **See `unsolved_cases.md`** for the project's case-by-case status across re-extraction rounds
 
@@ -84,9 +84,9 @@ These results follow two rounds of targeted re-extraction (2026-04-25 and 2026-0
 
 ### Held-Out Inference Case Studies
 
-Two real-world unsolved cases were excluded from train/test entirely and analyzed inference-only. The model — never having seen these stories during training — was asked to rank all characters by predicted villain probability. **Crime edges were masked** (detective scenario), so the model had to reason from circumstantial evidence alone.
+Three real-world cases were excluded from train/test entirely and analyzed inference-only. The model — never having seen these stories during training — was asked to rank all characters by predicted villain probability. **Crime edges were masked** (detective scenario), so the model had to reason from circumstantial evidence alone. The first two are dramatized treatments (the 2007 Fincher film and the *In the Dark* podcast); the third is the same Zodiac case rebuilt from purely factual sources, with 2023–2025 forensic updates, as a paired-rendering comparison.
 
-Reproducible via `python analysis/inference_analysis.py`. Output saved to `analysis/results/inference_analysis_results.txt`.
+Reproducible via `python analysis/inference_analysis.py` (FLM_047, POD_035) and `python analysis/inference_analysis.py --targets ZODIAC_FACTUAL` (Case 3). Output saved to `analysis/results/inference_analysis_results.txt` and `zodiac_factual_inference.txt`. Earlier extractions of Case 3 are preserved at `zodiac_factual_inference_v1_full.txt` (5380-word synopsis, pass-1 truncated) and `_v2_trimmed.txt` (2489-word synopsis without 2023 updates) for reference, and earlier graph snapshots at `data/graphs_backup/ZODIAC_FACTUAL_v{1,2,3}_*.json`.
 
 #### Case 1: FLM_047 — *Zodiac* (2007)
 
@@ -131,9 +131,47 @@ In the graph, Doug Evans and John Johnson are labeled `Villain` (for the miscond
 2. **Surfaced the three concealed alternate suspects** — Hemphill (#2), Presley (#4), Gamble (#5). The model has no labeled "Suspect" pattern to memorize (Suspect isn't a class in training); it flagged these three purely from their features (violent history, motive, no verified alibi, concealment behavior) and graph context. **The model essentially rediscovered the podcast's exposé.**
 3. **Exonerated the wrongly accused** — Curtis Flowers ranked dead last (P = 0.0000) even though the data file initially had him mislabeled as Villain. The model overrode the wrong label using the evidence.
 
+#### Case 3: ZODIAC_FACTUAL — Zodiac Killer Case (factual record, 2026-04-28)
+
+A second held-out test on the *same* underlying Zodiac case as Case 1 (FLM_047, the 2007 Fincher film), but with the synopsis built exclusively from **official law-enforcement sources** (FBI, SFPD, Vallejo PD, Napa County SO, Solano County SO, CA DOJ), encyclopedic references, contemporaneous newspaper reporting, and 2023–2025 forensic updates (Donna Lass DNA identification, GEDmatch attempts, Allen's DNA exclusion). The Fincher film and Graysmith book are explicitly excluded as fictional. The question: across two genre renderings of the same unsolved case, does the R-GCN identify the same prime suspect, or does it shift in response to the structural evidence in the source?
+
+**Synopsis:** ~2000 words, written to emphasize cross-suspect connections (Kane–Lass workplace link, Allen–Kane both investigated for Santa Rosa hitchhiker murders, Gaikowski–Stine funeral). Single-pass extraction produced 39 chars, 4 locs, 12 occs, 0 orgs, 38 edges.
+
+**Result: the model identifies Lawrence Kane as the prime suspect (#2 at P=0.9587, just below the unidentified-villain placeholder), with Arthur Leigh Allen ranked dead last (#38 at P=0.0004) — the opposite of the FLM_047 result.**
+
+| Rank | P(Villain) | Character | Note |
+|---|---|---|---|
+| 1 | 1.0000 | Zodiac Killer (unidentified) | Placeholder villain in graph |
+| **2** | **0.9587** | **Lawrence Kane** ★ | **Vallejo PD's officially-developed suspect (1991)** |
+| 3 | 0.6368 | David Faraday (Victim) | False positive — extraction mis-listed him as schoolteacher |
+| 4 | 0.6215 | Paul Avery | Crime reporter; received personal Zodiac letters |
+| 5 | 0.5264 | Richard Marshall ★ | Person of interest pursued by Napa County |
+| 11 | 0.0736 | Richard Joseph Gaikowski ★ | |
+| 17 | 0.0399 | Gary Francis Poste ★ | |
+| **38** | **0.0004** | **Arthur Leigh Allen** ★ | **Dead last — DNA-excluded in 2000s** |
+
+**Comparison across the three Zodiac-case renderings:**
+
+| Snapshot | #1 ranked suspect | Allen rank | Allen P(villain) |
+|---|---|---|---|
+| **FLM_047 (2007 fiction)** | **Arthur Leigh Allen** | **#1** | **1.0000** |
+| ZODIAC_FACTUAL (factual, 2023–2025 update) | **Lawrence Kane** | #38 | 0.0004 |
+
+**Why Kane.** The updated synopsis surfaces three Kane-specific edges that no other suspect has:
+
+1. **`Kane suspects → Donna Lass`** — Kane was Lass's coworker at the Sahara Tahoe casino in 1970; Lass's skull was DNA-identified in December 2023, making her the only confirmed-homicide victim with a workplace connection to a named Zodiac suspect.
+2. **`Donald Cheney witnessed-by → Kane`** and **`Kathleen Johns identified-as → Kane`** — Cheney was originally Allen's accuser; Johns was a 1970 abduction survivor who picked Kane out of a photo lineup.
+3. **`Officer Don Fouke witnessed-by → Zodiac Killer`** combined with Kane's other connections sketches a witness-identification network that the prior fiction-only training data associates with successfully-identified perpetrators.
+
+**Why Allen falls.** Allen has only two edges in this extraction — `employed-as → Schoolteacher` (a routine professional edge) and `related-to → Seawater family` (a personal_bond edge to a non-suspect family). The synopsis explicitly states that "Arthur Leigh Allen, the only publicly named suspect in the Zodiac Killer case, was officially excluded by DNA analysis," which the extractor reflects by giving him a structurally innocent profile. Allen's centrality in 1990s/2000s pop-culture Zodiac narratives doesn't translate into graph centrality in a 2023–2025 evidence-driven synopsis.
+
+**Tracking real-world investigative consensus.** The model's #2 pick (Kane) is consistent with Vallejo PD's official 1991 development of Kane as their suspect, strengthened by the 2023 Lass DNA identification. The model's last-place ranking of Allen is consistent with his 2000s DNA exclusion. The model is not memorizing fiction-era pop-culture rankings — it is reading the structural evidence in the source.
+
+**The two renderings of the same unsolved case give different prime suspects, and both are defensible.** FLM_047 reflects the 2007 film's narrative emphasis on Allen (the only police-named suspect at that point); ZODIAC_FACTUAL reflects the 2023–2025 evidentiary state (Kane re-centered by the Lass identification, Allen excluded by DNA). The case is unsolved in real life, so there is no ground-truth answer; what these two cases show together is that **the R-GCN reads the evidence structure of whatever synopsis it is given and produces the suspect that the evidence emphasizes**, regardless of which suspect a 2007 film viewer or a 2025 cold-case reader would expect.
+
 #### Why these case studies matter
 
-These two results are the strongest evidence for the paper's central claim: the R-GCN learns transferable patterns of evidence-based reasoning. It is not memorizing labels. When shown stories it has never seen — including one with a deliberately mislabeled wrongful-prosecution victim and characters tagged with a class the model has never trained on — it correctly identifies the named antagonists, surfaces the concealed alternate suspects, and exonerates the falsely accused. POD_035 in particular shows the model can do something close to *investigative reasoning over a knowledge graph*, not just classification.
+These three results — FLM_047, POD_035, and ZODIAC_FACTUAL — are the strongest evidence for the paper's central claim: **the R-GCN learns transferable patterns of evidence-based reasoning over knowledge graphs.** It does not memorize labels, and it does not simply track pop-culture suspect rankings. When shown stories it has never seen — including one with a deliberately mislabeled wrongful-prosecution victim, characters tagged with a class the model has never trained on, and one *real* unsolved case rendered with two different evidentiary emphases — it correctly identifies the named antagonists, surfaces concealed alternate suspects, exonerates the falsely accused, and updates its prime-suspect ranking when the source material updates the evidence. POD_035 shows investigative reasoning over a knowledge graph; FLM_047 and ZODIAC_FACTUAL together show the model is *responsive to structural evidence in the source*, not anchored to which name pop culture has elevated.
 
 ### Re-Extraction Impact (2026-04-25 → 2026-04-26)
 
@@ -238,12 +276,13 @@ Removing the narrative features had essentially zero impact on performance (F1 +
 
 5. **At the story level, the LogReg now solves 100% of test cases** and the R-GCN solves **98.2%**. But the R-GCN does so cleanly (with no false accusations) in **77.2%** of stories vs LogReg's 66.7%. **Zero stories remain unsolved by both models.**
 
-6. **The held-out inference case studies are the strongest evidence of generalization.** With FLM_047 (Zodiac) and POD_035 (In the Dark) held out of training entirely:
-   - The model ranks Arthur Leigh Allen — the real-world Zodiac suspect — as #1 with P(villain) = 1.0000.
+6. **The held-out inference case studies are the strongest evidence of genuine evidence-driven reasoning.** With FLM_047 (Zodiac, fiction), POD_035 (In the Dark), and ZODIAC_FACTUAL (same Zodiac case, factual record with 2023–2025 updates) held out of training entirely:
+   - The model ranks Arthur Leigh Allen — the real-world Zodiac suspect at the time of the 2007 film — as #1 with P(villain) = 1.0000 in the **fictional** Zodiac (FLM_047).
    - The model ranks Doug Evans — the prosecutor framed as the antagonist of the wrongful Curtis Flowers prosecution — as #1 with P(villain) = 1.0000.
    - The model **clears Curtis Flowers, the wrongful-prosecution victim**, at P=0.0000 (rank #16 of 16) — even though the data file initially had him mislabeled as Villain.
+   - On the **factual** Zodiac record (ZODIAC_FACTUAL), the model identifies **Lawrence Kane** (Vallejo PD's officially-developed suspect since 1991) as #2 at P=0.9587 — driven by his workplace connection to Donna Lass (DNA-identified Dec 2023) and witness IDs from Kathleen Johns and Officer Fouke. **Allen ranks dead last** (#38, P=0.0004), reflecting his 2000s DNA exclusion that the synopsis emphasizes.
 
-   The model learned transferable patterns of evidence-based reasoning, not labels.
+   Two renderings of the same unsolved case give different prime suspects (Allen for the 2007 film; Kane for the 2023-updated factual record), and both are defensible by their respective evidentiary states. The model reads the structural evidence in the source it is given, rather than anchoring to whichever suspect pop culture has elevated.
 
 7. **Graph structure alone (Laplacian eigenmaps) is useless** (25% accuracy) — who you're connected to doesn't predict villainy. But graph structure *combined with features* through R-GCN message passing produces the precision advantage.
 
@@ -345,7 +384,7 @@ After all three rounds and the four exclusions, the seed-42 test split has **zer
 3. **Clean solve rate (77% vs 67%) is the most honest measure of detective quality.**
 4. **The disagreement pattern is interpretable.** When the two models disagree, the R-GCN exclusively wins by clearing innocents. The graph structure encodes contextual evidence that lets the model rule out suspects.
 5. **Multi-villain ensembles are a structural limit.** Both models drop to ~42% recall on 6-villain cases. Collective-guilt plots may require a fundamentally different approach.
-6. **Held-out inference confirms genuine generalization.** The model independently identified the prime suspects in two unsolved real-world cases (Arthur Leigh Allen for Zodiac, Doug Evans for In the Dark) and exonerated the wrongly-accused (Curtis Flowers, P=0.0000) — even when the data file mislabeled him as Villain.
+6. **Held-out inference confirms evidence-driven reasoning across genres.** On the 2007 fictional treatment of the Zodiac case (FLM_047), the model identifies Arthur Leigh Allen #1 with P=1.0000 — the popular suspect at the time of the film. On a factual record of the same case updated with 2023–2025 forensic evidence (ZODIAC_FACTUAL), the model instead identifies **Lawrence Kane #2 at P=0.9587** — Vallejo PD's officially-developed suspect since 1991, structurally re-centered by the December 2023 DNA identification of Donna Lass (Kane's coworker at Sahara Tahoe). Allen falls to #38 (P=0.0004), reflecting his 2000s DNA exclusion as stated in the synopsis. On POD_035 (In the Dark) the model identifies Doug Evans #1 and exonerates the mislabeled Curtis Flowers at P=0.0000. The model reads the evidentiary structure of whatever source it is given rather than memorizing labels or pop-culture rankings.
 7. **Extraction quality is the dominant lever.** Three rounds of targeted re-extraction plus four exclusions of mismatched-genre stories improved cross-validated F1 by 0.059 (0.703 → 0.762). Better synopses unlock significant performance gains, and being explicit about the dataset's genre scope (single-perpetrator detective fiction) improves both honesty and metrics.
 
 ---

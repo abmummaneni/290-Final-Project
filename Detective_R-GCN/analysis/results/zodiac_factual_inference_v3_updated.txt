@@ -1,0 +1,59 @@
+Held-Out Inference Analysis (real-world / no-confirmed-villain cases)
+=====================================================================
+Seed: 42
+Targets: ['ZODIAC_FACTUAL']
+Excluded entries (train+test): ['FLM_047', 'POD_035', 'TVE_089', 'TVE_093', 'ZODIAC_FACTUAL']
+Excluded features: ['narrative_introduction_timing', 'narrative_prominence']
+Run: 2026-04-28 09:17:09
+
+
+==============================================================================
+ZODIAC_FACTUAL — The Zodiac Killer Case (factual record) — Suspect Ranking
+==============================================================================
+
+Story: The Zodiac Killer Case (factual record) (1969)
+Total characters: 39
+Total edges (with inverse): 76
+Crime edges masked: 0
+
+Rank  P(Villain)  Label         Name
+------------------------------------------------------------------------------
+1     1.0000      Villain       Zodiac Killer
+2     0.9587      Uninvolved    Lawrence Kane / Lawrence Kaye / Lawrence Klein  ★
+3     0.6368      Victim        David Faraday
+4     0.6215      Uninvolved    Paul Avery
+5     0.5264      Uninvolved    Richard Marshall  ★
+6     0.3468      UNK           Blaine Blaine / Goldcatcher
+7     0.3296      Uninvolved    PCSO officer
+8     0.2529      Victim        Paul Stine
+9     0.2413      Witness       Nancy Slover
+10    0.1789      Uninvolved    Earl Van Best Jr.
+11    0.0736      Uninvolved    Richard Joseph Gaikowski
+12    0.0605      Uninvolved    Riverside police
+13    0.0501      Victim        Cecelia Shepard
+14    0.0489      Uninvolved    Eric Zelms
+15    0.0443      Victim        Betty Lou Jensen
+16    0.0408      Victim        Bryan Hartnell
+17    0.0399      Uninvolved    Gary Francis Poste  ★
+18    0.0395      Uninvolved    FX investigation team
+19    0.0383      Victim        Darlene Ferrin
+20    0.0296      Uninvolved    Sherwood Morrill
+21    0.0147      Witness       Michael Mageau
+22    0.0075      Victim        Donna Lass
+23    0.0070      Uninvolved    Donna Lass's family member
+24    0.0060      Uninvolved    SLTPD officer
+25    0.0033      Uninvolved    Jack Mulanax
+26    0.0029      Victim        Cheri Jo Bates
+27    0.0019      Witness       Donald Cheney
+28    0.0016      Uninvolved    John Lynch
+29    0.0016      Uninvolved    Tom Voigt
+30    0.0013      Witness       Seawater family
+31    0.0012      Witness       Officer Don Fouke
+32    0.0012      Victim        Kathleen Johns
+33    0.0011      Uninvolved    Daniel Pitta
+34    0.0009      Uninvolved    Ken Narlow
+35    0.0009      Uninvolved    David Toschi
+36    0.0009      Uninvolved    William Armstrong
+37    0.0004      Witness       Darlene Ferrin's sister Linda
+38    0.0004      Uninvolved    Arthur Leigh Allen  ★
+39    0.0002      Uninvolved    SFPD officer

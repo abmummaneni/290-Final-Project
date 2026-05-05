@@ -86,3 +86,38 @@ Final summary:
 2026-04-26 07:43:30,691 [INFO]   SUCCESS: 1
 2026-04-26 07:43:30,691 [INFO]   FAILED: 0
 2026-04-26 07:43:30,691 [INFO]   VALIDATION_WARNINGS: 0
+2026-04-28 07:04:40,881 [INFO] Re-extracting 1 entries: ['ZODIAC_FACTUAL']
+2026-04-28 07:04:40,882 [INFO] [1/1] ZODIAC_FACTUAL: The Zodiac Killer Case (factual record) (5380 words)
+2026-04-28 07:04:40,882 [INFO] Extracting ZODIAC_FACTUAL: The Zodiac Killer Case (factual record) — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-28 07:30:25,815 [INFO] ZODIAC_FACTUAL: pass1 JSON repaired successfully
+2026-04-28 07:30:25,816 [INFO] ZODIAC_FACTUAL: Pass 1 done — 44 characters, 0 locations, 0 occupations
+2026-04-28 07:30:25,816 [INFO] ZODIAC_FACTUAL: Pass 2: edges
+2026-04-28 07:31:54,713 [INFO] ZODIAC_FACTUAL saved — 44 chars, 30 edges, 0 locs, 1633.8s
+2026-04-28 07:31:54,714 [INFO] 
+Final summary:
+2026-04-28 07:31:54,714 [INFO]   SUCCESS: 1
+2026-04-28 07:31:54,714 [INFO]   FAILED: 0
+2026-04-28 07:31:54,714 [INFO]   VALIDATION_WARNINGS: 0
+2026-04-28 07:38:32,632 [INFO] Re-extracting 1 entries: ['ZODIAC_FACTUAL']
+2026-04-28 07:38:32,632 [INFO] [1/1] ZODIAC_FACTUAL: The Zodiac Killer Case (factual record) (2489 words)
+2026-04-28 07:38:32,632 [INFO] Extracting ZODIAC_FACTUAL: The Zodiac Killer Case (factual record) — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-28 07:40:25,575 [INFO] ZODIAC_FACTUAL: Pass 1 done — 13 characters, 4 locations, 10 occupations
+2026-04-28 07:40:25,575 [INFO] ZODIAC_FACTUAL: Pass 2: edges
+2026-04-28 07:41:10,161 [INFO] ZODIAC_FACTUAL saved — 13 chars, 16 edges, 4 locs, 157.5s
+2026-04-28 07:41:10,161 [INFO] 
+Final summary:
+2026-04-28 07:41:10,162 [INFO]   SUCCESS: 1
+2026-04-28 07:41:10,162 [INFO]   FAILED: 0
+2026-04-28 07:41:10,162 [INFO]   VALIDATION_WARNINGS: 0
+2026-04-28 08:11:24,536 [INFO] Re-extracting 1 entries: ['ZODIAC_FACTUAL']
+2026-04-28 08:11:24,536 [INFO] [1/1] ZODIAC_FACTUAL: The Zodiac Killer Case (factual record) (2035 words)
+2026-04-28 08:11:24,536 [INFO] Extracting ZODIAC_FACTUAL: The Zodiac Killer Case (factual record) — Pass 1: nodes (model: mixtral:8x7b)
+2026-04-28 08:17:39,428 [INFO] ZODIAC_FACTUAL: pass1 JSON repaired successfully
+2026-04-28 08:17:39,428 [INFO] ZODIAC_FACTUAL: Pass 1 done — 39 characters, 4 locations, 12 occupations
+2026-04-28 08:17:39,428 [INFO] ZODIAC_FACTUAL: Pass 2: edges
+2026-04-28 08:19:01,961 [INFO] ZODIAC_FACTUAL saved — 39 chars, 38 edges, 4 locs, 457.4s
+2026-04-28 08:19:01,961 [INFO] 
+Final summary:
+2026-04-28 08:19:01,961 [INFO]   SUCCESS: 1
+2026-04-28 08:19:01,962 [INFO]   FAILED: 0
+2026-04-28 08:19:01,962 [INFO]   VALIDATION_WARNINGS: 0

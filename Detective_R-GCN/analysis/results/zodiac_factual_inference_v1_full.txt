@@ -1,0 +1,64 @@
+Held-Out Inference Analysis (real-world / no-confirmed-villain cases)
+=====================================================================
+Seed: 42
+Targets: ['ZODIAC_FACTUAL']
+Excluded entries (train+test): ['FLM_047', 'POD_035', 'TVE_089', 'TVE_093', 'ZODIAC_FACTUAL']
+Excluded features: ['narrative_introduction_timing', 'narrative_prominence']
+Run: 2026-04-28 07:35:13
+
+
+==============================================================================
+ZODIAC_FACTUAL — The Zodiac Killer Case (factual record) — Suspect Ranking
+==============================================================================
+
+Story: The Zodiac Killer Case (factual record) (1969)
+Total characters: 44
+Total edges (with inverse): 50
+Crime edges masked: 5
+
+Rank  P(Villain)  Label         Name
+------------------------------------------------------------------------------
+1     1.0000      Villain       Zodiac Killer
+2     0.3181      Uninvolved    Earl Van Best Jr.
+3     0.1380      Uninvolved    Paul Doerr
+4     0.1380      Uninvolved    Robert Ivan Nichols
+5     0.1380      Uninvolved    Ross Sullivan
+6     0.1380      Uninvolved    Jack Tarrance
+7     0.0211      Uninvolved    Deborah Perez
+8     0.0079      Victim        Betty Lou Jensen
+9     0.0073      Victim        David Arthur Faraday
+10    0.0064      Uninvolved    Arthur Leigh Allen  ★
+11    0.0025      Victim        Paul Lee Stine
+12    0.0025      Victim        Cheri Jo Bates
+13    0.0008      Witness       Gary Stewart
+14    0.0006      Uninvolved    Donna Less
+15    0.0006      Uninvolved    Donna Lass
+16    0.0004      Victim        Bryan Calvin Hartnell
+17    0.0002      Victim        Cecelia Ann Shepard
+18    0.0001      Victim        Michael Renault Mageau
+19    0.0001      Uninvolved    Richard Marshall  ★
+20    0.0001      Uninvolved    Richard Joseph Gaikowski
+21    0.0001      Uninvolved    Gary Francis Poste  ★
+22    0.0000      Uninvolved    Harvey Hines
+23    0.0000      Witness       Officer Don Fouke
+24    0.0000      Witness       Eric Zelms
+25    0.0000      Witness       Darlene Ferrin's sister Linda
+26    0.0000      Uninvolved    John Lynch
+27    0.0000      Uninvolved    Jack Mulanax
+28    0.0000      Uninvolved    Daniel Pitta
+29    0.0000      Uninvolved    Les Lundblad
+30    0.0000      Uninvolved    Tom Bruton
+31    0.0000      Witness       Goldcatcher (Blaine Blaine)
+32    0.0000      Witness       Jim Dunbar
+33    0.0000      Witness       Lee
+34    0.0000      Witness       Ralph Spinelli
+35    0.0000      Uninvolved    Lawrence Kane / Lawrence Kaye / Lawrence Klein  ★
+36    0.0000      Victim        Darlene Elizabeth Ferrin
+37    0.0000      Uninvolved    Paul Avery
+38    0.0000      Uninvolved    Sherwood Morrill
+39    0.0000      Uninvolved    Ken Narlow
+40    0.0000      Witness       Nancy Slover
+41    0.0000      Witness       Donald Cheney
+42    0.0000      Witness       Kathleen Johns
+43    0.0000      Witness       Rebecca Robbins
+44    0.0000      Witness       Lindsey Robbins

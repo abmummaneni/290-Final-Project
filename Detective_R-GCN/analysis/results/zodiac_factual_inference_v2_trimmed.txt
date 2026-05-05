@@ -1,0 +1,33 @@
+Held-Out Inference Analysis (real-world / no-confirmed-villain cases)
+=====================================================================
+Seed: 42
+Targets: ['ZODIAC_FACTUAL']
+Excluded entries (train+test): ['FLM_047', 'POD_035', 'TVE_089', 'TVE_093', 'ZODIAC_FACTUAL']
+Excluded features: ['narrative_introduction_timing', 'narrative_prominence']
+Run: 2026-04-28 08:03:42
+
+
+==============================================================================
+ZODIAC_FACTUAL — The Zodiac Killer Case (factual record) — Suspect Ranking
+==============================================================================
+
+Story: The Zodiac Killer Case (factual record) (1969)
+Total characters: 13
+Total edges (with inverse): 32
+Crime edges masked: 0
+
+Rank  P(Villain)  Label         Name
+------------------------------------------------------------------------------
+1     0.0622      Uninvolved    Paul Doerr
+2     0.0419      Victim        Paul Lee Stine
+3     0.0200      Uninvolved    Gary Francis Poste  ★
+4     0.0199      Uninvolved    Arthur Leigh Allen  ★
+5     0.0138      Victim        Darlene Elizabeth Ferrin
+6     0.0113      Uninvolved    Richard Gaikowski  ★
+7     0.0015      Victim        Betty Lou Jensen
+8     0.0011      Victim        Cecelia Ann Shepard
+9     0.0003      Victim        David Arthur Faraday
+10    0.0002      Witness       Bryan Calvin Hartnell
+11    0.0000      Witness       Lindsey Robbins
+12    0.0000      Witness       Rebecca Robbins
+13    0.0000      Witness       Michael Renault Mageau

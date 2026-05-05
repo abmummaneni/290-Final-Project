@@ -1,0 +1,445 @@
+{
+  "characters": [
+    {
+      "id": "char_0",
+      "name": "David Arthur Faraday",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_1",
+      "name": "Betty Lou Jensen",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.15,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_2",
+      "name": "Michael Renault Mageau",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": 1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_3",
+      "name": "Darlene Elizabeth Ferrin",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.4,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.35
+      }
+    },
+    {
+      "id": "char_4",
+      "name": "Bryan Calvin Hartnell",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_5",
+      "name": "Cecelia Ann Shepard",
+      "label": "Victim",
+      "features": {
+        "gender": 1,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.6,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_6",
+      "name": "Paul Lee Stine",
+      "label": "Victim",
+      "features": {
+        "gender": 0,
+        "social_status": 0.5,
+        "narrative_introduction_timing": 0.85,
+        "has_alibi": -1,
+        "present_at_crime_scene": 1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_7",
+      "name": "Lindsey Robbins",
+      "label": "Witness",
+      "features": {
+        "gender": 0,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_8",
+      "name": "Rebecca Robbins",
+      "label": "Witness",
+      "features": {
+        "gender": 1,
+        "social_status": 0.3,
+        "narrative_introduction_timing": 0.9,
+        "has_alibi": 1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.25
+      }
+    },
+    {
+      "id": "char_9",
+      "name": "Arthur Leigh Allen",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 0.95,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_10",
+      "name": "Gary Francis Poste",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_11",
+      "name": "Richard Gaikowski",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.6,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    },
+    {
+      "id": "char_12",
+      "name": "Paul Doerr",
+      "label": "Uninvolved",
+      "features": {
+        "gender": 0,
+        "social_status": 0.4,
+        "narrative_introduction_timing": 1,
+        "has_alibi": -1,
+        "present_at_crime_scene": -1,
+        "has_motive": -1,
+        "is_concealing_information": -1,
+        "has_hidden_relationship": -1,
+        "motive_type": -1,
+        "narrative_prominence": 0.5
+      }
+    }
+  ],
+  "occupations": [
+    {
+      "id": "occ_0",
+      "name": "Student",
+      "features": {
+        "authority_level": 0.2,
+        "access_level": 0.7,
+        "capability_level": 0.4
+      }
+    },
+    {
+      "id": "occ_1",
+      "name": "Teacher",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.8
+      }
+    },
+    {
+      "id": "occ_2",
+      "name": "School Principal",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.4,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_3",
+      "name": "Cab Driver",
+      "features": {
+        "authority_level": 0.1,
+        "access_level": 0.8,
+        "capability_level": 0.5
+      }
+    },
+    {
+      "id": "occ_4",
+      "name": "Police Officer",
+      "features": {
+        "authority_level": 0.9,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_5",
+      "name": "Detective",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_6",
+      "name": "Sheriff's Deputy",
+      "features": {
+        "authority_level": 0.7,
+        "access_level": 0.6,
+        "capability_level": 0.6
+      }
+    },
+    {
+      "id": "occ_7",
+      "name": "Criminal Investigator",
+      "features": {
+        "authority_level": 0.8,
+        "access_level": 0.7,
+        "capability_level": 0.7
+      }
+    },
+    {
+      "id": "occ_8",
+      "name": "Forensic Scientist",
+      "features": {
+        "authority_level": 0.6,
+        "access_level": 0.5,
+        "capability_level": 0.9
+      }
+    },
+    {
+      "id": "occ_9",
+      "name": "Journalist",
+      "features": {
+        "authority_level": 0.3,
+        "access_level": 0.7,
+        "capability_level": 0.6
+      }
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc_0",
+      "name": "Lake Herman Road, Benicia, Solano County",
+      "features": {
+        "accessibility": 0.5,
+        "isolability": 0.8,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_1",
+      "name": "Blue Rock Springs Park, Vallejo, Solano County",
+      "features": {
+        "accessibility": 0.8,
+        "isolability": 0.6,
+        "evidentiary_value": 0.7
+      }
+    },
+    {
+      "id": "loc_2",
+      "name": "Lake Berryessa, Napa County",
+      "features": {
+        "accessibility": 0.4,
+        "isolability": 0.9,
+        "evidentiary_value": 0.8
+      }
+    },
+    {
+      "id": "loc_3",
+      "name": "Presidio Heights, San Francisco",
+      "features": {
+        "accessibility": 0.9,
+        "isolability": 0.2,
+        "evidentiary_value": 0.7
+      }
+    }
+  ],
+  "organizations": [],
+  "edges": [
+    {
+      "source": "char_0",
+      "target": "char_1",
+      "relation": "on date with"
+    },
+    {
+      "source": "char_2",
+      "target": "char_3",
+      "relation": "on date with"
+    },
+    {
+      "source": "char_4",
+      "target": "char_5",
+      "relation": "on date with"
+    },
+    {
+      "source": "char_6",
+      "target": "occ_3",
+      "relation": "employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "occ_1",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_2",
+      "relation": "visited"
+    },
+    {
+      "source": "char_9",
+      "target": "loc_3",
+      "relation": "visited"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_0",
+      "relation": "resides at"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_2",
+      "relation": "visited"
+    },
+    {
+      "source": "char_10",
+      "target": "loc_3",
+      "relation": "visited"
+    },
+    {
+      "source": "char_11",
+      "target": "occ_2",
+      "relation": "formerly employed as"
+    },
+    {
+      "source": "char_11",
+      "target": "loc_1",
+      "relation": "visited"
+    },
+    {
+      "source": "char_12",
+      "target": "loc_0",
+      "relation": "visited"
+    },
+    {
+      "source": "char_12",
+      "target": "loc_2",
+      "relation": "visited"
+    },
+    {
+      "source": "char_12",
+      "target": "loc_3",
+      "relation": "visited"
+    }
+  ],
+  "metadata": {
+    "entry_id": "ZODIAC_FACTUAL",
+    "title": "The Zodiac Killer Case (factual record)",
+    "author": "Compiled from FBI, SFPD, Vallejo PD, Napa County SO, Solano County SO, CA DOJ, contemporaneous press",
+    "year": 1969,
+    "medium": "Documentary"
+  }
+}
