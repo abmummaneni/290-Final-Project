@@ -57,22 +57,6 @@
 
 Much of modern data is relational — social networks, knowledge graphs, molecular structures, and narrative scenes all encode meaning through connections, not just attributes. This paper surveys the landscape of graph representation learning, tracing the development from classical spectral methods through graph convolutional networks, relational GCNs, and generative graph models. We then ground these ideas in two experiments using the Relational Graph Convolutional Network (R-GCN). First, we validate the architecture on a Wikidata temporal knowledge graph, demonstrating that relational message passing improves link prediction over a shallow baseline across all metrics. Second, we construct a novel dataset of over 500 murder mystery plots, using an LLM to extract relational knowledge graphs, and train the R-GCN to identify villains from circumstantial evidence alone. The model achieves 90.4\% accuracy and 0.762 villain $F_1$, with a $+14$-point precision advantage over a feature-only logistic regression baseline — a gap attributable specifically to typed relational structure rather than graph topology. The model further generalizes to a real unsolved case, producing suspect rankings consistent with current forensic evidence. Together, these results demonstrate that capturing typed relational structure leads to more effective learning across a diverse range of graph-structured problems.
 
-% TODO: 150–250 words summarising the paper.
-% Hit: (1) the unifying theme of structured representation learning,
-%      (2) the expository survey scope (audience = MATH 290 peers),
-%      (3) the two experiments as concrete demonstrations.
-%
-% Skeleton:
-%   Much of modern data is relational ...
-%   We survey the progression from spectral graph methods through
-%   graph convolutional networks, relational GCNs, and generative
-%   graph models (VAEs, adversarial autoencoders) ...
-%   We ground these ideas in two experiments: entity classification
-%   on a Wikidata knowledge graph and villain identification in
-%   murder-mystery fiction ...
-%   Key result: the R-GCN reaches 90.4 \% accuracy and 0.762
-%   villain F_1, with a +14-point precision advantage over a
-%   feature-only logistic-regression baseline ...
 \end{abstract}
 
 \newpage
@@ -91,36 +75,6 @@ The second part of the paper will be a deep dive into modeling relational graphs
 
 
 
-% TODO: 1.5–2 pages.  Suggested paragraph structure:
-%
-% P1 — Motivation. Much of modern data is not flat: social networks,
-%       knowledge graphs, molecules, narrative scenes.  Core challenge:
-%       learning representations that respect relational structure.
-%
-% P2 — Spectral / signal-processing thread.
-%       Laplacian Eigenmaps, manifold regularisation, graph signal
-%       processing: good representations vary smoothly across edges.
-%       This motivates graph convolution and eventually GCNs.
-%
-% P3 — Generative / reconstruction thread.
-%       Autoencoders ask a complementary question: can we learn a
-%       latent space that *generates* graph structure?  VAEs, VGAEs,
-%       adversarial autoencoders.  Discriminative GNNs and generative
-%       graph models as two views of the same problem.
-%
-% P4 — Relational extension.
-%       Real-world graphs carry typed edges (kills, knows, works-at).
-%       R-GCNs handle this; unlocks knowledge-graph applications.
-%
-% P5 — What this paper does.
-%       We survey this landscape and demonstrate the ideas in two
-%       experiments: (a) Wikidata entity classification and (b)
-%       villain identification in murder-mystery fiction.
-%
-% P6 — Expository note + roadmap.
-%       This is an expository paper for a MATH 290 audience.
-%       Assumed background: linear algebra, basic neural networks.
-%       Section~\ref{sec:background} covers background; ...
 
 % ============================================================
 \section{Structured Graph Representation Learning}
